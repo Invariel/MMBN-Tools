@@ -118,8 +118,55 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="MegaManBattleNetworkFont" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="BN6FontBdOblique" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN6FontBdOblique.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BN6FontBig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN6FontBig.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BN6FontBigCond" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN6FontBigCond.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BN6FontBold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN6FontBold.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BN6FontBoldExt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN6FontBoldExt.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BN6FontBoldVar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN6FontBoldVar.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BN6FontMicro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN6FontMicro.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BN6FontSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN6FontSmall.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BN6FontSmallCd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN6FontSmallCd.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BN6FontSmallThCd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN6FontSmallThCd.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BN6FontSmallVar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN6FontSmallVar.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BN6FontSmExt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN6FontSmExt.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BN6FontThin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BN6FontThin.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-    <comment>Mega Man Battle Network font</comment>
+  </data>
+  <data name="BN6FontThinVar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN6FontThinVar.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BN6FontTiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN6FontTiny.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BN6FontTinyExt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN6FontTinyExt.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BN6FontTinyVar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BN6FontTinyVar.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
