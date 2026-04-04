@@ -3,6 +3,7 @@
     // Note: add more elements for the other games.  The BN4 list should be a good starting place though.
     public enum ChipElement
     {
+        None = -1,
         Normal = 0,
         Fire = 1,
         Aqua = 2,

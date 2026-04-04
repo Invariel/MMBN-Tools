@@ -43,6 +43,8 @@
             txt_FilterByName = new TextBox();
             lbl_FilterByElement = new Label();
             cmb_FilterByElement = new ComboBox();
+            lbl_ByCodes = new Label();
+            txt_FilterByCodes = new TextBox();
             tbl_ChipView = new TableLayoutPanel();
             lbl_ChipDataView_Right = new Label();
             lbl_Error = new Label();
@@ -210,6 +212,8 @@
             tbl_Filters.Controls.Add(txt_FilterByName, 1, 0);
             tbl_Filters.Controls.Add(lbl_FilterByElement, 0, 1);
             tbl_Filters.Controls.Add(cmb_FilterByElement, 1, 1);
+            tbl_Filters.Controls.Add(lbl_ByCodes, 2, 0);
+            tbl_Filters.Controls.Add(txt_FilterByCodes, 3, 0);
             tbl_Filters.Dock = DockStyle.Fill;
             tbl_Filters.Location = new Point(3, 19);
             tbl_Filters.Name = "tbl_Filters";
@@ -255,6 +259,24 @@
             cmb_FilterByElement.Name = "cmb_FilterByElement";
             cmb_FilterByElement.Size = new Size(176, 23);
             cmb_FilterByElement.TabIndex = 3;
+            // 
+            // lbl_ByCodes
+            // 
+            lbl_ByCodes.Anchor = AnchorStyles.Right;
+            lbl_ByCodes.AutoSize = true;
+            lbl_ByCodes.Location = new Point(487, 7);
+            lbl_ByCodes.Name = "lbl_ByCodes";
+            lbl_ByCodes.Size = new Size(56, 15);
+            lbl_ByCodes.TabIndex = 4;
+            lbl_ByCodes.Text = "By Codes";
+            // 
+            // txt_FilterByCodes
+            // 
+            txt_FilterByCodes.Dock = DockStyle.Fill;
+            txt_FilterByCodes.Location = new Point(549, 3);
+            txt_FilterByCodes.Name = "txt_FilterByCodes";
+            txt_FilterByCodes.Size = new Size(177, 23);
+            txt_FilterByCodes.TabIndex = 5;
             // 
             // tbl_ChipView
             // 
@@ -424,5 +446,7 @@
         private Label lbl_FolderContents;
         private DataGridView dgv_ChipList;
         private DataGridView dgv_Folder;
+        private Label lbl_ByCodes;
+        private TextBox txt_FilterByCodes;
     }
 }

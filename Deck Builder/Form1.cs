@@ -20,6 +20,8 @@ namespace Deck_Builder
 
         private List<Game> _availableGames = new();
 
+        private List<Battlechip> _currentGameChips = new();
+
         private bool _pauseUpdates = false;
 
         private Folder _currentFolder = new();
@@ -78,6 +80,13 @@ namespace Deck_Builder
 
             _currentFolder.GameName = GetCurrentGame().Name;
 
+            cmb_FilterByElement.DataSource = Enum.GetValues<ChipElement>().Cast<ChipElement>().Select(e => e.ToString()).ToList();
+            cmb_FilterByElement.SelectedItem = "None";
+            cmb_FilterByElement.SelectionChangeCommitted += dgv_ChipList_Filter;
+
+            txt_FilterByName.TextChanged += dgv_ChipList_Filter;
+            txt_FilterByCodes.TextChanged += dgv_ChipList_Filter;
+
             LoadSelectedGameData(default, new ());
         }
 
@@ -90,67 +99,8 @@ namespace Deck_Builder
             // Unload the battle chips from the dgv.
             // Load the new game's battle chips into the dgv.
             Create_dgv_ChipList();
-            AddBattlechips(GetCurrentGame().Battlechips);
+            AddBattlechipsToChipList(GetCurrentGame().Battlechips);
             // Move the dgv to the top, sort by chip number [reset the dgv, this should be done as part of loading maybe? and its own func]
-        }
-
-        public void AddBattlechips(List<Battlechip> battlechips)
-        {
-            int maxCodes = battlechips.Max(c => c.Codes.Split(",").Length);
-
-            foreach (Battlechip chip in battlechips)
-            {
-                List<string> codes = chip.Codes.Split(",").Select(c => c.Trim().ToUpper()).ToList();
-                while (codes.Count < maxCodes)
-                {
-                    codes.Add(string.Empty);
-                }
-
-                List<string> elements = new List<string> { chip.Number.ToString(), chip.Name, chip.Element.ToString() };
-                elements.AddRange(codes);
-
-                dgv_ChipList.Rows.Add(elements.ToArray());
-            }
-        }
-
-        public void dgv_ChipList_Sort (object? sender, DataGridViewCellMouseEventArgs e)
-        {
-            if (e.ColumnIndex != COLUMN_CHIP_NUMBER && e.ColumnIndex != COLUMN_CHIP_ELEMENT)
-            {
-                return;
-            }
-
-            var headerCell = dgv_ChipList.Columns[e.ColumnIndex].HeaderCell;
-
-            headerCell.SortGlyphDirection = (headerCell.SortGlyphDirection == SortOrder.Ascending) ? SortOrder.Descending : SortOrder.Ascending;
-
-            var battlechips = GetCurrentGame().Battlechips;
-
-            switch (e.ColumnIndex)
-            {
-                case COLUMN_CHIP_NUMBER:
-                    battlechips.Sort();
-                    if (headerCell.SortGlyphDirection == SortOrder.Descending)
-                    {
-                        battlechips.Reverse();
-                    }
-                    break;
-                case COLUMN_CHIP_ELEMENT:
-                    battlechips.Sort((a, b) =>
-                    {
-                        int elementComparison = a.Element.CompareTo(b.Element) * (headerCell.SortGlyphDirection == SortOrder.Ascending ? 1 : -1);
-                        if (elementComparison != 0)
-                        {
-                            return elementComparison;
-                        }
-                        return a.Number.CompareTo(b.Number);
-                    });
-                    break;
-            }
-
-            dgv_ChipList.Rows.Clear();
-
-            AddBattlechips(battlechips);
         }
 
         public void Create_dgv_ChipList()
@@ -161,6 +111,7 @@ namespace Deck_Builder
 
             dgv_ChipList.CellClick -= dgv_ChipList_Clicked;
             dgv_ChipList.ColumnHeaderMouseClick -= dgv_ChipList_Sort;
+            dgv_ChipList.SelectionChanged -= dgv_ChipList_SelectionChanged;
 
             int maxCodes = GetCurrentGame().Battlechips.Max(c => c.Codes.Split(",").Length);
 
@@ -219,6 +170,8 @@ namespace Deck_Builder
 
             dgv_ChipList.CellClick += dgv_ChipList_Clicked;
             dgv_ChipList.ColumnHeaderMouseClick += dgv_ChipList_Sort;
+            dgv_ChipList.SelectionChanged += dgv_ChipList_SelectionChanged;
+
             dgv_ChipList.EditMode = DataGridViewEditMode.EditProgrammatically;
         }
 
@@ -249,17 +202,17 @@ namespace Deck_Builder
         {
             cmb_SelectFolder.Font = CreateFont("BN6FontBig", 16);
             cmb_SelectGame.Font = CreateFont("BN6FontBig", 16);
-            txt_FilterByName.Font = new Font(_internalFonts.Families.First(f => f.Name.Equals("BN6FontBig")), 14);
-            cmb_FilterByElement.Font = new Font(_internalFonts.Families.First(f => f.Name.Equals("BN6FontBig")), 14);
+            txt_FilterByName.Font = CreateFont("BN6FontBig", 16);
+            cmb_FilterByElement.Font = CreateFont("BN6FontBig", 16);
 
-            lbl_FilterByElement.Font = new Font(_internalFonts.Families.First(f => f.Name.Equals("BN6FontBig")), 14);
-            lbl_FilterByName.Font = new Font(_internalFonts.Families.First(f => f.Name.Equals("BN6FontBig")), 14);
+            lbl_FilterByElement.Font = CreateFont("BN6FontBig", 16);
+            lbl_FilterByName.Font = CreateFont("BN6FontBig", 16);
 
             dgv_ChipList.Font = CreateFont("BN6FontThinVar", 12);
 
-            lbl_Error.Font = new Font(_internalFonts.Families.First(f => f.Name.Equals("BN6FontBig")), 14);
-            lbl_ChipDataView_Left.Font = new Font(_internalFonts.Families.First(f => f.Name.Equals("BN6FontBig")), 14);
-            lbl_ChipDataView_Right.Font = new Font(_internalFonts.Families.First(f => f.Name.Equals("BN6FontBig")), 14);
+            lbl_Error.Font = CreateFont("BN6FontSmall", 14);
+            lbl_ChipDataView_Left.Font = CreateFont("BN6FontSmall", 14);
+            lbl_ChipDataView_Right.Font = CreateFont("BN6FontSmall", 14);
         }
 
         internal void LoadGamesAndBattlechips()
@@ -287,15 +240,15 @@ namespace Deck_Builder
             => _availableGames.FirstOrDefault(game => game.Name.Equals(cmb_SelectGame.Text)) ?? new Game();
 
         internal string GetChipTypeFromEnum(ChipType chipClass)
-        {
-            return chipClass switch
+            => chipClass switch
             {
                 ChipType.Standard => "Standard",
                 ChipType.Mega => "Mega",
                 ChipType.Giga => "Giga",
                 ChipType.Dark => "Dark",
+                ChipType.Secret => "Secret",
+                ChipType.Unregistered => "Unregistered",
                 _ => throw new NotSupportedException()
             };
-        }
     }
 }

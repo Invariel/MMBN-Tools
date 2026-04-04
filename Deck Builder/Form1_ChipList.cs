@@ -10,7 +10,6 @@ namespace Deck_Builder
         const int COLUMN_CHIP_NUMBER = 0;
         const int COLUMN_CHIP_NAME = 1;
         const int COLUMN_CHIP_ELEMENT = 2;
-        const int COLUMN_CHIP_CODE_1 = 3;
 
         public void dgv_ChipList_Clicked(object? sender, DataGridViewCellEventArgs e)
         {
@@ -64,6 +63,120 @@ namespace Deck_Builder
             {
                 lbl_ChipDataView_Right.Text = CalculateLabelText(battlechip);
             }
+        }
+
+        public void dgv_ChipList_SelectionChanged(object? sender, EventArgs e)
+        {
+            if (dgv_ChipList.SelectedCells.Count == 0)
+            {
+                return;
+            }
+
+            var cell = dgv_ChipList.SelectedCells[0];
+            var rowData = cell.OwningRow;
+
+            if (rowData is null || cell is null)
+            {
+                return;
+            }
+
+            Battlechip? battlechip = GetCurrentGame().Battlechips.FirstOrDefault(c => c.Number == int.Parse(rowData.Cells[COLUMN_CHIP_NUMBER].Value!.ToString() ?? "-1") && c.Name.Equals(rowData.Cells[COLUMN_CHIP_NAME].Value!.ToString()));
+
+            if (battlechip is null)
+            {
+                return;
+            }
+
+            lbl_ChipDataView_Right.Text = CalculateLabelText(battlechip);
+        }
+
+        public void AddBattlechipsToChipList(List<Battlechip> battlechips)
+        {
+            _currentGameChips = battlechips;
+
+            int maxCodes = GetCurrentGame().Battlechips.Max(c => c.Codes.Split(",").Length);
+
+            foreach (Battlechip chip in battlechips)
+            {
+                List<string> codes = chip.Codes.Split(",").Select(c => c.Trim().ToUpper()).ToList();
+                while (codes.Count < maxCodes)
+                {
+                    codes.Add(string.Empty);
+                }
+
+                List<string> elements = new List<string> { chip.Number.ToString(), chip.Name, chip.Element.ToString() };
+                elements.AddRange(codes);
+
+                dgv_ChipList.Rows.Add(elements.ToArray());
+            }
+        }
+
+        public void dgv_ChipList_Sort(object? sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (e.ColumnIndex != COLUMN_CHIP_NUMBER && e.ColumnIndex != COLUMN_CHIP_ELEMENT)
+            {
+                return;
+            }
+
+            var headerCell = dgv_ChipList.Columns[e.ColumnIndex].HeaderCell;
+
+            headerCell.SortGlyphDirection = (headerCell.SortGlyphDirection == SortOrder.Ascending) ? SortOrder.Descending : SortOrder.Ascending;
+
+            switch (e.ColumnIndex)
+            {
+                case COLUMN_CHIP_NUMBER:
+                    _currentGameChips.Sort();
+                    if (headerCell.SortGlyphDirection == SortOrder.Descending)
+                    {
+                        _currentGameChips.Reverse();
+                    }
+                    break;
+                case COLUMN_CHIP_ELEMENT:
+                    _currentGameChips.Sort((a, b) =>
+                    {
+                        int elementComparison = a.Element.CompareTo(b.Element) * (headerCell.SortGlyphDirection == SortOrder.Ascending ? 1 : -1);
+                        if (elementComparison != 0)
+                        {
+                            return elementComparison;
+                        }
+                        return a.Number.CompareTo(b.Number);
+                    });
+                    break;
+            }
+
+            dgv_ChipList.Rows.Clear();
+
+            AddBattlechipsToChipList(_currentGameChips);
+        }
+
+        public void dgv_ChipList_Filter (object? sender, EventArgs e)
+        {
+            var battlechips = GetCurrentGame().Battlechips;
+
+            foreach (DataGridViewColumn column in dgv_ChipList.Columns)
+            {
+                column.HeaderCell.SortGlyphDirection = SortOrder.None;
+            }
+
+            if (!string.IsNullOrEmpty(txt_FilterByName.Text))
+            {
+                battlechips = battlechips.Where(c => c.Name.ToLower().Contains(txt_FilterByName.Text.Trim().ToLower())).ToList();
+            }
+
+            if (cmb_FilterByElement.SelectedIndex != Enum.GetValues<ChipElement>().Length - 1)
+            {
+                battlechips = battlechips.Where(c => c.Element.Equals(Enum.GetValues<ChipElement>()[cmb_FilterByElement.SelectedIndex])).ToList();
+            }
+
+            if (!string.IsNullOrEmpty(txt_FilterByCodes.Text))
+            {
+                var chipCodes = txt_FilterByCodes.Text.ToUpper().ToCharArray().Select(c => c.ToString()).ToArray();
+                battlechips = battlechips.Where(c => c.Codes.Split(",").Select(c => c.Trim()).Intersect(chipCodes).Any()).ToList();
+            }
+
+            dgv_ChipList.Rows.Clear();
+
+            AddBattlechipsToChipList(battlechips);
         }
 
         public void ShowFolderChipData(object? sender, DataGridViewCellEventArgs e)
