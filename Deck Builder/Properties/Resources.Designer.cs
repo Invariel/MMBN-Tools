@@ -63,9 +63,169 @@ namespace Deck_Builder.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] MegaManBattleNetworkFont {
+        internal static byte[] BN6FontBdOblique {
             get {
-                object obj = ResourceManager.GetObject("MegaManBattleNetworkFont", resourceCulture);
+                object obj = ResourceManager.GetObject("BN6FontBdOblique", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BN6FontBig {
+            get {
+                object obj = ResourceManager.GetObject("BN6FontBig", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BN6FontBigCond {
+            get {
+                object obj = ResourceManager.GetObject("BN6FontBigCond", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BN6FontBold {
+            get {
+                object obj = ResourceManager.GetObject("BN6FontBold", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BN6FontBoldExt {
+            get {
+                object obj = ResourceManager.GetObject("BN6FontBoldExt", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BN6FontBoldVar {
+            get {
+                object obj = ResourceManager.GetObject("BN6FontBoldVar", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BN6FontMicro {
+            get {
+                object obj = ResourceManager.GetObject("BN6FontMicro", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BN6FontSmall {
+            get {
+                object obj = ResourceManager.GetObject("BN6FontSmall", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BN6FontSmallCd {
+            get {
+                object obj = ResourceManager.GetObject("BN6FontSmallCd", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BN6FontSmallThCd {
+            get {
+                object obj = ResourceManager.GetObject("BN6FontSmallThCd", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BN6FontSmallVar {
+            get {
+                object obj = ResourceManager.GetObject("BN6FontSmallVar", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BN6FontSmExt {
+            get {
+                object obj = ResourceManager.GetObject("BN6FontSmExt", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BN6FontThin {
+            get {
+                object obj = ResourceManager.GetObject("BN6FontThin", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BN6FontThinVar {
+            get {
+                object obj = ResourceManager.GetObject("BN6FontThinVar", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BN6FontTiny {
+            get {
+                object obj = ResourceManager.GetObject("BN6FontTiny", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BN6FontTinyExt {
+            get {
+                object obj = ResourceManager.GetObject("BN6FontTinyExt", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BN6FontTinyVar {
+            get {
+                object obj = ResourceManager.GetObject("BN6FontTinyVar", resourceCulture);
                 return ((byte[])(obj));
             }
         }

@@ -43,16 +43,18 @@
             txt_FilterByName = new TextBox();
             lbl_FilterByElement = new Label();
             cmb_FilterByElement = new ComboBox();
+            lbl_ByCodes = new Label();
+            txt_FilterByCodes = new TextBox();
             tbl_ChipView = new TableLayoutPanel();
-            dgv_ChipList = new DataGridView();
             lbl_ChipDataView_Right = new Label();
             lbl_Error = new Label();
+            dgv_ChipList = new DataGridView();
             grp_SelectGame = new GroupBox();
             cmb_SelectGame = new ComboBox();
             tbl_Folder = new TableLayoutPanel();
-            dgv_Folder = new DataGridView();
             lbl_ChipDataView_Left = new Label();
             lbl_FolderContents = new Label();
+            dgv_Folder = new DataGridView();
             tbl_MainLayout.SuspendLayout();
             grp_SelectFolder.SuspendLayout();
             tbl_SaveLoadEtc.SuspendLayout();
@@ -210,6 +212,8 @@
             tbl_Filters.Controls.Add(txt_FilterByName, 1, 0);
             tbl_Filters.Controls.Add(lbl_FilterByElement, 0, 1);
             tbl_Filters.Controls.Add(cmb_FilterByElement, 1, 1);
+            tbl_Filters.Controls.Add(lbl_ByCodes, 2, 0);
+            tbl_Filters.Controls.Add(txt_FilterByCodes, 3, 0);
             tbl_Filters.Dock = DockStyle.Fill;
             tbl_Filters.Location = new Point(3, 19);
             tbl_Filters.Name = "tbl_Filters";
@@ -256,54 +260,69 @@
             cmb_FilterByElement.Size = new Size(176, 23);
             cmb_FilterByElement.TabIndex = 3;
             // 
+            // lbl_ByCodes
+            // 
+            lbl_ByCodes.Anchor = AnchorStyles.Right;
+            lbl_ByCodes.AutoSize = true;
+            lbl_ByCodes.Location = new Point(487, 7);
+            lbl_ByCodes.Name = "lbl_ByCodes";
+            lbl_ByCodes.Size = new Size(56, 15);
+            lbl_ByCodes.TabIndex = 4;
+            lbl_ByCodes.Text = "By Codes";
+            // 
+            // txt_FilterByCodes
+            // 
+            txt_FilterByCodes.Dock = DockStyle.Fill;
+            txt_FilterByCodes.Location = new Point(549, 3);
+            txt_FilterByCodes.Name = "txt_FilterByCodes";
+            txt_FilterByCodes.Size = new Size(177, 23);
+            txt_FilterByCodes.TabIndex = 5;
+            // 
             // tbl_ChipView
             // 
-            tbl_ChipView.ColumnCount = 2;
-            tbl_ChipView.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tbl_ChipView.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tbl_ChipView.ColumnCount = 1;
+            tbl_ChipView.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tbl_ChipView.Controls.Add(lbl_ChipDataView_Right, 0, 1);
+            tbl_ChipView.Controls.Add(lbl_Error, 0, 2);
             tbl_ChipView.Controls.Add(dgv_ChipList, 0, 0);
-            tbl_ChipView.Controls.Add(lbl_ChipDataView_Right, 1, 0);
-            tbl_ChipView.Controls.Add(lbl_Error, 0, 1);
+            tbl_ChipView.Dock = DockStyle.Fill;
             tbl_ChipView.Location = new Point(3, 185);
             tbl_ChipView.Name = "tbl_ChipView";
-            tbl_ChipView.RowCount = 2;
-            tbl_ChipView.RowStyles.Add(new RowStyle(SizeType.Percent, 64.69072F));
-            tbl_ChipView.RowStyles.Add(new RowStyle(SizeType.Percent, 35.3092766F));
-            tbl_ChipView.Size = new Size(735, 388);
+            tbl_ChipView.RowCount = 3;
+            tbl_ChipView.RowStyles.Add(new RowStyle(SizeType.Percent, 60F));
+            tbl_ChipView.RowStyles.Add(new RowStyle(SizeType.Percent, 35F));
+            tbl_ChipView.RowStyles.Add(new RowStyle(SizeType.Percent, 5F));
+            tbl_ChipView.Size = new Size(735, 461);
             tbl_ChipView.TabIndex = 1;
-            // 
-            // dgv_ChipList
-            // 
-            dgv_ChipList.AllowUserToAddRows = false;
-            dgv_ChipList.AllowUserToDeleteRows = false;
-            dgv_ChipList.AllowUserToOrderColumns = true;
-            dgv_ChipList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv_ChipList.Dock = DockStyle.Fill;
-            dgv_ChipList.EditMode = DataGridViewEditMode.EditProgrammatically;
-            dgv_ChipList.Location = new Point(3, 3);
-            dgv_ChipList.MultiSelect = false;
-            dgv_ChipList.Name = "dgv_ChipList";
-            dgv_ChipList.ReadOnly = true;
-            dgv_ChipList.Size = new Size(361, 245);
-            dgv_ChipList.TabIndex = 0;
             // 
             // lbl_ChipDataView_Right
             // 
             lbl_ChipDataView_Right.AutoSize = true;
             lbl_ChipDataView_Right.Dock = DockStyle.Fill;
-            lbl_ChipDataView_Right.Location = new Point(370, 0);
+            lbl_ChipDataView_Right.Location = new Point(3, 276);
             lbl_ChipDataView_Right.Name = "lbl_ChipDataView_Right";
-            lbl_ChipDataView_Right.Size = new Size(362, 251);
+            lbl_ChipDataView_Right.Size = new Size(729, 161);
             lbl_ChipDataView_Right.TabIndex = 1;
             // 
             // lbl_Error
             // 
             lbl_Error.AutoSize = true;
             lbl_Error.Dock = DockStyle.Fill;
-            lbl_Error.Location = new Point(3, 251);
+            lbl_Error.Location = new Point(3, 437);
             lbl_Error.Name = "lbl_Error";
-            lbl_Error.Size = new Size(361, 137);
+            lbl_Error.Size = new Size(729, 24);
             lbl_Error.TabIndex = 2;
+            // 
+            // dgv_ChipList
+            // 
+            dgv_ChipList.AllowUserToDeleteRows = false;
+            dgv_ChipList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgv_ChipList.Dock = DockStyle.Fill;
+            dgv_ChipList.Location = new Point(3, 3);
+            dgv_ChipList.Name = "dgv_ChipList";
+            dgv_ChipList.ReadOnly = true;
+            dgv_ChipList.Size = new Size(729, 270);
+            dgv_ChipList.TabIndex = 3;
             // 
             // grp_SelectGame
             // 
@@ -330,9 +349,9 @@
             // 
             tbl_Folder.ColumnCount = 1;
             tbl_Folder.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tbl_Folder.Controls.Add(dgv_Folder, 0, 0);
             tbl_Folder.Controls.Add(lbl_ChipDataView_Left, 0, 1);
             tbl_Folder.Controls.Add(lbl_FolderContents, 0, 2);
+            tbl_Folder.Controls.Add(dgv_Folder, 0, 0);
             tbl_Folder.Dock = DockStyle.Fill;
             tbl_Folder.Location = new Point(3, 93);
             tbl_Folder.Name = "tbl_Folder";
@@ -342,21 +361,6 @@
             tbl_Folder.RowStyles.Add(new RowStyle(SizeType.Absolute, 38F));
             tbl_Folder.Size = new Size(379, 649);
             tbl_Folder.TabIndex = 4;
-            // 
-            // dgv_Folder
-            // 
-            dgv_Folder.AllowUserToAddRows = false;
-            dgv_Folder.AllowUserToDeleteRows = false;
-            dgv_Folder.AllowUserToOrderColumns = true;
-            dgv_Folder.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv_Folder.Dock = DockStyle.Fill;
-            dgv_Folder.EditMode = DataGridViewEditMode.EditProgrammatically;
-            dgv_Folder.Location = new Point(3, 3);
-            dgv_Folder.MultiSelect = false;
-            dgv_Folder.Name = "dgv_Folder";
-            dgv_Folder.ReadOnly = true;
-            dgv_Folder.Size = new Size(373, 318);
-            dgv_Folder.TabIndex = 0;
             // 
             // lbl_ChipDataView_Left
             // 
@@ -375,6 +379,18 @@
             lbl_FolderContents.Name = "lbl_FolderContents";
             lbl_FolderContents.Size = new Size(373, 39);
             lbl_FolderContents.TabIndex = 2;
+            // 
+            // dgv_Folder
+            // 
+            dgv_Folder.AllowUserToAddRows = false;
+            dgv_Folder.AllowUserToDeleteRows = false;
+            dgv_Folder.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgv_Folder.Dock = DockStyle.Fill;
+            dgv_Folder.Location = new Point(3, 3);
+            dgv_Folder.Name = "dgv_Folder";
+            dgv_Folder.ReadOnly = true;
+            dgv_Folder.Size = new Size(373, 318);
+            dgv_Folder.TabIndex = 3;
             // 
             // frm_DeckBuilder
             // 
@@ -421,14 +437,16 @@
         private Label lbl_FilterByElement;
         private ComboBox cmb_FilterByElement;
         private TableLayoutPanel tbl_ChipView;
-        private DataGridView dgv_ChipList;
         private GroupBox grp_SelectGame;
         private ComboBox cmb_SelectGame;
         private TableLayoutPanel tbl_Folder;
-        private DataGridView dgv_Folder;
         private Label lbl_ChipDataView_Right;
         private Label lbl_ChipDataView_Left;
         private Label lbl_Error;
         private Label lbl_FolderContents;
+        private DataGridView dgv_ChipList;
+        private DataGridView dgv_Folder;
+        private Label lbl_ByCodes;
+        private TextBox txt_FilterByCodes;
     }
 }

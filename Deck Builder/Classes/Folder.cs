@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Text.Json.Serialization;
-
-namespace Deck_Builder.Classes
+﻿namespace Deck_Builder.Classes
 {
     public class Folder
     {
-        public GameName GameName { get; set; }
-        public string Name { get; set; } = string.Empty;
+        public string GameName { get; set; } = string.Empty;
+        public string FolderName { get; set; } = string.Empty;
         public List<FolderChip> Chips { get; set; } = new List<FolderChip>();
 
         public bool IsFolderValid ()
@@ -35,34 +30,16 @@ namespace Deck_Builder.Classes
 
             foreach (FolderChip chip in Chips)
             {
-                switch (chip.ChipClass)
+                switch (chip.ChipType)
                 {
-                    case ChipClass.Standard: standard += chip.Quantity; break;
-                    case ChipClass.Mega: mega += chip.Quantity; break;
-                    case ChipClass.Giga: giga += chip.Quantity; break;
-                    case ChipClass.Dark: dark += chip.Quantity; break;
+                    case ChipType.Standard: standard += chip.Quantity; break;
+                    case ChipType.Mega: mega += chip.Quantity; break;
+                    case ChipType.Giga: giga += chip.Quantity; break;
+                    case ChipType.Dark: dark += chip.Quantity; break;
                 }
             }
 
             return $"S: {standard}, M: {mega}, G: {giga}, {(dark > 0 ? $"D: {dark}," : "")} {standard + mega + giga + dark} / 30";
         }
-    }
-
-    public class FolderChip 
-    {
-        public int Number { get; set; }
-        [JsonIgnore]
-        public string Name { get; set; } = string.Empty;
-        public string Code { get; set; } = string.Empty;
-        public ChipClass ChipClass { get; set; }
-        public int Quantity { get; set; }
-    }
-
-    public enum ChipClass
-    {
-        Standard,
-        Mega,
-        Giga,
-        Dark
     }
 }

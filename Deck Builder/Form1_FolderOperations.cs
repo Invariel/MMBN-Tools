@@ -12,12 +12,12 @@ namespace Deck_Builder
 
             if (string.IsNullOrEmpty (previousName))
             {
-                updatedFolder = currentFolders.FirstOrDefault(f => f.Name.Equals(previousName));
+                updatedFolder = currentFolders.FirstOrDefault(f => f.FolderName.Equals(previousName));
             }
 
             if (updatedFolder is null)
             {
-                updatedFolder = currentFolders.FirstOrDefault(f => f.Name.Equals(cmb_SelectFolder.Text));
+                updatedFolder = currentFolders.FirstOrDefault(f => f.FolderName.Equals(cmb_SelectFolder.Text));
             }
 
             // Write the current deck to the folder, along with its name.

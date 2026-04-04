@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace Deck_Builder.Classes
 {
-    public class Battlechip
+    public class Battlechip : IComparable
     {
         [Required]
         public string Name { get; set; } = string.Empty;
@@ -10,8 +11,11 @@ namespace Deck_Builder.Classes
         [Required]
         public int Number { get; set; }
 
-        public ChipClass ChipClass { get; set; } = ChipClass.Standard;
-        public List<ChipElement> Elements { get; set; } = new();
+        public ChipType ChipType { get; set; } = ChipType.Standard;
+        public List<ChipElement> Elements { get; set; } = new() { 0 };
+
+        [JsonIgnore]
+        public ChipElement Element { get => Elements[0]; }
 
         [Required]
         public string Codes { get; set; } = string.Empty;
@@ -40,24 +44,20 @@ namespace Deck_Builder.Classes
         public string Image { get; set; } = string.Empty;
 
         private List<ChipCode> _chipCodes = null!;
-        
-        public List<ChipCode> CalculateChipCodes()
+
+        public int CompareTo(object? obj)
         {
-            if (_chipCodes is null)
+            if (obj is not Battlechip that)
             {
-                _chipCodes = new();
-
-                foreach (string code in Codes.Split(",").Select(c => c.Trim()))
-                {
-                    List<string> locations = Locations?.Split(";").Select(l => l.Trim()).ToList() ?? new() { string.Empty };
-
-                    string loc = locations.FirstOrDefault(loc => loc.StartsWith(code)) ?? string.Empty;
-
-                    _chipCodes.Add(new ChipCode(code, loc));
-                }
+                return -1;
             }
 
-            return _chipCodes;
+            if (this.ChipType != that.ChipType)
+            {
+                return that.ChipType - this.ChipType;
+            }
+
+            return that.Number - this.Number;
         }
     }
 }
@@ -68,7 +68,7 @@ namespace Deck_Builder.Classes
     "{ ",
     $P$1, $A$1, $P$1, ": ", A2, ", ",
     $P$1, $C$1, $P$1, ": ", $P$1, C2, $P$1, ", ", 
-    $P$1, "ChipClass", $P$1, ": ", 0, ", ",
+    $P$1, "ChipClass", $P$1, ": ", 1, ", ",
     $P$1, $D$1, $P$1, ": [ ", D2, " ], ",
     $P$1, $F$1, $P$1, ": ", $P$1, F2, $P$1, ", ",
     $P$1, $I$1, $P$1, ": ", $P$1, I2, $P$1, ", ",
