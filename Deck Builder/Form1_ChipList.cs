@@ -1,6 +1,4 @@
 ﻿using Deck_Builder.Classes;
-using System;
-using System.Collections.Generic;
 using System.Text;
 
 namespace Deck_Builder
@@ -203,17 +201,19 @@ namespace Deck_Builder
             var game = GetCurrentGame();
             var gameChip = game.Battlechips.First(b => b.Number == selectedChip.Number);
 
-            lbl_ChipDataView_Left.Text = CalculateLabelText(gameChip);
+            txt_ChipDataView_Left.Text = CalculateLabelText(gameChip, selectedChip.Code);
         }
 
-        public string CalculateLabelText (Battlechip chip)
+        public string CalculateLabelText(Battlechip chip, string? code = null)
             =>
 $"""
 {chip.Name} {chip.Damage} x {chip.Hits} {chip.Element}
 
 {chip.Description}
 
-{string.Join('\n', chip.Locations.Split(';').Select(l => l.Trim()))}
+{(code is null ?
+    string.Join('\n', chip.Locations.Split(';').Select(l => l.Trim())) :
+    chip.Locations.Split(';').Select(l => l.Trim()).First(c => c.StartsWith(code)))}
 
 Traders: {chip.Traders}
 """;
@@ -328,6 +328,61 @@ Traders: {chip.Traders}
             }
 
             return (true, string.Empty);
+        }
+
+        public void GenerateChecklist()
+        {
+            tab_Checklist.Controls.Clear();
+
+            CheckBox lastCheckbox = null!;
+
+            for (int i = 0; i < _currentFolder.Chips.Count; ++ i)
+            {
+                var folderChip = _currentFolder.Chips[i];
+                var battleChip = GetCurrentGame().Battlechips.First(c => c.Number == folderChip.Number && c.ChipType == folderChip.ChipType);
+
+                string chipLocation = NiceWrap(battleChip.Locations.Split(';').Select(l => l.Trim()).First(c => c.StartsWith(folderChip.Code)));
+
+                var checkbox = new CheckBox
+                {
+                    Anchor = AnchorStyles.Left | AnchorStyles.Right,
+                    AutoSize = false,
+                    Margin = new Padding(5),
+                    Text = $"{folderChip.Name} {folderChip.Code} x{folderChip.Quantity}\n{chipLocation}",
+                    TextAlign = ContentAlignment.TopLeft,
+                    Width = tab_Checklist.Width - 30,
+                };
+
+                checkbox.Height = checkbox.Text.Split('\n').Length * (checkbox.Font.Height) + 5;
+                checkbox.Parent = tab_Checklist;
+
+                checkbox.Location = new Point(10, (lastCheckbox?.Location.Y + lastCheckbox?.Height + 5) ?? 10);
+                lastCheckbox = checkbox;
+            }
+        }
+
+        public string NiceWrap (string str)
+        {
+            var words = str.Split(" ");
+            var newString = new StringBuilder();
+
+            int currentLine = 0;
+
+            foreach (var word in words)
+            {
+                var currentWord = word.Replace("\r", string.Empty).Replace("\n", string.Empty);
+
+                if (currentLine + currentWord.Length + 1 > 40)
+                {
+                    newString.AppendLine();
+                    currentLine = 0;
+                }
+
+                newString.Append($"{currentWord} ");
+                currentLine += currentWord.Length + 1;
+            }
+
+            return newString.ToString();
         }
     }
 }

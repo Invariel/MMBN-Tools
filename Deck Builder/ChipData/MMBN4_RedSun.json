@@ -3007,7 +3007,7 @@
       "Name": "Recov300",
       "ChipType": 0,
       "Elements": [ 64 ],
-      "Codes": "J, ?",
+      "Codes": "J, N, Y",
       "Locations": "J: Lotto Number (66703422), Chip Order; N: Trader only; Y: Trader only",
       "Traders": "Elec Town 2, BugFrag Trader",
       "MegaManLocation": {

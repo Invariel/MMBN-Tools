@@ -2,15 +2,18 @@
 
 namespace Deck_Builder
 {
-    public partial class frm_DeckBuilder
+    public partial class frm_DeckBuilder : Form
     {
-        internal List<Folder> currentFolders = new();
-
-        public bool SaveCurrentFolder (string previousName)
+        public bool SaveCurrentFolder(string previousName)
         {
             Folder? updatedFolder = null;
 
-            if (string.IsNullOrEmpty (previousName))
+            if (!_canUpdateFolder)
+            {
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(previousName))
             {
                 updatedFolder = currentFolders.FirstOrDefault(f => f.FolderName.Equals(previousName));
             }
@@ -33,7 +36,7 @@ namespace Deck_Builder
             return true;
         }
 
-        public bool SaveAllFolders ()
+        public bool SaveAllFolders()
         {
             // Write JSON to disk.
             throw new NotImplementedException();
@@ -45,10 +48,22 @@ namespace Deck_Builder
 
         }
 
-        public bool LoadAllFolders ()
+        public bool LoadAllFolders()
         {
             // Load JSON from file.
             throw new NotImplementedException();
+        }
+
+        public void NewFolder(object? sender, EventArgs e)
+        {
+            SaveCurrentFolder(cmb_SelectFolder.Text);
+
+            _canUpdateFolder = false;
+            // Clear the current deck and reset the folder name.
+            cmb_SelectFolder.Text = "";
+            _currentFolder = new Folder();
+
+            _canUpdateFolder = true;
         }
     }
 }
