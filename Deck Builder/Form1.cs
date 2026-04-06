@@ -1,12 +1,8 @@
 using Deck_Builder.Classes;
 using System.Collections;
-using System.ComponentModel;
 using System.Drawing.Text;
 using System.Globalization;
-using System.Resources;
-using System.Text;
 using System.Text.Json;
-using System.Windows.Forms.VisualStyles;
 
 namespace Deck_Builder
 {
@@ -24,8 +20,11 @@ namespace Deck_Builder
 
         private bool _pauseUpdates = false;
 
+        internal List<Folder> currentFolders = new();
         private Folder _currentFolder = new();
         private BindingSource dgv_FolderBindingSource;
+
+        private bool _canUpdateFolder = false;
 
         public frm_DeckBuilder()
         {
@@ -55,6 +54,8 @@ namespace Deck_Builder
                 if (dgv_FolderBindingSource.DataSource is not null)
                 {
                     lbl_FolderContents.Text = _currentFolder.ToString();
+
+                    GenerateChecklist();
                 }
             };
 
@@ -88,6 +89,8 @@ namespace Deck_Builder
             txt_FilterByCodes.TextChanged += dgv_ChipList_Filter;
 
             LoadSelectedGameData(default, new ());
+
+            btn_NewFolder.Click += NewFolder;
         }
 
         public void LoadSelectedGameData (object? sender, EventArgs e)
@@ -211,8 +214,11 @@ namespace Deck_Builder
             dgv_ChipList.Font = CreateFont("BN6FontThinVar", 12);
 
             lbl_Error.Font = CreateFont("BN6FontSmall", 14);
-            lbl_ChipDataView_Left.Font = CreateFont("BN6FontSmall", 14);
             lbl_ChipDataView_Right.Font = CreateFont("BN6FontSmall", 14);
+
+            txt_ChipDataView_Left.Font = CreateFont("BN6FontSmall", 14);
+
+            tab_Checklist.Font = CreateFont("BN6FontThin", 12);
         }
 
         internal void LoadGamesAndBattlechips()
