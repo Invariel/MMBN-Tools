@@ -34,7 +34,7 @@
             tbl_SaveLoadEtc = new TableLayoutPanel();
             btn_NewFolder = new Button();
             btn_DeleteFolder = new Button();
-            btn_Save = new Button();
+            btn_SaveFolders = new Button();
             btn_LoadFolders = new Button();
             tbl_Cards = new TableLayoutPanel();
             grp_FilterChips = new GroupBox();
@@ -48,13 +48,37 @@
             tbl_ChipView = new TableLayoutPanel();
             lbl_ChipDataView_Right = new Label();
             lbl_Error = new Label();
+            split_GameChips = new SplitContainer();
             dgv_ChipList = new DataGridView();
+            textBox1 = new TextBox();
+            btn_5_2 = new Button();
+            btn_4_2 = new Button();
+            btn_3_2 = new Button();
+            btn_2_2 = new Button();
+            btn_1_2 = new Button();
+            btn_0_2 = new Button();
+            btn_5_1 = new Button();
+            btn_4_1 = new Button();
+            btn_3_1 = new Button();
+            btn_2_1 = new Button();
+            btn_1_1 = new Button();
+            btn_0_1 = new Button();
+            btn_5_0 = new Button();
+            btn_4_0 = new Button();
+            btn_3_0 = new Button();
+            btn_2_0 = new Button();
+            btn_1_0 = new Button();
+            btn_0_0 = new Button();
             grp_SelectGame = new GroupBox();
             cmb_SelectGame = new ComboBox();
             tbl_Folder = new TableLayoutPanel();
-            lbl_ChipDataView_Left = new Label();
             lbl_FolderContents = new Label();
+            tabControl1 = new TabControl();
+            tab_Folder = new TabPage();
             dgv_Folder = new DataGridView();
+            tab_Checklist = new TabPage();
+            tab_RandomHand = new TabPage();
+            txt_ChipDataView_Left = new TextBox();
             tbl_MainLayout.SuspendLayout();
             grp_SelectFolder.SuspendLayout();
             tbl_SaveLoadEtc.SuspendLayout();
@@ -62,9 +86,15 @@
             grp_FilterChips.SuspendLayout();
             tbl_Filters.SuspendLayout();
             tbl_ChipView.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)split_GameChips).BeginInit();
+            split_GameChips.Panel1.SuspendLayout();
+            split_GameChips.Panel2.SuspendLayout();
+            split_GameChips.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgv_ChipList).BeginInit();
             grp_SelectGame.SuspendLayout();
             tbl_Folder.SuspendLayout();
+            tabControl1.SuspendLayout();
+            tab_Folder.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgv_Folder).BeginInit();
             SuspendLayout();
             // 
@@ -123,7 +153,7 @@
             tbl_SaveLoadEtc.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tbl_SaveLoadEtc.Controls.Add(btn_NewFolder, 0, 0);
             tbl_SaveLoadEtc.Controls.Add(btn_DeleteFolder, 0, 1);
-            tbl_SaveLoadEtc.Controls.Add(btn_Save, 1, 0);
+            tbl_SaveLoadEtc.Controls.Add(btn_SaveFolders, 1, 0);
             tbl_SaveLoadEtc.Controls.Add(btn_LoadFolders, 1, 1);
             tbl_SaveLoadEtc.Dock = DockStyle.Fill;
             tbl_SaveLoadEtc.Location = new Point(388, 3);
@@ -154,15 +184,15 @@
             btn_DeleteFolder.Text = "&Delete Folder";
             btn_DeleteFolder.UseVisualStyleBackColor = true;
             // 
-            // btn_Save
+            // btn_SaveFolders
             // 
-            btn_Save.Dock = DockStyle.Fill;
-            btn_Save.Location = new Point(188, 3);
-            btn_Save.Name = "btn_Save";
-            btn_Save.Size = new Size(179, 36);
-            btn_Save.TabIndex = 2;
-            btn_Save.Text = "&Save Folders";
-            btn_Save.UseVisualStyleBackColor = true;
+            btn_SaveFolders.Dock = DockStyle.Fill;
+            btn_SaveFolders.Location = new Point(188, 3);
+            btn_SaveFolders.Name = "btn_SaveFolders";
+            btn_SaveFolders.Size = new Size(179, 36);
+            btn_SaveFolders.TabIndex = 2;
+            btn_SaveFolders.Text = "&Save Folders";
+            btn_SaveFolders.UseVisualStyleBackColor = true;
             // 
             // btn_LoadFolders
             // 
@@ -284,7 +314,7 @@
             tbl_ChipView.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
             tbl_ChipView.Controls.Add(lbl_ChipDataView_Right, 0, 1);
             tbl_ChipView.Controls.Add(lbl_Error, 0, 2);
-            tbl_ChipView.Controls.Add(dgv_ChipList, 0, 0);
+            tbl_ChipView.Controls.Add(split_GameChips, 0, 0);
             tbl_ChipView.Dock = DockStyle.Fill;
             tbl_ChipView.Location = new Point(3, 185);
             tbl_ChipView.Name = "tbl_ChipView";
@@ -313,16 +343,204 @@
             lbl_Error.Size = new Size(729, 24);
             lbl_Error.TabIndex = 2;
             // 
+            // split_GameChips
+            // 
+            split_GameChips.Dock = DockStyle.Fill;
+            split_GameChips.Location = new Point(3, 3);
+            split_GameChips.Name = "split_GameChips";
+            // 
+            // split_GameChips.Panel1
+            // 
+            split_GameChips.Panel1.Controls.Add(dgv_ChipList);
+            // 
+            // split_GameChips.Panel2
+            // 
+            split_GameChips.Panel2.Controls.Add(textBox1);
+            split_GameChips.Panel2.Controls.Add(btn_5_2);
+            split_GameChips.Panel2.Controls.Add(btn_4_2);
+            split_GameChips.Panel2.Controls.Add(btn_3_2);
+            split_GameChips.Panel2.Controls.Add(btn_2_2);
+            split_GameChips.Panel2.Controls.Add(btn_1_2);
+            split_GameChips.Panel2.Controls.Add(btn_0_2);
+            split_GameChips.Panel2.Controls.Add(btn_5_1);
+            split_GameChips.Panel2.Controls.Add(btn_4_1);
+            split_GameChips.Panel2.Controls.Add(btn_3_1);
+            split_GameChips.Panel2.Controls.Add(btn_2_1);
+            split_GameChips.Panel2.Controls.Add(btn_1_1);
+            split_GameChips.Panel2.Controls.Add(btn_0_1);
+            split_GameChips.Panel2.Controls.Add(btn_5_0);
+            split_GameChips.Panel2.Controls.Add(btn_4_0);
+            split_GameChips.Panel2.Controls.Add(btn_3_0);
+            split_GameChips.Panel2.Controls.Add(btn_2_0);
+            split_GameChips.Panel2.Controls.Add(btn_1_0);
+            split_GameChips.Panel2.Controls.Add(btn_0_0);
+            split_GameChips.Size = new Size(729, 270);
+            split_GameChips.SplitterDistance = 487;
+            split_GameChips.TabIndex = 3;
+            // 
             // dgv_ChipList
             // 
             dgv_ChipList.AllowUserToDeleteRows = false;
             dgv_ChipList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgv_ChipList.Dock = DockStyle.Fill;
-            dgv_ChipList.Location = new Point(3, 3);
+            dgv_ChipList.Location = new Point(0, 0);
             dgv_ChipList.Name = "dgv_ChipList";
             dgv_ChipList.ReadOnly = true;
-            dgv_ChipList.Size = new Size(729, 270);
+            dgv_ChipList.Size = new Size(487, 270);
             dgv_ChipList.TabIndex = 3;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(11, 150);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
+            textBox1.Size = new Size(215, 88);
+            textBox1.TabIndex = 18;
+            // 
+            // btn_5_2
+            // 
+            btn_5_2.Location = new Point(191, 109);
+            btn_5_2.Name = "btn_5_2";
+            btn_5_2.Size = new Size(35, 35);
+            btn_5_2.TabIndex = 17;
+            btn_5_2.UseVisualStyleBackColor = true;
+            // 
+            // btn_4_2
+            // 
+            btn_4_2.Location = new Point(155, 109);
+            btn_4_2.Name = "btn_4_2";
+            btn_4_2.Size = new Size(35, 35);
+            btn_4_2.TabIndex = 16;
+            btn_4_2.UseVisualStyleBackColor = true;
+            // 
+            // btn_3_2
+            // 
+            btn_3_2.Location = new Point(119, 109);
+            btn_3_2.Name = "btn_3_2";
+            btn_3_2.Size = new Size(35, 35);
+            btn_3_2.TabIndex = 15;
+            btn_3_2.UseVisualStyleBackColor = true;
+            // 
+            // btn_2_2
+            // 
+            btn_2_2.Location = new Point(83, 109);
+            btn_2_2.Name = "btn_2_2";
+            btn_2_2.Size = new Size(35, 35);
+            btn_2_2.TabIndex = 14;
+            btn_2_2.UseVisualStyleBackColor = true;
+            // 
+            // btn_1_2
+            // 
+            btn_1_2.Location = new Point(47, 109);
+            btn_1_2.Name = "btn_1_2";
+            btn_1_2.Size = new Size(35, 35);
+            btn_1_2.TabIndex = 13;
+            btn_1_2.UseVisualStyleBackColor = true;
+            // 
+            // btn_0_2
+            // 
+            btn_0_2.Location = new Point(11, 109);
+            btn_0_2.Name = "btn_0_2";
+            btn_0_2.Size = new Size(35, 35);
+            btn_0_2.TabIndex = 12;
+            btn_0_2.UseVisualStyleBackColor = true;
+            // 
+            // btn_5_1
+            // 
+            btn_5_1.Location = new Point(191, 68);
+            btn_5_1.Name = "btn_5_1";
+            btn_5_1.Size = new Size(35, 35);
+            btn_5_1.TabIndex = 11;
+            btn_5_1.UseVisualStyleBackColor = true;
+            // 
+            // btn_4_1
+            // 
+            btn_4_1.Location = new Point(155, 68);
+            btn_4_1.Name = "btn_4_1";
+            btn_4_1.Size = new Size(35, 35);
+            btn_4_1.TabIndex = 10;
+            btn_4_1.UseVisualStyleBackColor = true;
+            // 
+            // btn_3_1
+            // 
+            btn_3_1.Location = new Point(119, 68);
+            btn_3_1.Name = "btn_3_1";
+            btn_3_1.Size = new Size(35, 35);
+            btn_3_1.TabIndex = 9;
+            btn_3_1.UseVisualStyleBackColor = true;
+            // 
+            // btn_2_1
+            // 
+            btn_2_1.Location = new Point(83, 68);
+            btn_2_1.Name = "btn_2_1";
+            btn_2_1.Size = new Size(35, 35);
+            btn_2_1.TabIndex = 8;
+            btn_2_1.UseVisualStyleBackColor = true;
+            // 
+            // btn_1_1
+            // 
+            btn_1_1.Location = new Point(47, 68);
+            btn_1_1.Name = "btn_1_1";
+            btn_1_1.Size = new Size(35, 35);
+            btn_1_1.TabIndex = 7;
+            btn_1_1.UseVisualStyleBackColor = true;
+            // 
+            // btn_0_1
+            // 
+            btn_0_1.Location = new Point(11, 68);
+            btn_0_1.Name = "btn_0_1";
+            btn_0_1.Size = new Size(35, 35);
+            btn_0_1.TabIndex = 6;
+            btn_0_1.UseVisualStyleBackColor = true;
+            // 
+            // btn_5_0
+            // 
+            btn_5_0.Location = new Point(191, 27);
+            btn_5_0.Name = "btn_5_0";
+            btn_5_0.Size = new Size(35, 35);
+            btn_5_0.TabIndex = 5;
+            btn_5_0.UseVisualStyleBackColor = true;
+            // 
+            // btn_4_0
+            // 
+            btn_4_0.Location = new Point(155, 27);
+            btn_4_0.Name = "btn_4_0";
+            btn_4_0.Size = new Size(35, 35);
+            btn_4_0.TabIndex = 4;
+            btn_4_0.UseVisualStyleBackColor = true;
+            // 
+            // btn_3_0
+            // 
+            btn_3_0.Location = new Point(119, 27);
+            btn_3_0.Name = "btn_3_0";
+            btn_3_0.Size = new Size(35, 35);
+            btn_3_0.TabIndex = 3;
+            btn_3_0.UseVisualStyleBackColor = true;
+            // 
+            // btn_2_0
+            // 
+            btn_2_0.Location = new Point(83, 27);
+            btn_2_0.Name = "btn_2_0";
+            btn_2_0.Size = new Size(35, 35);
+            btn_2_0.TabIndex = 2;
+            btn_2_0.UseVisualStyleBackColor = true;
+            // 
+            // btn_1_0
+            // 
+            btn_1_0.Location = new Point(47, 27);
+            btn_1_0.Name = "btn_1_0";
+            btn_1_0.Size = new Size(35, 35);
+            btn_1_0.TabIndex = 1;
+            btn_1_0.UseVisualStyleBackColor = true;
+            // 
+            // btn_0_0
+            // 
+            btn_0_0.Location = new Point(11, 27);
+            btn_0_0.Name = "btn_0_0";
+            btn_0_0.Size = new Size(35, 35);
+            btn_0_0.TabIndex = 0;
+            btn_0_0.UseVisualStyleBackColor = true;
             // 
             // grp_SelectGame
             // 
@@ -349,27 +567,18 @@
             // 
             tbl_Folder.ColumnCount = 1;
             tbl_Folder.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tbl_Folder.Controls.Add(lbl_ChipDataView_Left, 0, 1);
             tbl_Folder.Controls.Add(lbl_FolderContents, 0, 2);
-            tbl_Folder.Controls.Add(dgv_Folder, 0, 0);
+            tbl_Folder.Controls.Add(tabControl1, 0, 0);
+            tbl_Folder.Controls.Add(txt_ChipDataView_Left, 0, 1);
             tbl_Folder.Dock = DockStyle.Fill;
             tbl_Folder.Location = new Point(3, 93);
             tbl_Folder.Name = "tbl_Folder";
             tbl_Folder.RowCount = 3;
-            tbl_Folder.RowStyles.Add(new RowStyle(SizeType.Percent, 53.1147537F));
-            tbl_Folder.RowStyles.Add(new RowStyle(SizeType.Percent, 46.8852463F));
+            tbl_Folder.RowStyles.Add(new RowStyle(SizeType.Percent, 77.21311F));
+            tbl_Folder.RowStyles.Add(new RowStyle(SizeType.Percent, 22.7868843F));
             tbl_Folder.RowStyles.Add(new RowStyle(SizeType.Absolute, 38F));
             tbl_Folder.Size = new Size(379, 649);
             tbl_Folder.TabIndex = 4;
-            // 
-            // lbl_ChipDataView_Left
-            // 
-            lbl_ChipDataView_Left.AutoSize = true;
-            lbl_ChipDataView_Left.Dock = DockStyle.Fill;
-            lbl_ChipDataView_Left.Location = new Point(3, 324);
-            lbl_ChipDataView_Left.Name = "lbl_ChipDataView_Left";
-            lbl_ChipDataView_Left.Size = new Size(373, 286);
-            lbl_ChipDataView_Left.TabIndex = 1;
             // 
             // lbl_FolderContents
             // 
@@ -380,6 +589,29 @@
             lbl_FolderContents.Size = new Size(373, 39);
             lbl_FolderContents.TabIndex = 2;
             // 
+            // tabControl1
+            // 
+            tabControl1.Controls.Add(tab_Folder);
+            tabControl1.Controls.Add(tab_Checklist);
+            tabControl1.Controls.Add(tab_RandomHand);
+            tabControl1.Dock = DockStyle.Fill;
+            tabControl1.Location = new Point(3, 3);
+            tabControl1.Name = "tabControl1";
+            tabControl1.SelectedIndex = 0;
+            tabControl1.Size = new Size(373, 465);
+            tabControl1.TabIndex = 3;
+            // 
+            // tab_Folder
+            // 
+            tab_Folder.Controls.Add(dgv_Folder);
+            tab_Folder.Location = new Point(4, 24);
+            tab_Folder.Name = "tab_Folder";
+            tab_Folder.Padding = new Padding(3);
+            tab_Folder.Size = new Size(365, 437);
+            tab_Folder.TabIndex = 0;
+            tab_Folder.Text = "Folder";
+            tab_Folder.UseVisualStyleBackColor = true;
+            // 
             // dgv_Folder
             // 
             dgv_Folder.AllowUserToAddRows = false;
@@ -389,8 +621,38 @@
             dgv_Folder.Location = new Point(3, 3);
             dgv_Folder.Name = "dgv_Folder";
             dgv_Folder.ReadOnly = true;
-            dgv_Folder.Size = new Size(373, 318);
+            dgv_Folder.Size = new Size(359, 431);
             dgv_Folder.TabIndex = 3;
+            // 
+            // tab_Checklist
+            // 
+            tab_Checklist.Location = new Point(4, 24);
+            tab_Checklist.Name = "tab_Checklist";
+            tab_Checklist.Padding = new Padding(3);
+            tab_Checklist.Size = new Size(365, 437);
+            tab_Checklist.TabIndex = 1;
+            tab_Checklist.Text = "Checklist";
+            tab_Checklist.UseVisualStyleBackColor = true;
+            // 
+            // tab_RandomHand
+            // 
+            tab_RandomHand.Location = new Point(4, 24);
+            tab_RandomHand.Name = "tab_RandomHand";
+            tab_RandomHand.Size = new Size(365, 437);
+            tab_RandomHand.TabIndex = 2;
+            tab_RandomHand.Text = "Random Hand";
+            tab_RandomHand.UseVisualStyleBackColor = true;
+            // 
+            // txt_ChipDataView_Left
+            // 
+            txt_ChipDataView_Left.Dock = DockStyle.Fill;
+            txt_ChipDataView_Left.Location = new Point(3, 474);
+            txt_ChipDataView_Left.Multiline = true;
+            txt_ChipDataView_Left.Name = "txt_ChipDataView_Left";
+            txt_ChipDataView_Left.ReadOnly = true;
+            txt_ChipDataView_Left.ScrollBars = ScrollBars.Both;
+            txt_ChipDataView_Left.Size = new Size(373, 133);
+            txt_ChipDataView_Left.TabIndex = 4;
             // 
             // frm_DeckBuilder
             // 
@@ -410,10 +672,17 @@
             tbl_Filters.PerformLayout();
             tbl_ChipView.ResumeLayout(false);
             tbl_ChipView.PerformLayout();
+            split_GameChips.Panel1.ResumeLayout(false);
+            split_GameChips.Panel2.ResumeLayout(false);
+            split_GameChips.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)split_GameChips).EndInit();
+            split_GameChips.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgv_ChipList).EndInit();
             grp_SelectGame.ResumeLayout(false);
             tbl_Folder.ResumeLayout(false);
             tbl_Folder.PerformLayout();
+            tabControl1.ResumeLayout(false);
+            tab_Folder.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgv_Folder).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -427,7 +696,7 @@
         private Button btn_NewFolder;
         private Button btn_DeleteFolder;
         private TableLayoutPanel tbl_SaveLoadEtc;
-        private Button btn_Save;
+        private Button btn_SaveFolders;
         private Button btn_LoadFolders;
         private TableLayoutPanel tbl_Cards;
         private GroupBox grp_FilterChips;
@@ -441,12 +710,36 @@
         private ComboBox cmb_SelectGame;
         private TableLayoutPanel tbl_Folder;
         private Label lbl_ChipDataView_Right;
-        private Label lbl_ChipDataView_Left;
         private Label lbl_Error;
         private Label lbl_FolderContents;
         private DataGridView dgv_ChipList;
         private DataGridView dgv_Folder;
         private Label lbl_ByCodes;
         private TextBox txt_FilterByCodes;
+        private TabControl tabControl1;
+        private TabPage tab_Folder;
+        private TabPage tab_Checklist;
+        private TabPage tab_RandomHand;
+        private TextBox txt_ChipDataView_Left;
+        private SplitContainer split_GameChips;
+        private Button btn_3_0;
+        private Button btn_2_0;
+        private Button btn_1_0;
+        private Button btn_0_0;
+        private TextBox textBox1;
+        private Button btn_5_2;
+        private Button btn_4_2;
+        private Button btn_3_2;
+        private Button btn_2_2;
+        private Button btn_1_2;
+        private Button btn_0_2;
+        private Button btn_5_1;
+        private Button btn_4_1;
+        private Button btn_3_1;
+        private Button btn_2_1;
+        private Button btn_1_1;
+        private Button btn_0_1;
+        private Button btn_5_0;
+        private Button btn_4_0;
     }
 }
