@@ -34,7 +34,7 @@
             tbl_SaveLoadEtc = new TableLayoutPanel();
             btn_NewFolder = new Button();
             btn_DeleteFolder = new Button();
-            btn_Save = new Button();
+            btn_SaveFolders = new Button();
             btn_LoadFolders = new Button();
             tbl_Cards = new TableLayoutPanel();
             grp_FilterChips = new GroupBox();
@@ -153,7 +153,7 @@
             tbl_SaveLoadEtc.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tbl_SaveLoadEtc.Controls.Add(btn_NewFolder, 0, 0);
             tbl_SaveLoadEtc.Controls.Add(btn_DeleteFolder, 0, 1);
-            tbl_SaveLoadEtc.Controls.Add(btn_Save, 1, 0);
+            tbl_SaveLoadEtc.Controls.Add(btn_SaveFolders, 1, 0);
             tbl_SaveLoadEtc.Controls.Add(btn_LoadFolders, 1, 1);
             tbl_SaveLoadEtc.Dock = DockStyle.Fill;
             tbl_SaveLoadEtc.Location = new Point(388, 3);
@@ -184,15 +184,15 @@
             btn_DeleteFolder.Text = "&Delete Folder";
             btn_DeleteFolder.UseVisualStyleBackColor = true;
             // 
-            // btn_Save
+            // btn_SaveFolders
             // 
-            btn_Save.Dock = DockStyle.Fill;
-            btn_Save.Location = new Point(188, 3);
-            btn_Save.Name = "btn_Save";
-            btn_Save.Size = new Size(179, 36);
-            btn_Save.TabIndex = 2;
-            btn_Save.Text = "&Save Folders";
-            btn_Save.UseVisualStyleBackColor = true;
+            btn_SaveFolders.Dock = DockStyle.Fill;
+            btn_SaveFolders.Location = new Point(188, 3);
+            btn_SaveFolders.Name = "btn_SaveFolders";
+            btn_SaveFolders.Size = new Size(179, 36);
+            btn_SaveFolders.TabIndex = 2;
+            btn_SaveFolders.Text = "&Save Folders";
+            btn_SaveFolders.UseVisualStyleBackColor = true;
             // 
             // btn_LoadFolders
             // 
@@ -375,7 +375,7 @@
             split_GameChips.Panel2.Controls.Add(btn_1_0);
             split_GameChips.Panel2.Controls.Add(btn_0_0);
             split_GameChips.Size = new Size(729, 270);
-            split_GameChips.SplitterDistance = 413;
+            split_GameChips.SplitterDistance = 487;
             split_GameChips.TabIndex = 3;
             // 
             // dgv_ChipList
@@ -386,12 +386,12 @@
             dgv_ChipList.Location = new Point(0, 0);
             dgv_ChipList.Name = "dgv_ChipList";
             dgv_ChipList.ReadOnly = true;
-            dgv_ChipList.Size = new Size(413, 270);
+            dgv_ChipList.Size = new Size(487, 270);
             dgv_ChipList.TabIndex = 3;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(46, 150);
+            textBox1.Location = new Point(11, 150);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.ReadOnly = true;
@@ -400,7 +400,7 @@
             // 
             // btn_5_2
             // 
-            btn_5_2.Location = new Point(226, 109);
+            btn_5_2.Location = new Point(191, 109);
             btn_5_2.Name = "btn_5_2";
             btn_5_2.Size = new Size(35, 35);
             btn_5_2.TabIndex = 17;
@@ -408,7 +408,7 @@
             // 
             // btn_4_2
             // 
-            btn_4_2.Location = new Point(190, 109);
+            btn_4_2.Location = new Point(155, 109);
             btn_4_2.Name = "btn_4_2";
             btn_4_2.Size = new Size(35, 35);
             btn_4_2.TabIndex = 16;
@@ -416,7 +416,7 @@
             // 
             // btn_3_2
             // 
-            btn_3_2.Location = new Point(154, 109);
+            btn_3_2.Location = new Point(119, 109);
             btn_3_2.Name = "btn_3_2";
             btn_3_2.Size = new Size(35, 35);
             btn_3_2.TabIndex = 15;
@@ -424,7 +424,7 @@
             // 
             // btn_2_2
             // 
-            btn_2_2.Location = new Point(118, 109);
+            btn_2_2.Location = new Point(83, 109);
             btn_2_2.Name = "btn_2_2";
             btn_2_2.Size = new Size(35, 35);
             btn_2_2.TabIndex = 14;
@@ -432,7 +432,7 @@
             // 
             // btn_1_2
             // 
-            btn_1_2.Location = new Point(82, 109);
+            btn_1_2.Location = new Point(47, 109);
             btn_1_2.Name = "btn_1_2";
             btn_1_2.Size = new Size(35, 35);
             btn_1_2.TabIndex = 13;
@@ -440,7 +440,7 @@
             // 
             // btn_0_2
             // 
-            btn_0_2.Location = new Point(46, 109);
+            btn_0_2.Location = new Point(11, 109);
             btn_0_2.Name = "btn_0_2";
             btn_0_2.Size = new Size(35, 35);
             btn_0_2.TabIndex = 12;
@@ -448,7 +448,7 @@
             // 
             // btn_5_1
             // 
-            btn_5_1.Location = new Point(226, 68);
+            btn_5_1.Location = new Point(191, 68);
             btn_5_1.Name = "btn_5_1";
             btn_5_1.Size = new Size(35, 35);
             btn_5_1.TabIndex = 11;
@@ -456,7 +456,7 @@
             // 
             // btn_4_1
             // 
-            btn_4_1.Location = new Point(190, 68);
+            btn_4_1.Location = new Point(155, 68);
             btn_4_1.Name = "btn_4_1";
             btn_4_1.Size = new Size(35, 35);
             btn_4_1.TabIndex = 10;
@@ -464,7 +464,7 @@
             // 
             // btn_3_1
             // 
-            btn_3_1.Location = new Point(154, 68);
+            btn_3_1.Location = new Point(119, 68);
             btn_3_1.Name = "btn_3_1";
             btn_3_1.Size = new Size(35, 35);
             btn_3_1.TabIndex = 9;
@@ -472,7 +472,7 @@
             // 
             // btn_2_1
             // 
-            btn_2_1.Location = new Point(118, 68);
+            btn_2_1.Location = new Point(83, 68);
             btn_2_1.Name = "btn_2_1";
             btn_2_1.Size = new Size(35, 35);
             btn_2_1.TabIndex = 8;
@@ -480,7 +480,7 @@
             // 
             // btn_1_1
             // 
-            btn_1_1.Location = new Point(82, 68);
+            btn_1_1.Location = new Point(47, 68);
             btn_1_1.Name = "btn_1_1";
             btn_1_1.Size = new Size(35, 35);
             btn_1_1.TabIndex = 7;
@@ -488,7 +488,7 @@
             // 
             // btn_0_1
             // 
-            btn_0_1.Location = new Point(46, 68);
+            btn_0_1.Location = new Point(11, 68);
             btn_0_1.Name = "btn_0_1";
             btn_0_1.Size = new Size(35, 35);
             btn_0_1.TabIndex = 6;
@@ -496,7 +496,7 @@
             // 
             // btn_5_0
             // 
-            btn_5_0.Location = new Point(226, 27);
+            btn_5_0.Location = new Point(191, 27);
             btn_5_0.Name = "btn_5_0";
             btn_5_0.Size = new Size(35, 35);
             btn_5_0.TabIndex = 5;
@@ -504,7 +504,7 @@
             // 
             // btn_4_0
             // 
-            btn_4_0.Location = new Point(190, 27);
+            btn_4_0.Location = new Point(155, 27);
             btn_4_0.Name = "btn_4_0";
             btn_4_0.Size = new Size(35, 35);
             btn_4_0.TabIndex = 4;
@@ -512,7 +512,7 @@
             // 
             // btn_3_0
             // 
-            btn_3_0.Location = new Point(154, 27);
+            btn_3_0.Location = new Point(119, 27);
             btn_3_0.Name = "btn_3_0";
             btn_3_0.Size = new Size(35, 35);
             btn_3_0.TabIndex = 3;
@@ -520,7 +520,7 @@
             // 
             // btn_2_0
             // 
-            btn_2_0.Location = new Point(118, 27);
+            btn_2_0.Location = new Point(83, 27);
             btn_2_0.Name = "btn_2_0";
             btn_2_0.Size = new Size(35, 35);
             btn_2_0.TabIndex = 2;
@@ -528,7 +528,7 @@
             // 
             // btn_1_0
             // 
-            btn_1_0.Location = new Point(82, 27);
+            btn_1_0.Location = new Point(47, 27);
             btn_1_0.Name = "btn_1_0";
             btn_1_0.Size = new Size(35, 35);
             btn_1_0.TabIndex = 1;
@@ -536,7 +536,7 @@
             // 
             // btn_0_0
             // 
-            btn_0_0.Location = new Point(46, 27);
+            btn_0_0.Location = new Point(11, 27);
             btn_0_0.Name = "btn_0_0";
             btn_0_0.Size = new Size(35, 35);
             btn_0_0.TabIndex = 0;
@@ -696,7 +696,7 @@
         private Button btn_NewFolder;
         private Button btn_DeleteFolder;
         private TableLayoutPanel tbl_SaveLoadEtc;
-        private Button btn_Save;
+        private Button btn_SaveFolders;
         private Button btn_LoadFolders;
         private TableLayoutPanel tbl_Cards;
         private GroupBox grp_FilterChips;

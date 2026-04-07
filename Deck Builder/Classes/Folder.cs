@@ -1,4 +1,6 @@
-﻿namespace Deck_Builder.Classes
+﻿using System.Text;
+
+namespace Deck_Builder.Classes
 {
     public class Folder
     {
@@ -13,16 +15,14 @@
                 return false;
             }
 
-            foreach (FolderChip battlechip in Chips)
-            {
-                // Chip rules based on type (standard, mega, giga) and quantity
-            }
-
+            // Check the Game Rules for validity.
             return true;
         }
 
         public override string ToString()
         {
+            Dictionary<string, int> chipCodes = new();
+
             int standard = 0;
             int mega = 0;
             int giga = 0;
@@ -37,9 +37,34 @@
                     case ChipType.Giga: giga += chip.Quantity; break;
                     case ChipType.Dark: dark += chip.Quantity; break;
                 }
+
+                if (!chipCodes.ContainsKey(chip.Code))
+                {
+                    chipCodes[chip.Code] = chip.Quantity;
+                }
+                else
+                {
+                    chipCodes[chip.Code] += chip.Quantity;
+                }
             }
 
-            return $"S: {standard}, M: {mega}, G: {giga}, {(dark > 0 ? $"D: {dark}," : "")} {standard + mega + giga + dark} / 30";
+            StringBuilder builder = new StringBuilder();
+
+            for (int i = 0; i < chipCodes.Count; ++ i)
+            {
+                var elem = chipCodes.ElementAt(i);
+                builder.Append($"{elem.Key}: {elem.Value}{(i == chipCodes.Count - 1 ? string.Empty : ",")}");
+            }
+
+            builder.AppendLine();
+
+            builder.Append($"{(standard > 0 ? $"S: {standard} " : string.Empty)}");
+            builder.Append($"{(mega > 0 ? $"M: {mega} " : string.Empty)}");
+            builder.Append($"{(giga > 0 ? $"G: {giga} " : string.Empty)}");
+            builder.Append($"{(dark > 0 ? $"D: {dark} " : string.Empty)}");
+
+            builder.Append ($"{standard + mega + giga + dark} / 30");
+            return builder.ToString();
         }
     }
 }

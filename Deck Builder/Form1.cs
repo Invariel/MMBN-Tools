@@ -1,5 +1,6 @@
 using Deck_Builder.Classes;
 using System.Collections;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing.Text;
 using System.Globalization;
 using System.Text.Json;
@@ -90,7 +91,66 @@ namespace Deck_Builder
 
             LoadSelectedGameData(default, new ());
 
-            btn_NewFolder.Click += NewFolder;
+            BindingSource folderList = new BindingSource();
+            folderList.DataSource = currentFolders.Select(f => f.FolderName).ToList();
+
+            cmb_SelectFolder.DataSource = folderList;
+            cmb_SelectFolder.TextChanged += delegate
+            {
+                 var potentialFolder = currentFolders.FirstOrDefault(f => f.FolderName.Equals(cmb_SelectFolder.Text));
+
+                if (potentialFolder is null)
+                {
+                    _currentFolder.FolderName = cmb_SelectFolder.Text;
+                }
+                else
+                {
+                    if (!cmb_SelectGame.Items.Contains(potentialFolder.GameName))
+                    {
+                        MessageBox.Show(
+                            $"Data for {potentialFolder.GameName} has not been loaded.  " +
+                             "Please include {potentialFolder.GameName}.json in the ChipData directory.",
+                            "Error - Specified Game not Loaded",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Error,
+                            MessageBoxDefaultButton.Button1);
+                    }
+
+                    cmb_SelectGame.SelectedIndex = cmb_SelectGame.Items.IndexOf(potentialFolder.GameName);
+
+                    _currentFolder = potentialFolder;
+
+                    dgv_FolderBindingSource.DataSource = null;
+                    dgv_FolderBindingSource.DataSource = _currentFolder.Chips;
+                }
+            };
+
+            cmb_SelectFolder.SelectionChangeCommitted += delegate
+            {
+                if (!currentFolders.Any(f => f.FolderName.Equals(cmb_SelectFolder.Text)))
+                {
+                    _currentFolder = new() { GameName = GetCurrentGame().Name, Chips = new List<FolderChip>() };
+                    currentFolders.Add(_currentFolder);
+                }
+                else
+                {
+                    _currentFolder = currentFolders.First(f => f.FolderName.Equals(cmb_SelectFolder.Text));
+
+                    dgv_FolderBindingSource.DataSource = null;
+                    dgv_FolderBindingSource.DataSource = _currentFolder.Chips;
+                }
+            };
+
+            btn_NewFolder.Click += delegate
+            {
+                NewFolder();
+            };
+
+            btn_SaveFolders.Click += delegate { SaveAllFolders(); };
+            btn_LoadFolders.Click += delegate { LoadAllFolders(); };
+
+            _currentFolder.GameName = cmb_SelectGame.Text;
+            currentFolders.Add(_currentFolder);
         }
 
         public void LoadSelectedGameData (object? sender, EventArgs e)
