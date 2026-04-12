@@ -123,5 +123,29 @@ namespace Deck_Builder
             dgv_FolderBindingSource.DataSource = null;
             dgv_FolderBindingSource.DataSource = _currentFolder.Chips;
         }
+
+        public void DeleteFolder(object? sender, EventArgs e)
+        {
+            Folder folderToDelete = _currentFolder;
+            _currentFolder = new Folder() { GameName = cmb_SelectGame.Text, Chips = new(), FolderName = string.Empty };
+
+            if (currentFolders.Contains(folderToDelete))
+            {
+                currentFolders.Remove(folderToDelete);
+            }
+
+            if (currentFolders.Count == 0)
+            {
+                currentFolders.Add(_currentFolder);
+            }
+
+            dgv_FolderBindingSource.DataSource = null;
+            dgv_FolderBindingSource.DataSource = _currentFolder.Chips;
+
+            cmb_SelectFolder.DataSource = null;
+            cmb_SelectFolder.DataSource = currentFolders.Select(cf => cf.FolderName).ToList();
+
+            cmb_SelectFolder.SelectedIndex = 0;
+        }
     }
 }

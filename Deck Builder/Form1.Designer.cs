@@ -43,8 +43,10 @@
             txt_FilterByName = new TextBox();
             lbl_FilterByElement = new Label();
             cmb_FilterByElement = new ComboBox();
-            lbl_ByCodes = new Label();
+            lbl_FilterByCodes = new Label();
             txt_FilterByCodes = new TextBox();
+            lbl_FilterByClass = new Label();
+            cmb_FilterByClass = new ComboBox();
             tbl_ChipView = new TableLayoutPanel();
             lbl_ChipDataView_Right = new Label();
             lbl_Error = new Label();
@@ -77,6 +79,7 @@
             tab_Folder = new TabPage();
             dgv_Folder = new DataGridView();
             tab_Checklist = new TabPage();
+            flw_Checklist = new FlowLayoutPanel();
             tab_RandomHand = new TabPage();
             txt_ChipDataView_Left = new TextBox();
             tbl_MainLayout.SuspendLayout();
@@ -96,6 +99,7 @@
             tabControl1.SuspendLayout();
             tab_Folder.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgv_Folder).BeginInit();
+            tab_Checklist.SuspendLayout();
             SuspendLayout();
             // 
             // tbl_MainLayout
@@ -242,8 +246,10 @@
             tbl_Filters.Controls.Add(txt_FilterByName, 1, 0);
             tbl_Filters.Controls.Add(lbl_FilterByElement, 0, 1);
             tbl_Filters.Controls.Add(cmb_FilterByElement, 1, 1);
-            tbl_Filters.Controls.Add(lbl_ByCodes, 2, 0);
+            tbl_Filters.Controls.Add(lbl_FilterByCodes, 2, 0);
             tbl_Filters.Controls.Add(txt_FilterByCodes, 3, 0);
+            tbl_Filters.Controls.Add(lbl_FilterByClass, 2, 1);
+            tbl_Filters.Controls.Add(cmb_FilterByClass, 3, 1);
             tbl_Filters.Dock = DockStyle.Fill;
             tbl_Filters.Location = new Point(3, 19);
             tbl_Filters.Name = "tbl_Filters";
@@ -290,15 +296,15 @@
             cmb_FilterByElement.Size = new Size(176, 23);
             cmb_FilterByElement.TabIndex = 3;
             // 
-            // lbl_ByCodes
+            // lbl_FilterByCodes
             // 
-            lbl_ByCodes.Anchor = AnchorStyles.Right;
-            lbl_ByCodes.AutoSize = true;
-            lbl_ByCodes.Location = new Point(487, 7);
-            lbl_ByCodes.Name = "lbl_ByCodes";
-            lbl_ByCodes.Size = new Size(56, 15);
-            lbl_ByCodes.TabIndex = 4;
-            lbl_ByCodes.Text = "By Codes";
+            lbl_FilterByCodes.Anchor = AnchorStyles.Right;
+            lbl_FilterByCodes.AutoSize = true;
+            lbl_FilterByCodes.Location = new Point(487, 7);
+            lbl_FilterByCodes.Name = "lbl_FilterByCodes";
+            lbl_FilterByCodes.Size = new Size(56, 15);
+            lbl_FilterByCodes.TabIndex = 4;
+            lbl_FilterByCodes.Text = "By Codes";
             // 
             // txt_FilterByCodes
             // 
@@ -307,6 +313,26 @@
             txt_FilterByCodes.Name = "txt_FilterByCodes";
             txt_FilterByCodes.Size = new Size(177, 23);
             txt_FilterByCodes.TabIndex = 5;
+            // 
+            // lbl_FilterByClass
+            // 
+            lbl_FilterByClass.Anchor = AnchorStyles.Right;
+            lbl_FilterByClass.AutoSize = true;
+            lbl_FilterByClass.Location = new Point(493, 37);
+            lbl_FilterByClass.Name = "lbl_FilterByClass";
+            lbl_FilterByClass.Size = new Size(50, 15);
+            lbl_FilterByClass.TabIndex = 6;
+            lbl_FilterByClass.Text = "By Class";
+            // 
+            // cmb_FilterByClass
+            // 
+            cmb_FilterByClass.Dock = DockStyle.Fill;
+            cmb_FilterByClass.FormattingEnabled = true;
+            cmb_FilterByClass.Items.AddRange(new object[] { "None", "Standard", "Mega", "Giga", "Dark" });
+            cmb_FilterByClass.Location = new Point(549, 33);
+            cmb_FilterByClass.Name = "cmb_FilterByClass";
+            cmb_FilterByClass.Size = new Size(177, 23);
+            cmb_FilterByClass.TabIndex = 7;
             // 
             // tbl_ChipView
             // 
@@ -333,6 +359,7 @@
             lbl_ChipDataView_Right.Name = "lbl_ChipDataView_Right";
             lbl_ChipDataView_Right.Size = new Size(729, 161);
             lbl_ChipDataView_Right.TabIndex = 1;
+            lbl_ChipDataView_Right.Text = " ";
             // 
             // lbl_Error
             // 
@@ -626,6 +653,8 @@
             // 
             // tab_Checklist
             // 
+            tab_Checklist.AutoScroll = true;
+            tab_Checklist.Controls.Add(flw_Checklist);
             tab_Checklist.Location = new Point(4, 24);
             tab_Checklist.Name = "tab_Checklist";
             tab_Checklist.Padding = new Padding(3);
@@ -633,6 +662,15 @@
             tab_Checklist.TabIndex = 1;
             tab_Checklist.Text = "Checklist";
             tab_Checklist.UseVisualStyleBackColor = true;
+            // 
+            // flw_Checklist
+            // 
+            flw_Checklist.AutoScroll = true;
+            flw_Checklist.Dock = DockStyle.Fill;
+            flw_Checklist.Location = new Point(3, 3);
+            flw_Checklist.Name = "flw_Checklist";
+            flw_Checklist.Size = new Size(359, 431);
+            flw_Checklist.TabIndex = 0;
             // 
             // tab_RandomHand
             // 
@@ -684,6 +722,7 @@
             tabControl1.ResumeLayout(false);
             tab_Folder.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgv_Folder).EndInit();
+            tab_Checklist.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -714,7 +753,7 @@
         private Label lbl_FolderContents;
         private DataGridView dgv_ChipList;
         private DataGridView dgv_Folder;
-        private Label lbl_ByCodes;
+        private Label lbl_FilterByCodes;
         private TextBox txt_FilterByCodes;
         private TabControl tabControl1;
         private TabPage tab_Folder;
@@ -741,5 +780,8 @@
         private Button btn_0_1;
         private Button btn_5_0;
         private Button btn_4_0;
+        private Label lbl_FilterByClass;
+        private ComboBox cmb_FilterByClass;
+        private FlowLayoutPanel flw_Checklist;
     }
 }

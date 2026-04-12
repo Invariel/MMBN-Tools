@@ -15,7 +15,7 @@
     {
       "Number": 1,
       "Name": "Cannon",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "A, B, C, *",
       "Locations": "A: Fldr1, XtraFldr, -Folder (1); B: Fldr1, XtraFldr, Chip Order; C: Town Area 3 NetDealer (2000ƶ); *: -Folder (2), Town Areas BGMD",
@@ -41,7 +41,7 @@
     {
       "Number": 2,
       "Name": "HiCannon",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "C, D, E",
       "Locations": "C: Xfolder, Higsby's normal stock (8400ƶ), Sharo Area GMD (G1); D: Xfolder, Meteor Comp 1 BMD (1st), Chip Order; E: Xfolder, ACDC Area 1 GMD (G2), Town Area 3 BMD (2nd)",
@@ -67,7 +67,7 @@
     {
       "Number": 3,
       "Name": "M-Cannon",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "E, F, G",
       "Locations": "E: MrFolder, Meteor Comp 3 BMD (2nd), ACDC Area 1 GMD (G3+); F: MrFolder, Hero Comp BMD (2nd), Sharo Area GMD (G3+), Chip Order; G: MrFolder, Toy Robo Comp 1 BMD (3rd), Sharo Area GMD (G2), Undernet 4 BMD (2nd)",
@@ -93,7 +93,7 @@
     {
       "Number": 4,
       "Name": "AirShot",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 16 ],
       "Codes": "A, S, V, *",
       "Locations": "A: Fldr1, XtraFldr, -Folder (1), Chip Order; S: Trader only; V: Trader only; *: Fldr2, Xfolder, MrFolder, -Folder (2), ACDC Area 1 GMD (G1), Town Area 4 GMD (G1), Town Area 4 GMD (G2), Town Area 4 GMD (G3+)",
@@ -119,7 +119,7 @@
     {
       "Number": 5,
       "Name": "Vulcan1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "E, S, V, *",
       "Locations": "E: Trader only; S: -Folder (2), Chip Order; V: Fldr1, XtraFldr; *: Fldr2",
@@ -145,7 +145,7 @@
     {
       "Number": 6,
       "Name": "Vulcan2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "B, H, O",
       "Locations": "B: Toy Robo Comp 2 BMD (1st); H: Netopia Area NetDealer (6300ƶ), Undernet 2 GMD (G1), Chip Order; O: Xfolder",
@@ -171,7 +171,7 @@
     {
       "Number": 7,
       "Name": "Vulcan3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "O, W, Y",
       "Locations": "O: Ticket Comp BMD (2nd); T: Undernet 2 GMD (G2), Undernet 2 GMD (G3+), Chip Order; W: Toy Robo Comp 4 BMD (2nd), Toy Robo Comp 4 BMD (3rd)",
@@ -197,7 +197,7 @@
     {
       "Number": 8,
       "Name": "Spreader",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "L, M, N, *",
       "Locations": "L: MrFolder, Higsby's normal stock (3800ƶ), Town Area 1 GMD (G1); M: MrFolder, Elec Tower Comp 1 BMD (1st), Chip Order; N: MrFolder, Dome NetBattle Machine Comp BMD (1st); *: ACDC Area 2 NetDealer (3200ƶ), Park Areas BGMD, Town Area 1 GMD (G2), Town Area 1 GMD (G3+)",
@@ -223,7 +223,7 @@
     {
       "Number": 9,
       "Name": "HeatShot",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "B, C, D, *",
       "Locations": "B: Fldr2, MrFolder, Spikey (LV7~10), SpikeyEX (LV7~10); C: Fldr2, MrFolder, Spikey (LV7~S), SpikeyEX (LV9~S), Chip Order; D: MrFolder, Spikey (LV5~7), SpikeyEX (LV5~7), ACDC Area 2 GMD (G1); *: Trader only",
@@ -249,7 +249,7 @@
     {
       "Number": 10,
       "Name": "Heat-V",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "C, D, E",
       "Locations": "C: Spikey2EX (LV9~S); D: Spikey2 (LV7~10), ACDC Area 2 GMD (G2), YumLand Area GMD (G1), Chip Order; E: Spikey2 (LV9~S), Spikey2EX (LV7~10)",
@@ -275,7 +275,7 @@
     {
       "Number": 11,
       "Name": "HeatSide",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "D, E, F",
       "Locations": "D: Spikey3 (LV9~S), ACDC Area 2 GMD (G3+), YumLand Area GMD (G2), YumLand Area GMD (G3+); E: Spikey3 (LV9~S), Spikey3EX (LV9~S), Chip Order; F: Spikey3EX (LV9~S)",
@@ -301,7 +301,7 @@
     {
       "Number": 12,
       "Name": "Bubbler",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "P, Q, R, *",
       "Locations": "P: MrFolder, Shrimpy (LV9~S), ShrimpyEX (LV7~10), Town Area 3 GMD (G1); Q: MrFolder, Shrimpy (LV5~10), ACDC Area 3 GMD (G1), Chip Order; R: MrFolder, ShrimpyEX (LV9~S), ACDC Area 2 NetDealer (800ƶ); *: Trader only",
@@ -327,7 +327,7 @@
     {
       "Number": 13,
       "Name": "Bub-V",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "C, D, E",
       "Locations": "C: Shrimpy2 (LV9~S), Shrmpy2EX (LV7~10); D: Shrmpy2EX (LV9~S), Netopia Area GMD (G1), Chip Order; E: Shrimpy2 (LV7~10), ACDC Area 3 GMD (G2), Town Area 3 GMD (G2)",
@@ -353,7 +353,7 @@
     {
       "Number": 14,
       "Name": "BublSide",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "D, E, F",
       "Locations": "D: Shrmpy3EX (LV9~S), Netopia Area GMD (G2), Netopia Area GMD (G3+); E: Shrimpy3 (LV7~10), ACDC Area 3 GMD (G3+), Town Area 3 GMD (G3+), Chip Order; F: Shrimpy3 (LV9~S), Shrmpy3EX (LV7~10)",
@@ -379,7 +379,7 @@
     {
       "Number": 15,
       "Name": "Thunder1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "B, L, P, *",
       "Locations": "B: Xfolder, Billy (LV9~S), YumLand Area GMD (G1), Chip Order; L: Fldr2, (RS) Billy (LV5~10), (RS) BillyEX (LV7~10), ACDC Area 2 GMD (G1); P: (BM) Billy (LV5~10), (BM) BillyEX (LV7~10); *: BillyEX (LV9~S)",
@@ -405,7 +405,7 @@
     {
       "Number": 16,
       "Name": "Thunder2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "H, P, S",
       "Locations": "H: (RS) Silly (LV7~10), (RS) SillyEX (LV7~10), Chip Order; P: Silly (LV9~S), SillyEX (LV9~S), ACDC Area 2 GMD (G2); S: (BM) Silly (LV7~10), (BM) SillyEX (LV7~10), YumLand Area GMD (G2)",
@@ -431,7 +431,7 @@
     {
       "Number": 17,
       "Name": "Thunder3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "I, T, W",
       "Locations": "I: (RS) Killy (LV7~10), (RS) KillyEX (LV7~10), Chip Order; T: (BM) Killy (LV7~10), (BM) KillyEX (LV7~10), YumLand Area GMD (G3+); W: Killy (LV9~S), KillyEX (LV9~S), ACDC Area 2 GMD (G3+)",
@@ -457,7 +457,7 @@
     {
       "Number": 18,
       "Name": "WideSht1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "C, D, E, *",
       "Locations": "C: Fldr2, Lark (LV7~10); D: Lark (LV9~S), LarkEX (LV7~10), Park Area 3 GMD (G1), Chip Order; E: LarkEX (LV9~S); *: Trader only",
@@ -483,7 +483,7 @@
     {
       "Number": 19,
       "Name": "WideSht2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "L, M, N",
       "Locations": "L: BarkEX (LV9~S); M: Bark (LV9~S), BarkEX (LV7~10), Park Area 3 GMD (G2), Chip Order; N: Bark (LV7~10)",
@@ -509,7 +509,7 @@
     {
       "Number": 20,
       "Name": "WideSht3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "S, T, U",
       "Locations": "S: TarkEX (LV9~S), Park Area 3 GMD (G3+), Chip Order; T: Lotto Number (68009092); U: Tark (LV9~S)",
@@ -535,7 +535,7 @@
     {
       "Number": 21,
       "Name": "FlmLine1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "F, G, H, *",
       "Locations": "F: Fldr2, VolGear (RS: LV7~10; BM: LV9~S), VolGearEX (RS: LV7~10; BM: LV9~S), Town Area 2 GMD (G1), Chip Order; G: Lotto Number (46292983); H: VolGear (RS: LV9~S; BM: LV7~10), VolGearEX (RS: LV9~S; BM: LV7~10); *: YumLand Area GMD (G1)",
@@ -561,7 +561,7 @@
     {
       "Number": 22,
       "Name": "FlmLine2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "D, E, F",
       "Locations": "D: VulGear (RS: LV7~10; BM: LV9~S), NetFrica Area GMD (G1); E: VulGearEX (RS: LV7~10; BM: LV9~S), Chip Order; F: VulGear (RS: LV9~S; BM: LV7~10), VulGearEX (RS: LV9~S; BM: LV7~10), Town Area 2 GMD (G2), YumLand Area GMD (G2)",
@@ -587,7 +587,7 @@
     {
       "Number": 23,
       "Name": "FlmLine3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "J, K, L",
       "Locations": "J: Lotto Number (57604335); K: ValGear (LV7~10), ValGearEX (LV7~10), Town Area 2 GMD (G3+), NetFrica Area GMD (G2), NetFrica Area GMD (G3+), Chip Order; L: ValGear (LV9~S), ValGearEX (LV9~S), YumLand Area GMD (G3+)",
@@ -613,7 +613,7 @@
     {
       "Number": 24,
       "Name": "GunSol1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "A, G, M, *",
       "Locations": "A: Trader only; G: Examine Django in Vampire Manor (only once), Chip Order; M: Trader only; *: Trader only",
@@ -639,7 +639,7 @@
     {
       "Number": 25,
       "Name": "GunSol2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "B, G, S",
       "Locations": "B: Trader only; G: Town Area 4 HeelNavi in invisible path (only once), Chip Order; S: Trader only",
@@ -665,7 +665,7 @@
     {
       "Number": 26,
       "Name": "GunSol3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "C, G, T",
       "Locations": "C: Trader only; G: Complete Boktai Side Quest (only once), Chip Order; T: Trader only",
@@ -691,7 +691,7 @@
     {
       "Number": 27,
       "Name": "Blizzard",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "H, J, V",
       "Locations": "H: (BM) Weather (LV7~10), (BM) Wither (LV7~10); J: (RS) Weather (LV7~10), (RS) Wither (LV7~10), Sharo Area GMD (G1), Chip Order; V: Weather (LV9~S); *: MrFolder, WeathEX (LV7~10), Undernet 4 GMD (G3+)",
@@ -717,7 +717,7 @@
     {
       "Number": 28,
       "Name": "HeatBrth",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "D, K, O, *",
       "Locations": "D: (BM) Whomper (LV5~7), (BM) Wither (LV9~S), Sharo Area GMD (G2); K: Whomper (LV7~S), Netopia Area NetDealer (5000ƶ), Chip Order; O: (RS) Whomper (LV5~7), (RS) Wither (LV9~S); *: MrFolder, WeathEX (LV9~S), Undernet 4 GMD (G3+)",
@@ -743,7 +743,7 @@
     {
       "Number": 29,
       "Name": "ElecShok",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "J, L, S, *",
       "Locations": "J: Winger (LV9~S); L: (RS) Winger (LV7~10), (RS) Wither (LV7~10), Chip Order; S: (BM) Winger (LV7~10), (BM) Wither (LV7~10), Sharo Area GMD (G3+); *: MrFolder, WeathEX (LV7~10), Undernet 4 GMD (G3+)",
@@ -769,7 +769,7 @@
     {
       "Number": 30,
       "Name": "WoodPwdr",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "F, T, W, *",
       "Locations": "F: (BM) Wonder (LV7~10); T: Wonder (LV9~S), Wither (LV9~S), Chip Order; W: (RS) Wonder (LV7~10), Undernet 4 GMD (G3+); *: MrFolder, WeathEX (LV9~S), Undernet 4 GMD (G3+)",
@@ -795,7 +795,7 @@
     {
       "Number": 31,
       "Name": "SandRing",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "C, R, S, *",
       "Locations": "C: Trader only; R: Chip Order; S: Trader only; *: Town Area 1 BMD (1st), Netopia Area GMD (G1), Netopia Area GMD (G2), Netopia Area GMD (G3+)",
@@ -821,7 +821,7 @@
     {
       "Number": 32,
       "Name": "TwnFng1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "A, B, C, *",
       "Locations": "A: Walla (LV9~S), WallaEX (LV9~S), Sharo Area GMD (G1), Chip Order; B: Walla (LV7~10), WallaEX (LV7~10); C: Walla (LV5~7), WallaEX (LV5~7); *: MrFolder (Trader only otherwise)",
@@ -847,7 +847,7 @@
     {
       "Number": 33,
       "Name": "TwnFng2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "O, P, Q",
       "Locations": "O: WallndEX (LV9~S), Chip Order; P: Walland (LV7~10), Sharo Area GMD (G2); Q: Walland (LV9~S), WallndEX (LV7~10)",
@@ -873,7 +873,7 @@
     {
       "Number": 34,
       "Name": "TwnFng3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "F, G, H",
       "Locations": "F: WaldonEX (LV9~S), Chip Order; G: Lotto Number (88019791); H: Waldon (LV9~S), Sharo Area GMD (G3+)",
@@ -899,7 +899,7 @@
     {
       "Number": 35,
       "Name": "ElemFlar",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "K, N, P",
       "Locations": "K: (BM) Elmperor (LV7~10), (BM) ElmperoEX (LV9~S); N: (RS) Elmperor (LV7~10), (RS) ElmperoEX (LV9~S), Chip Order; P: Elmperor (LV9~S), Elmperor5 (LV9~S)",
@@ -925,7 +925,7 @@
     {
       "Number": 36,
       "Name": "ElemIce",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "H, Q, V",
       "Locations": "H: (BM) Elmperor2 (LV7~10), (BM) Elmperor5 (LV7~10); Q: Elmperor2 (LV9~S), ElmperoEX (LV5~7), Chip Order; V: (RS) Elmperor2 (LV7~10), (RS) Elmperor5 (LV7~10)",
@@ -951,7 +951,7 @@
     {
       "Number": 37,
       "Name": "ElemLeaf",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "C, D, I",
       "Locations": "C: Elmperor3 (LV9~S), Elmperor5 (LV9~S); D: (BM) Elmperor3 (LV7~10), (BM) ElmperoEX (LV7~10), Chip Order; I: (RS) Elmperor3 (LV7~10), (RS) ElmperoEX (LV7~10)",
@@ -977,7 +977,7 @@
     {
       "Number": 38,
       "Name": "ElemSand",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "A, L, S, *",
       "Locations": "A: Elmperor4 (LV9~S), ElmperoEX (LV7~10), Chip Order; L: (RS) Elmperor4 (LV7~10), (RS) Elmperor5 (LV7~10); S: (BM) Elmperor4 (LV7~10), (BM) Elmperor5 (LV7~10); *: Trader only",
@@ -1003,7 +1003,7 @@
     {
       "Number": 39,
       "Name": "MagBolt1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "B, C, D",
       "Locations": "B: MagTectEX (LV9~S), Sharo Area GMD (G1); C: MagTect (LV5~10), Chip Order; D: MagTect (LV9~S), MagTectEX (LV5~10); *: Trader only",
@@ -1029,7 +1029,7 @@
     {
       "Number": 40,
       "Name": "MagBolt2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "E, F, G",
       "Locations": "E: MagTec+ (LV5~10), Sharo Area GMD (G2); F: MagTec+EX (LV9~S), Chip Order; G: MagTec+ (LV9~S), MagTec+EX (LV5~10)",
@@ -1055,7 +1055,7 @@
     {
       "Number": 41,
       "Name": "MagBolt3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "A, B, C",
       "Locations": "A: MagTecX (LV7~10); B: MagTecXEX (LV9~S), Chip Order; C: MagTecX (LV9~S), MagTecXEX (LV7~10), Sharo Area GMD (G3+)",
@@ -1081,7 +1081,7 @@
     {
       "Number": 42,
       "Name": "Tornado",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 16 ],
       "Codes": "E, L, T",
       "Locations": "E: Trader only; L: ACDC Area 2 NetDealer (7600ƶ), Chip Order; T: Town Areas BGMD, Undernet 5 GMD (Always)",
@@ -1107,7 +1107,7 @@
     {
       "Number": 43,
       "Name": "Static",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 16 ],
       "Codes": "B, G, Z, *",
       "Locations": "B: Trader only; G: Chip Order; Z: Undernet 1 NetDealer (16000ƶ); *: International Net Areas BGMD",
@@ -1133,7 +1133,7 @@
     {
       "Number": 44,
       "Name": "MiniBomb",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "B, L, T, *",
       "Locations": "B: Fldr1, Fldr2, XtraFldr, -Folder (1), Undernet 3 GMD (G1), Undernet 3 GMD (G2), Undernet 3 GMD (G3+), Chip Order; L: Fldr1, ACDC Area 1 GMD (G1), Undernet 3 GMD (G1), Undernet 3 GMD (G2), Undernet 3 GMD (G3+); T: Undernet 3 GMD (G1), Undernet 3 GMD (G2), Undernet 3 GMD (G3+); *: Fldr2, Xfolder, -Folder (2), -Folder (3), Toy Comp BMD (1st)",
@@ -1159,7 +1159,7 @@
     {
       "Number": 45,
       "Name": "EnergBom",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "E, N, T, *",
       "Locations": "E: Xfolder, Yuko NormalNavi Scenario, ACDC Area 2 NetDealer (2400ƶ), ACDC Area 1 GMD (G2); N: Town Area 2 GMD (G1), Chip Order; T: Netopia Area GMD (G1); *: -Folder (3) (Trader only otherwise)",
@@ -1185,7 +1185,7 @@
     {
       "Number": 46,
       "Name": "MegEnBom",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "D, J, W",
       "Locations": "D: -Folder (3), Elec Tower Comp 1 BMD (2nd), ACDC Area 3 BMD (3rd); J: ACDC Area 1 GMD (G3+), Town Area 2 GMD (G2), Town Area 2 GMD (G3+), Netopia Area GMD (G2), Netopia Area GMD (G3+), Chip Order; W: WaterGod Comp - Gold Program (G2)",
@@ -1211,7 +1211,7 @@
     {
       "Number": 47,
       "Name": "Ball",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 512 ],
       "Codes": "B, T, V, *",
       "Locations": "B: Park Areas BGMD; T: NumberMan Scenario (20 flyers), Chip Order; V: Town Areas BGMD, Undernet 5 GMD (Always); *: Trader only",
@@ -1237,7 +1237,7 @@
     {
       "Number": 48,
       "Name": "BlkBomb",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "D, H, Z",
       "Locations": "D: Undernet 6 BMD (2nd); H: WaterGod Comp - Gold Program (G3+); Z: Sharo Area PMD (1st), Sharo Area PMD (2nd), Sharo Area PMD (3rd), Chip Order",
@@ -1263,7 +1263,7 @@
     {
       "Number": 49,
       "Name": "Geyser",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "B, L, V",
       "Locations": "B: Chip Order; L: ACDC Area 2 PMD (1st); V: Trader only",
@@ -1289,7 +1289,7 @@
     {
       "Number": 50,
       "Name": "BugBomb",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "B, G, Z, *",
       "Locations": "B: -Folder (3), Toy Robo Comp 2 BMD (3rd); G: Antenna Comp 3 BMD (1st), Chip Order; Z: Trader only; *: Undernet 4 BMD (2nd)",
@@ -1315,7 +1315,7 @@
     {
       "Number": 51,
       "Name": "Binder1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "C, O, S, *",
       "Locations": "C: (BM) Melody (LV5~10), (BM) MelodyEX (LV7~10); O: (RS) Melody (LV5~10), (RS) MelodyEX (LV7~10), Chip Order; S: -Folder (3), Melody (LV9~S), Park Area 2 GMD (G1); *: MelodyEX (LV9~S)",
@@ -1341,7 +1341,7 @@
     {
       "Number": 52,
       "Name": "Binder2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "A, T, Y",
       "Locations": "A: Hellody (LV9~S), HellodyEX (LV9~S); T: -Folder (3), (BM) Hellody (LV7~10), (BM) HellodyEX (LV7~10), Park Area 2 GMD (G2), Chip Order; Y: (RS) Hellody (LV7~10), (RS) HellodyEX (LV7~10)",
@@ -1367,7 +1367,7 @@
     {
       "Number": 53,
       "Name": "Binder3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "E, I, O",
       "Locations": "E: FelonyEX (LV9~S); I: (BM) Felony (LV9~S), Park Area 2 GMD (G3+), Chip Order; O: (RS) Felony (LV9~S)",
@@ -1393,7 +1393,7 @@
     {
       "Number": 54,
       "Name": "Sword",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1024 ],
       "Codes": "E, L, S",
       "Locations": "E: Fldr2, Xfolder; L: Trader only; S: Fldr1, XtraFldr, -Folder (1), -Folder (2), Chip Order",
@@ -1419,7 +1419,7 @@
     {
       "Number": 55,
       "Name": "WideSwrd",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1024 ],
       "Codes": "E, L, S",
       "Locations": "E: Fldr2, Xfolder; L: Trader only; S: Fldr1, XtraFldr, ACDC Area 2 GMD (G1), -Folder (2), Chip Order",
@@ -1445,7 +1445,7 @@
     {
       "Number": 56,
       "Name": "LongSwrd",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1024 ],
       "Codes": "E, L, S",
       "Locations": "E: Xfolder, Town Area 2 GMD (G1), Town Area 4 GMD (G1); L: Undernet 1 GMD (G1); S: Elec Tower Comp 2 BMD (1st), Chip Order",
@@ -1471,7 +1471,7 @@
     {
       "Number": 57,
       "Name": "WideBlde",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1024 ],
       "Codes": "C, K, S",
       "Locations": "C: WaterGod Comp - Gold Program (G1), Elec Tower Comp 2 BMD (2nd); K: Meteor Comp 2 BMD (1st), ACDC Area 2 GMD (G2), ACDC Area 2 GMD (G3+), Town Area 2 GMD (G2), Undernet 6 GMD (G1), Chip Order; S: Undernet 1 GMD (G2)",
@@ -1497,7 +1497,7 @@
     {
       "Number": 58,
       "Name": "LongBlde",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1024 ],
       "Codes": "G, R, S",
       "Locations": "G: Higsby's normal stock (12000ƶ), Chip Order; R: Meteor Comp 3 BMD (3rd), Town Area 2 GMD (G3+), Undernet 6 GMD (G2), Undernet 6 GMD (G3+); S: WaterGod Comp - Gold Program (G1), Undernet 1 GMD (G3+)",
@@ -1523,7 +1523,7 @@
     {
       "Number": 59,
       "Name": "CustSwrd",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1024 ],
       "Codes": "B, P, S",
       "Locations": "B: Xfolder, Town Area 3 PMD (1st), Undernet 1 GMD (G2), Undernet 1 GMD (G3+), Chip Order; P: Town Area 4 GMD (G2); S: Town Area 2 BMD (3rd), Undernet 1 GMD (G1)",
@@ -1549,7 +1549,7 @@
     {
       "Number": 60,
       "Name": "VarSwrd",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1024 ],
       "Codes": "C, J, V",
       "Locations": "C: Lotto Number (03696458); J: WaterGod Comp - Gold Program (G2); V: Meteor Comp 4 BMD (1st), Town Area 4 GMD (G3+), Park Area 2 PMD (1st), Undernet 3 GMD (G1), Undernet 3 GMD (G2), Undernet 3 GMD (G3+), Chip Order",
@@ -1575,7 +1575,7 @@
     {
       "Number": 61,
       "Name": "Slasher",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1024 ],
       "Codes": "F, H, R",
       "Locations": "F: Trader only; H: Trader only; R: Netopia Area NetDealer (8800ƶ), Chip Order",
@@ -1601,7 +1601,7 @@
     {
       "Number": 62,
       "Name": "WindRack",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 16 ],
       "Codes": "A, L, R, *",
       "Locations": "A: Town Area 4 PMD (1st), Chip Order; L: Trader only; R: Trader only; *: Meteor Comp 4 BMD (3rd)",
@@ -1627,7 +1627,7 @@
     {
       "Number": 63,
       "Name": "AirHoc1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 512 ],
       "Codes": "D, E, F, *",
       "Locations": "D: DharmaEX (LV9~S), Chip Order; E: Dharma (LV9~S), Park Area 1 GMD (G1); F: Dharma (LV5~10); *: Trader only",
@@ -1653,7 +1653,7 @@
     {
       "Number": 64,
       "Name": "AirHoc2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 512 ],
       "Codes": "I, J, K",
       "Locations": "I: KarmaEX (LV9~S), Chip Order; J: Karma (LV7~10), Park Area 1 GMD (G2); K: Karma (LV9~S)",
@@ -1679,7 +1679,7 @@
     {
       "Number": 65,
       "Name": "AirHoc3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 512 ],
       "Codes": "U, V, W",
       "Locations": "U: Dogma (LV9~S), Chip Order; V: Lotto Number (77038416); W: DogmaEX (LV9~S), Park Area 1 GMD (G3+)",
@@ -1705,7 +1705,7 @@
     {
       "Number": 66,
       "Name": "Counter1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "F, M, T, *",
       "Locations": "F: Town Area 3 GMD (G1); M: Chip Order; T: Game Comp BMD (1st), ACDC Area 3 GMD (G1), Park Area 2 GMD (G1); *: Trader only",
@@ -1731,7 +1731,7 @@
     {
       "Number": 67,
       "Name": "Counter2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "B, H, L, *",
       "Locations": "B: Park Area 2 GMD (G2); H: ACDC Area 3 GMD (G2), Town Area 3 GMD (G2), Chip Order; L: Meteor Comp 3 BMD (1st), Undernet 6 GMD (G1); *: Trader only",
@@ -1757,7 +1757,7 @@
     {
       "Number": 68,
       "Name": "Counter3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "A, N, V",
       "Locations": "A: Park Area 2 GMD (G3+), Undernet 6 GMD (G2), Undernet 6 GMD (G3+); N: ACDC Area 3 GMD (G3+), Town Area 3 GMD (G3+), Chip Order; V: Toy Robo Comp 1 BMD (2nd)",
@@ -1783,7 +1783,7 @@
     {
       "Number": 69,
       "Name": "Boomer1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "L, M, N",
       "Locations": "L: Boomer (LV9~S); M: BoomerEX (LV7~10), Park Area 1 GMD (G1), Chip Order; N: Boomer (LV7~10); *: BoomerEX (LV9~S)",
@@ -1809,7 +1809,7 @@
     {
       "Number": 70,
       "Name": "Boomer2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "L, M, N",
       "Locations": "L: Gloomer (LV9~S), GloomerEX (LV7~10); M: GloomerEX (LV9~S), Park Area 1 GMD (G2), Chip Order; N: Gloomer (LV7~10)",
@@ -1835,7 +1835,7 @@
     {
       "Number": 71,
       "Name": "Boomer3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "S, T, U",
       "Locations": "S: DoomerEX (LV9~S); T: Doomer (LV9~S), DoomerEX (LV7~10), Park Area 1 GMD (G3+), Chip Order; U: Doomer (LV7~10)",
@@ -1861,7 +1861,7 @@
     {
       "Number": 72,
       "Name": "SidBmbo1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "B, I, R, *",
       "Locations": "B: (BM) Kilby (LV7~10), (BM) KilbyEX (LV7~10); I: (RS) Kilby (LV7~10), (RS) KilbyEX (LV7~10), Undernet 6 GMD (G1), Chip Order; R: Kilby (LV9~S); *: KilbyEX (LV9~S)",
@@ -1887,7 +1887,7 @@
     {
       "Number": 73,
       "Name": "SidBmbo2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "H, O, S",
       "Locations": "H: KilburEX (LV9~S), Chip Order; O: (BM) Kilbur (LV9~S), Undernet 6 GMD (G2); S: (RS) Kilbur (LV9~S)",
@@ -1913,7 +1913,7 @@
     {
       "Number": 74,
       "Name": "SidBmbo3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "A, F, U",
       "Locations": "A: KilboEX (LV9~S), Chip Order; F: (RS) Kilbo (LV9~S); U: (BM) Kilbo (LV9~S), Undernet 6 GMD (G3+)",
@@ -1939,7 +1939,7 @@
     {
       "Number": 75,
       "Name": "Lance",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "A, G, R, *",
       "Locations": "A: WaterGod Comp - Gold Program (G1); G: YumLand Area PMD (1st), Chip Order; R: Trader only; *: Trader only",
@@ -1965,7 +1965,7 @@
     {
       "Number": 76,
       "Name": "WhitWeb1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "D, L, R, *",
       "Locations": "D: (BM) Spidy (LV7~10); L: (RS) Spidy (LV7~10), Chip Order; R: SpidyEX (LV7~10); *: Spidy (LV9~S), SpidyEX (LV9~S)",
@@ -1991,7 +1991,7 @@
     {
       "Number": 77,
       "Name": "WhitWeb2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "C, E, Y, *",
       "Locations": "C: WebbyEX (LV7~10), Chip Order; E: (BM) Webby (LV7~10); Y: (RS) Webby (LV7~10); *: Webby (LV9~S), WebbyEX (LV9~S)",
@@ -2017,7 +2017,7 @@
     {
       "Number": 78,
       "Name": "WhitWeb3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "K, O, V, *",
       "Locations": "K: ArachyEX (LV7~10), Chip Order; O: (RS) Arachy (LV7~10); V: (BM) Arachy (LV7~10); *: Arachy (LV9~S), ArachyEX (LV9~S)",
@@ -2043,7 +2043,7 @@
     {
       "Number": 79,
       "Name": "MokoRus1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "C, I, M",
       "Locations": "C: MolokoEX (LV9~S), Chip Order; I: (BM) Moloko (LV9~S); M: (RS) Moloko (LV9~S), Town Area 3 GMD (G1)",
@@ -2069,7 +2069,7 @@
     {
       "Number": 80,
       "Name": "MokoRus2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "G, K, U",
       "Locations": "G: MilkoEX (LV9~S); K: (RS) Milko (LV9~S), Chip Order; U: (BM) Milko (LV9~S), Town Area 3 GMD (G2)",
@@ -2095,7 +2095,7 @@
     {
       "Number": 81,
       "Name": "MokoRus3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "O, T, Y",
       "Locations": "O: MackoEX (LV9~S); T: (BM) Macko (LV9~S), Town Area 3 GMD (G3+); Y: (RS) Macko (LV9~S), Chip Order",
@@ -2121,7 +2121,7 @@
     {
       "Number": 82,
       "Name": "CircGun1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "H, T, Z",
       "Locations": "H: (BM) CirKill (LV7~10), (BM) CirKilEX (LV7~10); T: CirKill (LV9~S), CirKilEX (LV9~S), Chip Order; Z: (RS) CirKill (LV7~10), (RS) CirKilEX (LV7~10)",
@@ -2147,7 +2147,7 @@
     {
       "Number": 83,
       "Name": "CircGun2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "D, G, T",
       "Locations": "D: (BM) CirCrush (LV7~10), (BM) CirCrusEX (LV7~10); G: (RS) CirCrush (LV7~10), (RS) CirCrusEX (LV7~10), Chip Order; T: CirCrush (LV9~S), CirCrusEX (LV9~S)",
@@ -2173,7 +2173,7 @@
     {
       "Number": 84,
       "Name": "CircGun3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "J, M, R",
       "Locations": "J: (BM) CirSmash (LV7~10), (BM) CirSmshEX (LV7~10); M: (RS) CirSmash (LV7~10), (RS) CirSmshEX (LV7~10), Chip Order; R: CirSmash (LV9~S), CirSmshEX (LV9~S)",
@@ -2199,7 +2199,7 @@
     {
       "Number": 85,
       "Name": "Snake",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "D, M, R",
       "Locations": "D: Netopia Area BMD (3rd); M: Undernet 1 PMD (1st), Chip Order; R: Lotto Number (32108251)",
@@ -2225,7 +2225,7 @@
     {
       "Number": 86,
       "Name": "Magnum",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 32 ],
       "Codes": "H, Q, V",
       "Locations": "H: Park Areas BGMD; Q: Chip Order; V: International Net Areas BGMD",
@@ -2251,7 +2251,7 @@
     {
       "Number": 87,
       "Name": "BigHamr1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 512 ],
       "Codes": "B, O, R",
       "Locations": "B: (BM) Gaia (LV9~S); O: (RS) Gaia (LV9~S); R: GaiaEX (LV9~S), Undernet 2 GMD (G1), Chip Order",
@@ -2277,7 +2277,7 @@
     {
       "Number": 88,
       "Name": "BigHamr2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 512 ],
       "Codes": "G, J, W",
       "Locations": "G: (BM) Gaia+ (LV9~S), Undernet 2 GMD (G2); J: (RS) Gaia+ (LV9~S), Chip Order; W: Gaia+EX (LV9~S)",
@@ -2303,7 +2303,7 @@
     {
       "Number": 89,
       "Name": "BigHamr3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 512 ],
       "Codes": "D, V, Z",
       "Locations": "D: GaiaMegEX (LV9~S); V: (RS) GaiaMega (LV9~S), Chip Order; Z: (BM) GaiaMega (LV9~S), Undernet 2 GMD (G3+)",
@@ -2329,7 +2329,7 @@
     {
       "Number": 90,
       "Name": "BoyBomb1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2048 ],
       "Codes": "E, J, M",
       "Locations": "E: (BM) BomBoy (LV7~10), (BM) BomBoyEX (LV7~10); J: (RS) BomBoy (LV7~10), (RS) BomBoyEX (LV7~10), Chip Order; M: BomBoy (LV9~S), BomBoyEX (LV9~S)",
@@ -2355,7 +2355,7 @@
     {
       "Number": 91,
       "Name": "BoyBomb2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2048 ],
       "Codes": "I, S, W",
       "Locations": "I: BomWorkr (LV9~S), BomWrkEX (LV9~S), Chip Order; S: (BM) BomWorkr (LV7~10), (BM) BomWrkEX (LV7~10); W: (RS) BomWorkr (LV7~10), (RS) BomWrkEX (LV7~10)",
@@ -2381,7 +2381,7 @@
     {
       "Number": 92,
       "Name": "BoyBomb3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2048 ],
       "Codes": "G, T, V",
       "Locations": "G: BomLabor (LV9~S), BomLabEX (LV9~S), Chip Order; T: (RS) BomLabor (LV7~10), (RS) BomLabEX (LV7~10); V: (BM) BomLabor (LV7~10), (BM) BomLabEX (LV7~10)",
@@ -2407,7 +2407,7 @@
     {
       "Number": 93,
       "Name": "TimeBomb",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2048 ],
       "Codes": "J, K, L",
       "Locations": "J: Black Earth BGMD; K: Town Area 3 NetDealer (12000ƶ), Undernet 5 GMD (Always), Chip Order; L: Town Areas BGMD",
@@ -2433,7 +2433,7 @@
     {
       "Number": 94,
       "Name": "Mine",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2048 ],
       "Codes": "C, H, Z",
       "Locations": "C: Undernet 5 GMD (Always); H: Trader only; Z: Undernet BGMD, Chip Order",
@@ -2459,7 +2459,7 @@
     {
       "Number": 95,
       "Name": "RockCube",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2048 ],
       "Codes": "*",
       "Locations": "*: Xfolder, Toy Robo Comp 2 BMD (1st), Chip Order",
@@ -2485,7 +2485,7 @@
     {
       "Number": 96,
       "Name": "Wind",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 16 ],
       "Codes": "*",
       "Locations": "*: MrFolder, WindBox (LV5~S), WindBox2 (LV5~S), WindBox3 (LV5~S), Town Area 4 GMD (G1), Town Area 4 GMD (G2), Town Area 4 GMD (G3+), Chip Order",
@@ -2511,7 +2511,7 @@
     {
       "Number": 97,
       "Name": "Fan",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 16 ],
       "Codes": "*",
       "Locations": "*: MrFolder, VacuumFan (LV5~S), VacuFan2 (LV5~S), VacuFan3 (LV5~S), Town Area 4 GMD (G1), Town Area 4 GMD (G2), Town Area 4 GMD (G3+), Chip Order",
@@ -2537,7 +2537,7 @@
     {
       "Number": 98,
       "Name": "Fanfare",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2048 ],
       "Codes": "E, G, N, *",
       "Locations": "E: (BM) Trumpy (LV5~10); G: Trumpy (LV9~S), TrumpEX (LV7~10), Chip Order; N: (RS) Trumpy (LV5~10); *: Xfolder, Undernet 4 GMD (G2)",
@@ -2563,7 +2563,7 @@
     {
       "Number": 99,
       "Name": "Discord",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2048 ],
       "Codes": "D, T, V, *",
       "Locations": "D: Tuby (LV9~S), TrumpEX (LV7~10); T: (RS) Tuby (LV7~10), Chip Order; V: (BM) Tuby (LV7~10); *: Undernet 4 GMD (G2)",
@@ -2589,7 +2589,7 @@
     {
       "Number": 100,
       "Name": "Timpani",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2048 ],
       "Codes": "P, T, Z, *",
       "Locations": "P: Tromby (LV9~S), TrumpEX (LV9~S); T: (RS) Tromby (LV7~10), Chip Order; Z: (BM) Tromby (LV7~10); *: Undernet 4 GMD (G2)",
@@ -2615,7 +2615,7 @@
     {
       "Number": 101,
       "Name": "Silence",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2048 ],
       "Codes": "C, M, R, *",
       "Locations": "C: (RS) MuteAnt (LV7~10); M: MuteAnt (LV9~S), TrumpEX (LV9~S), Chip Order; R: (BM) MuteAnt (LV7~10); *: Undernet 4 GMD (G2)",
@@ -2641,7 +2641,7 @@
     {
       "Number": 102,
       "Name": "VDoll",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2048 ],
       "Codes": "I, O, Y",
       "Locations": "I: Trader only; O: Trader only; Y: Undernet BGMD, Chip Order",
@@ -2667,7 +2667,7 @@
     {
       "Number": 103,
       "Name": "Guard1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "A, L, V, *",
       "Locations": "A: Mettaur (LV7~S), MettEX (LV7~10); L: (RS) Mettaur (LV5~7), (RS) MettEX (LV5~7), Chip Order; V: (BM) Mettaur (LV5~7), (BM) MettEX (LV5~7); *: XtraFldr, MettEX (LV9~S), Town Area 1 GMD (G1), NetFrica Area GMD (G1)",
@@ -2693,7 +2693,7 @@
     {
       "Number": 104,
       "Name": "Guard2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "C, G, P, *",
       "Locations": "C: Mettaur2 (LV9~S), Mett2EX (LV7~10); G: (RS) Mettaur2 (LV5~10), (RS) Mett2EX (LV5~7), Chip Order; P: (BM) Mettaur2 (LV5~10), (BM) Mett2EX (LV5~7); *: Mett2EX (LV9~S), Town Area 1 GMD (G2), NetFrica Area GMD (G2)",
@@ -2719,7 +2719,7 @@
     {
       "Number": 105,
       "Name": "Guard3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "F, R, T, *",
       "Locations": "F: (RS) Mettaur3 (LV7~10), (RS) Mett3EX (LV7~10); R: Mettaur3 (LV9~S), Mett3EX (LV7~10), Chip Order; T: (BM) Mettaur3 (LV7~10), (BM) Mett3EX (LV7~10); *: Mett3EX (LV9~S), Town Area 1 GMD (G3+), NetFrica Area GMD (G3+)",
@@ -2745,7 +2745,7 @@
     {
       "Number": 106,
       "Name": "CrakOut",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 32 ],
       "Codes": "*",
       "Locations": "*: Fldr1, -Folder (1), ACDC Area 1 GMD (G1), Town Area 1 GMD (G1), Undernet 4 GMD (G1), Chip Order",
@@ -2771,7 +2771,7 @@
     {
       "Number": 107,
       "Name": "DublCrak",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 32 ],
       "Codes": "B, L, R, *",
       "Locations": "B: Trader only; L: Trader only; R: Trader only; *: ACDC Areas BGMD, ACDC Area 1 GMD (G2), Town Area 1 GMD (G2), Park Area 2 GMD (G1), Park Area 2 GMD (G2), Park Area 2 GMD (G3+), Undernet 4 GMD (G1), Chip Order",
@@ -2797,7 +2797,7 @@
     {
       "Number": 108,
       "Name": "TripCrak",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 32 ],
       "Codes": "B, L, R, *",
       "Locations": "B: Trader only; L: Trader only; R: Trader only; *: NumberMan Scenario (10-14 flyers), ACDC Area 1 BMD (2nd), ACDC Area 1 GMD (G3+), Town Area 1 GMD (G3+), Park Area 1 GMD (G1), Park Area 1 GMD (G2), Park Area 1 GMD (G3+), Undernet 4 GMD (G1), Chip Order",
@@ -2823,7 +2823,7 @@
     {
       "Number": 109,
       "Name": "Recov10",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 64 ],
       "Codes": "A, L, N, *",
       "Locations": "A: Fldr1, XtraFldr, -Folder (1), Chip Order; L: Fldr1, -Folder (1); N: Trader only; *: ACDC Area 1 GMD (G1), Park Area 1 GMD (G1)",
@@ -2849,7 +2849,7 @@
     {
       "Number": 110,
       "Name": "Recov30",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 64 ],
       "Codes": "F, H, R, *",
       "Locations": "F: Chip Order; H: Trader only; R: ACDC Area 3 GMD (G1), Town Area 3 BMD (1st); *: Trader only",
@@ -2875,7 +2875,7 @@
     {
       "Number": 111,
       "Name": "Recov50",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 64 ],
       "Codes": "E, L, S, *",
       "Locations": "E: Fldr2, Chip Order; L: Trader only; S: Vending Machine Comp BMD (1st); *: ACDC Area 1 GMD (G2), ACDC Area 3 GMD (G2), Park Area 1 GMD (G2), YumLand Area GMD (G1)",
@@ -2901,7 +2901,7 @@
     {
       "Number": 112,
       "Name": "Recov80",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 64 ],
       "Codes": "B, J, O, *",
       "Locations": "B: Town Area 3 NetDealer (5000ƶ), NetFrica Area GMD (G1), Chip Order; J: Toy Robo Comp 4 BMD (1st); O: Trader only; *: YumLand Area GMD (G2), Undernet 1 GMD (G1)",
@@ -2927,7 +2927,7 @@
     {
       "Number": 113,
       "Name": "Recov120",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 64 ],
       "Codes": "F, J, Q, *",
       "Locations": "F: Meteor Comp 4 BMD (1st), NetFrica Area GMD (G2), Chip Order; J: Higsby's normal stock (10000ƶ); Q: Undernet 3 BMD (1st); *: WaterGod Comp - Gold Program (G1), Park Area 1 GMD (G3+), YumLand Area GMD (G3+), Undernet 1 GMD (G2)",
@@ -2953,7 +2953,7 @@
     {
       "Number": 114,
       "Name": "Recov150",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 64 ],
       "Codes": "C, T, Z",
       "Locations": "C: MrFolder, Toy Robo Comp 2 BMD (2nd), Chip Order; T: Ticket Comp BMD (3rd), Undernet 1 GMD (G3+); Z: Goddess Comp BMD (1st), NetFrica Area GMD (G3+)",
@@ -2979,7 +2979,7 @@
     {
       "Number": 115,
       "Name": "Recov200",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 64 ],
       "Codes": "H, M, W",
       "Locations": "H: ACDC Area 1 GMD (G3+), ACDC Area 3 GMD (G3+), Chip Order; M: Meteor Comp 1 BMD (2nd); W: WaterGod Comp - Gold Program (G3+)",
@@ -3005,9 +3005,9 @@
     {
       "Number": 116,
       "Name": "Recov300",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 64 ],
-      "Codes": "J, N, Y",
+      "Codes": "J, ?",
       "Locations": "J: Lotto Number (66703422), Chip Order; N: Trader only; Y: Trader only",
       "Traders": "Elec Town 2, BugFrag Trader",
       "MegaManLocation": {
@@ -3031,7 +3031,7 @@
     {
       "Number": 117,
       "Name": "Repair",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 64 ],
       "Codes": "I, P, R, *",
       "Locations": "I: Trader only; P: Netopia Area NetDealer (4000ƶ), Chip Order; R: Trader only; *: Trader only",
@@ -3057,7 +3057,7 @@
     {
       "Number": 118,
       "Name": "PanlGrab",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "K, O, Y, *",
       "Locations": "K: Trader only; O: Trader only; Y: Chip Order; *: Stereo Comp BMD (1st), Town Area 1 GMD (G1), Park Area 2 GMD (G1), Park Area 2 GMD (G2), Park Area 2 GMD (G3+)",
@@ -3083,7 +3083,7 @@
     {
       "Number": 119,
       "Name": "AreaGrab",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "E, M, S, *",
       "Locations": "E: Fldr2; M: NetFrica Area GMD (G1), NetFrica Area GMD (G2), NetFrica Area GMD (G3+); S: Fldr1, -Folder (1), ACDC Area 2 GMD (G1), ACDC Area 2 GMD (G2), ACDC Area 2 GMD (G3+), Chip Order; *: -Folder (2), -Folder (3) (Trader only otherwise)",
@@ -3109,7 +3109,7 @@
     {
       "Number": 120,
       "Name": "MetaGel",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "K, T, Z",
       "Locations": "K: Undernet 5 NetDealer (14000ƶ), Chip Order; T: Undernet BGMD; Z: International Net Areas BGMD",
@@ -3135,7 +3135,7 @@
     {
       "Number": 121,
       "Name": "GrabBnsh",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "E, K, P",
       "Locations": "E: Town Area 1 GMD (G3+); K: Chip Order; P: Netopia Area NetDealer (9500ƶ)",
@@ -3161,7 +3161,7 @@
     {
       "Number": 122,
       "Name": "GrabRvng",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "D, J, N",
       "Locations": "D: Town Area 4 PMD (3rd); J: Chip Order; N: WaterGod Comp - Gold Program (G3+)",
@@ -3187,7 +3187,7 @@
     {
       "Number": 123,
       "Name": "PnlRetrn",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "*",
       "Locations": "*: Xfolder, Higsby's normal stock (4500ƶ), Chip Order",
@@ -3213,7 +3213,7 @@
     {
       "Number": 124,
       "Name": "Geddon1",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 32 ],
       "Codes": "J, K, W",
       "Locations": "J: Undernet 4 GMD (G1); K: Xfolder, Netopia Area GMD (G1); W: Meteor Comp 1 BMD (1st), Chip Order",
@@ -3239,7 +3239,7 @@
     {
       "Number": 125,
       "Name": "Geddon2",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 32 ],
       "Codes": "N, T, Y",
       "Locations": "N: Higsby's normal stock (6800ƶ), Chip Order; T: Netopia Area GMD (G2); Y: WaterGod Comp - Gold Program (G2)",
@@ -3265,7 +3265,7 @@
     {
       "Number": 126,
       "Name": "Geddon3",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "H, Q, U",
       "Locations": "H: Trader only; Q: Netopia Area GMD (G3+); U: Undernet 4 BugFrag Trader (50BF), Chip Order",
@@ -3291,7 +3291,7 @@
     {
       "Number": 127,
       "Name": "SloGauge",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "E, H, V, *",
       "Locations": "E: Undernet 1 NetDealer (8200ƶ), Chip Order; H: Trader only; V: Trader only; *: Trader only",
@@ -3317,7 +3317,7 @@
     {
       "Number": 128,
       "Name": "FstGauge",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "I, Q, U, *",
       "Locations": "I: Trader only; Q: Undernet 1 NetDealer (9800ƶ), Chip Order; U: Trader only; *: Black Earth BGMD",
@@ -3343,7 +3343,7 @@
     {
       "Number": 129,
       "Name": "Blinder",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "*",
       "Locations": "*: Town Area 2 PMD (1st), Chip Order",
@@ -3369,7 +3369,7 @@
     {
       "Number": 130,
       "Name": "NrthWind",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 16 ],
       "Codes": "E, N, T, *",
       "Locations": "E: Meteor Comp 2 BMD (2nd); N: Trader only; T: Undernet 1 NetDealer (10000ƶ), Undernet 1 GMD (G1), Undernet 1 GMD (G2), Undernet 1 GMD (G3+), Chip Order; *: Trader only",
@@ -3395,7 +3395,7 @@
     {
       "Number": 131,
       "Name": "HolyPanl",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "*",
       "Locations": "*: Park Area 3 BugFrag Trader (10BF), Goddess Comp BMD (3rd), Chip Order",
@@ -3421,7 +3421,7 @@
     {
       "Number": 132,
       "Name": "Hole",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "*",
       "Locations": "*: Undernet 2 GMD (G1), Undernet 2 GMD (G2), Undernet 2 GMD (G3+), Undernet 6 BMD (1st), Chip Order",
@@ -3447,7 +3447,7 @@
     {
       "Number": 133,
       "Name": "Invis",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "*",
       "Locations": "*: MrFolder, Town Area 3 NetDealer (2000ƶ), Town Area 2 BMD (1st), Town Area 2 GMD (G1), Town Area 2 GMD (G2), Town Area 2 GMD (G3+), Park Area 3 GMD (G1), Park Area 3 GMD (G2), Park Area 3 GMD (G3+), Undernet 2 GMD (G1), Undernet 2 GMD (G2), Undernet 2 GMD (G3+), Chip Order",
@@ -3473,7 +3473,7 @@
     {
       "Number": 134,
       "Name": "PopUp",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "J, P, Y, *",
       "Locations": "J: Trader only; P: Park Areas BGMD, Chip Order; Y: Trader only; *: International Net Areas BGMD",
@@ -3499,7 +3499,7 @@
     {
       "Number": 135,
       "Name": "Barrier",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "A, D, Z, *",
       "Locations": "A: XtraFldr, Dog House Comp BMD (1st); D: Chip Order; Z: Trader only; *: Xfolder, Park Area 3 GMD (G1)",
@@ -3525,7 +3525,7 @@
     {
       "Number": 136,
       "Name": "Barr100",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "P, Q, W",
       "Locations": "P: Hero Comp BMD (3rd); Q: Park Area 3 GMD (G2), Chip Order; W: NetFrica Area BMD (1st), Undernet 6 GMD (G1)",
@@ -3551,7 +3551,7 @@
     {
       "Number": 137,
       "Name": "Barr200",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "I, O, U",
       "Locations": "I: WaterGod Comp - Gold Program (G2); O: Park Area 3 GMD (G3+), Undernet 6 GMD (G2), Undernet 6 GMD (G3+), Chip Order; U: Undernet 2 BMD (2nd)",
@@ -3577,7 +3577,7 @@
     {
       "Number": 138,
       "Name": "AntiFire",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "K",
       "Locations": "K: Undernet 3 BMD (2nd), Chip Order",
@@ -3603,7 +3603,7 @@
     {
       "Number": 139,
       "Name": "AntiWatr",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "D",
       "Locations": "D: Town Area 4 PMD (2nd), Chip Order",
@@ -3629,7 +3629,7 @@
     {
       "Number": 140,
       "Name": "AntiElec",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "H",
       "Locations": "H: ACDC Area 2 PMD (2nd), Chip Order",
@@ -3655,7 +3655,7 @@
     {
       "Number": 141,
       "Name": "AntiWood",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "M",
       "Locations": "M: ACDC Area 2 PMD (3rd), Chip Order",
@@ -3681,7 +3681,7 @@
     {
       "Number": 142,
       "Name": "AntiDmg",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "K, M, R",
       "Locations": "K: Trader only; M: Town Area 2 PMD (2nd), Chip Order; R: Park Area 3 BugFrag Trader (24BF)",
@@ -3707,7 +3707,7 @@
     {
       "Number": 143,
       "Name": "AntiSwrd",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 1024 ],
       "Codes": "C, I, N, *",
       "Locations": "C: Chip Order; I: Trader only; N: Park Area 1 BMD (1st); *: Trader only",
@@ -3733,7 +3733,7 @@
     {
       "Number": 144,
       "Name": "AntiNavi",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "J, M, T",
       "Locations": "J: Trader only; M: Undernet 5 NetDealer (16000ƶ), Chip Order; T: WaterGod Comp - Gold Program (G3+)",
@@ -3759,7 +3759,7 @@
     {
       "Number": 145,
       "Name": "AntiRecv",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "B, D, G, *",
       "Locations": "B: Trader only; D: NetFrica Area BMD (2nd), Chip Order; G: Trader only; *: Trader only",
@@ -3785,7 +3785,7 @@
     {
       "Number": 146,
       "Name": "CopyDmg",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "*",
       "Locations": "*: ACDC Area 3 BMD (1st), Town Area 3 GMD (G1), Town Area 3 GMD (G2), Town Area 3 GMD (G3+), Chip Order",
@@ -3811,7 +3811,7 @@
     {
       "Number": 147,
       "Name": "LifeSync",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "N, Q, Y",
       "Locations": "N: NumberMan Scenario (15-19 flyers); Q: Higsby's normal stock (5500ƶ), Chip Order; Y: Trader only",
@@ -3837,7 +3837,7 @@
     {
       "Number": 148,
       "Name": "Atk+10",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 256 ],
       "Codes": "*",
       "Locations": "*: Fldr1, Fldr2, XtraFldr, Xfolder, -Folder (1), -Folder (2), -Folder (3), ACDC Area 3 GMD (G1), Park Area 3 GMD (G1), Park Area 3 GMD (G2), Park Area 3 GMD (G3+), Chip Order",
@@ -3863,7 +3863,7 @@
     {
       "Number": 149,
       "Name": "Navi+20",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 256 ],
       "Codes": "*",
       "Locations": "*: Undernet 4 BugFrag Trader (28BF), Chip Order",
@@ -3889,7 +3889,7 @@
     {
       "Number": 150,
       "Name": "ColorPt",
-      "ChipType": 0,
+      "ChipType": 1,
       "Elements": [ 256 ],
       "Codes": "*",
       "Locations": "*: Lotto Number (19095677), ACDC Area 3 GMD (G2), ACDC Area 3 GMD (G3+), Town Area 1 GMD (G2), Park Area 2 BMD (3rd), Park Area 3 PMD (1st), Chip Order",
@@ -3917,7 +3917,7 @@
     {
       "Number": 1,
       "Name": "SuprVulc",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "V",
       "Locations": "V: Xfolder, MrFolder, Higsby's normal stock (21000ƶ), Chip Order",
@@ -3932,7 +3932,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "10",
       "Hits": "12",
       "ProgramAdvances": [],
@@ -3943,7 +3942,7 @@
     {
       "Number": 2,
       "Name": "NeoVari",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 1024 ],
       "Codes": "N",
       "Locations": "N: Undernet 5 PMD (1st), Chip Order",
@@ -3958,7 +3957,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "240",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -3969,7 +3967,7 @@
     {
       "Number": 3,
       "Name": "ShotStar",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 1 ],
       "Codes": "R",
       "Locations": "R: Park Area 3 BugFrag Trader (60BF), Chip Order",
@@ -3984,7 +3982,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "40",
       "Hits": "",
       "ProgramAdvances": [],
@@ -3995,7 +3992,7 @@
     {
       "Number": 4,
       "Name": "GodHammr",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 2048 ],
       "Codes": "G",
       "Locations": "G: Undernet 1 PMD (2nd), Chip Order",
@@ -4010,7 +4007,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "250",
       "Hits": "0",
       "ProgramAdvances": [],
@@ -4021,7 +4017,7 @@
     {
       "Number": 5,
       "Name": "Guardian",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 2048 ],
       "Codes": "O",
       "Locations": "O: Undernet 4 PMD (1st), Chip Order",
@@ -4036,7 +4032,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "200",
       "Hits": "",
       "ProgramAdvances": [],
@@ -4047,7 +4042,7 @@
     {
       "Number": 6,
       "Name": "Jealousy",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "J",
       "Locations": "J: ACDC Area 3 BMD (1st), Chip Order",
@@ -4062,7 +4057,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "80",
       "Hits": "",
       "ProgramAdvances": [],
@@ -4073,7 +4067,7 @@
     {
       "Number": 7,
       "Name": "BugChain",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "C",
       "Locations": "C: Undernet 5 NetDealer (22000ƶ), Chip Order; *: Black Earth BGMD",
@@ -4088,7 +4082,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "-",
       "Hits": "",
       "ProgramAdvances": [],
@@ -4099,7 +4092,7 @@
     {
       "Number": 8,
       "Name": "BugFix",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "B",
       "Locations": "B: YumLand Area PMD (2nd), Chip Order; *: Meteor Comp 2 BMD (3rd)",
@@ -4114,7 +4107,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "-",
       "Hits": "0",
       "ProgramAdvances": [],
@@ -4125,7 +4117,7 @@
     {
       "Number": 9,
       "Name": "FullCust",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "*",
       "Locations": "*: Water God Comp 12 BMD (1st), Chip Order",
@@ -4140,7 +4132,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "-",
       "Hits": "0",
       "ProgramAdvances": [],
@@ -4151,7 +4142,7 @@
     {
       "Number": 10,
       "Name": "LifeAura",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "D",
       "Locations": "D: Black Earth 1 BMD (1st), Chip Order",
@@ -4166,7 +4157,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "-",
       "Hits": "0",
       "ProgramAdvances": [],
@@ -4177,7 +4167,7 @@
     {
       "Number": 11,
       "Name": "Snctuary",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "S",
       "Locations": "S: Undernet 5 PMD (1st), Chip Order",
@@ -4192,7 +4182,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "-",
       "Hits": "",
       "ProgramAdvances": [],
@@ -4203,7 +4192,7 @@
     {
       "Number": 12,
       "Name": "Atk+30",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 256 ],
       "Codes": "*",
       "Locations": "*: Undernet 5 NetDealer (28000ƶ), Chip Order",
@@ -4218,7 +4207,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "-",
       "Hits": "0",
       "ProgramAdvances": [],
@@ -4229,7 +4217,7 @@
     {
       "Number": 13,
       "Name": "DblPoint",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 256 ],
       "Codes": "*",
       "Locations": "*: Park Area 3 PMD (2nd), Chip Order",
@@ -4244,7 +4232,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "-",
       "Hits": "0",
       "ProgramAdvances": [],
@@ -4255,7 +4242,7 @@
     {
       "Number": 14,
       "Name": "Muramasa",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 1024 ],
       "Codes": "M",
       "Locations": "M: Undernet 5 HeelNavi (after Bass), Chip Order",
@@ -4270,7 +4257,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -4281,7 +4267,7 @@
     {
       "Number": 15,
       "Name": "Anubis",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 2048 ],
       "Codes": "A",
       "Locations": "A: Undernet 5 HeelNavi (after Bass), Chip Order",
@@ -4296,7 +4282,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "-",
       "Hits": "0",
       "ProgramAdvances": [],
@@ -4307,7 +4292,7 @@
     {
       "Number": 16,
       "Name": "ElemDark",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "E",
       "Locations": "E: ElmperoEX (LV9~S), Chip Order",
@@ -4322,7 +4307,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "220",
       "Hits": "",
       "ProgramAdvances": [],
@@ -4333,7 +4317,7 @@
     {
       "Number": 17,
       "Name": "BlakWing",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "W",
       "Locations": "W: Undernet 5 HeelNavi (after Bass), Chip Order",
@@ -4348,7 +4332,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "20",
       "Hits": "",
       "ProgramAdvances": [],
@@ -4359,7 +4342,7 @@
     {
       "Number": 18,
       "Name": "DrkLine",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "L",
       "Locations": "L: Undernet 4 PMD (2nd), Chip Order; *: Undernet BGMD",
@@ -4374,7 +4357,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "-",
       "Hits": "0",
       "ProgramAdvances": [],
@@ -4385,7 +4367,7 @@
     {
       "Number": 19,
       "Name": "Roll",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 64 ],
       "Codes": "R",
       "Locations": "R: Rollα (LV1~S), Rollβ (LV1~S), RollΩ (LV1~10), Chip Order",
@@ -4400,7 +4382,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "20",
       "Hits": "3",
       "ProgramAdvances": [],
@@ -4411,7 +4392,7 @@
     {
       "Number": 20,
       "Name": "RollSP",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 64 ],
       "Codes": "R",
       "Locations": "R: RollΩ (LV9~S), Chip Order",
@@ -4426,7 +4407,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???(30-80)",
       "Hits": "3",
       "ProgramAdvances": [],
@@ -4437,7 +4417,7 @@
     {
       "Number": 21,
       "Name": "RollDS",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 64 ],
       "Codes": "R",
       "Locations": "R: RollΩ (LV1~S - Evil Emotion), (RS) RollDS (LV1~S), Chip Order",
@@ -4452,7 +4432,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "3",
       "ProgramAdvances": [],
@@ -4463,7 +4442,7 @@
     {
       "Number": 22,
       "Name": "GutsMan",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 32 ],
       "Codes": "G",
       "Locations": "G: GutsMα (LV1~S), GutsMβ (LV1~S), GutsMΩ (LV1~10), Chip Order",
@@ -4478,7 +4457,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "80",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -4489,7 +4467,7 @@
     {
       "Number": 23,
       "Name": "GutsMnSP",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 32 ],
       "Codes": "G",
       "Locations": "G: GutsMΩ (LV9~S), Chip Order",
@@ -4504,7 +4482,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???(100-200)",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -4515,7 +4492,7 @@
     {
       "Number": 24,
       "Name": "GutsMnDS",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 32 ],
       "Codes": "G",
       "Locations": "G: GutsMΩ (LV1~S - Evil Emotion), (RS) GtsMDS (LV1~S), Chip Order",
@@ -4530,7 +4507,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -4541,7 +4517,7 @@
     {
       "Number": 25,
       "Name": "WindMan",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 16 ],
       "Codes": "W",
       "Locations": "W: WindMα (LV1~S), WindMβ (LV1~S), WindMΩ (LV1~10), Chip Order",
@@ -4556,7 +4532,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "40",
       "Hits": "",
       "ProgramAdvances": [],
@@ -4567,7 +4542,7 @@
     {
       "Number": 26,
       "Name": "WindMnSP",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 16 ],
       "Codes": "W",
       "Locations": "W: WindMΩ (LV9~S), Chip Order",
@@ -4582,7 +4557,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???(50-100)",
       "Hits": "",
       "ProgramAdvances": [],
@@ -4593,7 +4567,7 @@
     {
       "Number": 27,
       "Name": "WindMnDS",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 16 ],
       "Codes": "W",
       "Locations": "W: WindMΩ (LV1~S - Evil Emotion), (RS) WndMDS (LV1~S), Chip Order",
@@ -4608,7 +4582,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
@@ -4619,7 +4592,7 @@
     {
       "Number": 28,
       "Name": "SerchMan",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 128 ],
       "Codes": "S",
       "Locations": "S: SrchMα (LV1~S), SrchMβ (LV1~S), SrchMΩ (LV1~10), Chip Order",
@@ -4634,7 +4607,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "20",
       "Hits": "5",
       "ProgramAdvances": [],
@@ -4645,7 +4617,7 @@
     {
       "Number": 29,
       "Name": "SrchMnSP",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 128 ],
       "Codes": "S",
       "Locations": "S: SrchMΩ (LV9~S), Chip Order",
@@ -4660,7 +4632,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???(25-75)",
       "Hits": "5",
       "ProgramAdvances": [],
@@ -4671,7 +4642,7 @@
     {
       "Number": 30,
       "Name": "SrchMnDS",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 128 ],
       "Codes": "S",
       "Locations": "S: SrchMΩ (LV1~S - Evil Emotion), (RS) SrcMDS (LV1~S), Chip Order",
@@ -4686,7 +4657,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "5",
       "ProgramAdvances": [],
@@ -4697,7 +4667,7 @@
     {
       "Number": 31,
       "Name": "FireMan",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 1 ],
       "Codes": "F",
       "Locations": "F: FireMα (LV1~S), FireMβ (LV1~S), FireMΩ (LV1~10), Chip Order",
@@ -4712,7 +4682,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "100",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -4723,7 +4692,7 @@
     {
       "Number": 32,
       "Name": "FireMnSP",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 1 ],
       "Codes": "F",
       "Locations": "F: FireMΩ (LV9~S), Chip Order",
@@ -4738,7 +4707,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???(150-250)",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -4749,7 +4717,7 @@
     {
       "Number": 33,
       "Name": "FireMnDS",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 1 ],
       "Codes": "F",
       "Locations": "F: FireMΩ (LV1~S - Evil Emotion), (RS) FirMDS (LV1~S), Chip Order",
@@ -4764,7 +4732,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -4775,7 +4742,7 @@
     {
       "Number": 34,
       "Name": "ThunMan",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 8 ],
       "Codes": "T",
       "Locations": "T: ThunMα (LV1~S), ThunMβ (LV1~S), ThunMΩ (LV1~10), Chip Order",
@@ -4790,7 +4757,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "90",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -4801,7 +4767,7 @@
     {
       "Number": 35,
       "Name": "ThunMnSP",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 8 ],
       "Codes": "T",
       "Locations": "T: ThunMΩ (LV9~S), Chip Order",
@@ -4816,7 +4782,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???(120-220)",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -4827,7 +4792,7 @@
     {
       "Number": 36,
       "Name": "ThunMnDS",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 8 ],
       "Codes": "T",
       "Locations": "T: ThunMΩ (LV1~S - Evil Emotion), (RS) ThnMDS (LV1~S), Chip Order",
@@ -4842,7 +4807,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -4853,7 +4817,7 @@
     {
       "Number": 37,
       "Name": "TopMan",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 512 ],
       "Codes": "T",
       "Locations": "T: Xfolder, TopMα (LV1~S), TopMβ (LV1~S), TopMΩ (LV1~10), Chip Order",
@@ -4868,7 +4832,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "20",
       "Hits": "",
       "ProgramAdvances": [],
@@ -4879,7 +4842,7 @@
     {
       "Number": 38,
       "Name": "TopMnSP",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 512 ],
       "Codes": "T",
       "Locations": "T: TopMΩ (LV9~S), Chip Order",
@@ -4894,7 +4857,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???(30-80)",
       "Hits": "",
       "ProgramAdvances": [],
@@ -4905,7 +4867,7 @@
     {
       "Number": 39,
       "Name": "TopMnDS",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 512 ],
       "Codes": "T",
       "Locations": "T: TopMΩ (LV1~S - Evil Emotion), Black Earth 1 GMD (Always), Chip Order",
@@ -4920,7 +4882,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
@@ -4931,7 +4892,7 @@
     {
       "Number": 40,
       "Name": "BurnMan",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 1 ],
       "Codes": "B",
       "Locations": "B: MrFolder, BurnMα (LV1~S), BurnMβ (LV1~S), BurnMΩ (LV1~10), Chip Order",
@@ -4946,7 +4907,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "60",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -4957,7 +4917,7 @@
     {
       "Number": 41,
       "Name": "BurnMnSP",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 1 ],
       "Codes": "B",
       "Locations": "B: BurnMΩ (LV9~S), Chip Order",
@@ -4972,7 +4932,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???(70-120)",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -4983,7 +4942,7 @@
     {
       "Number": 42,
       "Name": "BurnMnDS",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 1 ],
       "Codes": "B",
       "Locations": "B: BurnMΩ (LV1~S - Evil Emotion), Black Earth 1 GMD (Always), Chip Order",
@@ -4998,7 +4957,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -5009,7 +4967,7 @@
     {
       "Number": 43,
       "Name": "ColdMan",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 2 ],
       "Codes": "C",
       "Locations": "C: ColdMα (LV1~S), ColdMβ (LV1~S), ColdMΩ (LV1~10), Chip Order",
@@ -5024,7 +4982,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "100",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5035,7 +4992,7 @@
     {
       "Number": 44,
       "Name": "ColdMnSP",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 2 ],
       "Codes": "C",
       "Locations": "C: ColdMΩ (LV9~S), Chip Order",
@@ -5050,7 +5007,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???(130-230)",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5061,7 +5017,7 @@
     {
       "Number": 45,
       "Name": "ColdMnDS",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 2 ],
       "Codes": "C",
       "Locations": "C: ColdMΩ (LV1~S - Evil Emotion), Black Earth 1 GMD (Always), Chip Order",
@@ -5076,7 +5032,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5087,7 +5042,7 @@
     {
       "Number": 46,
       "Name": "SparkMan",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 8 ],
       "Codes": "S",
       "Locations": "S: Xfolder, SprkMα (LV1~S), SprkMβ (LV1~S), SprkMΩ (LV1~10), Chip Order",
@@ -5102,7 +5057,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "70",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -5113,7 +5067,7 @@
     {
       "Number": 47,
       "Name": "SprkMnSP",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 8 ],
       "Codes": "S",
       "Locations": "S: SprkMΩ (LV9~S), Chip Order",
@@ -5128,7 +5082,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???(100-200)",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -5139,7 +5092,7 @@
     {
       "Number": 48,
       "Name": "SprkMnDS",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 8 ],
       "Codes": "S",
       "Locations": "S: SprkMΩ (LV1~S - Evil Emotion), Black Earth 1 GMD (Always), Chip Order",
@@ -5154,7 +5107,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -5165,7 +5117,7 @@
     {
       "Number": 49,
       "Name": "ShadeMan",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "X",
       "Locations": "X: ShadMΩ (LV1~10), Chip Order",
@@ -5180,7 +5132,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "120",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -5191,7 +5142,7 @@
     {
       "Number": 50,
       "Name": "ShadMnSP",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "X",
       "Locations": "X: ShadMΩ (LV9~S), Chip Order",
@@ -5206,7 +5157,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???(140-240)",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -5217,7 +5167,7 @@
     {
       "Number": 51,
       "Name": "ShadMnDS",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "X",
       "Locations": "X: ShadMΩ (LV1~S - Evil Emotion)[1], Black Earth 2 GMD (Always), Chip Order",
@@ -5232,7 +5182,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -5243,7 +5192,7 @@
     {
       "Number": 52,
       "Name": "LaserMan",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "L",
       "Locations": "L: LasrMα (LV1~S), LasrMβ (LV1~S), LasrMΩ (LV1~10), Chip Order",
@@ -5258,7 +5207,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "100",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -5269,7 +5217,7 @@
     {
       "Number": 53,
       "Name": "LasrMnSP",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "L",
       "Locations": "L: LasrMΩ (LV9~S), Chip Order",
@@ -5284,7 +5232,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???(120-220)",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -5295,7 +5242,7 @@
     {
       "Number": 54,
       "Name": "LasrMnDS",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "L",
       "Locations": "L: LasrMΩ (LV1~S - Evil Emotion), Black Earth 2 GMD (Always), Chip Order",
@@ -5310,7 +5257,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -5321,7 +5267,7 @@
     {
       "Number": 55,
       "Name": "KendoMan",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "K",
       "Locations": "K: KendMα (LV1~S), KendMβ (LV1~S), KendMΩ (LV1~10), Chip Order",
@@ -5336,7 +5282,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "70",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -5347,7 +5292,7 @@
     {
       "Number": 56,
       "Name": "KendMnSP",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "K",
       "Locations": "K: KendMΩ (LV9~S), Chip Order",
@@ -5362,7 +5307,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???(80-130)",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -5373,7 +5317,7 @@
     {
       "Number": 57,
       "Name": "KendMnDS",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "K",
       "Locations": "K: KendMΩ (LV1~S - Evil Emotion), Black Earth 2 GMD (Always), Chip Order",
@@ -5388,7 +5332,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "1",
       "ProgramAdvances": [],
@@ -5399,7 +5342,7 @@
     {
       "Number": 58,
       "Name": "VideoMan",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "V",
       "Locations": "V: MrFolder, VideMα (LV1~S), VideMβ (LV1~S), VideMΩ (LV1~10), Chip Order",
@@ -5414,7 +5357,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "25",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5425,7 +5367,7 @@
     {
       "Number": 59,
       "Name": "VideMnSP",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "V",
       "Locations": "V: VideMΩ (LV9~S), Chip Order",
@@ -5440,7 +5382,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???(30-80)",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5451,7 +5392,7 @@
     {
       "Number": 60,
       "Name": "VideMnDS",
-      "ChipType": 1,
+      "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "V",
       "Locations": "V: VideMΩ (LV1~S - Evil Emotion), Black Earth 2 GMD (Always), Chip Order",
@@ -5466,7 +5407,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5479,7 +5419,7 @@
     {
       "Number": 1,
       "Name": "RedSun",
-      "ChipType": 2,
+      "ChipType": 4,
       "Elements": [ 0 ],
       "Codes": "R",
       "Locations": "R: Receive from Dad (after final tournament, only once)",
@@ -5505,7 +5445,7 @@
     {
       "Number": 2,
       "Name": "HolyDrem",
-      "ChipType": 2,
+      "ChipType": 4,
       "Elements": [ 0 ],
       "Codes": "H",
       "Locations": "H: Undernet 4 BugFrag Trader (100BF)",
@@ -5531,7 +5471,7 @@
     {
       "Number": 3,
       "Name": "Bass",
-      "ChipType": 2,
+      "ChipType": 4,
       "Elements": [ 0 ],
       "Codes": "X",
       "Locations": "X: Bass (LV1~S)",
@@ -5557,7 +5497,7 @@
     {
       "Number": 4,
       "Name": "BugCharg",
-      "ChipType": 2,
+      "ChipType": 4,
       "Elements": [ 0 ],
       "Codes": "C",
       "Locations": "C: ShadMΩ BGMD, LasrMΩ BGMD",
@@ -5583,7 +5523,7 @@
     {
       "Number": 5,
       "Name": "BlakBarr",
-      "ChipType": 2,
+      "ChipType": 4,
       "Elements": [ 0 ],
       "Codes": "A",
       "Locations": "A: BassΩ (LV7~S), BassXX (LV7~S)",
@@ -5611,7 +5551,7 @@
     {
       "Number": 1,
       "Name": "RollAro1",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 0 ],
       "Codes": "A, F, T",
       "Locations": "A: Free Tournament - VS Roll; F: Free Tournament - VS Roll, Chip Order; T: Free Tournament - VS Roll",
@@ -5637,7 +5577,7 @@
     {
       "Number": 2,
       "Name": "RollAro2",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 0 ],
       "Codes": "D, R, W",
       "Locations": "D: Free Tournament - VS Roll; R: Free Tournament - VS Roll, Chip Order; W: Free Tournament - VS Roll",
@@ -5663,7 +5603,7 @@
     {
       "Number": 3,
       "Name": "RollAro3",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 0 ],
       "Codes": "Q, Y, Z",
       "Locations": "Q: Free Tournament - VS Roll; Y: Free Tournament - VS Roll, Chip Order; Z: Free Tournament - VS Roll",
@@ -5689,7 +5629,7 @@
     {
       "Number": 4,
       "Name": "GutPnch1",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 0 ],
       "Codes": "B, E, N",
       "Locations": "B: Free Tournament - VS GutsMan; E: Free Tournament - VS GutsMan, Chip Order; N: Free Tournament - VS GutsMan",
@@ -5715,7 +5655,7 @@
     {
       "Number": 5,
       "Name": "GutPnch2",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 0 ],
       "Codes": "G, P, Y",
       "Locations": "G: Free Tournament - VS GutsMan; P: Free Tournament - VS GutsMan, Chip Order; Y: Free Tournament - VS GutsMan",
@@ -5741,7 +5681,7 @@
     {
       "Number": 6,
       "Name": "GutPnch3",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 0 ],
       "Codes": "M, Q, T",
       "Locations": "M: Free Tournament - VS GutsMan; Q: Free Tournament - VS GutsMan, Chip Order; T: Free Tournament - VS GutsMan",
@@ -5767,7 +5707,7 @@
     {
       "Number": 7,
       "Name": "PropBom1",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 0 ],
       "Codes": "E, G, P, *",
       "Locations": "E: Free Tournament - VS WindMan; G: Free Tournament - VS WindMan, Chip Order; P: Free Tournament - VS WindMan; *: Free Tournament - VS WindMan",
@@ -5793,7 +5733,7 @@
     {
       "Number": 8,
       "Name": "PropBom2",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 0 ],
       "Codes": "F, V, Z",
       "Locations": "F: Free Tournament - VS WindMan; V: Free Tournament - VS WindMan, Chip Order; Z: Free Tournament - VS WindMan",
@@ -5819,7 +5759,7 @@
     {
       "Number": 9,
       "Name": "PropBom3",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 0 ],
       "Codes": "H, J, Q",
       "Locations": "H: Free Tournament - VS WindMan; J: Free Tournament - VS WindMan, Chip Order; Q: Free Tournament - VS WindMan",
@@ -5845,7 +5785,7 @@
     {
       "Number": 10,
       "Name": "SeekBom1",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 0 ],
       "Codes": "B, R, S, *",
       "Locations": "B: Free Tournament - VS SearchMan; R: Free Tournament - VS SearchMan, Chip Order; S: Free Tournament - VS SearchMan; *: Free Tournament - VS SearchMan",
@@ -5871,7 +5811,7 @@
     {
       "Number": 11,
       "Name": "SeekBom2",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 0 ],
       "Codes": "C, I, O",
       "Locations": "C: Free Tournament - VS SearchMan; I: Free Tournament - VS SearchMan, Chip Order; O: Free Tournament - VS SearchMan",
@@ -5897,7 +5837,7 @@
     {
       "Number": 12,
       "Name": "SeekBom3",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 0 ],
       "Codes": "M, U, W",
       "Locations": "M: Free Tournament - VS SearchMan; U: Free Tournament - VS SearchMan, Chip Order; W: Free Tournament - VS SearchMan",
@@ -5923,7 +5863,7 @@
     {
       "Number": 13,
       "Name": "Meteors1",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 1 ],
       "Codes": "G, L, S, *",
       "Locations": "G: Free Tournament - VS FireMan; L: Free Tournament - VS FireMan, Chip Order; S: Free Tournament - VS FireMan; *: Free Tournament - VS FireMan",
@@ -5949,7 +5889,7 @@
     {
       "Number": 14,
       "Name": "Meteors2",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 1 ],
       "Codes": "M, Q, T",
       "Locations": "M: Free Tournament - VS FireMan; Q: Free Tournament - VS FireMan, Chip Order; T: Free Tournament - VS FireMan",
@@ -5975,7 +5915,7 @@
     {
       "Number": 15,
       "Name": "Meteors3",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 1 ],
       "Codes": "C, R, Z",
       "Locations": "C: Free Tournament - VS FireMan; R: Free Tournament - VS FireMan, Chip Order; Z: Free Tournament - VS FireMan",
@@ -6001,7 +5941,7 @@
     {
       "Number": 16,
       "Name": "Ligtnin1",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 8 ],
       "Codes": "L, T, W, *",
       "Locations": "L: Free Tournament - VS ThunderMan; T: Free Tournament - VS ThunderMan, Chip Order; W: Free Tournament - VS ThunderMan; *: Free Tournament - VS ThunderMan",
@@ -6027,7 +5967,7 @@
     {
       "Number": 17,
       "Name": "Ligtnin2",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 8 ],
       "Codes": "A, E, V",
       "Locations": "A: Free Tournament - VS ThunderMan; E: Free Tournament - VS ThunderMan, Chip Order; V: Free Tournament - VS ThunderMan",
@@ -6053,7 +5993,7 @@
     {
       "Number": 18,
       "Name": "Ligtnin3",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 8 ],
       "Codes": "H, J, Q",
       "Locations": "H: Free Tournament - VS ThunderMan; J: Free Tournament - VS ThunderMan, Chip Order; Q: Free Tournament - VS ThunderMan",
@@ -6079,7 +6019,7 @@
     {
       "Number": 19,
       "Name": "HawkCut1",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 1024 ],
       "Codes": "H, N, O",
       "Locations": "H: Free Tournament - VS ProtoMan; N: Free Tournament - VS ProtoMan, Chip Order; O: Free Tournament - VS ProtoMan",
@@ -6105,7 +6045,7 @@
     {
       "Number": 20,
       "Name": "HawkCut2",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 1024 ],
       "Codes": "F, S, V",
       "Locations": "F: Free Tournament - VS ProtoMan; S: Free Tournament - VS ProtoMan, Chip Order; V: Free Tournament - VS ProtoMan",
@@ -6131,7 +6071,7 @@
     {
       "Number": 21,
       "Name": "HawkCut3",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 1024 ],
       "Codes": "I, N, Z",
       "Locations": "I: Free Tournament - VS ProtoMan; N: Free Tournament - VS ProtoMan, Chip Order; Z: Free Tournament - VS ProtoMan",
@@ -6157,7 +6097,7 @@
     {
       "Number": 22,
       "Name": "NumbrBl1",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 0 ],
       "Codes": "E, L, W",
       "Locations": "E: Free Tournament - VS NumberMan; L: Free Tournament - VS NumberMan, Chip Order; W: Free Tournament - VS NumberMan",
@@ -6183,7 +6123,7 @@
     {
       "Number": 23,
       "Name": "NumbrBl2",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 0 ],
       "Codes": "A, E, P",
       "Locations": "A: Free Tournament - VS NumberMan; E: Free Tournament - VS NumberMan, Chip Order; P: Free Tournament - VS NumberMan",
@@ -6209,7 +6149,7 @@
     {
       "Number": 24,
       "Name": "NumbrBl3",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 0 ],
       "Codes": "L, T, Y",
       "Locations": "L: Free Tournament - VS NumberMan; T: Free Tournament - VS NumberMan, Chip Order; Y: Free Tournament - VS NumberMan",
@@ -6235,7 +6175,7 @@
     {
       "Number": 25,
       "Name": "MetlGer1",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 512 ],
       "Codes": "A, M, P, *",
       "Locations": "A: Free Tournament - VS MetalMan; M: Free Tournament - VS MetalMan, Chip Order; P: Free Tournament - VS MetalMan; *: Free Tournament - VS MetalMan",
@@ -6261,7 +6201,7 @@
     {
       "Number": 26,
       "Name": "MetlGer2",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 512 ],
       "Codes": "C, E, G, *",
       "Locations": "C: Free Tournament - VS MetalMan; E: Free Tournament - VS MetalMan, Chip Order; G: Free Tournament - VS MetalMan; *: Free Tournament - VS MetalMan",
@@ -6287,7 +6227,7 @@
     {
       "Number": 27,
       "Name": "MetlGer3",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 512 ],
       "Codes": "I, L, Q, *",
       "Locations": "I: Free Tournament - VS MetalMan; L: Free Tournament - VS MetalMan, Chip Order; Q: Free Tournament - VS MetalMan; *: Free Tournament - VS MetalMan",
@@ -6313,7 +6253,7 @@
     {
       "Number": 28,
       "Name": "PanlSht1",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 32 ],
       "Codes": "A, H, S, *",
       "Locations": "A: Free Tournament - VS JunkMan; H: Free Tournament - VS JunkMan, Chip Order; S: Free Tournament - VS JunkMan; *: Free Tournament - VS JunkMan",
@@ -6339,7 +6279,7 @@
     {
       "Number": 29,
       "Name": "PanlSht2",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 32 ],
       "Codes": "C, G, T, *",
       "Locations": "C: Free Tournament - VS JunkMan; G: Free Tournament - VS JunkMan, Chip Order; T: Free Tournament - VS JunkMan; *: Free Tournament - VS JunkMan",
@@ -6365,7 +6305,7 @@
     {
       "Number": 30,
       "Name": "PanlSht3",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 32 ],
       "Codes": "F, J, N, *",
       "Locations": "F: Free Tournament - VS JunkMan; J: Free Tournament - VS JunkMan, Chip Order; N: Free Tournament - VS JunkMan; *: Free Tournament - VS JunkMan",
@@ -6391,7 +6331,7 @@
     {
       "Number": 31,
       "Name": "AquaUp1",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 2 ],
       "Codes": "B, S, Z",
       "Locations": "B: Free Tournament - VS AquaMan; S: Free Tournament - VS AquaMan, Chip Order; Z: Free Tournament - VS AquaMan",
@@ -6417,7 +6357,7 @@
     {
       "Number": 32,
       "Name": "AquaUp2",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 2 ],
       "Codes": "I, P, U",
       "Locations": "I: Free Tournament - VS AquaMan; P: Free Tournament - VS AquaMan, Chip Order; U: Free Tournament - VS AquaMan",
@@ -6443,7 +6383,7 @@
     {
       "Number": 33,
       "Name": "AquaUp3",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 2 ],
       "Codes": "F, K, W",
       "Locations": "F: Free Tournament - VS AquaMan; K: Free Tournament - VS AquaMan, Chip Order; W: Free Tournament - VS AquaMan",
@@ -6469,7 +6409,7 @@
     {
       "Number": 34,
       "Name": "GreenWd",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 4 ],
       "Codes": "G, J, Y",
       "Locations": "G: Free Tournament - VS WoodMan; J: Free Tournament - VS WoodMan; Y: Free Tournament - VS WoodMan, Chip Order",
@@ -6495,7 +6435,7 @@
     {
       "Number": 35,
       "Name": "GreenWd2",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 4 ],
       "Codes": "D, K, P",
       "Locations": "D: Free Tournament - VS WoodMan; K: Free Tournament - VS WoodMan, Chip Order; P: Free Tournament - VS WoodMan",
@@ -6521,7 +6461,7 @@
     {
       "Number": 36,
       "Name": "GreenWd3",
-      "ChipType": 4,
+      "ChipType": 1025,
       "Elements": [ 4 ],
       "Codes": "E, N, P",
       "Locations": "E: Free Tournament - VS WoodMan; N: Free Tournament - VS WoodMan, Chip Order; P: Free Tournament - VS WoodMan",
@@ -6547,7 +6487,7 @@
     {
       "Number": 37,
       "Name": "GunSolEX",
-      "ChipType": 4,
+      "ChipType": 1026,
       "Elements": [ 0 ],
       "Codes": "G",
       "Locations": "G: Lotto Number (74293099), Chip Order (must Chip Trader first)",
@@ -6573,7 +6513,7 @@
     {
       "Number": 38,
       "Name": "Z Saver",
-      "ChipType": 4,
+      "ChipType": 1026,
       "Elements": [ 1024 ],
       "Codes": "Z",
       "Locations": "Z: Trade with Mega Man Zero 3, Lotto Number (72794137), Chip Order (must Chip Trader first), (BNLC) Download Chip",
@@ -6601,7 +6541,7 @@
     {
       "Number": 1,
       "Name": "PrixPowr",
-      "ChipType": 5,
+      "ChipType": 5122,
       "Elements": [ 0 ],
       "Codes": "G",
       "Locations": "G: Event distribution, “Prix Power” e-Reader Rare Chip Distribution, (BNLC) Download Chip",
@@ -6627,7 +6567,7 @@
     {
       "Number": 2,
       "Name": "Duo",
-      "ChipType": 5,
+      "ChipType": 5124,
       "Elements": [ 0 ],
       "Codes": "D",
       "Locations": "D: Event distribution, “Duo” e-Reader Rare Chip Distribution, (BNLC) Download Chip;",

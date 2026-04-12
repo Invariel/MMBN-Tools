@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using Deck_Builder.Extensions;
+using System.Collections.Immutable;
+using System.Text;
 
 namespace Deck_Builder.Classes
 {
@@ -30,13 +32,10 @@ namespace Deck_Builder.Classes
 
             foreach (FolderChip chip in Chips)
             {
-                switch (chip.ChipType)
-                {
-                    case ChipType.Standard: standard += chip.Quantity; break;
-                    case ChipType.Mega: mega += chip.Quantity; break;
-                    case ChipType.Giga: giga += chip.Quantity; break;
-                    case ChipType.Dark: dark += chip.Quantity; break;
-                }
+                if (chip.ChipType.IsChipType(ChipType.Standard)) { standard += chip.Quantity; }
+                else if (chip.ChipType.IsChipType(ChipType.Mega)) { mega += chip.Quantity; }
+                else if (chip.ChipType.IsChipType(ChipType.Giga)) { giga += chip.Quantity; }
+                else if (chip.ChipType.IsChipType(ChipType.Dark)) { dark += chip.Quantity; }
 
                 if (!chipCodes.ContainsKey(chip.Code))
                 {
@@ -50,10 +49,13 @@ namespace Deck_Builder.Classes
 
             StringBuilder builder = new StringBuilder();
 
-            for (int i = 0; i < chipCodes.Count; ++ i)
+            List<string> chipCodeKeys = chipCodes.Keys.ToList();
+            chipCodeKeys.Sort();
+
+            for (int i = 0; i < chipCodeKeys.Count; ++ i)
             {
-                var elem = chipCodes.ElementAt(i);
-                builder.Append($"{elem.Key}: {elem.Value}{(i == chipCodes.Count - 1 ? string.Empty : ",")}");
+                var elem = chipCodes[chipCodeKeys[i]];
+                builder.Append($"{chipCodeKeys[i]}: {elem}{(i == chipCodeKeys.Count - 1 ? string.Empty : ", ")}");
             }
 
             builder.AppendLine();
@@ -63,7 +65,7 @@ namespace Deck_Builder.Classes
             builder.Append($"{(giga > 0 ? $"G: {giga} " : string.Empty)}");
             builder.Append($"{(dark > 0 ? $"D: {dark} " : string.Empty)}");
 
-            builder.Append ($"{standard + mega + giga + dark} / 30");
+            builder.Append ($"{standard + mega + giga + dark}/30");
             return builder.ToString();
         }
     }
