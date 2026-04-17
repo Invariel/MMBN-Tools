@@ -24,6 +24,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Update="ChipData\MMBN5_TeamProtoman.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
 	  <None Update="ChipData\MMBN4_RedSun.json">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>

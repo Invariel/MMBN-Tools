@@ -13,11 +13,11 @@
         Ground = 32,
         Recovery = 64,
         Invisibility = 128,
-        Variable = 256,
+        Plus = 256,
         Break = 512,
         Sword = 1024,
         Obstacle = 2048,
         Target = 4096,
-        Dark = 8192
+        Dark = 8192,
     }
 }

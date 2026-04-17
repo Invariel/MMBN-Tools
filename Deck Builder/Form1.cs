@@ -55,6 +55,8 @@ public partial class frm_DeckBuilder : Form
         cmb_FilterByClass.SelectedIndex = 0;
         cmb_FilterByClass.SelectionChangeCommitted += dgv_ChipList_Filter;
 
+        txt_SearchLocationText.TextChanged += dgv_ChipList_Filter;
+
         LoadSelectedGameData(default, new ());
 
         BindingSource folderList = new BindingSource();
@@ -70,8 +72,8 @@ public partial class frm_DeckBuilder : Form
             if (potentialFolder is null)
             {
                 _currentFolder.FolderName = cmb_SelectFolder.Text;
+                currentFolders.Add(_currentFolder);
 
-                cmb_SelectFolder.DataSource = null;
                 cmb_SelectFolder.DataSource = currentFolders.Select(f => f.FolderName).ToList();
             }
             else
@@ -80,7 +82,7 @@ public partial class frm_DeckBuilder : Form
                 {
                     MessageBox.Show(
                         $"Data for {potentialFolder.GameName} has not been loaded.  " +
-                         "Please include {potentialFolder.GameName}.json in the ChipData directory.",
+                        $"Please include {potentialFolder.GameName}.json in the ChipData directory.",
                         "Error - Specified Game not Loaded",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error,
@@ -92,28 +94,10 @@ public partial class frm_DeckBuilder : Form
                     AddBattlechipsToChipList(GetCurrentGame().Battlechips);
 
                     _currentFolder = potentialFolder;
+                    _currentFolder.GameName = GetCurrentGame().Name;
 
-                    dgv_FolderBindingSource.DataSource = null;
                     dgv_FolderBindingSource.DataSource = _currentFolder.Chips;
                 }
-            }
-
-
-
-
-            if (potentialFolder is null)
-            {
-                _currentFolder.FolderName = cmb_SelectFolder.Text;
-
-                cmb_SelectFolder.DataSource = null;
-                cmb_SelectFolder.DataSource = currentFolders.Select(f => f.FolderName).ToList();
-            }
-            else
-            {
-                if (!cmb_SelectGame.Items.Contains(potentialFolder.GameName))
-                {
-                }
-
             }
         };
 
@@ -128,8 +112,27 @@ public partial class frm_DeckBuilder : Form
             {
                 _currentFolder = currentFolders.First(f => f.FolderName.Equals(cmb_SelectFolder.SelectedItem));
 
-                dgv_FolderBindingSource.DataSource = null;
+                if (!cmb_SelectGame.Items.Contains(_currentFolder.GameName))
+                {
+                    MessageBox.Show(
+                        $"Data for {_currentFolder.GameName} has not been loaded.  " +
+                        $"Please include {_currentFolder.GameName}.json in the ChipData directory." +
+                        $"Defaulting to an empty folder.",
+                        "Error - Specified Game not Loaded",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error,
+                        MessageBoxDefaultButton.Button1);
+
+                    _currentFolder = new() { GameName = GetCurrentGame().Name, Chips = new List<FolderChip>() };
+                }
+                else
+                {
+                    cmb_SelectGame.SelectedIndex = cmb_SelectGame.Items.IndexOf(_currentFolder.GameName);
+                    AddBattlechipsToChipList(GetCurrentGame().Battlechips);
+                }
+
                 dgv_FolderBindingSource.DataSource = _currentFolder.Chips;
+                dgv_Folder.DataSource = dgv_FolderBindingSource;
                 cmb_SelectFolder.Text = _currentFolder.FolderName;
             }
         };
@@ -150,21 +153,39 @@ public partial class frm_DeckBuilder : Form
 
     public void LoadSelectedGameData (object? sender, EventArgs e)
     {
-        // Save the existing folder if it is not empty.
-        //SaveCurrentFolder();
+        // Make sure the current folder is saved.
+        if (_currentFolder.Chips.Count > 0 && !currentFolders.Any(f => f.FolderName.Equals(_currentFolder.FolderName) && f.GameName.Equals(_currentFolder.GameName)))
+        {
+            currentFolders.Add(_currentFolder);
+        };
 
-        // Start a new folder for the selected game.
-        // Unload the battle chips from the dgv.
         // Load the new game's battle chips into the dgv.
         Create_dgv_ChipList();
         Create_dgv_Folder();
         AddBattlechipsToChipList(GetCurrentGame().Battlechips);
-        // Move the dgv to the top, sort by chip number [reset the dgv, this should be done as part of loading maybe? and its own func]
+
+        lbl_ChipDataView_Right.Text = "";
+        txt_ChipDataView_Left.Text = "";
+
+        if (cmb_SelectFolder.Items.Contains(string.Empty))
+        {
+            cmb_SelectFolder.SelectedIndex = cmb_SelectFolder.Items.IndexOf(string.Empty);
+        }
+        else
+        {
+            var index = cmb_SelectFolder.Items.Add(string.Empty);
+            cmb_SelectFolder.SelectedIndex = index;
+        }
+
+        // Start a new folder for the selected game.
+        _currentFolder = new() { GameName = cmb_SelectGame.Text, Chips = new List<FolderChip>() };
+        currentFolders.Add(_currentFolder);
     }
 
     public void Create_dgv_ChipList()
     {
         dgv_ChipList.Rows.Clear();
+        dgv_ChipList.Columns.Clear();
         dgv_ChipList.AllowUserToAddRows = false;
         dgv_ChipList.AllowUserToDeleteRows = false;
 
@@ -238,6 +259,11 @@ public partial class frm_DeckBuilder : Form
 
     public void Create_dgv_Folder()
     {
+        dgv_Folder.CellClick -= dgv_Folder_Clicked;
+        dgv_Folder.ColumnHeaderMouseClick -= dgv_Folder_Sort;
+        dgv_Folder.SelectionChanged -= dgv_Folder_SelectionChanged;
+        dgv_Folder.EditMode = DataGridViewEditMode.EditProgrammatically;
+
         // Set up the folder.
         dgv_FolderBindingSource = new();
         dgv_FolderBindingSource.DataSource = _currentFolder.Chips;
@@ -253,6 +279,9 @@ public partial class frm_DeckBuilder : Form
                 GenerateChecklist();
             }
         };
+
+        dgv_Folder.Rows.Clear();
+        dgv_Folder.Columns.Clear();
 
         dgv_Folder.AutoGenerateColumns = false;
         dgv_Folder.DataSource = dgv_FolderBindingSource;
@@ -370,6 +399,9 @@ public partial class frm_DeckBuilder : Form
         lbl_FilterByClass.Font = CreateFont("BN6FontSmall", 14);
         cmb_FilterByClass.Font = CreateFont("BN6FontBold", 14);
 
+        lbl_LocationText.Font = CreateFont("BN6FontSmall", 14);
+        txt_SearchLocationText.Font = CreateFont("BN6FontBold", 14);
+
         txt_ChipDataView_Left.Font = CreateFont("BN6FontSmall", 14);
         lbl_ChipDataView_Right.Font = CreateFont("BN6FontSmall", 14);
         lbl_Error.Font = CreateFont("BN6FontSmall", 14);
@@ -403,8 +435,16 @@ public partial class frm_DeckBuilder : Form
                 string fileText = File.ReadAllText(filePath);
                 if (fileText is not null)
                 {
-                    Game game = JsonSerializer.Deserialize<Game>(fileText) ?? new();
-                    _availableGames.Add(game);
+                    try
+                    {
+                        Game game = JsonSerializer.Deserialize<Game>(fileText) ?? new();
+                        _availableGames.Add(game);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Could not load {gameFile}.", $"Error Loading {gameFile}");
+                        File.WriteAllText(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "MMBN Folder Creator", "error.txt"), ex.ToString());
+                    }
                 }
             }
         }

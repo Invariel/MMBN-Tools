@@ -100,6 +100,20 @@ namespace Deck_Builder
                 currentFolders = JsonSerializer.Deserialize<List<Folder>>(Encoding.UTF8.GetString(fileBytes))!;
             }
 
+            if (cmb_SelectGame.Items.Contains(currentFolders.FirstOrDefault()?.GameName))
+            {
+                cmb_SelectGame.SelectedIndex = cmb_SelectGame.Items.IndexOf(currentFolders.FirstOrDefault()?.GameName);
+            }
+            else
+            {
+                cmb_SelectGame.SelectedIndex = 0;
+            }
+
+            if (!currentFolders.Any(f => f.GameName.Equals(cmb_SelectGame.SelectedText)))
+            {
+                currentFolders.Add(new Folder() { GameName = cmb_SelectGame.SelectedText, Chips = new(), FolderName = string.Empty });
+            }
+
             (cmb_SelectFolder.DataSource as BindingSource).DataSource = currentFolders.Select (cf => cf.FolderName).ToList();
 
             cmb_SelectFolder.SelectedIndex = 0;

@@ -1,0 +1,7309 @@
+{
+  "Name": "Mega Man Battle Network 5 - Team Protoman",
+  "Rules": {
+    "MaxFolderSize": 30,
+    "MaxCopies": 4,
+    "MaxMegaChips": 5,
+    "MaxGigaChips": 3,
+    "MaxDarkChips": 3,
+    "MaxSameStandardChip": 4,
+    "MaxSameMegaChip": 1,
+    "MaxSameGigaChip": 1,
+    "MaxSameDarkChip": 1
+  },
+  "Battlechips": [
+    {
+      "Number": 1,
+      "Name": "Cannon",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, B, C, *",
+      "Locations": "A: Folder1, Folder2, BnusFldr, Drill Comp 4 GMD, Chip Order (2000ƶ);B: Folder1, Folder2, BnusFldr, Drill Comp 1 GMD;C: Folder2, ACDC Area 3 GMD (L1);*: Folder2, Main Comp 1 GMD",
+      "Traders": "Higsby's (No *), Bohemia Hall (No *), Old Mine (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cannon to attack 1 enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 2,
+      "Name": "HiCannon",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, E, F",
+      "Locations": "D: Folder2, Xfolder, Oran Area 3 LM Item Panel, SciLab Area 1 GMD (L1), Chip Order (5000ƶ);E: Xfolder, ACDC Area 2 NetDealer (5000ƶ), End Area 4 GMD (L1);F: Xfolder, Drill Comp 3 GMD",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cannon to attack 1 enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 3,
+      "Name": "M-Cannon",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "F, G, H",
+      "Locations": "F: MrFolder, Factory Comp 1 BMD, SciLab Area 2 GMD (L2), Chip Order (9000ƶ);G: MrFolder, End Area 1 NetDealer (7600ƶ), End Area 1 GMD (L2);H: MrFolder, (JP)(5DS)(BNLC) Gargoyle Comp 2 GMD / (GBA-EN) Gargoyle Comp 2 GMD",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cannon to attack 1 enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 4,
+      "Name": "AirShot",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "*",
+      "Locations": "*: Folder1, Xfolder, Drill Comp 2 GMD, Chip Order (2000ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "20",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Knock enmy back 1 square",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 5,
+      "Name": "Vulcan1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, D, E, *",
+      "Locations": "C: ACDC Area 2 NetDealer (500ƶ), Drill Comp 4 GMD;D: Folder1, BnusFldr, Main Comp 1 GMD;E: ACDC Area 3 GMD (L1);*: Bargain Bin (400ƶ)",
+      "Traders": "Higsby's (No *), Bohemia Hall (No *), Old Mine (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "10",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3-shot to pierce 1 panel!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 6,
+      "Name": "Vulcan2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, B, C",
+      "Locations": "A: Folder2, Xfolder, SciLab Area 1 GMD (L1), Chip Order (6000ƶ);B: Xfolder, Oran Area 3 GMD (L1);C: Xfolder, Oran Area 2 BMD, End Area 1 GMD (L1)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "10",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "5-shot to pierce 1 panel!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 7,
+      "Name": "Vulcan3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "L, M, N",
+      "Locations": "L: End Area 1 NetDealer (5800ƶ), Factory Comp 2 GMD, Chip Order (11000ƶ);M: End Area 4 GMD (L1);N: Gargoyle Comp 1 GMD",
+      "Traders": "Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "10",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "7-shot to pierce 1 panel!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 8,
+      "Name": "Spreader",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, D, E, *",
+      "Locations": "C: Xfolder, Oran Area 1 GMD (L1);D: Xfolder, ACDC Area 2 GMD (L1), Chip Order (4000ƶ);E: Xfolder, Main Comp 2 BMD, ACDC Area 2 GMD (L2);*: ACDC Area 2 NetDealer (3200ƶ), Drill Comp 4 GMD",
+      "Traders": "Higsby's (No *), Bohemia Hall (No *), Old Mine (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Creates a large explosion",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 9,
+      "Name": "MrkCan1",
+      "ChipType": 1,
+      "Elements": [ 4096 ],
+      "Codes": "K, M, S",
+      "Locations": "K: (TP) CanGard (LV5~S), (TP) CanGrdEX (LV7~10);M: CanGrdEX (LV9~S);S: Xfolder, (TC) CanGard (LV5~S), (TC) CanGrdEX (LV7~10), Oran Area 1 GMD (L1), Chip Order (4000ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "DoomerEX locks on 3 rows",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 10,
+      "Name": "MrkCan2",
+      "ChipType": 1,
+      "Elements": [ 4096 ],
+      "Codes": "D, F, Z",
+      "Locations": "D: CanRadEX (LV9~S), End Area 5 LM Item Panel;F: CanRaid (LV7~10), End Area 1 GMD (L2), Chip Order (7000ƶ);Z: CanRaid (LV9~S), CanRadEX (LV7~10)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "DoomerEX locks on 3 rows",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 11,
+      "Name": "MrkCan3",
+      "ChipType": 1,
+      "Elements": [ 4096 ],
+      "Codes": "E, R, Y",
+      "Locations": "E: CanladEX (LV9~S), End Area 1 GMD (L3), Chip Order (10000ƶ);R: (TP) Canlada (LV7~S), (TP) CanladEX (LV7~10);Y: (TC) Canlada (LV7~S), (TC) CanladEX (LV7~10)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "DoomerEX locks on 3 rows",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 12,
+      "Name": "Pulsar1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "F, P, T",
+      "Locations": "F: Xfolder, BattyEX (LV7~S);P: BadFldr, (TP) Batty (LV5~S), (TP) BattyEX (LV5~7), Chip Order (3500ƶ);T: (TC) Batty (LV5~S), (TC) BattyEX (LV5~7), Drill Comp 1 GMD",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine, Boktai Trader (10pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sonic attack spreads when hits",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 13,
+      "Name": "Pulsar2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E, G, M",
+      "Locations": "E: FattyEX (LV5~S);G: (TP) Fatty (LV5~S), ACDC Area 1 GMD (L3), SciLab Area 3 LM Bonus Panel, Chip Order (6800ƶ);M: (TC) Fatty (LV5~S)",
+      "Traders": "Bohemia Hall, Old Mine, Boktai Trader (10pt, 20pt, 30pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sonic attack spreads when hits",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 14,
+      "Name": "Pulsar3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, R, S",
+      "Locations": "C: GnarlyEX (LV7~S);R: Gnarly (LV5~10);S: Gnarly (LV9~S), GnarlyEX (LV5~7), Chip Order (10400ƶ)",
+      "Traders": "Old Mine, BugFrag Trader, Boktai Trader (30pt, 50pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "110",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sonic attack spreads when hits",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 15,
+      "Name": "TankCan1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, E, P",
+      "Locations": "A: CatackEX (LV7~S);E: MrFolder, (TP) Catack (LV5~S), End Area 5 GMD (L1);P: (TC) Catack (LV5~S), Chip Order (5800ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3sq blast if hits end row",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 16,
+      "Name": "TankCan2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, T, Y",
+      "Locations": "B: CateenEX (LV7~S);T: (TP) Cateen (LV7~S), Undernet 4 GMD (L2);Y: (TC) Cateen (LV7~S), Chip Order (8800ƶ)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3sq blast if hits end row",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 17,
+      "Name": "TankCan3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "F, M, R",
+      "Locations": "F: CatpltEX (LV7~S);M: (TP) Catpult (LV7~S), Chip Order (13800ƶ);R: (TC) Catpult (LV7~S)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3sq blast if hits end row",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 18,
+      "Name": "WideSht1",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "L, M, N",
+      "Locations": "L: Xfolder, LarkEX (LV9~S), (JP)(5DS)(BNLC) Ship Comp 2 / (GBA-EN) Ship Comp 1 GMD;M: Xfolder, Lark (LV9~S), LarkEX (LV7~10), Chip Order (6200ƶ);N: Xfolder, Lark (LV7~10)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fires 3sq shotgun blast!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 19,
+      "Name": "WideSht2",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "E, F, G",
+      "Locations": "E: BarkEX (LV9~S);F: Bark (LV9~S), BarkEX (LV7~10), Chip Order (9200ƶ);G: Bark (LV7~10), End Area 2 GMD (L3)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fires 3sq shotgun blast!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 20,
+      "Name": "WideSht3",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "S, T, U",
+      "Locations": "S: TarkEX (LV9~S);T: Tark (LV9~S), TarkEX (LV7~10), Chip Order (12200ƶ);U: Tark (LV7~10), Undernet 2 GMD (L3)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "110",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fires 3sq shotgun blast!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 21,
+      "Name": "ElcReel1",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "C, V, Z",
+      "Locations": "C: EleogrEX (LV7~S);V: (TP) Eleogre (LV5~S), (TP) EleogrEX (LV5~7), Chip Order (8000ƶ);Z: (TC) Eleogre (LV5~S), (TC) EleogrEX (LV5~7), (JP)(5DS)(BNLC) Gargoyle Comp 2 GMD, CloudMan scenario gold cloud reward",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Elec wire shocks enemies",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 22,
+      "Name": "ElcReel2",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "B, Q, Y",
+      "Locations": "B: ElehrnEX (LV7~S);Q: (TP) Elehorn (LV5~S), (TP) ElehrnEX (LV5~7), Undernet 3 GMD (L2), Chip Order (11000ƶ);Y: (TC) Elehorn (LV5~S), (TC) ElehrnEX (LV5~7)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Elec wire shocks enemies",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 23,
+      "Name": "ElcReel3",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "E, L, R",
+      "Locations": "E: ElegaiEX (LV7~S);L: (TP) Elegaia (LV5~S), (TP) ElegaiEX (LV5~7), Chip Order (15000ƶ);R: (TC) Elegaia (LV5~S), (TC) ElegaiEX (LV5~7)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Elec wire shocks enemies",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 24,
+      "Name": "CactBal1",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "H, I, J",
+      "Locations": "H: Xfolder, CactklEX (LV9~S);I: Xfolder, Cactikil (LV9~S), CactklEX (LV7~10), Chip Order (5600ƶ);J: Xfolder, Cactikil (LV5~10), Gargoyle Comp 1 GMD",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Jumps forward 4 times",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 25,
+      "Name": "CactBal2",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "Q, R, S",
+      "Locations": "Q: CactrlEX (LV9~S), End Area 2 LM Bonus Panel;R: Cactroll (LV9~S), CactrlEX (LV7~10), ACDC Area 1 GMD (L3), Chip Order (9600ƶ);S: Cactroll (LV7~10)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Jumps forward 4 times",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 26,
+      "Name": "CactBal3",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "L, M, N",
+      "Locations": "L: CacterEX (LV9~S);M: Cacter (LV9~S), CacterEX (LV7~10), Chip Order (14600ƶ);N: Cacter (LV7~10), Undernet 1 GMD (L3)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Jumps forward 4 times",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 27,
+      "Name": "GunDelS1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, S, U, *",
+      "Locations": "A: Squirrel Comp 6 BMD, Oran Area 1 GMD (L2), ACDC Area 3 LM Bonus Panel, Chip Order (10000ƶ);S: SciLab Area 3 GMD (L1);U: (JP)(5DS)(BNLC) Ship Comp 2 / (GBA-EN) Ship Comp 1 GMD;*: End Area 5 GMD (L1)",
+      "Traders": "Boktai Trader (10pt, 20pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "2~120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sunshine appear w/ Button",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 28,
+      "Name": "GunDelS2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "G, U, Y",
+      "Locations": "G: Higsby's normal stock (8400ƶ), Chip Order (20000ƶ);U: (JP)(5DS)(BNLC) Gargoyle Comp 4 / (GBA-EN) Gargoyle Comp 3 GMD;Y: Factory Comp 3 GMD",
+      "Traders": "Boktai Trader (10pt, 20pt, 30pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "2~180",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sunshine appear w/ Button",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 29,
+      "Name": "GunDelS3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, M, O",
+      "Locations": "D: Undernet BGMD, Chip Order (30000ƶ);M: Undernet 2 GMD (L3);O: Lotto Number (35321321)",
+      "Traders": "Boktai Trader (30pt, 50pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "2~240",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sunshine appear w/ Button",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 30,
+      "Name": "ElemRage",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E, K, W, *",
+      "Locations": "E: Nebula Area 5 GMD, Chip Order (12700ƶ);K: Higsby's normal stock (Ch. 6; 12000ƶ), Undernet 4 LM Bonus Panel;W: Undernet 3 GMD (L3);*: Only in (5DS); Lotto Number (93867465)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Powers Up when over elemental square",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 31,
+      "Name": "Thunder",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "B, L, P, *",
+      "Locations": "B: ACDC Area 2 GMD (L1);L: (JP)(5DS)(BNLC) Ship Comp 1 GMD, CloudMan scenario gold cloud reward;P: Main Comp 1 BMD, ACDC Area 2 GMD (L2), Chip Order (5000ƶ) [1];*: MrFolder, (5DS) DuelFldr, Bargain Bin (Ch. 6; 1000ƶ), SciLab Area 2 GMD (L1), End Area 1 GMD (L3), 'Amulet from Raoul' e-Reader Item Card",
+      "Traders": "Higsby's (No *), Old Mine (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Paralyzing electric attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 32,
+      "Name": "Tornado",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "D, L, R",
+      "Locations": "D: SciLab Area 3 GMD (L1), ACDC Area 3 LM Bonus Panel, 'Lilly's Gifts' e-Reader Item Card;L: ACDC Area 2 GMD (L2), Oran Areas BGMD;R: Air Filter Comp BMD, Undernet 3 GMD (L3), Chip Order (11000ƶ)",
+      "Traders": "Higsby's, Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "20",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "8 hit storm 2 squares ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 33,
+      "Name": "Static",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "N, S, V",
+      "Locations": "N: BadFldr, Nebula Area 2 NetDealer (16000ƶ), Chip Order (12000ƶ);S: Lotto Number (48958798);V: Undernet 1 GMD (L3), 'Sean's Collection' e-Reader Item Card",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "20",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A static blast 2 squares ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 34,
+      "Name": "MiniBomb",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, G, L, *",
+      "Locations": "B: Folder1, Chip Order (1000ƶ);G: ACDC Area 2 GMD (L2);L: Folder1, BnusFldr;*: Bargain Bin (300ƶ), ACDC Area 1 GMD (L1)",
+      "Traders": "Higsby's (No *), Bohemia Hall (No *), Old Mine (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throws a minibomb 3 squares ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 35,
+      "Name": "EnergBom",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E, P, W",
+      "Locations": "E: Folder2, Main Comp 2 GMD, Chip Order (4500ƶ);P: Mayl's HP BMD, Oran Area 2 GMD (L1);W: ACDC Area 3 GMD (L1)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throws a bomb 3 squares ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 36,
+      "Name": "MegEnBom",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, K, Z",
+      "Locations": "C: (JP)(5DS)(BNLC) Gargoyle Comp 2 BMD / (GBA-EN) Helmet Comp BMD, End Area 1 GMD (L2), Chip Order (9800ƶ);K: SciLab Area 2 GMD (L2), SciLab Area 3 LM Bonus Panel;Z: Factory Comp 4 GMD",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throws a bomb 3 squares ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 37,
+      "Name": "CrakBom",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, R, V, *",
+      "Locations": "C: BugtnkEX (LV7~10);R: (TP) Bugtank (LV9~S), Oran Area 1 GMD (L1);V: (TC) Bugtank (LV9~S), Chip Order (5200ƶ);*: BugtnkEX (LV9~S)",
+      "Traders": "Higsby's (No *), Bohemia Hall (No *), Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bomb cracks 3 squares ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 38,
+      "Name": "ParaBom",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H, N, P",
+      "Locations": "H: Bugtk2EX (LV9~S), SciLab Area 3 LM Item Panel;N: (TP) Bugtank2 (LV9~S), (TP) Bugtk2EX (LV7~10), Undernet 4 GMD (L2);P: (TC) Bugtank2 (LV9~S), (TC) Bugtk2EX (LV7~10), Chip Order (9500ƶ)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bomb paralyzes 3 squares ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 39,
+      "Name": "ResetBom",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, I, O",
+      "Locations": "D: Bugtk3EX (LV9~S);I: (TP) Bugtank3 (LV9~S), Nebula Area 3 LM Item Panel;O: (5DS) DuelFldr, (TC) Bugtank3 (LV9~S), Chip Order (12800ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Reduces power 3 squares ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 40,
+      "Name": "Quake1",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "A, K, P",
+      "Locations": "A: Powie (LV9~S), PowieEX (LV7~S), Oran Area 1 BMD;K: (TP) Powie (LV5~S), Drill Comp 2 GMD, Chip Order (4800ƶ);P: (TC) Powie (LV5~S), 'Tamako's Gifts' e-Reader Item Card",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Quake cracks 3 squares head",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 41,
+      "Name": "Quake2",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "B, L, Y",
+      "Locations": "B: Powie2 (LV9~S), Powie2EX (LV9~S), Oran Area 3 LM Bonus Panel;L: (TP) Powie2 (LV7~10), (TP) Powie2EX (LV7~10), End Area 2 GMD (L2), Chip Order (8900ƶ);Y: (TC) Powie2 (LV7~10), (TC) Powie2EX (LV7~10)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Quake cracks 3 squares head",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 42,
+      "Name": "Quake3",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "F, H, N",
+      "Locations": "F: Powie3EX (LV9~S);H: (TP) Powie3 (LV9~S), Undernet 3 GMD (L3), Chip Order (13000ƶ);N: (TC) Powie3 (LV9~S)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Quake cracks 3 squares head",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 43,
+      "Name": "BugBomb",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, R, T, *",
+      "Locations": "A: Undernet 1 GMD (L3);R: Nebula Area 2 NetDealer (10000ƶ), ACDC Area 2 GMD (L3);T: BadFldr, End Area 1 GMD (L3), Chip Order (8500ƶ);*: 'Sean's Collection' e-Reader Item Card",
+      "Traders": "Bohemia Hall (No *), Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throws a BugBomb 3 squares ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 44,
+      "Name": "CannBall",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "C, T, Z, *",
+      "Locations": "C: Yai's HP PMD;T: (JP)(5DS)(BNLC) Gargoyle Comp 4 / (GBA-EN) Gargoyle Comp 3 GMD, Chip Order (9800ƶ);Z: Oran Area 2 GMD (L2);*: End Area 2 GMD (L2), 'Tamako's Gifts' e-Reader Item Card",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Breaks 3rd panel ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 45,
+      "Name": "BlkBomb",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "L, R, Z",
+      "Locations": "L: Nebula Area 4 GMD;R: ACDC Area 2 PMD;Z: SciLab Area 4 GMD (L3), 'Atsuki's Ammo' e-Reader Item Card, Chip Order (12800ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "210",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Firebomb hits 3 squares ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 46,
+      "Name": "Geyser",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "G, M, S",
+      "Locations": "G: Nebula Area 4 GMD, End Area 2 LM Bonus Panel;M: SciLab Area 1 PMD, Chip Order (10500ƶ);S: End Area 3 GMD (L3)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Geyser 3 squares ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 47,
+      "Name": "LavaSeed",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H, K, P, *",
+      "Locations": "H: Nebula Area 1 GMD;K: Oran Area 2 GMD (L3), Chip Order (10000ƶ);P: SciLab Area 3 BugFrag Trader (26BF);*: Only in (5DS); Lotto Number (29387483)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Makes 9 square lava zone 3 squares ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 48,
+      "Name": "SeaSeed",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, J, M, *",
+      "Locations": "D: End Area 1 GMD (L1), Chip Order (7000ƶ);J: Factory Comp 1 GMD;M: End Area 2 GMD (L2);*: MrFolder, Terminal Comp BMD, End Area 2 GMD (L3), 'Dr. Froid's Data' e-Reader Item Card",
+      "Traders": "Higsby's (No *), Bohemia Hall (No *), Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Makes 9 square water zone 3 squares ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 49,
+      "Name": "IceSeed",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, K, Q, *",
+      "Locations": "A: Higsby's normal stock (7300ƶ), Chip Order (7600ƶ);K: SciLab Area 2 GMD (L2);Q: (JP)(5DS)(BNLC) Gargoyle Comp 2 GMD;*: MrFolder, Nebula Area 4 GMD, 'Dr. Froid's Data' e-Reader Item Card",
+      "Traders": "Higsby's (No *), Bohemia Hall (No *), Old Mine (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Makes 9 square ice zone 3 squares ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 50,
+      "Name": "GrasSeed",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, M, W, *",
+      "Locations": "A: (JP)(5DS)(BNLC) Ship Comp 3 / (GBA-EN) Ship Comp 2 BMD, SciLab Area 3 GMD (L3);M: Oran Area 1 GMD (L2);W: (JP)(5DS)(BNLC) Gargoyle Comp 3 / (GBA-EN) Gargoyle Comp 2 GMD, Chip Order (6200ƶ);*: MrFolder, End Area 4 GMD (L2)",
+      "Traders": "Higsby's, Bohemia Hall (No *), Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Makes 9 square meadow 3 squares ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 51,
+      "Name": "Sword",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "C, L, S, *",
+      "Locations": "C: (JP)(5DS)(BNLC) Ship Comp 2 / (GBA-EN) Ship Comp 1 GMD;L: Drill Comp 2 GMD;S: Folder1, Folder2, BnusFldr, (5DS) DuelFldr, Chip Order (2500ƶ);*: Only in (5DS); Lotto Number (12495783)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts enemy in front range: 1",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 52,
+      "Name": "WideSwrd",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "K, S, Z",
+      "Locations": "K: ACDC Area 1 GMD (L1);S: Folder1, Folder2, BnusFldr, (5DS) DuelFldr, Drill Comp 1 GMD, Chip Order (5500ƶ);Z: Main Comp 1 GMD",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts enemy in front range: 3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 53,
+      "Name": "LongSwrd",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "C, M, S",
+      "Locations": "C: ACDC Area 2 NetDealer (6000ƶ), Main Comp 2 GMD;M: Oran Area 2 GMD (L1);S: Folder2, (5DS) DuelFldr, Drill Comp 4 BMD, End Area 1 GMD (L1), Chip Order (8500ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts enemy in front range : 2",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 54,
+      "Name": "WideBlde",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "A, L, V",
+      "Locations": "A: SciLab Areas BGMD, SciLab Area 3 LM Bonus Panel;L: Factory Comp 2 GMD, Chip Order (12000ƶ);V: End Area 1 NetDealer (10000ƶ), End Area 2 GMD (L3)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts enemy in front range : 3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 55,
+      "Name": "LongBlde",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "E, L, P",
+      "Locations": "E: SciLab Areas BGMD;L: Undernet 3 NetDealer (9800ƶ), Nebula Area 1 GMD, Chip Order (14500ƶ);P: End Area 3 GMD (L2), End Area 5 LM Bonus Panel",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts enemy in front rang : 2",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 56,
+      "Name": "CustSwrd",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "E, L, R",
+      "Locations": "E: ACDC Area 2 NetDealer (6800ƶ);L: (JP)(5DS)(BNLC) Ship Comp 3 / (GBA-EN) Ship Comp 2 GMD, Gargoyle Comp 1 GMD, Chip Order (9400ƶ);R: Undernet 1 GMD (L2), Undernet 2 GMD (L1)",
+      "Traders": "Higsby's, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "10~256",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cust Gauge = attack strength",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 57,
+      "Name": "VarSwrd",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "B, C, V",
+      "Locations": "B: Nebula Area 2 GMD, 'Mr. Famous's Picks' e-Reader Item Card;C: SciLab Area 1 GMD (L2), Chip Order (16500ƶ);V: End Area 4 PMD",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A magical shifting sword",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 58,
+      "Name": "Slasher",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "B, I, R",
+      "Locations": "B: Oran Area 2 GMD (L2);I: Nebula Area 1 LM Item Panel, End Area 2 GMD (L3), Chip Order (11200ƶ);R: (JP)(5DS)(BNLC) Gargoyle Comp 4 / (GBA-EN) Gargoyle Comp 3 BMD",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "240",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts while A button is held",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 59,
+      "Name": "WindRack",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "B, F, J, *",
+      "Locations": "B: SciLab Area 3 BugFrag Trader (12BF), SciLab Area 3 GMD (L2);F: Factory Comp 1 GMD, End Area 2 LM Bonus Panel;J: End Area 5 GMD (L1), Chip Order (10000ƶ);*: SciLab Area 3 GMD (L3)",
+      "Traders": "Higsby's, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Blow enemy in front! Range: 3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 60,
+      "Name": "MoonBld1",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "E, N, Z",
+      "Locations": "E: MrFolder, NinJoyEX (LV7~S), Undernet 1 GMD (L1), Chip Order (6800ƶ);N: BadFldr, (TP) NinJoy (LV7~S);Z: (TC) NinJoy (LV7~S)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slices enemies around",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 61,
+      "Name": "MoonBld2",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "G, O, V",
+      "Locations": "G: NinkyEX (LV7~S), ACDC Area 3 GMD (L3), Chip Order (10500ƶ);O: (5DS) DuelFldr, (TP) Ninky (LV7~S);V: (TC) Ninky (LV7~S)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "110",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slices enemies around",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 62,
+      "Name": "MoonBld3",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "C, L, T",
+      "Locations": "C: NinJoeEX (LV7~S), Chip Order (14800ƶ);L: (TP) NinJoe (LV7~S), Nebula Area 3 LM Bonus Panel;T: (TC) NinJoe (LV7~S)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slices enemies around",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 63,
+      "Name": "Katana1",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "D, H, S",
+      "Locations": "D: ZomonEX (LV9~S);H: Zomon (LV9~S), ZomonEX (LV7~10), Undernet 1 GMD (L1), Chip Order (7000ƶ);S: Zomon (LV5~10)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts twice once wide once long",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 64,
+      "Name": "Katana2",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "B, R, W",
+      "Locations": "B: ZemonEX (LV9~S);R: (TP) Zemon (LV9~S), End Area 4 GMD (L3);W: (TC) Zemon (LV9~S), Chip Order (12000ƶ)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts twice once wide once long",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 65,
+      "Name": "Katana3",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "A, J, Z",
+      "Locations": "A: ZymonEX (LV9~S);J: (TP) Zymon (LV9~S);Z: (TC) Zymon (LV9~S), Nebula Area 5 LM Item Panel, Chip Order (17000ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts twice once wide once long",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 66,
+      "Name": "YoYo",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, E, F",
+      "Locations": "D: MrFolder, Higsby's normal stock (5800ƶ), SciLab Area 4 GMD (L3), Undernet 3 GMD (L1);E: MrFolder, End Area 2 GMD (L1), ACDC Area 1 GMD (L3), End Area 2 LM Bonus Panel, Chip Order (9000ƶ);F: MrFolder, (JP)(5DS)(BNLC) Ship Comp 1 BMD / (GBA-EN) Crane Comp BMD, End Area 5 GMD (L1), Undernet 1 GMD (L3)",
+      "Traders": "Higsby's, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Yoyo attack reaches 3sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 67,
+      "Name": "DrilArm1",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "A, J, W",
+      "Locations": "A: DrixolEX (LV9~S);J: BadFldr, (TP) Drixol (LV7~S), Drill Comp 4 GMD;W: (TC) Drixol (LV7~S), Chip Order (4200ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Knocks enmy 2sq away",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 68,
+      "Name": "DrilArm2",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "D, L, S",
+      "Locations": "D: DrixorEX (LV9~S);L: (5DS) DuelFldr, (TP) Drixor (LV9~S), End Area 4 GMD (L2), End Area 5 LM Bonus Panel;S: (TC) Drixor (LV9~S), Chip Order (7600ƶ)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Knocks enmy 2sq away",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 69,
+      "Name": "DrilArm3",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "I, P, Z",
+      "Locations": "I: DrixaEX (LV9~S);P: (TP) Drixa (LV9~S), End Area 3 GMD (L3);Z: (TC) Drixa (LV9~S), Chip Order (11000ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Knocks enmy 2sq away",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 70,
+      "Name": "AirHoc",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "Q, R, S",
+      "Locations": "Q: (5DS) DuelFldr, SciLab Area 1 GMD (L3), SciLab Area 2 GMD (L1);R: Oran Area 3 LM Item Panel, SciLab Area 4 GMD (L1), Chip Order (10000ƶ);S: (JP)(5DS)(BNLC) Ship Comp 4 / (GBA-EN) Ship Comp 3 GMD, Oran Areas BGMD, 'Tamako's Gifts' e-Reader Item Card",
+      "Traders": "Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Ricochet attack to right",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 71,
+      "Name": "Skully1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, K, S",
+      "Locations": "C: SkarabEX (LV7~S), 'Sale at Miyu's Shop' e-Reader Item Card, Chip Order (6500ƶ);K: (TP) Skarab (LV5~S), Factory Comp 3 GMD;S: (5DS) DuelFldr, (TC) Skarab (LV5~S)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Confuses enemy if it hits",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 72,
+      "Name": "Skully2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, H, V",
+      "Locations": "A: SkarryEX (LV7~S), 'Sale at Miyu's Shop' e-Reader Item Card, Chip Order (9500ƶ);H: (TP) Skarry (LV7~S), SciLab Area 2 GMD (L3);V: (TC) Skarry (LV7~S)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Confuses enemy if it hits",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 73,
+      "Name": "Skully3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "G, N, U",
+      "Locations": "G: SkellyEX (LV7~S), 'Sale at Miyu's Shop' e-Reader Item Card;N: (TP) Skelly (LV7~S), Chip Order (12500ƶ);U: (TC) Skelly (LV7~S)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Confuses enemy if it hits",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 74,
+      "Name": "AqWhirl1",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "B, F, N",
+      "Locations": "B: WhirlyEX (LV9~S), Chip Order (7000ƶ);F: (TP) Whirly (LV7~S), (TP) WhirlyEX (LV7~10), End Area 2 GMD (L1);N: (TC) Whirly (LV7~S), (TC) WhirlyEX (LV7~10)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Whirlwind makes water sq",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 75,
+      "Name": "AqWhirl2",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A, H, O",
+      "Locations": "A: SwirlyEX (LV9~S), SciLab Area 3 GMD (L3), Chip Order (10000ƶ);H: (TP) Swirly (LV7~S), (TP) SwirlyEX (LV7~10);O: (5DS) DuelFldr, (TC) Swirly (LV7~S), (TC) SwirlyEX (LV7~10), End Area 2 LM Item Panel",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Whirlwind makes water sq",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 76,
+      "Name": "AqWhirl3",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "D, I, R",
+      "Locations": "D: SpirlyEX (LV9~S), Chip Order (14000ƶ);I: (TP) Spiraly (LV7~S), (TP) SpirlyEX (LV7~10);R: (TC) Spiraly (LV7~S), (TC) SpirlyEX (LV7~10)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Whirlwind makes water sq",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 77,
+      "Name": "AirSpin1",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "C, E, O",
+      "Locations": "C: Undernet 1 GMD (L1), 'Lilly's Gifts' e-Reader Item Card;E: Oran Area 1 NetDealer (3400ƶ), Oran Area 3 GMD (L1);O: (JP)(5DS)(BNLC) Ship Comp 4 / (GBA-EN) Ship Comp 3 GMD, Chip Order (8000ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Spits out hurricane attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 78,
+      "Name": "AirSpin2",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "B, H, W",
+      "Locations": "B: Wind God Comp BMD, SciLab Area 2 GMD (L3);H: ACDC Area 3 GMD (L2);W: SciLab Area 2 GMD (L2), Chip Order (14000ƶ)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Spits out hurricane attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 79,
+      "Name": "AirSpin3",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "A, G, J",
+      "Locations": "A: Nebula Area 6 GMD;G: End Area 5 GMD (L3), Nebula Area 3 LM Bonus Panel;J: Undernet 2 GMD (L3), Chip Order (20000ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Spits out hurricane attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 80,
+      "Name": "FireHit1",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "O, P, Q",
+      "Locations": "O: ChampyEX (LV9~S), Drill Comp 3 GMD;P: Champy (LV9~S), ChampyEX (LV7~10), Chip Order (6000ƶ);Q: Champy (LV5~10)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slams closest enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 81,
+      "Name": "FireHit2",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "H, I, J",
+      "Locations": "H: ChumpyEX (LV9~S);I: Chumpy (LV7~10), End Area 3 GMD (L2), SciLab Area 3 LM Bonus Panel, Chip Order (10000ƶ);J: Chumpy (LV9~S), ChumpyEX (LV7~10)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slams closest enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 82,
+      "Name": "FireHit3",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "E, F, G",
+      "Locations": "E: ChimpyEX (LV9~S);F: Chimpy (LV7~10), Chip Order (13000ƶ);G: Chimpy (LV9~S), ChimpyEX (LV7~10)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slams closest enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 83,
+      "Name": "HotBody1",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "A, F, P",
+      "Locations": "A: DraginEX (LV7~S), Factory Comp 4 GMD;F: MrFolder, (TP) Draggin (LV7~S), Chip Order (8000ƶ);P: (TC) Draggin (LV7~S)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "110",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Burns all enemies around",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 84,
+      "Name": "HotBody2",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "C, R, W",
+      "Locations": "C: DragltEX (LV7~S);R: (TP) Draglet (LV7~S), Oran Area 1 GMD (L3), Chip Order (11000ƶ);W: (TC) Draglet (LV7~S)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Burns all enemies around",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 85,
+      "Name": "HotBody3",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "J, M, S",
+      "Locations": "J: DraggyEX (LV7~S), Nebula Area 1 LM Item Panel;M: (TP) Draggy (LV7~S), Chip Order (14000ƶ);S: (TC) Draggy (LV7~S)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Burns all enemies around",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 86,
+      "Name": "SideBub1",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "D, Q, S",
+      "Locations": "D: MarinaEX (LV9~S);Q: (TP) Marina (LV7~S);S: (TC) Marina (LV7~S), (JP)(5DS)(BNLC) Gargoyle Comp 3 GMD, Chip Order (6500ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bubbles spread in a big V",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 87,
+      "Name": "SideBub2",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "H, L, W",
+      "Locations": "H: MarinrEX (LV9~S);L: (TP) Mariner (LV9~S);W: (TC) Mariner (LV9~S), Undernet 1 GMD (L2), Chip Order (10500ƶ)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "110",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bubbles spread in a big V",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 88,
+      "Name": "SideBub3",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "E, N, P",
+      "Locations": "E: MarineEX (LV9~S);N: (TP) Marinee (LV9~S);P: (TC) Marinee (LV9~S), Chip Order (14500ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bubbles spread in a big V",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 89,
+      "Name": "CusVolt1",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "A, V, Y, *",
+      "Locations": "A: Xfolder, Oran Area 3 GMD (L1);V: End Area 3 GMD (L1), 'Amulet from Raoul' e-Reader Item Card, Chip Order (9000ƶ);Y: (JP)(5DS)(BNLC) Ship Comp 3 / (GBA-EN) Ship Comp 2 GMD;*: Unobtainable",
+      "Traders": "Higsby's (No *), Bohemia Hall (No *), Old Mine (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "10~110",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Consumes Custom Gauge",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 90,
+      "Name": "CusVolt2",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "C, E, G",
+      "Locations": "C: SciLab Area 3 GMD (L2);E: Nebula Area 1 LM Item Panel, End Area 2 GMD (L2), Chip Order (14000ƶ);G: MrFolder, Undernet 2 GMD (L2)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "30~130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Consumes Custom Gauge",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 91,
+      "Name": "CusVolt3",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "G, M, P",
+      "Locations": "G: Lotto Number (07765623);M: Oran Area 3 GMD (L3), Chip Order (20000ƶ);P: Nebula Area 6 GMD, Nebula Area 5 LM Bonus Panel",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "50~150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Consumes Custom Gauge",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 92,
+      "Name": "Boomer",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "A, L, V, *",
+      "Locations": "A: SciLab Area 3 GMD (L3), End Area 3 GMD (L1), 'Sal's Cereal Prize' e-Reader Item Card;L: SciLab Area 1 GMD (L1), End Area 3 GMD (L3);V: Oran Area 2 GMD (L1), ACDC Area 3 LM Bonus Panel, Chip Order (8000ƶ);*: Bargain Bin (Ch. 6; 5000ƶ)",
+      "Traders": "Higsby's (No *), Old Mine (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Boomerang encircles field",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 93,
+      "Name": "Astroid1",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "A, Q, T",
+      "Locations": "A: MetFirEX (LV9~S), (JP)(5DS)(BNLC) Gargoyle Comp 4 / (GBA-EN) Gargoyle Comp 3 GMD, Chip Order (8000ƶ);Q: (TP) MetFire (LV9~S);T: (TC) MetFire (LV9~S), 'Atsuki's Ammo' e-Reader Item Card",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Meteors crack panels!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 94,
+      "Name": "Astroid2",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "E, M, U",
+      "Locations": "E: FulFirEX (LV9~S), Nebula Area 1 LM Item Panel, Chip Order (12000ƶ);M: (TP) FulFire (LV9~S), Undernet 2 GMD (L2);U: (TC) FulFire (LV9~S)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Meteors crack panels!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 95,
+      "Name": "Astroid3",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "C, P, Y",
+      "Locations": "C: DthFirEX (LV9~S);P: (TP) DthFire (LV9~S), End Area 5 GMD (L3);Y: (TC) DthFire (LV9~S), Chip Order (16000ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Meteors crack panels!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 96,
+      "Name": "SpShake1",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "G, H, I",
+      "Locations": "G: ShakeyEX (LV9~S);H: Shakey (LV9~S), ShakeyEX (LV7~10), Undernet 2 GMD (L1), Chip Order (5500ƶ);I: Shakey (LV7~10)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Shakey shivers 3sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 97,
+      "Name": "SpShake2",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "B, C, D",
+      "Locations": "B: ShakerEX (LV9~S);C: Shaker (LV9~S), Undernet 4 LM Item Panel, Oran Area 3 GMD (L3), Chip Order (8500ƶ);D: Shaker (LV7~10), ShakerEX (LV7~10)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Shakey shivers 3sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 98,
+      "Name": "SpShake3",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "S, T, U",
+      "Locations": "S: ShakkyEX (LV9~S);T: Shakky (LV9~S), Chip Order (12500ƶ);U: Shakky (LV7~10), ShakkyEX (LV7~10)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Shakey shivers 3sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 99,
+      "Name": "Voltz1",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "K, O, Y",
+      "Locations": "K: Flashy (LV9~S), ACDC Area 1 GMD (L2) [2];O: (5DS) DuelFldr, Flashy (LV7~10);Y: Chip Order (6400ƶ) [2]",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sensor2 ElecShock 3sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 100,
+      "Name": "Voltz2",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "J, U, Z",
+      "Locations": "J: FlashrEX (LV7~S), Chip Order (9400ƶ);U: Flashor (LV9~S), SciLab Area 2 GMD (L3);Z: Flashor (LV7~10)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sensor2 ElecShock 3sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 101,
+      "Name": "Voltz3",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "A, H, V",
+      "Locations": "A: FlashlEX (LV9~S), Nebula Area 3 LM Bonus Panel;H: Flashlit (LV9~S);V: Flashlit (LV7~10), Chip Order (13400ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sensor2 ElecShock 3sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 102,
+      "Name": "WoodNos1",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "F, R, W",
+      "Locations": "F: WuNoteEX (LV7~S), Factory Comp 4 GMD, Chip Order (7800ƶ);R: (TP) WuNote (LV7~S);W: (TC) WuNote (LV7~S)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Branch grows out from side",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 103,
+      "Name": "WoodNos2",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "J, T, Z",
+      "Locations": "J: WuLongEX (LV9~S), Chip Order (9800ƶ);T: (TP) WuLong (LV9~S);Z: (TC) WuLong (LV9~S), SciLab Area 1 GMD (L3)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Branch grows out from side",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 104,
+      "Name": "WoodNos3",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "I, S, V",
+      "Locations": "I: WuMaxEX (LV9~S), Chip Order (13800ƶ);S: (TP) WuMax (LV9~S);V: (TC) WuMax (LV9~S)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Branch grows out from side",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 105,
+      "Name": "Lance",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "C, L, R, *",
+      "Locations": "C: MrFolder, Wine Case Comp PMD;L: ACDC Area 3 GMD (L2), Chip Order (13000ƶ);R: Undernet 1 GMD (L2);*: Nebula Area 4 GMD, Undernet 4 LM Bonus Panel, 'Sal's Cereal Prize' e-Reader Item Card",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Lance through back line",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 106,
+      "Name": "WavePit",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "B, E, Z, *",
+      "Locations": "B: SciLab Area 3 GMD (L1), Chip Order (10000ƶ);E: Undernet 3 GMD (L1), End Area 5 LM Bonus Panel;Z: (JP)(5DS)(BNLC) Ship Comp 1 GMD;*: Only in (5DS); Lotto Number (19283746)",
+      "Traders": "Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Wave from water sq",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 107,
+      "Name": "RedWave",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "A, F, H, *",
+      "Locations": "A: Factory Comp 3 BMD, Oran Area 2 GMD (L3), Chip Order (15000ƶ);F: End Area 3 GMD (L2);H: SciLab Area 1 GMD (L3);*: Only in (5DS); Lotto Number (12200120)",
+      "Traders": "Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "190",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "RedWave out of lava sq",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 108,
+      "Name": "MudWave",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "D, N, W, *",
+      "Locations": "D: Experiment Server Comp PMD, Nebula Area 6 GMD, Chip Order (18000ƶ);N: End Area 4 GMD (L3);W: Undernet 4 GMD (L3), Nebula Area 1 LM Bonus Panel;*: Only in (5DS); Lotto Number (78234329)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "170",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "MudWave out of hole",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 109,
+      "Name": "RainyDay",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "B, G, L",
+      "Locations": "B: Nebula Area 2 GMD;G: End Area 3 PMD, Chip Order (15000ƶ);L: Undernet 3 GMD (L3)",
+      "Traders": "Higsby's, Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Rains down on enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 110,
+      "Name": "Snake",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, M, Z",
+      "Locations": "C: Trader only;M: Oran Area 1 PMD, Chip Order (15000ƶ);Z: Nebula Area 5 GMD, Oran Area 3 LM Bonus Panel, 'Mr. Famous's Picks' e-Reader Item Card",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Call snake from hole in area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 111,
+      "Name": "Magnum",
+      "ChipType": 1,
+      "Elements": [ 4096 ],
+      "Codes": "E, O, V",
+      "Locations": "E: Nebula Area 1 GMD;O: (5DS) DuelFldr, SciLab Area 4 GMD (L2);V: SciLab Area 4 BMD (requires Nebula ID), Chip Order (15000ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cursor destroys panels!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 112,
+      "Name": "CircGun",
+      "ChipType": 1,
+      "Elements": [ 4096 ],
+      "Codes": "A, C, F",
+      "Locations": "A: Factory Comp 3 GMD, Chip Order (12000ƶ);C: Oran Area 1 NetDealer (8200ƶ);F: (JP)(5DS)(BNLC) Gargoyle Comp 3 / (GBA-EN) Gargoyle Comp 2 GMD",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Stop site w/ Button and attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 113,
+      "Name": "TimeBom1",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "H, N, T",
+      "Locations": "H: HandiEX (LV9~S);N: (TP) Handi (LV7~S), (TP) HandiEX (LV7~10), SciLab Area 4 GMD (L1), Chip Order (7000ƶ);T: (TC) Handi (LV7~S), (TC) HandiEX (LV7~10), Oran Area 3 LM Bonus Panel",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Explodes 3 seconds later",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 114,
+      "Name": "TimeBom2",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "D, H, Z",
+      "Locations": "D: (TP) Hando (LV7~S), (TP) HandoEX (LV7~10), Chip Order (12000ƶ);H: HandoEX (LV9~S), End Area 4 GMD (L2);Z: (TC) Hando (LV7~S), (TC) HandoEX (LV7~10)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Explodes 3 seconds later",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 115,
+      "Name": "TimeBom3",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "F, H, S",
+      "Locations": "F: (TP) Handum (LV7~S);H: HandumEX (LV9~S), Chip Order (17000ƶ);S: (TC) Handum (LV7~S), Nebula Area 3 LM Bonus Panel",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Explodes 3 seconds later",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 116,
+      "Name": "BoyBomb1",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "C, F, S",
+      "Locations": "C: BomBoyEX (LV7~S), Chip Order (7000ƶ);F: (TP) BomBoy (LV7~S);S: (5DS) DuelFldr, (TC) BomBoy (LV7~S), Undernet 4 GMD (L1)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "BoyBomb 1sq ahead Push it!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 117,
+      "Name": "BoyBomb2",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "H, P, W",
+      "Locations": "H: BomByEX (LV7~S), Undernet 2 GMD (L2), Chip Order (10000ƶ);P: (TP) BomBy (LV7~S);W: (TC) BomBy (LV7~S)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "180",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "BoyBomb 1sq ahead Push it!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 118,
+      "Name": "BoyBomb3",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "B, Q, Y",
+      "Locations": "B: BomBerEX (LV7~S), Nebula Area 1 LM Bonus Panel, Chip Order (13000ƶ);Q: (TP) BomBer (LV7~S);Y: (TC) BomBer (LV7~S)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "230",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "BoyBomb 1sq ahead Push it!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 119,
+      "Name": "Mine",
+      "ChipType": 1,
+      "Elements": [ 128 ],
+      "Codes": "H, P, T",
+      "Locations": "H: Undernet 4 GMD (L1), End Area 5 LM Bonus Panel;P: Oran Area 1 NetDealer (9900ƶ), Chip Order (18000ƶ);T: Nebula Area 2 GMD",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "300",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Place a mine in enmy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 120,
+      "Name": "RockCube",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "*",
+      "Locations": "*: Drill Comp 2 BMD, (JP)(5DS)(BNLC) Ship Comp 3 / (GBA-EN) Ship Comp 2 GMD, Chip Order (2500ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Place a rock cube in front",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 121,
+      "Name": "Wind",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "*",
+      "Locations": "*: WindBox (LV5~S), WindBox2 (LV5~S), WindBox3 (LV5~S), ACDC Area 1 GMD (L3), 'Mr. Famous's Intern's Tops' e-Reader Item Card, Chip Order (2000ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "WindBox blows at enmy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 122,
+      "Name": "Fan",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "*",
+      "Locations": "*: (5DS) DuelFldr, VacuumFn (LV5~S), VacuFan2 (LV5~S), VacuFan3 (LV5~S), ACDC Area 2 GMD (L3), Chip Order (4000ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Vacuum fan pulls enemy in",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 123,
+      "Name": "Fanfare",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "F, P, Z, *",
+      "Locations": "F: Trumpy (LV7~S), (JP)(5DS)(BNLC) Ship Comp 1 GMD, Chip Order (6000ƶ);P: (TP) Trumpy (LV5~7), ACDC Area 1 GMD (L2);Z: (TC) Trumpy (LV5~7), End Area 3 GMD (L1);*: MrFolder, TrumpySP (LV7~10), Undernet 4 GMD (L1)",
+      "Traders": "Higsby's (No *), Bohemia Hall (No *), Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Take no dmg for a while",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 124,
+      "Name": "Discord",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "B, J, Q, *",
+      "Locations": "B: Tuby (LV9~S), ACDC Area 3 GMD (L2), Chip Order (7000ƶ);J: (TP) Tuby (LV7~10), Undernet 4 GMD (L2);Q: (TC) Tuby (LV7~10), End Area 4 GMD (L2);*: TrumpySP (LV7~10)",
+      "Traders": "Bohemia Hall (No *), Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Confuses enemies w/ music",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 125,
+      "Name": "Timpani",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "A, L, V, *",
+      "Locations": "A: Tromby (LV9~S), ACDC Area 2 GMD (L3);L: (TP) Tromby (LV7~10), SciLab Area 4 GMD (L3), Chip Order (8000ƶ);V: (TC) Tromby (LV7~10);*: (5DS) DuelFldr, TrumpySP (LV9~S)",
+      "Traders": "Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Paralyzes enemies w/ music",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 126,
+      "Name": "Silence",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "C, J, N, *",
+      "Locations": "C: MuteAnt (LV9~S), Chip Order (9000ƶ);J: (TP) MuteAnt (LV7~10);N: (TC) MuteAnt (LV7~10);*: TrumpySP (LV9~S)",
+      "Traders": "Old Mine (No *), BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "MuteAnt blinds enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 127,
+      "Name": "RedFrut1",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "E, K, Z",
+      "Locations": "E: AppleyEX (LV9~S);K: (TP) Appley (LV9~S), Oran Area 2 GMD (L2);Z: (TC) Appley (LV9~S), Chip Order (10000ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit apple for +300 HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 128,
+      "Name": "RedFrut2",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "F, T, W",
+      "Locations": "F: ApplezEX (LV9~S);T: (TP) Applez (LV9~S), Oran Area 1 GMD (L3);W: (TC) Applez (LV9~S), Chip Order (12000ƶ)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit apple for temp no damage",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 129,
+      "Name": "RedFrut3",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "H, O, U",
+      "Locations": "H: AppullEX (LV9~S);O: (TP) Appull (LV9~S);U: (TC) Appull (LV9~S), Chip Order (14000ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit apple for Full Synchro",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 130,
+      "Name": "VDoll",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "O, T, Z",
+      "Locations": "O: Nebula Area 5 GMD, Nebula Area 5 LM Bonus Panel;T: Chip Trading (Trade GrabRvng F on Oran Island), (BNLC) Compensation Battle Chip set Patch Card;Z: BadFldr, Nebula Area 2 NetDealer (22000ƶ), Chip Order (19800ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throws V doll ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 131,
+      "Name": "Guard1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, D, K, *",
+      "Locations": "A: Mettaur (LV7~S), MettEX (LV7~10), ACDC Area 1 GMD (L1), Chip Order (1800ƶ);D: (TP) Mettaur (LV5~7), (TP) MettEX (LV5~7);K: (TC) Mettaur (LV5~7), (TC) MettEX (LV5~7);*: MettEX (LV9~S), Drill Comp 3 GMD",
+      "Traders": "Higsby's (No *), Bohemia Hall (No *), Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Repels an enemy's attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 132,
+      "Name": "Guard2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, L, Q, *",
+      "Locations": "B: Mettaur2 (LV7~S), Mett2EX (LV5~10), End Area 5 LM Item Panel, SciLab Area 4 GMD (L2), Chip Order (4800ƶ);L: (TP) Mettaur2 (LV5~7);Q: (5DS) DuelFldr, (TC) Mettaur2 (LV5~7);*: Mett2EX (LV9~S), End Area 5 GMD (L2)",
+      "Traders": "Bohemia Hall (No *), Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Repels an enemy's attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 133,
+      "Name": "Guard3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, M, S, *",
+      "Locations": "C: Mettaur3 (LV9~S), Mett3EX (LV7~10), End Area 4 GMD (L3), Chip Order (9800ƶ);M: (TP) Mettaur3 (LV7~10);S: (TC) Mettaur3 (LV7~10);*: Mett3EX (LV9~S)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Repels an enemy's attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 134,
+      "Name": "CrsShld1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, F, V",
+      "Locations": "B: Chip Order (9200ƶ)[3];F: (TP) Dominerd (LV7~S);V: (TC) Dominerd (LV7~S), SciLab Area 1 GMD (L2)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attacks even when guarding!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 135,
+      "Name": "CrsShld2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, M, R",
+      "Locations": "C: Domnr2EX (LV7~S), ACDC Area 2 GMD (L3);M: (TP) Dominrd2 (LV7~S), Chip Order (12800ƶ);R: (TC) Dominrd2 (LV7~S)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attacks even when guarding!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 136,
+      "Name": "CrsShld3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, O, Z",
+      "Locations": "D: Domnr3EX (LV7~S), Chip Order (16700ƶ);O: (TP) Dominrd3 (LV7~S);Z: (TC) Dominrd3 (LV7~S), Undernet 4 GMD (L3)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "190",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attacks even when guarding!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 137,
+      "Name": "CrakOut",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: Folder1, BnusFldr, Chip Order (1500ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Destroys 1 panel in front",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 138,
+      "Name": "DublCrak",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: Folder2, ACDC Area 1 GMD (L1), Chip Order (3800ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Destroys 2 panels in front",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 139,
+      "Name": "TripCrak",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: Oran Area 1 GMD (L1), Chip Order (6200ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Destroys 3 panels in front",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 140,
+      "Name": "Recov10",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "A, C, L, *",
+      "Locations": "A: Folder1, BnusFldr;C: Chip Order (1500ƶ);L: Folder1;*: ACDC Area 2 GMD (L1)",
+      "Traders": "Higsby's (No *), Bohemia Hall (No *), Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "10",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recover 10HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 141,
+      "Name": "Recov30",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "C, H, L, *",
+      "Locations": "C: Main Comp 2 GMD, Chip Order (3000ƶ);H: ACDC Area 1 GMD (L2);L: Main Comp 1 GMD;*: SciLab Area 1 GMD (L1)",
+      "Traders": "Higsby's (No *), Bohemia Hall (No *), Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recover 30HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 142,
+      "Name": "Recov50",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "B, H, O, *",
+      "Locations": "B: Folder2, ACDC Area 3 GMD (L1), Chip Order (5000ƶ);H: Drill Comp 2 GMD;O: (JP)(5DS)(BNLC) Gargoyle Comp 3 / (GBA-EN) Gargoyle Comp 2 GMD;*: SciLab Area 3 GMD (L1)",
+      "Traders": "Higsby's (No *), Bohemia Hall (No *), Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recover 50HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 143,
+      "Name": "Recov80",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "B, K, O, *",
+      "Locations": "B: Gargoyle Comp 1 GMD, Chip Order (8000ƶ);K: Oran Area 3 GMD (L1);O: (JP)(5DS)(BNLC) Ship Comp 1 GMD;*: Oran Area 1 NetDealer (7800ƶ), (JP)(5DS)(BNLC) Ship Comp 4 / (GBA-EN) Ship Comp 3 GMD",
+      "Traders": "Higsby's (No *), Bohemia Hall (No *), Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recover 80HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 144,
+      "Name": "Recov120",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "K",
+      "Locations": "K: End Area 2 GMD (L1), Oran Area 1 GMD (L3), SciLab Area 4 GMD (L1), End Area 4 GMD (L1), Undernet 2 GMD (L1), Chip Order (12000ƶ)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recover 120HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 145,
+      "Name": "Recov150",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "Q",
+      "Locations": "Q: Factory Comp 1 GMD, ACDC Area 3 GMD (L2), Oran Area 3 GMD (L2), SciLab Area 1 GMD (L3), Chip Order (15000ƶ)",
+      "Traders": "Bohemia Hall, Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recover 150HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 146,
+      "Name": "Recov200",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "I",
+      "Locations": "I: Factory Comp 4 BMD, SciLab Area 3 GMD (L2), Undernet 4 GMD (L2), End Area 3 GMD (L2), End Area 3 GMD (L3), Chip Order (20000ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recover 200HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 147,
+      "Name": "Recov300",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "Y",
+      "Locations": "Y: Lotto Number (18746897), Nebula Area 2 BMD, Nebula Area 1 LM Bonus Panel, 'MPresent from Mayl' e-Reader Item Card, Chip Order (30000ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "300",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recover 300HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 148,
+      "Name": "PanlGrab",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: SciLab Area 4 GMD (L1), Chip Order (5000ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "10",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Steals 1 enemy square",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 149,
+      "Name": "AreaGrab",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, L, S, *",
+      "Locations": "A: SciLab Area 2 GMD (L1);L: (JP)(5DS)(BNLC) Ship Comp 4 / (GBA-EN) Ship Comp 3 GMD;S: Folder1, Folder2, (5DS) DuelFldr, Oran Area 1 GMD (L3), Chip Order (10000ƶ);*: (5GBA) Trader only, (5DS) Lotto Number (99428938)",
+      "Traders": "Higsby's (No *), Bohemia Hall (No *), Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "10",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Steals left edge from enmy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 150,
+      "Name": "MetaGel",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "F, N, T",
+      "Locations": "F: End Area 5 GMD (L2);N: Undernet 4 GMD (L3);T: Dumpling Comp BMD, Chip Order (20000ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Gel attack steals a panel!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 151,
+      "Name": "GrabBnsh",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, L, R",
+      "Locations": "D: Factory Comp 2 GMD;L: End Area 2 GMD (L1), Chip Order (12000ƶ);R: SciLab Area 1 GMD (L2)",
+      "Traders": "Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "20",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "20 damage for every stolen sq",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 152,
+      "Name": "GrabRvng",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "F, N, P",
+      "Locations": "F: Chip Trading (Trade NrthWind * in Wine Case Comp), (BNLC) Compensation Battle Chip set Patch Card;N: Nebula Area 4 BMD (Requires defeating all Heel Navi Guards), Chip Order (18000ƶ);P: Lotto Number (68942679)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "40 damage for every stolen sq",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 153,
+      "Name": "PnlRetrn",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: SciLab Area 2 GMD (L1), 'Mr. Famous's Intern's Tops' e-Reader Item Card, Chip Order (4000ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fix your area's panels",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 154,
+      "Name": "Geddon1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "M, P, Z, *",
+      "Locations": "M: End Area 3 GMD (L1);P: Factory Comp 3 GMD, ACDC Area 3 LM Bonus Panel, Chip Order (9000ƶ);Z: Undernet 4 GMD (L1);*: Undernet 2 GMD (L2), Undernet 2 GMD (L3)",
+      "Traders": "Higsby's, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cracks all panel on screen",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 155,
+      "Name": "Geddon2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H, T, W",
+      "Locations": "H: Oran Area 2 GMD (L2);T: End Area 1 GMD (L2);W: Undernet 3 NetDealer (10000ƶ), Oran Area 3 GMD (L3), Chip Order (11000ƶ)",
+      "Traders": "Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Breaks all empty panels",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 156,
+      "Name": "Geddon3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, O, V",
+      "Locations": "A: Nebula Area 2 PMD;O: Undernet 4 LM Bonus Panel;V: Lotto Number (52052687), Chip Order (15000ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Turn all panels to swamp",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 157,
+      "Name": "SloGauge",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H, Q, W, *",
+      "Locations": "H: Oran Area 1 GMD (L2);Q: End Area 5 GMD (L2), Chip Order (6600ƶ);W: Undernet 3 GMD (L2);*: End Areas BGMD",
+      "Traders": "Higsby's (No *), Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "CustGauge temporary slow down",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 158,
+      "Name": "FstGauge",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H, Q, W, *",
+      "Locations": "H: End Area 4 GMD (L3);Q: Higsby's normal stock (Ch. 6; 10000ƶ), Chip Order (12800ƶ);W: Oran Area 2 GMD (L3);*: Lotto Number (83143652), 'Dave's Agility' e-Reader Item Card",
+      "Traders": "Old Mine (No *), BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "CustGauge temporary speed up",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 159,
+      "Name": "BusterUp",
+      "ChipType": 1,
+      "Elements": [ 256 ],
+      "Codes": "*",
+      "Locations": "*: Folder1, Folder2, ACDC Area 3 LM Item Panel, ACDC Area 3 GMD (L3), Oran Area 1 GMD (L2), Chip Order (10000ƶ)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Power goes up by 1",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 160,
+      "Name": "Blinder",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, D, H, *",
+      "Locations": "A: (JP)(5DS)(BNLC) Gargoyle Comp 4 / (GBA-EN) Gargoyle Comp 3 GMD;D: End Area 1 GMD (L3), Higsby's normal stock (6500ƶ), Chip Order (6000ƶ);H: End Area 4 GMD (L1);*: MrFolder (Trader only otherwise)",
+      "Traders": "Higsby's (No *), Bohemia Hall (No *), Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Blinds enemy with light",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 161,
+      "Name": "NrthWind",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "D, Q, V, *",
+      "Locations": "D: Factory Comp 4 GMD, 'Lilly's Gifts' e-Reader Item Card;Q: SciLab Area 1 GMD (L2), Chip Order (13200ƶ);V: Undernet 3 NetDealer (8000ƶ);*: Chip Trading (Trade SloGauge * on Bridge - Queen Bohemia), (5DS) Lotto Number (29486933), (BNLC) Compensation Battle Chip set Patch Card",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Wind blows off auras, barriers",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 162,
+      "Name": "HolyPanl",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, N, U, *",
+      "Locations": "A: (JP)(5DS)(BNLC) Ship Comp 2 / (GBA-EN) Ship Comp 1 GMD, Chip Order (8000ƶ);N: (JP)(5DS)(BNLC) Gargoyle Comp 2 GMD;U: Factory Comp 1 GMD;*: Elevator Comp BMD, SciLab Area 4 GMD (L2), 'Mr. Famous's Intern's Tops' e-Reader Item Card",
+      "Traders": "Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Creates a HolyPanel in front",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 163,
+      "Name": "Invisibl",
+      "ChipType": 1,
+      "Elements": [ 128 ],
+      "Codes": "*",
+      "Locations": "*: BadFldr, (5DS) DuelFldr, Drill Comp 1 BMD, Undernet 3 GMD (L1), Chip Order (5000ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Invisible for a while",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 164,
+      "Name": "Barrier",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, L, S, *",
+      "Locations": "B: Main Comp 2 GMD;L: ACDC Area 1 GMD (L2), Chip Order (2400ƶ);S: ACDC Area 2 GMD (L1);*: Bargain Bin (600ƶ), Oran Area 2 GMD (L1)",
+      "Traders": "Higsby's, Bohemia Hall (No *), Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Nullifies 10 HP of damage",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 165,
+      "Name": "Barr100",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "P",
+      "Locations": "P: End Area 1 NetDealer (8800ƶ), Factory Comp 2 GMD, ACDC Area 3 GMD (L3), Oran Area 3 GMD (L2), Oran Area 2 GMD (L3), Chip Order (9400ƶ)",
+      "Traders": "Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Nullifies 100 HP of damage",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 166,
+      "Name": "Barr200",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "W",
+      "Locations": "W: Nebula Area 1 GMD, SciLab Area 4 GMD (L2), Undernet 3 GMD (L2), 'Present from Mayl' e-Reader Item Card, Chip Order (14400ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Nullifies 200 HP of damage",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 167,
+      "Name": "BblWrap",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "Y",
+      "Locations": "Y: Higsby's Showcase (Ch. 3; 4200ƶ), (JP)(5DS)(BNLC) Ship Comp 3 / (GBA-EN) Ship Comp 2 GMD, SciLab Area 3 GMD (L2), Undernet 2 GMD (L1), 'Dr. Froid's Data' e-Reader Item Card, Chip Order (8800ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Weak against elec attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 168,
+      "Name": "AntiFire",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "E, K, T, *",
+      "Locations": "E: End Area 5 GMD (L2);K: End Area 5 LM Item Panel, Nebula Area 3 GMD, Chip Order (10000ƶ);T: ACDC Area 3 GMD (L3);*: Lotto Number (73877466), 'Atsuki's Ammo' e-Reader Item Card",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fire attack damages you",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 169,
+      "Name": "AntiWatr",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "D, G, Q, *",
+      "Locations": "D: Undernet 2 BugFrag Trader (26BF), Chip Order (10000ƶ);G: Nebula Area 3 GMD;Q: Oran Area 3 GMD (L3);*: Lotto Number (25465278)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Water attack damages you",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 170,
+      "Name": "AntiElec",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "A, N, Y, *",
+      "Locations": "A: Undernet 1 GMD (L1), Chip Order (10000ƶ);N: Undernet 4 LM Item Panel, Nebula Area 3 GMD;Y: SciLab Area 4 GMD (L3);*: (5DS) DuelFldr, Lotto Number (35607360), 'Amulet from Raoul' e-Reader Item Card",
+      "Traders": "Old Mine (No *), BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Elec attack damages you",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 171,
+      "Name": "AntiWood",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "M, S, Z, *",
+      "Locations": "M: Nebula Area 5 LM Item Panel, End Area 5 GMD (L3), Chip Order (10000ƶ);S: Undernet 3 GMD (L1);Z: Nebula Area 3 GMD;*: Lotto Number (10133670), 'Sal's Cereal Prize' e-Reader Item Card",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Wood attack damages you",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 172,
+      "Name": "AntiDmg",
+      "ChipType": 1,
+      "Elements": [ 128 ],
+      "Codes": "C, F, M, *",
+      "Locations": "C: Nebula Area 6 GMD, Chip Order (15000ƶ);F: End Area 5 GMD (L3);M: BadFldr, End Areas BGMD;*: Hide and Seek reward, Chip Trading (Trade VDoll T in Squirrel Comp 6), (BNLC) Compensation Battle Chip set Patch Card",
+      "Traders": "Old Mine (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sets trap and throw stars",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 173,
+      "Name": "AntiSwrd",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "D, O, R",
+      "Locations": "D: Trader only;O: (5DS) DuelFldr, Undernet 4 GMD (L3);R: BadFldr, Lotto Number (10386794), Chip Order (9800ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Retaliate for sword damage",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 174,
+      "Name": "AntiNavi",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "M, T, V",
+      "Locations": "M: (5DS) DuelFldr, End Area 2 LM reward (9~10 phases), Nebula Area 2 GMD;T: BadFldr, SciLab Area 2 GMD (L3), Nebula Area 1 LM Bonus Panel, Chip Order (20000ƶ);V: Lotto Number (05068930)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Takes the enemy's Navi away",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 175,
+      "Name": "AntiRecv",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, J, P",
+      "Locations": "B: Undernet 3 GMD (L2), Chip Order (10000ƶ);J: BadFldr, Nebula Area 5 GMD;P: Lotto Number (44213168), Undernet 4 LM Bonus Panel",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Damages enemy in recovery",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 176,
+      "Name": "CopyDmg",
+      "ChipType": 1,
+      "Elements": [ 4096 ],
+      "Codes": "*",
+      "Locations": "*: Drill Comp 3 GMD, ACDC Area 2 BMD, Chip Order (6900ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Duplicate damage to 2nd enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 177,
+      "Name": "LifeSync",
+      "ChipType": 1,
+      "Elements": [ 4096 ],
+      "Codes": "B, R, S, *",
+      "Locations": "B: Drill Comp 1 GMD, Chip Order (6000ƶ);R: Oran Area 3 GMD (L2);S: Undernet 1 GMD (L2);*: End Area 1 GMD (L1)",
+      "Traders": "Higsby's (No *), Bohemia Hall (No *), Old Mine (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Makes HP same as enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 178,
+      "Name": "Attck+10",
+      "ChipType": 1,
+      "Elements": [ 256 ],
+      "Codes": "*",
+      "Locations": "*: Folder1, Folder2, BnusFldr, Chip Order (3800ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "+10 for selected attack Chip",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 179,
+      "Name": "Navi+20",
+      "ChipType": 1,
+      "Elements": [ 256 ],
+      "Codes": "*",
+      "Locations": "*: Oran Area 3 GMD (L2), Oran Area 3 LM Bonus Panel, Chip Order (10000ƶ)",
+      "Traders": "Old Mine, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "+20 for selected Navi Chip",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 180,
+      "Name": "ColorPt",
+      "ChipType": 1,
+      "Elements": [ 256 ],
+      "Codes": "*",
+      "Locations": "*: Bargain Bin (Ch. 6; 2500ƶ), 'Mr. Famous's Picks' e-Reader Item Card, Chip Order (9400ƶ)",
+      "Traders": "Higsby's, Bohemia Hall, Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "+10 for next chip attack",
+      "Notes": "",
+      "Image": ""
+    },
+
+
+    {
+      "Number": 1,
+      "Name": "SuprVulc",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "S",
+      "Locations": "S: Xfolder, MrFolder, Higsby's normal stock (9800ƶ), Nebula Area 5 LM Bonus Panel, Chip Order (22000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "10",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "12-shot vulcan cannon",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 2,
+      "Name": "NeoVari",
+      "ChipType": 2,
+      "Elements": [ 1024 ],
+      "Codes": "V",
+      "Locations": "V: Undernet 2 PMD, Nebula Area 5 LM Bonus Panel, Chip Order (24000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "240",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A magical shifting sword",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 3,
+      "Name": "Meteors",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "R",
+      "Locations": "R: MrFolder, Undernet 3 NetDealer (16000ƶ), Chip Order (22500ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Drop many meteor on enmy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 4,
+      "Name": "NumbrBl",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "N",
+      "Locations": "N: MrFolder, Higsby's Showcase (Ch. 5; 9500ƶ), Chip Order (20500ƶ);*: (5GBA) Unobtainable, (5DS) Lotto Number (64836563)",
+      "Traders": "BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Last 2 HP digits = atk pwr",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 5,
+      "Name": "Guardian",
+      "ChipType": 2,
+      "Elements": [ 2048 ],
+      "Codes": "O",
+      "Locations": "O: Xfolder, (5DS) DuelFldr, Oran Area 1 NetDealer (10500ƶ), Chip Order (21000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Statue punishes when hit",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 6,
+      "Name": "Jealousy",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "J",
+      "Locations": "J: (5DS) DuelFldr, End Area 1 NetDealer (12000ƶ), Chip Order (18000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "More damage if enemy has chip",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 7,
+      "Name": "Poltrgst",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "P",
+      "Locations": "P: SciLab Area 3 BugFrag Trader (60BF), Chip Order (21000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Objects thrown at enemies",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 8,
+      "Name": "BugFix",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "H",
+      "Locations": "H: Dad's Comp PMD, Chip Order (18000ƶ);*: Lotto Number (50364410), 'Sean's Collection' e-Reader Item Card",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Repairs & removes bugs",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 9,
+      "Name": "FullCust",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: End Area 2 LM reward (8 or less phases), Nebula Areas BGMD, Chip Order (19800ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "CustGauge instantly refills",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 10,
+      "Name": "LifeAur",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "D",
+      "Locations": "D: Nebula Area 6 PMD, Chip Order (22000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Repel all attacks under 200",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 11,
+      "Name": "Snctuary",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "S",
+      "Locations": "S: Undernet BGMD, Chip Order (23700ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Chng all own panel to holy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 12,
+      "Name": "Attck+30",
+      "ChipType": 2,
+      "Elements": [ 256 ],
+      "Codes": "*",
+      "Locations": "*: Undernet 2 BugFrag Trader (50BF), Chip Order (19800ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "+30 for selected atk chip",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 13,
+      "Name": "DblPoint",
+      "ChipType": 2,
+      "Elements": [ 256 ],
+      "Codes": "*",
+      "Locations": "*: Nebula Area 4 BMD (requires all P.A.s), Chip Order (20000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "+20 for next chip attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 14,
+      "Name": "Muramasa",
+      "ChipType": 2,
+      "Elements": [ 1024 ],
+      "Codes": "M",
+      "Locations": "M: Nebula Area 3 LM reward (12 or less phases), Chip Order (24000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Atk power equal amt of lost HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 15,
+      "Name": "Anubis",
+      "ChipType": 2,
+      "Elements": [ 2048 ],
+      "Codes": "A",
+      "Locations": "A: Nebula Area 5 LM reward (14 or less phases), Chip Order (25000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Anubis poisons enemies",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 16,
+      "Name": "BlakWing",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "W",
+      "Locations": "W: Nebula Area 1 LM reward (10 or less phases), Nebula Area 2 NetDealer (28000ƶ), Chip Order (21800ƶ)",
+      "Traders": "BugFrag Trader, Boktai Trader (30pt, 50pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "20",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Wing atk from a cave",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 17,
+      "Name": "JustcOne",
+      "ChipType": 2,
+      "Elements": [ 512 ],
+      "Codes": "J",
+      "Locations": "J: Received after completing Nebula Area 1 LM for the first time, Nebula Areas BGMD, Chip Order (28000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "280",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fist atk on center panel",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 18,
+      "Name": "Z Saver",
+      "ChipType": 2,
+      "Elements": [ 1024 ],
+      "Codes": "Z",
+      "Locations": "Z: Undernet 4 LM reward (8 or less phases), Nebula Area 4 BMD (requires 40+ HP Memories), Chip Order (30000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Repliroid swrd cuts 3 times",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 19,
+      "Name": "Roll",
+      "ChipType": 2,
+      "Elements": [ 64 ],
+      "Codes": "R",
+      "Locations": "R: Xfolder, Obtained from Mayl before Main Comps (Ch. 1), 'Present from Mayl' e-Reader Item Card, Chip Order (10000ƶ)",
+      "Traders": "Bohemia Hall",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "20",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attack an enmy, then heals you",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 20,
+      "Name": "Roll SP",
+      "ChipType": 2,
+      "Elements": [ 64 ],
+      "Codes": "R",
+      "Locations": "R: Email from Mayl sent after SciLab is hijacked (Ch. 6), Chip Order (20000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attack an enmy, then heals you",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 21,
+      "Name": "Roll DS",
+      "ChipType": 2,
+      "Elements": [ 64 ],
+      "Codes": "R",
+      "Locations": "R: HeelNavi in Undernet 2 (3000ƶ), Chip Order (20000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attack an enmy, then heals you",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 22,
+      "Name": "ProtoMan",
+      "ChipType": 2,
+      "Elements": [ 1024 ],
+      "Codes": "B",
+      "Locations": "B: (TP) ProtoMnβ (LV1~10), (TP) ProtoMnΩ (LV1~7), (TP) Undernet 4 LM reward (9~10 phases), 'Secrets of Chaud's Success' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TP): Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Move in and slice enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 23,
+      "Name": "ProtoMn SP",
+      "ChipType": 2,
+      "Elements": [ 1024 ],
+      "Codes": "B",
+      "Locations": "B: (TP) ProtoMnΩ (LV9~S), 'Secrets of Chaud's Success' e-Reader Item Card, Chip Order (30000ƶ)",
+      "Traders": "(TP): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "150~250",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Move in and slice enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 24,
+      "Name": "ProtoMn DS",
+      "ChipType": 2,
+      "Elements": [ 1024 ],
+      "Codes": "B",
+      "Locations": "B: (TP) ProtoMnβ (LV9~S), (TP) ProtoMnΩ (LV7~10), 'Secrets of Chaud's Success' e-Reader Item Card, Chip Order (30000ƶ)",
+      "Traders": "(TP): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Move in and slice enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 25,
+      "Name": "GyroMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "G",
+      "Locations": "G: (TP) GyroManα (LV1~S), (TP) GyroManβ (LV1~10), (TP) GyroManΩ (LV1~7), 'Charlie's Flight' e-Reader Item Card, Chip Order (10000ƶ)",
+      "Traders": "(TP): Bohemia Hall",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bombs the front of same row",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 26,
+      "Name": "GyroMan SP",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "G",
+      "Locations": "G: (TP) GyroManΩ (LV9~S), 'Charlie's Flight' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TP): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "90~140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bombs the front of same row",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 27,
+      "Name": "GyroMan DS",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "G",
+      "Locations": "G: (TP) GyroManβ (LV9~S), (TP) GyroManΩ (LV7~10), 'Charlie's Flight' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TP): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bombs the front of same row",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 28,
+      "Name": "SerchMan",
+      "ChipType": 2,
+      "Elements": [ 4096 ],
+      "Codes": "S",
+      "Locations": "S: (TP) SerchMnα (LV1~S), (TP) SerchMnβ (LV1~10), (TP) SerchMnΩ (LV1~7), 'Raika's Mission' e-Reader Item Card, Chip Order (10000ƶ)",
+      "Traders": "(TP): Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "20",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Aim and fire 5 shots",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 29,
+      "Name": "SerchMn SP",
+      "ChipType": 2,
+      "Elements": [ 4096 ],
+      "Codes": "S",
+      "Locations": "S: (TP) SerchMnΩ (LV9~S), 'Raika's Mission' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TP): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "25~75",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Aim and fire 5 shots",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 30,
+      "Name": "SerchMn DS",
+      "ChipType": 2,
+      "Elements": [ 4096 ],
+      "Codes": "S",
+      "Locations": "S: (TP) SerchMnβ (LV9~S), (TP) SerchMnΩ (LV7~10), 'Raika's Mission' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TP): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Aim and fire 5 shots",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 31,
+      "Name": "NapalmMn",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "N",
+      "Locations": "N: (TP) NapalmMα (LV1~S), (TP) NapalmMβ (LV1~10), (TP) NapalmMΩ (LV1~7), 'Fyrefox's Fireworks' e-Reader Item Card, Chip Order (10000ƶ)",
+      "Traders": "(TP): Bohemia Hall",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Explosion spreads 9 panels",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 32,
+      "Name": "NaplmMn SP",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "N",
+      "Locations": "N: (TP) NapalmMΩ (LV9~S), 'Fyrefox's Fireworks' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TP): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "150~250",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Explosion spreads 9 panels",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 33,
+      "Name": "NaplmMn DS",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "N",
+      "Locations": "N: (TP) NapalmMβ (LV9~S), (TP) NapalmMΩ (LV7~10), 'Fyrefox's Fireworks' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TP): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Explosion spreads 9 panels",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 34,
+      "Name": "MagnetMn",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "M",
+      "Locations": "M: (TP) MagnetMα (LV1~S), (TP) MagnetMβ (LV1~10), (TP) MagnetMΩ (LV1~7), 'Tesla's Stress Relief' e-Reader Item Card, Chip Order (10000ƶ)",
+      "Traders": "(TP): Bohemia Hall",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "NS tackle and chrge",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 35,
+      "Name": "MagntMn SP",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "M",
+      "Locations": "M: (TP) MagnetMΩ (LV9~S), 'Tesla's Stress Relief' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TP): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100~200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "NS tackle and chrge",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 36,
+      "Name": "MagntMn DS",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "M",
+      "Locations": "M: (TP) MagnetMβ (LV9~S), (TP) MagnetMΩ (LV7~10), 'Tesla's Stress Relief' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TP): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "NS tackle and chrge",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 37,
+      "Name": "Meddy",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "M",
+      "Locations": "M: (TP) Meddyα (LV1~S), (TP) Meddyβ (LV1~10), (TP) MeddyΩ (LV1~7), 'Jasmine's Secret Recipe' e-Reader Item Card, Chip Order (10000ƶ)",
+      "Traders": "(TP): Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throws 2 bombs to enmy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 38,
+      "Name": "Meddy SP",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "M",
+      "Locations": "M: (TP) MeddyΩ (LV9~S), 'Jasmine's Secret Recipe' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TP): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100~200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throws 2 bombs to enmy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 39,
+      "Name": "Meddy DS",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "M",
+      "Locations": "M: (TP) Meddyβ (LV9~S), (TP) MeddyΩ (LV7~10), 'Jasmine's Secret Recipe' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TP): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throws 2 bombs to enmy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 40,
+      "Name": "BlizMan",
+      "ChipType": 2,
+      "Elements": [ 2 ],
+      "Codes": "B",
+      "Locations": "B: BlizManβ (LV1~10), BlizManΩ (LV1~7), ACDC Area 3 LM reward (6~7 phases), Chip Order (10000ƶ)",
+      "Traders": "Bohemia Hall",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Snowball expands when hit",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 41,
+      "Name": "BlizMan SP",
+      "ChipType": 2,
+      "Elements": [ 2 ],
+      "Codes": "B",
+      "Locations": "B: BlizManΩ (LV9~S), ACDC Area 3 LM reward (5 or less phases), Chip Order (20000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "130~180",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Snowball expands when hit",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 42,
+      "Name": "BlizMan DS",
+      "ChipType": 2,
+      "Elements": [ 2 ],
+      "Codes": "B",
+      "Locations": "B: BadFldr, BlizManβ (LV9~S), BlizManΩ (LV7~10), Chip Order (20000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Snowball expands when hit",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 43,
+      "Name": "ShadeMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "S",
+      "Locations": "S: ShadeMnβ (LV1~10), ShadeMnΩ (LV1~7), Oran Area 3 LM reward (8~9 phases), Chip Order (10000ƶ)",
+      "Traders": "Bohemia Hall, Boktai Trader (10pt, 20pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "CrshNoise attck all direction",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 44,
+      "Name": "ShadeMn SP",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "S",
+      "Locations": "S: ShadeMnΩ (LV9~S), Oran Area 3 LM reward (7 or less phases), Chip Order (20000ƶ)",
+      "Traders": "BugFrag Trader, Boktai Trader (30pt, 50pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "140~240",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "CrshNoise attck all direction",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 45,
+      "Name": "ShadeMn DS",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "S",
+      "Locations": "S: BadFldr, ShadeMnβ (LV9~S), ShadeMnΩ (LV7~10), Nebula Area 1 LM reward (11~12 phases), Chip Order (20000ƶ)",
+      "Traders": "BugFrag Trader, Boktai Trader (20pt, 30pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "CrshNoise attck all direction",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 46,
+      "Name": "CloudMan",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "C",
+      "Locations": "C: CloudMnβ (LV1~10), CloudMnΩ (LV1~7), SciLab Area 3 LM reward (8~9 phases), Chip Order (10000ƶ)",
+      "Traders": "Bohemia Hall",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Thundr atk behind the enmy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 47,
+      "Name": "CloudMn SP",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "C",
+      "Locations": "C: CloudMnΩ (LV9~S), SciLab Area 3 LM reward (7 or less phases), Chip Order (20000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "60~110",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Thundr atk behind the enmy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 48,
+      "Name": "CloudMn DS",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "C",
+      "Locations": "C: BadFldr, CloudMnβ (LV9~S), CloudMnΩ (LV7~10), Nebula Area 3 LM reward (13~14 phases), Chip Order (20000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Thundr atk behind the enmy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 49,
+      "Name": "CosmoMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "C",
+      "Locations": "C: CosmoMnβ (LV1~10), CosmoMnΩ (LV1~7), End Area 5 LM reward (8~9 phases), Chip Order (10000ƶ)",
+      "Traders": "Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Meteors hit enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 50,
+      "Name": "CosmoMn SP",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "C",
+      "Locations": "C: CosmoMnΩ (LV9~S), End Area 5 LM reward (7 or less phases), Chip Order (20000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "80~130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Meteors hit enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 51,
+      "Name": "CosmoMn DS",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "C",
+      "Locations": "C: CosmoMnβ (LV9~S), CosmoMnΩ (LV7~10), Nebula Area 5 LM reward (15~16 phases), Chip Order (20000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Meteors hit enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 52,
+      "Name": "LarkMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "L",
+      "Locations": "S: LarkMan (LV1~S), LarkManα (LV1~S), LarkManβ (LV1~10), LarkManΩ (LV1~7), Chip Order (10000ƶ)",
+      "Traders": "Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Whirl forward and atk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 53,
+      "Name": "LarkMan SP",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "L",
+      "Locations": "S: LarkManΩ (LV9~S), Chip Order (20000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "170~270",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Whirl forward and atk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 54,
+      "Name": "LarkMan DS",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "L",
+      "Locations": "S: LarkManβ (LV9~S), LarkManΩ (LV7~10), Chip Order (20000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Whirl forward and atk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 55,
+      "Name": "GridMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "F",
+      "Locations": "F: GridMan (LV1~S), GridManα (LV1~S), GridManβ (LV1~10), GridManΩ (LV1~7), Chip Order (10000ƶ)",
+      "Traders": "Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Explodes when touchdown",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 56,
+      "Name": "GridMan SP",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "F",
+      "Locations": "F: GridManΩ (LV9~S), Chip Order (20000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "150~250",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Explodes when touchdown",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 57,
+      "Name": "GridMan DS",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "F",
+      "Locations": "F: GridManβ (LV9~S), GridManΩ (LV7~10), Chip Order (20000ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Explodes when touchdown",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 58,
+      "Name": "Django",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "D",
+      "Locations": "D: Higsby's Showcase (Ch. 4; 7300ƶ), Chip Order (20000ƶ)",
+      "Traders": "Boktai Trader (10pt, 20pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Burns with sunlight",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 59,
+      "Name": "Django SP",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "D",
+      "Locations": "D: (5DS) DuelFldr, Lotto Number (91098051), Chip Order (30000ƶ)",
+      "Traders": "Boktai Trader (30pt, 50pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Burns with sunlight",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 60,
+      "Name": "Django DS",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "D",
+      "Locations": "D: Nebula Area 4 BMD (requires all Dark Chips registered), Chip Order (30000ƶ)",
+      "Traders": "Boktai Trader (30pt, 50pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Burns with sunlight",
+      "Notes": "",
+      "Image": ""
+    },
+
+
+    {
+      "Number": 1,
+      "Name": "DeltaRay",
+      "ChipType": 4,
+      "Elements": [ 1024 ],
+      "Codes": "Z",
+      "Locations": "Z: Obtain from Chaud at the start of Ch. 7;",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "220",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A Button power up by 3 swrd",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 2,
+      "Name": "BigHook",
+      "ChipType": 4,
+      "Elements": [ 512 ],
+      "Codes": "G",
+      "Locations": "G: Received after defeating ChaosLrd (NebulaGα) for the first time in Nebula Area 6;",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "240",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hook atk 2 sq wide",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 3,
+      "Name": "Bass",
+      "ChipType": 4,
+      "Elements": [ 0 ],
+      "Codes": "F",
+      "Locations": "F: ChaosLrd (Bassβ) (LV1~S);",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Buster rake wide enmy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 4,
+      "Name": "HolyDrem",
+      "ChipType": 4,
+      "Elements": [ 0 ],
+      "Codes": "H",
+      "Locations": "H: Nebula Area 4 PMD (requires all PAs and all Mega Chips registered);",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Holy shot sucks in HolyPanl!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 5,
+      "Name": "BugCurse",
+      "ChipType": 4,
+      "Elements": [ 0 ],
+      "Codes": "C",
+      "Locations": "C: Undernet 2 BugFrag Trader (100BF);",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Make enemy buggy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 6,
+      "Name": "DethPhnx",
+      "ChipType": 4,
+      "Elements": [ 0 ],
+      "Codes": "D",
+      "Locations": "D: Higsby's normal stock (25000ƶ);Team Colonel",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fire Atk! Recycle Navi too",
+      "Notes": "",
+      "Image": ""
+    },
+
+
+
+
+
+
+
+
+    {
+      "Number": 1,
+      "Name": "DrkSword",
+      "ChipType": 8,
+      "Elements": [ 1024 ],
+      "Codes": "",
+      "Locations": "Z: Purchase from Old Man in SciLab (Ch.2; 500ƶ), BadFldr;",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "400",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "USE LARGE SWORD AND SLICE",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 2,
+      "Name": "DarkTorn",
+      "ChipType": 8,
+      "Elements": [ 16 ],
+      "Codes": "",
+      "Locations": "T: Purchase from Scientist in Old Mine 6 (Ch.3; 500ƶ);",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "50 (x8)",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "TORNADO EXPANDS WHEN HIT",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 3,
+      "Name": "DarkCirc",
+      "ChipType": 8,
+      "Elements": [ 4096 ],
+      "Codes": "",
+      "Locations": "R: Chip Maker Comp BMD;",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "300",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "STOP CURSR AND ATTACK",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 4,
+      "Name": "DarkMetr",
+      "ChipType": 8,
+      "Elements": [ 1 ],
+      "Codes": "",
+      "Locations": "F: Purchase from Lady in SciLab Docks (Ch.4; 3000ƶ);",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100 (x12/14/16)",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "METEOR SHOWER ON ENMY",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 5,
+      "Name": "DarkThnd",
+      "ChipType": 8,
+      "Elements": [ 8 ],
+      "Codes": "",
+      "Locations": "M: BadFldr, Mr. Quiz (Ch.3; SciLab Front);",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "CORNER ENMY BY THUNDER",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 6,
+      "Name": "DrkRecov",
+      "ChipType": 8,
+      "Elements": [ 64 ],
+      "Codes": "",
+      "Locations": "H: Defeat HeelNavi in End Area 2 (Ch.5);*: (5GBA) Unobtainable, (5DS) Lotto Number (91182599);",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "BECOME ALMOST INVINCBLE",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 7,
+      "Name": "DrkSonic",
+      "ChipType": 8,
+      "Elements": [ 2048 ],
+      "Codes": "",
+      "Locations": "E: Purchase from Man behind Higsby's (Ch.3; 2000ƶ);*: Unobtainable;",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "PARALYZE THE ENEMY",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 8,
+      "Name": "DarkInvs",
+      "ChipType": 8,
+      "Elements": [ 128 ],
+      "Codes": "",
+      "Locations": "I: BadFldr, Chip Trading (Trade AntiDmg * in Gargoyle Castle);*: Lotto Number (68799876);",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "RELEASE YOUR DARKNESS",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 9,
+      "Name": "DarkPlus",
+      "ChipType": 8,
+      "Elements": [ 256 ],
+      "Codes": "",
+      "Locations": "*: Undernet 1 BMD (requires Nebula ID);",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "NEXT CHIP ATK +50",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 10,
+      "Name": "DrkLance",
+      "ChipType": 8,
+      "Elements": [ 4 ],
+      "Codes": "",
+      "Locations": "W: Quiz Master (Ch.4; Queen Bohemia Dock);",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "400",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "ATK ENMY FROM BEHIND",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 11,
+      "Name": "DarkDril",
+      "ChipType": 8,
+      "Elements": [ 512 ],
+      "Codes": "",
+      "Locations": "D: Purchase from HeelNavi in End Area 1 invisible path (Ch.4; 3000ƶ);",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "100 (x6)",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "LETHAL DRILL OF DARKNESS",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 12,
+      "Name": "DarkWide",
+      "ChipType": 8,
+      "Elements": [ 2 ],
+      "Codes": "",
+      "Locations": "T: Purchase from purple female Navi in SciLab Area 4 (Ch.4; 1000ƶ);",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "300",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "WIDE SHOT PIERCES THE ENMY",
+      "Notes": "",
+      "Image": ""
+    },
+
+    {
+      "Number": 1,
+      "Name": "Colonel",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "",
+      "Locations": "C: (TC) Colonelβ (LV1~10), (TC) ColonelΩ (LV1~7), (TC) Undernet 4 LM reward (9~10 phases), 'Baryl's Tactics' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slice enemy in same row",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 2,
+      "Name": "Colonel SP",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "",
+      "Locations": "C: (TC) ColonelΩ (LV9~S), 'Baryl's Tactics' e-Reader Item Card, Chip Order (30000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "200~300",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slice enemy in same row",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 3,
+      "Name": "Colonel DS",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "",
+      "Locations": "C: (TC) Colonelβ (LV9~S), (TC) ColonelΩ (LV7~10), 'Baryl's Tactics' e-Reader Item Card, Chip Order (30000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slice enemy in same row",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 4,
+      "Name": "ShadoMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "",
+      "Locations": "S: (TC) ShadoMnα (LV1~S), (TC) ShadoMnβ (LV1~10), (TC) ShadoMnΩ (LV1~7), 'Dusk's Dark Doings' e-Reader Item Card, Chip Order (10000ƶ)",
+      "Traders": "(TC): Bohemia Hall",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throw 3 ninja stars",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 5,
+      "Name": "ShadoMn SP",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "",
+      "Locations": "S: (TC) ShadoMnΩ (LV9~S), 'Dusk's Dark Doings' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "45~70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throw 3 ninja stars",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 6,
+      "Name": "ShadoMn DS",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "",
+      "Locations": "S: (TC) ShadoMnβ (LV9~S), (TC) ShadoMnΩ (LV7~10), 'Dusk's Dark Doings' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throw 3 ninja stars",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 7,
+      "Name": "NumbrMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "",
+      "Locations": "N: (TC) NumbrMnα (LV1~S), (TC) NumbrMnβ (LV1~10), (TC) NumbrMnΩ (LV1~7), 'Higsby's Blowout' e-Reader Item Card, Chip Order (10000ƶ)",
+      "Traders": "(TC): Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bomb 3 ahead! Hits 9sq",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 8,
+      "Name": "NumbrMn SP",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "",
+      "Locations": "N: (TC) NumbrMnΩ (LV9~S), 'Higsby's Blowout' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "40~90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bomb 3 ahead! Hits 9sq",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 9,
+      "Name": "NumbrMn DS",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "",
+      "Locations": "N: (TC) NumbrMnβ (LV9~S), (TC) NumbrMnΩ (LV7~10), 'Higsby's Blowout' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bomb 3 ahead! Hits 9sq",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 10,
+      "Name": "TmhwkMan",
+      "ChipType": 2,
+      "Elements": [ 4 ],
+      "Codes": "",
+      "Locations": "T: (TC) TmhkManα (LV1~S), (TC) TmhkManβ (LV1~10), (TC) TmhkManΩ (LV1~7), 'Dingo's Hope' e-Reader Item Card, Chip Order (10000ƶ)",
+      "Traders": "(TC): Bohemia Hall",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slice 2sq side, 3sq vertical",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 11,
+      "Name": "TmhwkMn SP",
+      "ChipType": 2,
+      "Elements": [ 4 ],
+      "Codes": "",
+      "Locations": "T: (TC) TmhkManΩ (LV9~S), 'Dingo's Hope' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "180~280",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slice 2sq side, 3sq vertical",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 12,
+      "Name": "TmhwkMn DS",
+      "ChipType": 2,
+      "Elements": [ 4 ],
+      "Codes": "",
+      "Locations": "T: (TC) TmhkManβ (LV9~S), (TC) TmhkManΩ (LV7~10), 'Dingo's Hope' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slice 2sq side, 3sq vertical",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 13,
+      "Name": "KnightMn",
+      "ChipType": 2,
+      "Elements": [ 512 ],
+      "Codes": "",
+      "Locations": "K: (TC) KnightMα (LV1~S), (TC) KnightMβ (LV1~10), (TC) KnightMΩ (LV1~7), 'Pride's Treasures' e-Reader Item Card, Chip Order (10000ƶ)",
+      "Traders": "(TC): Bohemia Hall",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "170",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Circle around and atk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 14,
+      "Name": "KnigtMn SP",
+      "ChipType": 2,
+      "Elements": [ 512 ],
+      "Codes": "",
+      "Locations": "K: (TC) KnightMΩ (LV9~S), 'Pride's Treasures' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "220~320",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Circle around and atk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 15,
+      "Name": "KnigtMn DS",
+      "ChipType": 2,
+      "Elements": [ 512 ],
+      "Codes": "",
+      "Locations": "K: (TC) KnightMβ (LV9~S), (TC) KnightMΩ (LV7~10), 'Pride's Treasures' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Circle around and atk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 16,
+      "Name": "ToadMan",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "",
+      "Locations": "T: (TC) ToadManα (LV1~S), (TC) ToadManβ (LV1~10), (TC) ToadManΩ (LV1~7), 'Ribitta's Freebies' e-Reader Item Card, Chip Order (10000ƶ)",
+      "Traders": "(TC): Old Mine",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sing and paralyze the enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 17,
+      "Name": "ToadMan SP",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "",
+      "Locations": "T: (TC) ToadManΩ (LV9~S), 'Ribitta's Freebies' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "120~220",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sing and paralyze the enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 18,
+      "Name": "ToadMan DS",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "",
+      "Locations": "T: (TC) ToadManβ (LV9~S), (TC) ToadManΩ (LV7~10), 'Ribitta's Freebies' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sing and paralyze the enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 19,
+      "Name": "Otenko",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "",
+      "Locations": "O: Chip Order (40000ƶ)",
+      "Traders": "Boktai Trader (50pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Put Otnko to raise atk pwr",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 20,
+      "Name": "GunDelEX",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "",
+      "Locations": "G: Chip Order (35000ƶ)",
+      "Traders": "Boktai Trader (50pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fires a spread sunbeam",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 21,
+      "Name": "LeadRaid",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "",
+      "Locations": "L: Event distribution, 'LeaderRaid' e-Reader Rare Chip Distribution, (5DS) Lotto Number (01285874), (BNLC) Download Chip",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "ProtoMan & Colonel together!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 22,
+      "Name": "ChaosLrd",
+      "ChipType": 4,
+      "Elements": [ 0 ],
+      "Codes": "",
+      "Locations": "X: Event distribution; 'ChaosLord' e-Reader Rare Chip Distribution, (5DS) Lotto Number (39285712), (BNLC) Download Chip",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 0,
+      "Damage": "500",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hatred formed into Bass",
+      "Notes": "",
+      "Image": ""
+    }
+  ]
+}

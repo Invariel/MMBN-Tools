@@ -47,6 +47,8 @@
             txt_FilterByCodes = new TextBox();
             lbl_FilterByClass = new Label();
             cmb_FilterByClass = new ComboBox();
+            lbl_LocationText = new Label();
+            txt_SearchLocationText = new TextBox();
             tbl_ChipView = new TableLayoutPanel();
             lbl_ChipDataView_Right = new Label();
             lbl_Error = new Label();
@@ -220,17 +222,18 @@
             tbl_Cards.Name = "tbl_Cards";
             tbl_Cards.RowCount = 3;
             tbl_Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 11.6575594F));
-            tbl_Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 16.575592F));
-            tbl_Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 71.7668457F));
+            tbl_Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 17.7195683F));
+            tbl_Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 70.72419F));
             tbl_Cards.Size = new Size(741, 649);
             tbl_Cards.TabIndex = 3;
             // 
             // grp_FilterChips
             // 
             grp_FilterChips.Controls.Add(tbl_Filters);
+            grp_FilterChips.Dock = DockStyle.Fill;
             grp_FilterChips.Location = new Point(3, 78);
             grp_FilterChips.Name = "grp_FilterChips";
-            grp_FilterChips.Size = new Size(735, 82);
+            grp_FilterChips.Size = new Size(735, 108);
             grp_FilterChips.TabIndex = 0;
             grp_FilterChips.TabStop = false;
             grp_FilterChips.Text = "Filter Chips";
@@ -250,20 +253,23 @@
             tbl_Filters.Controls.Add(txt_FilterByCodes, 3, 0);
             tbl_Filters.Controls.Add(lbl_FilterByClass, 2, 1);
             tbl_Filters.Controls.Add(cmb_FilterByClass, 3, 1);
+            tbl_Filters.Controls.Add(lbl_LocationText, 0, 2);
+            tbl_Filters.Controls.Add(txt_SearchLocationText, 1, 2);
             tbl_Filters.Dock = DockStyle.Fill;
             tbl_Filters.Location = new Point(3, 19);
             tbl_Filters.Name = "tbl_Filters";
-            tbl_Filters.RowCount = 2;
-            tbl_Filters.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tbl_Filters.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tbl_Filters.Size = new Size(729, 60);
+            tbl_Filters.RowCount = 3;
+            tbl_Filters.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3322334F));
+            tbl_Filters.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3322334F));
+            tbl_Filters.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3355331F));
+            tbl_Filters.Size = new Size(729, 86);
             tbl_Filters.TabIndex = 0;
             // 
             // lbl_FilterByName
             // 
             lbl_FilterByName.Anchor = AnchorStyles.Right;
             lbl_FilterByName.AutoSize = true;
-            lbl_FilterByName.Location = new Point(124, 7);
+            lbl_FilterByName.Location = new Point(124, 6);
             lbl_FilterByName.Name = "lbl_FilterByName";
             lbl_FilterByName.Size = new Size(55, 15);
             lbl_FilterByName.TabIndex = 0;
@@ -281,7 +287,7 @@
             // 
             lbl_FilterByElement.Anchor = AnchorStyles.Right;
             lbl_FilterByElement.AutoSize = true;
-            lbl_FilterByElement.Location = new Point(113, 37);
+            lbl_FilterByElement.Location = new Point(113, 34);
             lbl_FilterByElement.Name = "lbl_FilterByElement";
             lbl_FilterByElement.Size = new Size(66, 15);
             lbl_FilterByElement.TabIndex = 2;
@@ -291,7 +297,7 @@
             // 
             cmb_FilterByElement.Dock = DockStyle.Fill;
             cmb_FilterByElement.FormattingEnabled = true;
-            cmb_FilterByElement.Location = new Point(185, 33);
+            cmb_FilterByElement.Location = new Point(185, 31);
             cmb_FilterByElement.Name = "cmb_FilterByElement";
             cmb_FilterByElement.Size = new Size(176, 23);
             cmb_FilterByElement.TabIndex = 3;
@@ -300,7 +306,7 @@
             // 
             lbl_FilterByCodes.Anchor = AnchorStyles.Right;
             lbl_FilterByCodes.AutoSize = true;
-            lbl_FilterByCodes.Location = new Point(487, 7);
+            lbl_FilterByCodes.Location = new Point(487, 6);
             lbl_FilterByCodes.Name = "lbl_FilterByCodes";
             lbl_FilterByCodes.Size = new Size(56, 15);
             lbl_FilterByCodes.TabIndex = 4;
@@ -318,7 +324,7 @@
             // 
             lbl_FilterByClass.Anchor = AnchorStyles.Right;
             lbl_FilterByClass.AutoSize = true;
-            lbl_FilterByClass.Location = new Point(493, 37);
+            lbl_FilterByClass.Location = new Point(493, 34);
             lbl_FilterByClass.Name = "lbl_FilterByClass";
             lbl_FilterByClass.Size = new Size(50, 15);
             lbl_FilterByClass.TabIndex = 6;
@@ -329,10 +335,28 @@
             cmb_FilterByClass.Dock = DockStyle.Fill;
             cmb_FilterByClass.FormattingEnabled = true;
             cmb_FilterByClass.Items.AddRange(new object[] { "None", "Standard", "Mega", "Giga", "Dark" });
-            cmb_FilterByClass.Location = new Point(549, 33);
+            cmb_FilterByClass.Location = new Point(549, 31);
             cmb_FilterByClass.Name = "cmb_FilterByClass";
             cmb_FilterByClass.Size = new Size(177, 23);
             cmb_FilterByClass.TabIndex = 7;
+            // 
+            // lbl_LocationText
+            // 
+            lbl_LocationText.Anchor = AnchorStyles.Right;
+            lbl_LocationText.AutoSize = true;
+            lbl_LocationText.Location = new Point(64, 63);
+            lbl_LocationText.Name = "lbl_LocationText";
+            lbl_LocationText.Size = new Size(115, 15);
+            lbl_LocationText.TabIndex = 8;
+            lbl_LocationText.Text = "Search Location Text";
+            // 
+            // txt_SearchLocationText
+            // 
+            txt_SearchLocationText.Dock = DockStyle.Fill;
+            txt_SearchLocationText.Location = new Point(185, 59);
+            txt_SearchLocationText.Name = "txt_SearchLocationText";
+            txt_SearchLocationText.Size = new Size(176, 23);
+            txt_SearchLocationText.TabIndex = 9;
             // 
             // tbl_ChipView
             // 
@@ -342,22 +366,22 @@
             tbl_ChipView.Controls.Add(lbl_Error, 0, 2);
             tbl_ChipView.Controls.Add(split_GameChips, 0, 0);
             tbl_ChipView.Dock = DockStyle.Fill;
-            tbl_ChipView.Location = new Point(3, 185);
+            tbl_ChipView.Location = new Point(3, 192);
             tbl_ChipView.Name = "tbl_ChipView";
             tbl_ChipView.RowCount = 3;
             tbl_ChipView.RowStyles.Add(new RowStyle(SizeType.Percent, 60F));
             tbl_ChipView.RowStyles.Add(new RowStyle(SizeType.Percent, 35F));
             tbl_ChipView.RowStyles.Add(new RowStyle(SizeType.Percent, 5F));
-            tbl_ChipView.Size = new Size(735, 461);
+            tbl_ChipView.Size = new Size(735, 454);
             tbl_ChipView.TabIndex = 1;
             // 
             // lbl_ChipDataView_Right
             // 
             lbl_ChipDataView_Right.AutoSize = true;
             lbl_ChipDataView_Right.Dock = DockStyle.Fill;
-            lbl_ChipDataView_Right.Location = new Point(3, 276);
+            lbl_ChipDataView_Right.Location = new Point(3, 272);
             lbl_ChipDataView_Right.Name = "lbl_ChipDataView_Right";
-            lbl_ChipDataView_Right.Size = new Size(729, 161);
+            lbl_ChipDataView_Right.Size = new Size(729, 158);
             lbl_ChipDataView_Right.TabIndex = 1;
             lbl_ChipDataView_Right.Text = " ";
             // 
@@ -365,7 +389,7 @@
             // 
             lbl_Error.AutoSize = true;
             lbl_Error.Dock = DockStyle.Fill;
-            lbl_Error.Location = new Point(3, 437);
+            lbl_Error.Location = new Point(3, 430);
             lbl_Error.Name = "lbl_Error";
             lbl_Error.Size = new Size(729, 24);
             lbl_Error.TabIndex = 2;
@@ -401,7 +425,7 @@
             split_GameChips.Panel2.Controls.Add(btn_2_0);
             split_GameChips.Panel2.Controls.Add(btn_1_0);
             split_GameChips.Panel2.Controls.Add(btn_0_0);
-            split_GameChips.Size = new Size(729, 270);
+            split_GameChips.Size = new Size(729, 266);
             split_GameChips.SplitterDistance = 487;
             split_GameChips.TabIndex = 3;
             // 
@@ -413,7 +437,7 @@
             dgv_ChipList.Location = new Point(0, 0);
             dgv_ChipList.Name = "dgv_ChipList";
             dgv_ChipList.ReadOnly = true;
-            dgv_ChipList.Size = new Size(487, 270);
+            dgv_ChipList.Size = new Size(487, 266);
             dgv_ChipList.TabIndex = 3;
             // 
             // textBox1
@@ -783,5 +807,7 @@
         private Label lbl_FilterByClass;
         private ComboBox cmb_FilterByClass;
         private FlowLayoutPanel flw_Checklist;
+        private Label lbl_LocationText;
+        private TextBox txt_SearchLocationText;
     }
 }

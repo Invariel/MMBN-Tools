@@ -165,6 +165,11 @@ namespace Deck_Builder
             {
                 battlechips = battlechips.Where(c => c.ChipType.IsChipType(GetChipTypeFromString(cmb_FilterByClass.SelectedItem!.ToString()!))).ToList();
             }
+            
+            if (!string.IsNullOrEmpty(txt_SearchLocationText.Text.Trim()))
+            {
+                battlechips = battlechips.Where(c => c.Locations.Contains(txt_SearchLocationText.Text.Trim().ToLower(), StringComparison.CurrentCultureIgnoreCase)).ToList();
+            }
 
             dgv_ChipList.Rows.Clear();
 
