@@ -65,7 +65,6 @@ namespace Deck_Builder
                 {
                     lbl_Error.Text = result.error;
                 }
-
             }
             else
             {
@@ -423,7 +422,7 @@ Traders: {chip.Traders}
 
         public void RemoveChipFromFolder(object? sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex < 0)
+            if (e.RowIndex < 0 || e.RowIndex >= dgv_Folder.Rows.Count)
             {
                 return;
             }
@@ -457,7 +456,6 @@ Traders: {chip.Traders}
                 _currentFolder.Chips.Remove(folderChip);
             }
 
-            dgv_FolderBindingSource.DataSource = null;
             dgv_FolderBindingSource.DataSource = _currentFolder.Chips;
         }
 

@@ -6,36 +6,22 @@ namespace Deck_Builder
 {
     public partial class frm_DeckBuilder : Form
     {
-        public bool SaveCurrentFolder(string previousName)
+        public void AddToCurrentFolders()
         {
-            Folder? updatedFolder = null;
-
-            if (!_canUpdateFolder)
-            {
-                return false;
-            }
-
-            if (string.IsNullOrEmpty(previousName))
-            {
-                updatedFolder = currentFolders.FirstOrDefault(f => f.FolderName.Equals(previousName));
-            }
-
-            if (updatedFolder is null)
-            {
-                updatedFolder = currentFolders.FirstOrDefault(f => f.FolderName.Equals(cmb_SelectFolder.Text));
-            }
-
-            // Write the current deck to the folder, along with its name.
-            if (updatedFolder is null)
+            if (!currentFolders.Any(f => f.Equals(_currentFolder)))
             {
                 currentFolders.Add(_currentFolder);
             }
-            else
-            {
-                updatedFolder = _currentFolder;
-            }
 
-            return true;
+            _currentFolder.FolderName = cmb_SelectFolder.Text;
+
+            cmb_SelectFolder.DataSource = currentFolders.Select(cf => cf.FolderName).ToList();
+            cmb_SelectFolder.SelectedIndex = currentFolders.IndexOf(_currentFolder);
+        }
+
+        public void SaveCurrentFolder()
+        {
+            AddToCurrentFolders();
         }
 
         public void SaveAllFolders()
@@ -57,10 +43,7 @@ namespace Deck_Builder
 
             if (result.Equals(DialogResult.OK))
             {
-                if (!currentFolders.Contains(_currentFolder))
-                {
-                    currentFolders.Add(_currentFolder);
-                }
+                AddToCurrentFolders();
 
                 var jsonFile = JsonSerializer.Serialize(currentFolders);
                 var file = saveFileDialog.OpenFile();
@@ -72,6 +55,32 @@ namespace Deck_Builder
 
         public void LoadSelectedFolder()
         {
+            _currentFolder = currentFolders.FirstOrDefault(f => f.FolderName.Equals(cmb_SelectFolder.Text)) ?? new Folder() { GameName = cmb_SelectGame.Text, Chips = new(), FolderName = string.Empty };
+
+            if (!cmb_SelectGame.Items.Contains(_currentFolder.GameName))
+            {
+                MessageBox.Show(
+                    $"Data for {_currentFolder.GameName} has not been loaded.  " +
+                    $"Please include {_currentFolder.GameName}.json in the ChipData directory.",
+                    "Error - Specified Game not Loaded",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error,
+                    MessageBoxDefaultButton.Button1);
+
+                _currentFolder = new Folder() { GameName = cmb_SelectGame.Text, Chips = new(), FolderName = string.Empty };
+            }
+
+            if (!_currentFolder.GameName.Equals(cmb_SelectGame.SelectedValue!.ToString()!))
+            {
+                var newFolder = _currentFolder;
+
+                cmb_SelectGame.SelectedIndex = cmb_SelectGame.Items.IndexOf(_currentFolder.GameName);
+
+                _currentFolder = newFolder;
+            }
+
+            dgv_FolderBindingSource.DataSource = null;
+            dgv_FolderBindingSource.DataSource = _currentFolder.Chips;
         }
 
         public void LoadAllFolders()
@@ -86,38 +95,68 @@ namespace Deck_Builder
 
             DialogResult result = loadFileDialog.ShowDialog();
 
-            if (result.Equals(DialogResult.OK))
+            if (!result.Equals(DialogResult.OK))
             {
-                _currentFolder = new();
-                currentFolders = new();
-
-                var jsonFile = loadFileDialog.OpenFile();
-                var bytes = jsonFile.Length;
-
-                byte[] fileBytes = new byte[bytes];
-                jsonFile.ReadExactly(fileBytes, 0, (int)bytes);
-
-                currentFolders = JsonSerializer.Deserialize<List<Folder>>(Encoding.UTF8.GetString(fileBytes))!;
+                return;
             }
 
-            if (cmb_SelectGame.Items.Contains(currentFolders.FirstOrDefault()?.GameName))
+            _currentFolder = new();
+            currentFolders = new();
+
+            try
             {
-                cmb_SelectGame.SelectedIndex = cmb_SelectGame.Items.IndexOf(currentFolders.FirstOrDefault()?.GameName);
+                Stream loadFileStream;
+
+                if ((loadFileStream = loadFileDialog.OpenFile()) == null)
+                {
+                    throw new Exception();
+                }
+
+                currentFolders = JsonSerializer.Deserialize<List<Folder>>(loadFileStream);
+
+                if (currentFolders is null)
+                {
+                    throw new Exception();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error reading file.\n{ex}", "Error Reading File");
+
+                currentFolders = new();
+                _currentFolder = new() { GameName = cmb_SelectGame.SelectedValue!.ToString()!, FolderName = string.Empty, Chips = new() };
+                SaveCurrentFolder();
+            }
+
+            var potentialFolder = currentFolders.FirstOrDefault(cf => cf.GameName.Equals(cmb_SelectGame.SelectedValue));
+
+            if (potentialFolder is not null && cmb_SelectGame.Items.Contains(potentialFolder.GameName))
+            {
+                _currentFolder = potentialFolder;
+
+                cmb_SelectGame.SelectedIndex = cmb_SelectGame.Items.IndexOf(_currentFolder.GameName);
+            }
+            else if (potentialFolder is null)
+            {
+                _currentFolder = new() { GameName = cmb_SelectGame.SelectedValue!.ToString()!, FolderName = string.Empty, Chips = new() };
+            }
+            else if (_currentFolder is not null && _currentFolder.Chips.Count == 0)
+            {
+                _currentFolder.GameName = cmb_SelectGame.SelectedValue!.ToString()!;
+            }
+            else if (_currentFolder is not null && !string.IsNullOrEmpty(_currentFolder.GameName))
+            {
+                cmb_SelectGame.SelectedIndex = cmb_SelectGame.Items.IndexOf(_currentFolder.GameName);
             }
             else
             {
-                cmb_SelectGame.SelectedIndex = 0;
+                _currentFolder = new() { GameName = cmb_SelectGame.SelectedValue!.ToString()!, FolderName = string.Empty, Chips = new() };
             }
 
-            if (!currentFolders.Any(f => f.GameName.Equals(cmb_SelectGame.SelectedText)))
-            {
-                currentFolders.Add(new Folder() { GameName = cmb_SelectGame.SelectedText, Chips = new(), FolderName = string.Empty });
-            }
+            cmb_SelectFolder.DataSource = currentFolders.Select(cf => cf.FolderName).ToList();
+            cmb_SelectFolder.SelectedIndex = currentFolders.IndexOf(_currentFolder);
 
-            (cmb_SelectFolder.DataSource as BindingSource).DataSource = currentFolders.Select (cf => cf.FolderName).ToList();
-
-            cmb_SelectFolder.SelectedIndex = 0;
-            _currentFolder = currentFolders.FirstOrDefault(f => f.FolderName.Equals(cmb_SelectFolder.Text)) ?? new Folder() { GameName = cmb_SelectGame.Text, Chips = new(), FolderName = string.Empty };
+            SaveCurrentFolder();
 
             dgv_FolderBindingSource.DataSource = null;
             dgv_FolderBindingSource.DataSource = _currentFolder.Chips;
@@ -125,17 +164,31 @@ namespace Deck_Builder
 
         public void NewFolder()
         {
-            SaveCurrentFolder(cmb_SelectFolder.Text);
+            AddToCurrentFolders();
 
             _canUpdateFolder = false;
+
             // Clear the current deck and reset the folder name.
-            cmb_SelectFolder.Text = "";
             _currentFolder = new Folder() { GameName = cmb_SelectGame.Text, Chips = new(), FolderName = string.Empty };
+            cmb_SelectFolder.Text = string.Empty;
+
+            AddToCurrentFolders();
 
             _canUpdateFolder = true;
 
             dgv_FolderBindingSource.DataSource = null;
             dgv_FolderBindingSource.DataSource = _currentFolder.Chips;
+        }
+
+        public void ChangeFolders(object? sender, EventArgs e)
+        {
+            int selected = cmb_SelectFolder.SelectedIndex;
+
+            SaveCurrentFolder();
+
+            cmb_SelectFolder.SelectedIndex = selected;
+
+            LoadSelectedFolder();
         }
 
         public void DeleteFolder(object? sender, EventArgs e)

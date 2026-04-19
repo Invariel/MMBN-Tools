@@ -68,5 +68,52 @@ namespace Deck_Builder.Classes
             builder.Append ($"{standard + mega + giga + dark}/30");
             return builder.ToString();
         }
+
+        public override bool Equals(object? obj)
+        {
+            if (obj is not Folder other)
+            {
+                return false;
+            }
+
+            if (GameName != other.GameName ||
+                FolderName != other.FolderName ||
+                Chips.Count != other.Chips.Count)
+            {
+                return false;
+            }
+
+            foreach (var chip in Chips)
+            {
+                if (!other.Chips.Any(c => chip.Equals(c)))
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        public override int GetHashCode()
+        {
+            var hash = new HashCode();
+            hash.Add(GameName);
+            hash.Add(FolderName);
+
+            var sortedChips = new FolderChip[Chips.Count];
+            Chips.CopyTo(sortedChips);
+
+            sortedChips.Sort();
+
+            foreach (var chip in sortedChips)
+            {
+                hash.Add(chip.Number);
+                hash.Add(chip.Code);
+                hash.Add(chip.ChipType);
+                hash.Add(chip.Quantity);
+            }
+
+            return hash.ToHashCode();
+        }
     }
 }
