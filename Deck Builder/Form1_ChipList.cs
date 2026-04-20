@@ -303,9 +303,7 @@ namespace Deck_Builder
                     break;
             }
 
-            dgv_Folder.DataSource = null;
-            dgv_Folder.DataSource = _currentFolder.Chips;
-
+            dgv_FolderBindingSource.DataSource = _currentFolder.Chips;
             headerCell.SortGlyphDirection = sortGlyphDirection;
         }
 
