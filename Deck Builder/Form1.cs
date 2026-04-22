@@ -20,9 +20,8 @@ public partial class frm_DeckBuilder : Form
 
     internal List<Folder> currentFolders = new();
     private Folder _currentFolder = new();
-    private BindingSource dgv_FolderBindingSource = new();
 
-    private bool _canUpdateFolder = false;
+    private BindingSource dgv_FolderBindingSource = new();
 
     public frm_DeckBuilder()
     {

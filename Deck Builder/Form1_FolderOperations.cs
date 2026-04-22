@@ -166,15 +166,11 @@ namespace Deck_Builder
         {
             AddToCurrentFolders();
 
-            _canUpdateFolder = false;
-
             // Clear the current deck and reset the folder name.
             _currentFolder = new Folder() { GameName = cmb_SelectGame.Text, Chips = new(), FolderName = string.Empty };
             cmb_SelectFolder.Text = string.Empty;
 
             AddToCurrentFolders();
-
-            _canUpdateFolder = true;
 
             dgv_FolderBindingSource.DataSource = null;
             dgv_FolderBindingSource.DataSource = _currentFolder.Chips;

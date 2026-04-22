@@ -1,5 +1,5 @@
 {
-  "Name": "Mega Man Battle Network 5 - Team Protoman",
+  "Name": "Mega Man Battle Network 5 - Team Colonel",
   "Rules": {
     "MaxFolderSize": 30,
     "MaxCopies": 4,
@@ -5241,12 +5241,12 @@
     },
     {
       "Number": 22,
-      "Name": "ProtoMan",
+      "Name": "Colonel",
       "ChipType": 2,
-      "Elements": [ 1024 ],
-      "Codes": "B",
-      "Locations": "B: (TP) ProtoMnβ (LV1~10), (TP) ProtoMnΩ (LV1~7), (TP) Undernet 4 LM reward (9~10 phases), 'Secrets of Chaud's Success' e-Reader Item Card, Chip Order (20000ƶ)",
-      "Traders": "(TP): Old Mine",
+      "Elements": [ 0 ],
+      "Codes": "C",
+      "Locations": "C: (TC) Colonelβ (LV1~10), (TC) ColonelΩ (LV1~7), (TC) Undernet 4 LM reward (9~10 phases), 'Baryl's Tactics' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): Old Mine",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5258,21 +5258,21 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "130",
+      "Damage": "160",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Move in and slice enemy",
+      "Description": "Slice enemy in same row",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 23,
-      "Name": "ProtoMn SP",
+      "Name": "Colonel SP",
       "ChipType": 2,
-      "Elements": [ 1024 ],
-      "Codes": "B",
-      "Locations": "B: (TP) ProtoMnΩ (LV9~S), 'Secrets of Chaud's Success' e-Reader Item Card, Chip Order (30000ƶ)",
-      "Traders": "(TP): BugFrag Trader",
+      "Elements": [ 0 ],
+      "Codes": "C",
+      "Locations": "C: (TC) ColonelΩ (LV9~S), 'Baryl's Tactics' e-Reader Item Card, Chip Order (30000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5284,21 +5284,21 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "150~250",
+      "Damage": "200~300",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Move in and slice enemy",
+      "Description": "Slice enemy in same row",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 24,
-      "Name": "ProtoMn DS",
+      "Name": "Colonel DS",
       "ChipType": 2,
-      "Elements": [ 1024 ],
-      "Codes": "B",
-      "Locations": "B: (TP) ProtoMnβ (LV9~S), (TP) ProtoMnΩ (LV7~10), 'Secrets of Chaud's Success' e-Reader Item Card, Chip Order (30000ƶ)",
-      "Traders": "(TP): BugFrag Trader",
+      "Elements": [ 0 ],
+      "Codes": "C",
+      "Locations": "C: (TC) Colonelβ (LV9~S), (TC) ColonelΩ (LV7~10), 'Baryl's Tactics' e-Reader Item Card, Chip Order (30000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5313,18 +5313,18 @@
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Move in and slice enemy",
+      "Description": "Slice enemy in same row",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 25,
-      "Name": "GyroMan",
+      "Name": "ShadoMan",
       "ChipType": 2,
       "Elements": [ 0 ],
-      "Codes": "G",
-      "Locations": "G: (TP) GyroManα (LV1~S), (TP) GyroManβ (LV1~10), (TP) GyroManΩ (LV1~7), 'Charlie's Flight' e-Reader Item Card, Chip Order (10000ƶ)",
-      "Traders": "(TP): Bohemia Hall",
+      "Codes": "S",
+      "Locations": "S: (TC) ShadoMnα (LV1~S), (TC) ShadoMnβ (LV1~10), (TC) ShadoMnΩ (LV1~7), 'Dusk's Dark Doings' e-Reader Item Card, Chip Order (10000ƶ)",
+      "Traders": "(TC): Bohemia Hall",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5336,21 +5336,21 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "80",
+      "Damage": "40",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Bombs the front of same row",
+      "Description": "Throw 3 ninja stars",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 26,
-      "Name": "GyroMan SP",
+      "Name": "ShadoMn SP",
       "ChipType": 2,
       "Elements": [ 0 ],
-      "Codes": "G",
-      "Locations": "G: (TP) GyroManΩ (LV9~S), 'Charlie's Flight' e-Reader Item Card, Chip Order (20000ƶ)",
-      "Traders": "(TP): BugFrag Trader",
+      "Codes": "S",
+      "Locations": "S: (TC) ShadoMnΩ (LV9~S), 'Dusk's Dark Doings' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5362,21 +5362,21 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "90~140",
+      "Damage": "45~70",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Bombs the front of same row",
+      "Description": "Throw 3 ninja stars",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 27,
-      "Name": "GyroMan DS",
+      "Name": "ShadoMn DS",
       "ChipType": 2,
       "Elements": [ 0 ],
-      "Codes": "G",
-      "Locations": "G: (TP) GyroManβ (LV9~S), (TP) GyroManΩ (LV7~10), 'Charlie's Flight' e-Reader Item Card, Chip Order (20000ƶ)",
-      "Traders": "(TP): BugFrag Trader",
+      "Codes": "S",
+      "Locations": "S: (TC) ShadoMnβ (LV9~S), (TC) ShadoMnΩ (LV7~10), 'Dusk's Dark Doings' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5391,18 +5391,18 @@
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Bombs the front of same row",
+      "Description": "Throw 3 ninja stars",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 28,
-      "Name": "SerchMan",
+      "Name": "NumbrMan",
       "ChipType": 2,
-      "Elements": [ 4096 ],
-      "Codes": "S",
-      "Locations": "S: (TP) SerchMnα (LV1~S), (TP) SerchMnβ (LV1~10), (TP) SerchMnΩ (LV1~7), 'Raika's Mission' e-Reader Item Card, Chip Order (10000ƶ)",
-      "Traders": "(TP): Old Mine",
+      "Elements": [ 0 ],
+      "Codes": "N",
+      "Locations": "N: (TC) NumbrMnα (LV1~S), (TC) NumbrMnβ (LV1~10), (TC) NumbrMnΩ (LV1~7), 'Higsby's Blowout' e-Reader Item Card, Chip Order (10000ƶ)",
+      "Traders": "(TC): Old Mine",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5414,21 +5414,21 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "20",
+      "Damage": "30",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Aim and fire 5 shots",
+      "Description": "Bomb 3 ahead! Hits 9sq",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 29,
-      "Name": "SerchMn SP",
+      "Name": "NumbrMn SP",
       "ChipType": 2,
-      "Elements": [ 4096 ],
-      "Codes": "S",
-      "Locations": "S: (TP) SerchMnΩ (LV9~S), 'Raika's Mission' e-Reader Item Card, Chip Order (20000ƶ)",
-      "Traders": "(TP): BugFrag Trader",
+      "Elements": [ 0 ],
+      "Codes": "N",
+      "Locations": "N: (TC) NumbrMnΩ (LV9~S), 'Higsby's Blowout' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5440,21 +5440,21 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "25~75",
+      "Damage": "40~90",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Aim and fire 5 shots",
+      "Description": "Bomb 3 ahead! Hits 9sq",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 30,
-      "Name": "SerchMn DS",
+      "Name": "NumbrMn DS",
       "ChipType": 2,
-      "Elements": [ 4096 ],
-      "Codes": "S",
-      "Locations": "S: (TP) SerchMnβ (LV9~S), (TP) SerchMnΩ (LV7~10), 'Raika's Mission' e-Reader Item Card, Chip Order (20000ƶ)",
-      "Traders": "(TP): BugFrag Trader",
+      "Elements": [ 0 ],
+      "Codes": "N",
+      "Locations": "N: (TC) NumbrMnβ (LV9~S), (TC) NumbrMnΩ (LV7~10), 'Higsby's Blowout' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5469,18 +5469,18 @@
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Aim and fire 5 shots",
+      "Description": "Bomb 3 ahead! Hits 9sq",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 31,
-      "Name": "NapalmMn",
+      "Name": "TmhwkMan",
       "ChipType": 2,
-      "Elements": [ 1 ],
-      "Codes": "N",
-      "Locations": "N: (TP) NapalmMα (LV1~S), (TP) NapalmMβ (LV1~10), (TP) NapalmMΩ (LV1~7), 'Fyrefox's Fireworks' e-Reader Item Card, Chip Order (10000ƶ)",
-      "Traders": "(TP): Bohemia Hall",
+      "Elements": [ 4 ],
+      "Codes": "T",
+      "Locations": "T: (TC) TmhkManα (LV1~S), (TC) TmhkManβ (LV1~10), (TC) TmhkManΩ (LV1~7), 'Dingo's Hope' e-Reader Item Card, Chip Order (10000ƶ)",
+      "Traders": "(TC): Bohemia Hall",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5492,21 +5492,21 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "120",
+      "Damage": "140",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Explosion spreads 9 panels",
+      "Description": "Slice 2sq side, 3sq vertical",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 32,
-      "Name": "NaplmMn SP",
+      "Name": "TmhwkMn SP",
       "ChipType": 2,
-      "Elements": [ 1 ],
-      "Codes": "N",
-      "Locations": "N: (TP) NapalmMΩ (LV9~S), 'Fyrefox's Fireworks' e-Reader Item Card, Chip Order (20000ƶ)",
-      "Traders": "(TP): BugFrag Trader",
+      "Elements": [ 4 ],
+      "Codes": "T",
+      "Locations": "T: (TC) TmhkManΩ (LV9~S), 'Dingo's Hope' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5518,21 +5518,21 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "150~250",
+      "Damage": "180~280",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Explosion spreads 9 panels",
+      "Description": "Slice 2sq side, 3sq vertical",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 33,
-      "Name": "NaplmMn DS",
+      "Name": "TmhwkMn DS",
       "ChipType": 2,
-      "Elements": [ 1 ],
-      "Codes": "N",
-      "Locations": "N: (TP) NapalmMβ (LV9~S), (TP) NapalmMΩ (LV7~10), 'Fyrefox's Fireworks' e-Reader Item Card, Chip Order (20000ƶ)",
-      "Traders": "(TP): BugFrag Trader",
+      "Elements": [ 4 ],
+      "Codes": "T",
+      "Locations": "T: (TC) TmhkManβ (LV9~S), (TC) TmhkManΩ (LV7~10), 'Dingo's Hope' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5547,18 +5547,18 @@
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Explosion spreads 9 panels",
+      "Description": "Slice 2sq side, 3sq vertical",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 34,
-      "Name": "MagnetMn",
+      "Name": "KnightMn",
       "ChipType": 2,
-      "Elements": [ 8 ],
-      "Codes": "M",
-      "Locations": "M: (TP) MagnetMα (LV1~S), (TP) MagnetMβ (LV1~10), (TP) MagnetMΩ (LV1~7), 'Tesla's Stress Relief' e-Reader Item Card, Chip Order (10000ƶ)",
-      "Traders": "(TP): Bohemia Hall",
+      "Elements": [ 512 ],
+      "Codes": "K",
+      "Locations": "K: (TC) KnightMα (LV1~S), (TC) KnightMβ (LV1~10), (TC) KnightMΩ (LV1~7), 'Pride's Treasures' e-Reader Item Card, Chip Order (10000ƶ)",
+      "Traders": "(TC): Bohemia Hall",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5570,21 +5570,21 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "90",
+      "Damage": "170",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "NS tackle and chrge",
+      "Description": "Circle around and atk",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 35,
-      "Name": "MagntMn SP",
+      "Name": "KnigtMn SP",
       "ChipType": 2,
-      "Elements": [ 8 ],
-      "Codes": "M",
-      "Locations": "M: (TP) MagnetMΩ (LV9~S), 'Tesla's Stress Relief' e-Reader Item Card, Chip Order (20000ƶ)",
-      "Traders": "(TP): BugFrag Trader",
+      "Elements": [ 512 ],
+      "Codes": "K",
+      "Locations": "K: (TC) KnightMΩ (LV9~S), 'Pride's Treasures' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5596,21 +5596,21 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "100~200",
+      "Damage": "220~320",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "NS tackle and chrge",
+      "Description": "Circle around and atk",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 36,
-      "Name": "MagntMn DS",
+      "Name": "KnigtMn DS",
       "ChipType": 2,
-      "Elements": [ 8 ],
-      "Codes": "M",
-      "Locations": "M: (TP) MagnetMβ (LV9~S), (TP) MagnetMΩ (LV7~10), 'Tesla's Stress Relief' e-Reader Item Card, Chip Order (20000ƶ)",
-      "Traders": "(TP): BugFrag Trader",
+      "Elements": [ 512 ],
+      "Codes": "K",
+      "Locations": "K: (TC) KnightMβ (LV9~S), (TC) KnightMΩ (LV7~10), 'Pride's Treasures' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5625,18 +5625,18 @@
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "NS tackle and chrge",
+      "Description": "Circle around and atk",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 37,
-      "Name": "Meddy",
+      "Name": "ToadMan",
       "ChipType": 2,
-      "Elements": [ 0 ],
-      "Codes": "M",
-      "Locations": "M: (TP) Meddyα (LV1~S), (TP) Meddyβ (LV1~10), (TP) MeddyΩ (LV1~7), 'Jasmine's Secret Recipe' e-Reader Item Card, Chip Order (10000ƶ)",
-      "Traders": "(TP): Old Mine",
+      "Elements": [ 8 ],
+      "Codes": "T",
+      "Locations": "T: (TC) ToadManα (LV1~S), (TC) ToadManβ (LV1~10), (TC) ToadManΩ (LV1~7), 'Ribitta's Freebies' e-Reader Item Card, Chip Order (10000ƶ)",
+      "Traders": "(TC): Old Mine",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5651,18 +5651,18 @@
       "Damage": "80",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Throws 2 bombs to enmy area",
+      "Description": "Sing and paralyze the enemy",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 38,
-      "Name": "Meddy SP",
+      "Name": "ToadMan SP",
       "ChipType": 2,
-      "Elements": [ 0 ],
-      "Codes": "M",
-      "Locations": "M: (TP) MeddyΩ (LV9~S), 'Jasmine's Secret Recipe' e-Reader Item Card, Chip Order (20000ƶ)",
-      "Traders": "(TP): BugFrag Trader",
+      "Elements": [ 8 ],
+      "Codes": "T",
+      "Locations": "T: (TC) ToadManΩ (LV9~S), 'Ribitta's Freebies' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5674,21 +5674,21 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "100~200",
+      "Damage": "120~220",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Throws 2 bombs to enmy area",
+      "Description": "Sing and paralyze the enemy",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 39,
-      "Name": "Meddy DS",
+      "Name": "ToadMan DS",
       "ChipType": 2,
-      "Elements": [ 0 ],
-      "Codes": "M",
-      "Locations": "M: (TP) Meddyβ (LV9~S), (TP) MeddyΩ (LV7~10), 'Jasmine's Secret Recipe' e-Reader Item Card, Chip Order (20000ƶ)",
-      "Traders": "(TP): BugFrag Trader",
+      "Elements": [ 8 ],
+      "Codes": "T",
+      "Locations": "T: (TC) ToadManβ (LV9~S), (TC) ToadManΩ (LV7~10), 'Ribitta's Freebies' e-Reader Item Card, Chip Order (20000ƶ)",
+      "Traders": "(TC): BugFrag Trader",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -5703,7 +5703,7 @@
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Throws 2 bombs to enmy area",
+      "Description": "Sing and paralyze the enemy",
       "Notes": "",
       "Image": ""
     },
@@ -6256,11 +6256,11 @@
 
     {
       "Number": 1,
-      "Name": "DeltaRay",
+      "Name": "CrossDiv",
       "ChipType": 4,
-      "Elements": [ 1024 ],
-      "Codes": "Z",
-      "Locations": "Z: Obtain from Chaud at the start of Ch. 7;",
+      "Elements": [ 0 ],
+      "Codes": "",
+      "Locations": "C: Obtain from Baryl at the start of Ch. 7",
       "Traders": "",
       "MegaManLocation": {
         "X": 0,
@@ -6276,17 +6276,17 @@
       "Damage": "220",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "A Button power up by 3 swrd",
+      "Description": "Cross-slice!",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 2,
-      "Name": "BigHook",
+      "Name": "MetrKnuk",
       "ChipType": 4,
       "Elements": [ 512 ],
-      "Codes": "G",
-      "Locations": "G: Received after defeating ChaosLrd (NebulaGα) for the first time in Nebula Area 6;",
+      "Codes": "",
+      "Locations": "M: Received after defeating ChaosLrd (NebulaGα) for the first time in Nebula Area 6",
       "Traders": "",
       "MegaManLocation": {
         "X": 0,
@@ -6299,20 +6299,20 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "240",
+      "Damage": "100",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Hook atk 2 sq wide",
+      "Description": "Meteors bombard from sky",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 3,
-      "Name": "Bass",
+      "Name": "BassAnly",
       "ChipType": 4,
       "Elements": [ 0 ],
-      "Codes": "F",
-      "Locations": "F: ChaosLrd (Bassβ) (LV1~S);",
+      "Codes": "",
+      "Locations": "F: ChaosLrd (Bassβ) (LV1~S)",
       "Traders": "",
       "MegaManLocation": {
         "X": 0,
@@ -6325,20 +6325,20 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "60",
+      "Damage": "160",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Buster rake wide enmy area",
+      "Description": "A ring the hits 4 times",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 4,
-      "Name": "HolyDrem",
+      "Name": "OmegaRkt",
       "ChipType": 4,
       "Elements": [ 0 ],
-      "Codes": "H",
-      "Locations": "H: Nebula Area 4 PMD (requires all PAs and all Mega Chips registered);",
+      "Codes": "",
+      "Locations": "R: Nebula Area 4 PMD (requires all PAs and all Mega Chips registered)",
       "Traders": "",
       "MegaManLocation": {
         "X": 0,
@@ -6351,20 +6351,20 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "50",
+      "Damage": "270",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Holy shot sucks in HolyPanl!",
+      "Description": "A rocket moves straight",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 5,
-      "Name": "BugCurse",
+      "Name": "BugCharg",
       "ChipType": 4,
       "Elements": [ 0 ],
-      "Codes": "C",
-      "Locations": "C: Undernet 2 BugFrag Trader (100BF);",
+      "Codes": "",
+      "Locations": "B: Undernet 2 BugFrag Trader (100BF)",
       "Traders": "",
       "MegaManLocation": {
         "X": 0,
@@ -6377,20 +6377,20 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "-",
+      "Damage": "200",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Make enemy buggy",
+      "Description": "All your bugs will attack!",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 6,
-      "Name": "DethPhnx",
+      "Name": "Phoenix",
       "ChipType": 4,
-      "Elements": [ 0 ],
-      "Codes": "D",
-      "Locations": "D: Higsby's normal stock (25000ƶ);Team Colonel",
+      "Elements": [ 1 ],
+      "Codes": "",
+      "Locations": "P: Higsby's normal stock (25000ƶ)",
       "Traders": "",
       "MegaManLocation": {
         "X": 0,
@@ -6406,7 +6406,7 @@
       "Damage": "150",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Fire Atk! Recycle Navi too",
+      "Description": "Fire Atk! Recover HP, too!",
       "Notes": "",
       "Image": ""
     },
@@ -6702,7 +6702,7 @@
       "Name": "DarkWide",
       "ChipType": 8,
       "Elements": [ 2 ],
-      "Codes": "T",
+      "Codes": "",
       "Locations": "T: Purchase from purple female Navi in SciLab Area 4 (Ch.4; 1000ƶ);",
       "Traders": "",
       "MegaManLocation": {
@@ -7194,12 +7194,12 @@
     },
     {
       "Number": 19,
-      "Name": "Otenko",
+      "Name": "BlizMan",
       "ChipType": 1026,
-      "Elements": [ 0 ],
-      "Codes": "O",
-      "Locations": "O: Chip Order (40000ƶ)",
-      "Traders": "Boktai Trader (50pt)",
+      "Elements": [ 2 ],
+      "Codes": "B",
+      "Locations": "B: BlizManβ (LV1~10), BlizManΩ (LV1~7), ACDC Area 3 LM reward (6~7 phases), Chip Order (10000ƶ)",
+      "Traders": "Bohemia Hall",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -7211,21 +7211,21 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "-",
+      "Damage": "100",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Put Otnko to raise atk pwr",
+      "Description": "Snowball expands when hit",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 20,
-      "Name": "GunDelEX",
+      "Name": "BlizMan SP",
       "ChipType": 1026,
-      "Elements": [ 0 ],
-      "Codes": "G",
-      "Locations": "G: Chip Order (35000ƶ)",
-      "Traders": "Boktai Trader (50pt)",
+      "Elements": [ 2 ],
+      "Codes": "B",
+      "Locations": "B: BlizManΩ (LV9~S), ACDC Area 3 LM reward (5 or less phases), Chip Order (20000ƶ)",
+      "Traders": "BugFrag Trader",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -7237,21 +7237,21 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "-",
+      "Damage": "130~180",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Fires a spread sunbeam",
+      "Description": "Snowball expands when hit",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 21,
-      "Name": "LeadRaid",
+      "Name": "BlizMan DS",
       "ChipType": 1026,
-      "Elements": [ 0 ],
-      "Codes": "L",
-      "Locations": "L: Event distribution, 'LeaderRaid' e-Reader Rare Chip Distribution, (5DS) Lotto Number (01285874), (BNLC) Download Chip",
-      "Traders": "",
+      "Elements": [ 2 ],
+      "Codes": "B",
+      "Locations": "B: BadFldr, BlizManβ (LV9~S), BlizManΩ (LV7~10), Chip Order (20000ƶ)",
+      "Traders": "BugFrag Trader",
       "MegaManLocation": {
         "X": 0,
         "Y": 1
@@ -7263,10 +7263,10 @@
         }
       ],
       "Capacity": 0,
-      "Damage": "200",
+      "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "ProtoMan & Colonel together!",
+      "Description": "Snowball expands when hit",
       "Notes": "",
       "Image": ""
     },
