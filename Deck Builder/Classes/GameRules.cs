@@ -3,7 +3,6 @@
     public class GameRules
     {
         public int MaxFolderSize { get; set; } = 30;
-        public int MaxCopies { get; set; } = 4;
         public int MaxMegaChips { get; set; } = 8;
         public int MaxGigaChips { get; set; } = 3;
         public int MaxDarkChips { get; set; } = 30;

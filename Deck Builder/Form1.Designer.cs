@@ -29,13 +29,10 @@
         private void InitializeComponent()
         {
             tbl_MainLayout = new TableLayoutPanel();
-            grp_SelectFolder = new GroupBox();
-            cmb_SelectFolder = new ComboBox();
-            tbl_SaveLoadEtc = new TableLayoutPanel();
-            btn_NewFolder = new Button();
-            btn_DeleteFolder = new Button();
-            btn_SaveFolders = new Button();
-            btn_LoadFolders = new Button();
+            tbl_GameDetails = new TableLayoutPanel();
+            grp_SelectGame = new GroupBox();
+            cmb_SelectGame = new ComboBox();
+            txt_GameDetails = new TextBox();
             tbl_Cards = new TableLayoutPanel();
             grp_FilterChips = new GroupBox();
             tbl_Filters = new TableLayoutPanel();
@@ -73,8 +70,12 @@
             btn_2_0 = new Button();
             btn_1_0 = new Button();
             btn_0_0 = new Button();
-            grp_SelectGame = new GroupBox();
-            cmb_SelectGame = new ComboBox();
+            grp_NaviCust = new GroupBox();
+            tbl_NaviCust = new TableLayoutPanel();
+            lbl_CustMega = new Label();
+            lbl_CustGiga = new Label();
+            numud_CustMega = new NumericUpDown();
+            numud_CustGiga = new NumericUpDown();
             tbl_Folder = new TableLayoutPanel();
             lbl_FolderContents = new Label();
             tabControl1 = new TabControl();
@@ -84,9 +85,16 @@
             flw_Checklist = new FlowLayoutPanel();
             tab_RandomHand = new TabPage();
             txt_ChipDataView_Left = new TextBox();
+            tbl_FolderLayoutPanel = new TableLayoutPanel();
+            grp_SelectFolder = new GroupBox();
+            cmb_SelectFolder = new ComboBox();
+            btn_SaveFolders = new Button();
+            btn_NewFolder = new Button();
+            btn_DeleteFolder = new Button();
+            btn_LoadFolders = new Button();
             tbl_MainLayout.SuspendLayout();
-            grp_SelectFolder.SuspendLayout();
-            tbl_SaveLoadEtc.SuspendLayout();
+            tbl_GameDetails.SuspendLayout();
+            grp_SelectGame.SuspendLayout();
             tbl_Cards.SuspendLayout();
             grp_FilterChips.SuspendLayout();
             tbl_Filters.SuspendLayout();
@@ -96,12 +104,17 @@
             split_GameChips.Panel2.SuspendLayout();
             split_GameChips.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgv_ChipList).BeginInit();
-            grp_SelectGame.SuspendLayout();
+            grp_NaviCust.SuspendLayout();
+            tbl_NaviCust.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)numud_CustMega).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numud_CustGiga).BeginInit();
             tbl_Folder.SuspendLayout();
             tabControl1.SuspendLayout();
             tab_Folder.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgv_Folder).BeginInit();
             tab_Checklist.SuspendLayout();
+            tbl_FolderLayoutPanel.SuspendLayout();
+            grp_SelectFolder.SuspendLayout();
             SuspendLayout();
             // 
             // tbl_MainLayout
@@ -110,105 +123,73 @@
             tbl_MainLayout.AutoSize = true;
             tbl_MainLayout.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             tbl_MainLayout.ColumnCount = 2;
-            tbl_MainLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 34.0106F));
-            tbl_MainLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 65.9894F));
+            tbl_MainLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 34.8056526F));
+            tbl_MainLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 65.19434F));
             tbl_MainLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
-            tbl_MainLayout.Controls.Add(grp_SelectFolder, 0, 0);
-            tbl_MainLayout.Controls.Add(tbl_SaveLoadEtc, 1, 0);
+            tbl_MainLayout.Controls.Add(tbl_GameDetails, 1, 0);
             tbl_MainLayout.Controls.Add(tbl_Cards, 1, 1);
             tbl_MainLayout.Controls.Add(tbl_Folder, 0, 1);
+            tbl_MainLayout.Controls.Add(tbl_FolderLayoutPanel, 0, 0);
             tbl_MainLayout.Dock = DockStyle.Fill;
             tbl_MainLayout.Location = new Point(0, 0);
             tbl_MainLayout.Name = "tbl_MainLayout";
             tbl_MainLayout.RowCount = 2;
-            tbl_MainLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 12.1835442F));
-            tbl_MainLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 87.81645F));
+            tbl_MainLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 16.6442947F));
+            tbl_MainLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 83.3557053F));
             tbl_MainLayout.Size = new Size(1132, 745);
             tbl_MainLayout.TabIndex = 0;
             // 
-            // grp_SelectFolder
+            // tbl_GameDetails
             // 
-            grp_SelectFolder.AutoSize = true;
-            grp_SelectFolder.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            grp_SelectFolder.Controls.Add(cmb_SelectFolder);
-            grp_SelectFolder.Dock = DockStyle.Fill;
-            grp_SelectFolder.Location = new Point(3, 3);
-            grp_SelectFolder.Name = "grp_SelectFolder";
-            grp_SelectFolder.Size = new Size(379, 84);
-            grp_SelectFolder.TabIndex = 0;
-            grp_SelectFolder.TabStop = false;
-            grp_SelectFolder.Text = "Select &Folder";
+            tbl_GameDetails.AutoSize = true;
+            tbl_GameDetails.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            tbl_GameDetails.ColumnCount = 1;
+            tbl_GameDetails.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tbl_GameDetails.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            tbl_GameDetails.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            tbl_GameDetails.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            tbl_GameDetails.Controls.Add(grp_SelectGame, 0, 0);
+            tbl_GameDetails.Controls.Add(txt_GameDetails, 0, 1);
+            tbl_GameDetails.Dock = DockStyle.Fill;
+            tbl_GameDetails.Location = new Point(397, 3);
+            tbl_GameDetails.Name = "tbl_GameDetails";
+            tbl_GameDetails.RowCount = 2;
+            tbl_GameDetails.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tbl_GameDetails.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tbl_GameDetails.Size = new Size(732, 118);
+            tbl_GameDetails.TabIndex = 2;
             // 
-            // cmb_SelectFolder
+            // grp_SelectGame
             // 
-            cmb_SelectFolder.Dock = DockStyle.Fill;
-            cmb_SelectFolder.FormattingEnabled = true;
-            cmb_SelectFolder.ItemHeight = 15;
-            cmb_SelectFolder.Location = new Point(3, 19);
-            cmb_SelectFolder.Name = "cmb_SelectFolder";
-            cmb_SelectFolder.Size = new Size(373, 23);
-            cmb_SelectFolder.TabIndex = 0;
+            grp_SelectGame.Controls.Add(cmb_SelectGame);
+            grp_SelectGame.Dock = DockStyle.Fill;
+            grp_SelectGame.Location = new Point(3, 3);
+            grp_SelectGame.Name = "grp_SelectGame";
+            grp_SelectGame.Size = new Size(726, 53);
+            grp_SelectGame.TabIndex = 2;
+            grp_SelectGame.TabStop = false;
+            grp_SelectGame.Text = "Select Game";
             // 
-            // tbl_SaveLoadEtc
+            // cmb_SelectGame
             // 
-            tbl_SaveLoadEtc.AutoSize = true;
-            tbl_SaveLoadEtc.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            tbl_SaveLoadEtc.ColumnCount = 3;
-            tbl_SaveLoadEtc.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tbl_SaveLoadEtc.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tbl_SaveLoadEtc.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tbl_SaveLoadEtc.Controls.Add(btn_NewFolder, 0, 0);
-            tbl_SaveLoadEtc.Controls.Add(btn_DeleteFolder, 0, 1);
-            tbl_SaveLoadEtc.Controls.Add(btn_SaveFolders, 1, 0);
-            tbl_SaveLoadEtc.Controls.Add(btn_LoadFolders, 1, 1);
-            tbl_SaveLoadEtc.Dock = DockStyle.Fill;
-            tbl_SaveLoadEtc.Location = new Point(388, 3);
-            tbl_SaveLoadEtc.Name = "tbl_SaveLoadEtc";
-            tbl_SaveLoadEtc.RowCount = 2;
-            tbl_SaveLoadEtc.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tbl_SaveLoadEtc.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tbl_SaveLoadEtc.Size = new Size(741, 84);
-            tbl_SaveLoadEtc.TabIndex = 2;
+            cmb_SelectGame.Dock = DockStyle.Fill;
+            cmb_SelectGame.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmb_SelectGame.FormattingEnabled = true;
+            cmb_SelectGame.Location = new Point(3, 19);
+            cmb_SelectGame.MaxDropDownItems = 24;
+            cmb_SelectGame.Name = "cmb_SelectGame";
+            cmb_SelectGame.Size = new Size(720, 23);
+            cmb_SelectGame.TabIndex = 0;
             // 
-            // btn_NewFolder
+            // txt_GameDetails
             // 
-            btn_NewFolder.Dock = DockStyle.Fill;
-            btn_NewFolder.Location = new Point(3, 3);
-            btn_NewFolder.Name = "btn_NewFolder";
-            btn_NewFolder.Size = new Size(179, 36);
-            btn_NewFolder.TabIndex = 0;
-            btn_NewFolder.Text = "&New Folder";
-            btn_NewFolder.UseVisualStyleBackColor = true;
-            // 
-            // btn_DeleteFolder
-            // 
-            btn_DeleteFolder.Dock = DockStyle.Fill;
-            btn_DeleteFolder.Location = new Point(3, 45);
-            btn_DeleteFolder.Name = "btn_DeleteFolder";
-            btn_DeleteFolder.Size = new Size(179, 36);
-            btn_DeleteFolder.TabIndex = 1;
-            btn_DeleteFolder.Text = "&Delete Folder";
-            btn_DeleteFolder.UseVisualStyleBackColor = true;
-            // 
-            // btn_SaveFolders
-            // 
-            btn_SaveFolders.Dock = DockStyle.Fill;
-            btn_SaveFolders.Location = new Point(188, 3);
-            btn_SaveFolders.Name = "btn_SaveFolders";
-            btn_SaveFolders.Size = new Size(179, 36);
-            btn_SaveFolders.TabIndex = 2;
-            btn_SaveFolders.Text = "&Save Folders";
-            btn_SaveFolders.UseVisualStyleBackColor = true;
-            // 
-            // btn_LoadFolders
-            // 
-            btn_LoadFolders.Dock = DockStyle.Fill;
-            btn_LoadFolders.Location = new Point(188, 45);
-            btn_LoadFolders.Name = "btn_LoadFolders";
-            btn_LoadFolders.Size = new Size(179, 36);
-            btn_LoadFolders.TabIndex = 3;
-            btn_LoadFolders.Text = "&Load Folders";
-            btn_LoadFolders.UseVisualStyleBackColor = true;
+            txt_GameDetails.Dock = DockStyle.Fill;
+            txt_GameDetails.Location = new Point(3, 62);
+            txt_GameDetails.Multiline = true;
+            txt_GameDetails.Name = "txt_GameDetails";
+            txt_GameDetails.ReadOnly = true;
+            txt_GameDetails.Size = new Size(726, 53);
+            txt_GameDetails.TabIndex = 3;
             // 
             // tbl_Cards
             // 
@@ -216,24 +197,24 @@
             tbl_Cards.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
             tbl_Cards.Controls.Add(grp_FilterChips, 0, 1);
             tbl_Cards.Controls.Add(tbl_ChipView, 0, 2);
-            tbl_Cards.Controls.Add(grp_SelectGame, 0, 0);
+            tbl_Cards.Controls.Add(grp_NaviCust, 0, 0);
             tbl_Cards.Dock = DockStyle.Fill;
-            tbl_Cards.Location = new Point(388, 93);
+            tbl_Cards.Location = new Point(397, 127);
             tbl_Cards.Name = "tbl_Cards";
             tbl_Cards.RowCount = 3;
             tbl_Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 11.6575594F));
             tbl_Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 17.7195683F));
             tbl_Cards.RowStyles.Add(new RowStyle(SizeType.Percent, 70.72419F));
-            tbl_Cards.Size = new Size(741, 649);
+            tbl_Cards.Size = new Size(732, 615);
             tbl_Cards.TabIndex = 3;
             // 
             // grp_FilterChips
             // 
             grp_FilterChips.Controls.Add(tbl_Filters);
             grp_FilterChips.Dock = DockStyle.Fill;
-            grp_FilterChips.Location = new Point(3, 78);
+            grp_FilterChips.Location = new Point(3, 74);
             grp_FilterChips.Name = "grp_FilterChips";
-            grp_FilterChips.Size = new Size(735, 108);
+            grp_FilterChips.Size = new Size(726, 102);
             grp_FilterChips.TabIndex = 0;
             grp_FilterChips.TabStop = false;
             grp_FilterChips.Text = "Filter Chips";
@@ -262,14 +243,14 @@
             tbl_Filters.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3322334F));
             tbl_Filters.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3322334F));
             tbl_Filters.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3355331F));
-            tbl_Filters.Size = new Size(729, 86);
+            tbl_Filters.Size = new Size(720, 80);
             tbl_Filters.TabIndex = 0;
             // 
             // lbl_FilterByName
             // 
             lbl_FilterByName.Anchor = AnchorStyles.Right;
             lbl_FilterByName.AutoSize = true;
-            lbl_FilterByName.Location = new Point(124, 6);
+            lbl_FilterByName.Location = new Point(122, 5);
             lbl_FilterByName.Name = "lbl_FilterByName";
             lbl_FilterByName.Size = new Size(55, 15);
             lbl_FilterByName.TabIndex = 0;
@@ -278,16 +259,16 @@
             // txt_FilterByName
             // 
             txt_FilterByName.Dock = DockStyle.Fill;
-            txt_FilterByName.Location = new Point(185, 3);
+            txt_FilterByName.Location = new Point(183, 3);
             txt_FilterByName.Name = "txt_FilterByName";
-            txt_FilterByName.Size = new Size(176, 23);
+            txt_FilterByName.Size = new Size(174, 23);
             txt_FilterByName.TabIndex = 1;
             // 
             // lbl_FilterByElement
             // 
             lbl_FilterByElement.Anchor = AnchorStyles.Right;
             lbl_FilterByElement.AutoSize = true;
-            lbl_FilterByElement.Location = new Point(113, 34);
+            lbl_FilterByElement.Location = new Point(111, 31);
             lbl_FilterByElement.Name = "lbl_FilterByElement";
             lbl_FilterByElement.Size = new Size(66, 15);
             lbl_FilterByElement.TabIndex = 2;
@@ -297,16 +278,16 @@
             // 
             cmb_FilterByElement.Dock = DockStyle.Fill;
             cmb_FilterByElement.FormattingEnabled = true;
-            cmb_FilterByElement.Location = new Point(185, 31);
+            cmb_FilterByElement.Location = new Point(183, 29);
             cmb_FilterByElement.Name = "cmb_FilterByElement";
-            cmb_FilterByElement.Size = new Size(176, 23);
+            cmb_FilterByElement.Size = new Size(174, 23);
             cmb_FilterByElement.TabIndex = 3;
             // 
             // lbl_FilterByCodes
             // 
             lbl_FilterByCodes.Anchor = AnchorStyles.Right;
             lbl_FilterByCodes.AutoSize = true;
-            lbl_FilterByCodes.Location = new Point(487, 6);
+            lbl_FilterByCodes.Location = new Point(481, 5);
             lbl_FilterByCodes.Name = "lbl_FilterByCodes";
             lbl_FilterByCodes.Size = new Size(56, 15);
             lbl_FilterByCodes.TabIndex = 4;
@@ -315,16 +296,16 @@
             // txt_FilterByCodes
             // 
             txt_FilterByCodes.Dock = DockStyle.Fill;
-            txt_FilterByCodes.Location = new Point(549, 3);
+            txt_FilterByCodes.Location = new Point(543, 3);
             txt_FilterByCodes.Name = "txt_FilterByCodes";
-            txt_FilterByCodes.Size = new Size(177, 23);
+            txt_FilterByCodes.Size = new Size(174, 23);
             txt_FilterByCodes.TabIndex = 5;
             // 
             // lbl_FilterByClass
             // 
             lbl_FilterByClass.Anchor = AnchorStyles.Right;
             lbl_FilterByClass.AutoSize = true;
-            lbl_FilterByClass.Location = new Point(493, 34);
+            lbl_FilterByClass.Location = new Point(487, 31);
             lbl_FilterByClass.Name = "lbl_FilterByClass";
             lbl_FilterByClass.Size = new Size(50, 15);
             lbl_FilterByClass.TabIndex = 6;
@@ -335,27 +316,27 @@
             cmb_FilterByClass.Dock = DockStyle.Fill;
             cmb_FilterByClass.FormattingEnabled = true;
             cmb_FilterByClass.Items.AddRange(new object[] { "None", "Standard", "Mega", "Giga", "Dark" });
-            cmb_FilterByClass.Location = new Point(549, 31);
+            cmb_FilterByClass.Location = new Point(543, 29);
             cmb_FilterByClass.Name = "cmb_FilterByClass";
-            cmb_FilterByClass.Size = new Size(177, 23);
+            cmb_FilterByClass.Size = new Size(174, 23);
             cmb_FilterByClass.TabIndex = 7;
             // 
             // lbl_LocationText
             // 
             lbl_LocationText.Anchor = AnchorStyles.Right;
             lbl_LocationText.AutoSize = true;
-            lbl_LocationText.Location = new Point(64, 63);
+            lbl_LocationText.Location = new Point(108, 58);
             lbl_LocationText.Name = "lbl_LocationText";
-            lbl_LocationText.Size = new Size(115, 15);
+            lbl_LocationText.Size = new Size(69, 15);
             lbl_LocationText.TabIndex = 8;
-            lbl_LocationText.Text = "Search Location Text";
+            lbl_LocationText.Text = "By Location";
             // 
             // txt_SearchLocationText
             // 
             txt_SearchLocationText.Dock = DockStyle.Fill;
-            txt_SearchLocationText.Location = new Point(185, 59);
+            txt_SearchLocationText.Location = new Point(183, 55);
             txt_SearchLocationText.Name = "txt_SearchLocationText";
-            txt_SearchLocationText.Size = new Size(176, 23);
+            txt_SearchLocationText.Size = new Size(174, 23);
             txt_SearchLocationText.TabIndex = 9;
             // 
             // tbl_ChipView
@@ -366,22 +347,22 @@
             tbl_ChipView.Controls.Add(lbl_Error, 0, 2);
             tbl_ChipView.Controls.Add(split_GameChips, 0, 0);
             tbl_ChipView.Dock = DockStyle.Fill;
-            tbl_ChipView.Location = new Point(3, 192);
+            tbl_ChipView.Location = new Point(3, 182);
             tbl_ChipView.Name = "tbl_ChipView";
             tbl_ChipView.RowCount = 3;
             tbl_ChipView.RowStyles.Add(new RowStyle(SizeType.Percent, 60F));
             tbl_ChipView.RowStyles.Add(new RowStyle(SizeType.Percent, 35F));
             tbl_ChipView.RowStyles.Add(new RowStyle(SizeType.Percent, 5F));
-            tbl_ChipView.Size = new Size(735, 454);
+            tbl_ChipView.Size = new Size(726, 430);
             tbl_ChipView.TabIndex = 1;
             // 
             // lbl_ChipDataView_Right
             // 
             lbl_ChipDataView_Right.AutoSize = true;
             lbl_ChipDataView_Right.Dock = DockStyle.Fill;
-            lbl_ChipDataView_Right.Location = new Point(3, 272);
+            lbl_ChipDataView_Right.Location = new Point(3, 258);
             lbl_ChipDataView_Right.Name = "lbl_ChipDataView_Right";
-            lbl_ChipDataView_Right.Size = new Size(729, 158);
+            lbl_ChipDataView_Right.Size = new Size(720, 150);
             lbl_ChipDataView_Right.TabIndex = 1;
             lbl_ChipDataView_Right.Text = " ";
             // 
@@ -389,9 +370,9 @@
             // 
             lbl_Error.AutoSize = true;
             lbl_Error.Dock = DockStyle.Fill;
-            lbl_Error.Location = new Point(3, 430);
+            lbl_Error.Location = new Point(3, 408);
             lbl_Error.Name = "lbl_Error";
-            lbl_Error.Size = new Size(729, 24);
+            lbl_Error.Size = new Size(720, 22);
             lbl_Error.TabIndex = 2;
             // 
             // split_GameChips
@@ -425,8 +406,8 @@
             split_GameChips.Panel2.Controls.Add(btn_2_0);
             split_GameChips.Panel2.Controls.Add(btn_1_0);
             split_GameChips.Panel2.Controls.Add(btn_0_0);
-            split_GameChips.Size = new Size(729, 266);
-            split_GameChips.SplitterDistance = 487;
+            split_GameChips.Size = new Size(720, 252);
+            split_GameChips.SplitterDistance = 480;
             split_GameChips.TabIndex = 3;
             // 
             // dgv_ChipList
@@ -437,7 +418,7 @@
             dgv_ChipList.Location = new Point(0, 0);
             dgv_ChipList.Name = "dgv_ChipList";
             dgv_ChipList.ReadOnly = true;
-            dgv_ChipList.Size = new Size(487, 266);
+            dgv_ChipList.Size = new Size(480, 252);
             dgv_ChipList.TabIndex = 3;
             // 
             // textBox1
@@ -593,26 +574,76 @@
             btn_0_0.TabIndex = 0;
             btn_0_0.UseVisualStyleBackColor = true;
             // 
-            // grp_SelectGame
+            // grp_NaviCust
             // 
-            grp_SelectGame.Controls.Add(cmb_SelectGame);
-            grp_SelectGame.Dock = DockStyle.Fill;
-            grp_SelectGame.Location = new Point(3, 3);
-            grp_SelectGame.Name = "grp_SelectGame";
-            grp_SelectGame.Size = new Size(735, 69);
-            grp_SelectGame.TabIndex = 2;
-            grp_SelectGame.TabStop = false;
-            grp_SelectGame.Text = "Select Game";
+            grp_NaviCust.Controls.Add(tbl_NaviCust);
+            grp_NaviCust.Dock = DockStyle.Fill;
+            grp_NaviCust.Location = new Point(3, 3);
+            grp_NaviCust.Name = "grp_NaviCust";
+            grp_NaviCust.Size = new Size(726, 65);
+            grp_NaviCust.TabIndex = 2;
+            grp_NaviCust.TabStop = false;
+            grp_NaviCust.Text = "NaviCust";
             // 
-            // cmb_SelectGame
+            // tbl_NaviCust
             // 
-            cmb_SelectGame.Dock = DockStyle.Fill;
-            cmb_SelectGame.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmb_SelectGame.FormattingEnabled = true;
-            cmb_SelectGame.Location = new Point(3, 19);
-            cmb_SelectGame.Name = "cmb_SelectGame";
-            cmb_SelectGame.Size = new Size(729, 23);
-            cmb_SelectGame.TabIndex = 0;
+            tbl_NaviCust.ColumnCount = 4;
+            tbl_NaviCust.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tbl_NaviCust.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tbl_NaviCust.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tbl_NaviCust.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tbl_NaviCust.Controls.Add(lbl_CustMega, 0, 0);
+            tbl_NaviCust.Controls.Add(lbl_CustGiga, 2, 0);
+            tbl_NaviCust.Controls.Add(numud_CustMega, 1, 0);
+            tbl_NaviCust.Controls.Add(numud_CustGiga, 3, 0);
+            tbl_NaviCust.Dock = DockStyle.Fill;
+            tbl_NaviCust.Location = new Point(3, 19);
+            tbl_NaviCust.Name = "tbl_NaviCust";
+            tbl_NaviCust.RowCount = 2;
+            tbl_NaviCust.RowStyles.Add(new RowStyle(SizeType.Percent, 66.6666641F));
+            tbl_NaviCust.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
+            tbl_NaviCust.Size = new Size(720, 43);
+            tbl_NaviCust.TabIndex = 0;
+            // 
+            // lbl_CustMega
+            // 
+            lbl_CustMega.Anchor = AnchorStyles.Right;
+            lbl_CustMega.AutoSize = true;
+            lbl_CustMega.Location = new Point(96, 6);
+            lbl_CustMega.Name = "lbl_CustMega";
+            lbl_CustMega.Size = new Size(81, 15);
+            lbl_CustMega.TabIndex = 0;
+            lbl_CustMega.Text = "+ Mega Chips";
+            // 
+            // lbl_CustGiga
+            // 
+            lbl_CustGiga.Anchor = AnchorStyles.Right;
+            lbl_CustGiga.AutoSize = true;
+            lbl_CustGiga.Location = new Point(462, 6);
+            lbl_CustGiga.Name = "lbl_CustGiga";
+            lbl_CustGiga.Size = new Size(75, 15);
+            lbl_CustGiga.TabIndex = 1;
+            lbl_CustGiga.Text = "+ Giga Chips";
+            // 
+            // numud_CustMega
+            // 
+            numud_CustMega.Dock = DockStyle.Fill;
+            numud_CustMega.Location = new Point(183, 3);
+            numud_CustMega.Maximum = new decimal(new int[] { 5, 0, 0, 0 });
+            numud_CustMega.Name = "numud_CustMega";
+            numud_CustMega.Size = new Size(174, 23);
+            numud_CustMega.TabIndex = 2;
+            numud_CustMega.TextAlign = HorizontalAlignment.Right;
+            // 
+            // numud_CustGiga
+            // 
+            numud_CustGiga.Dock = DockStyle.Fill;
+            numud_CustGiga.Location = new Point(543, 3);
+            numud_CustGiga.Maximum = new decimal(new int[] { 3, 0, 0, 0 });
+            numud_CustGiga.Name = "numud_CustGiga";
+            numud_CustGiga.Size = new Size(174, 23);
+            numud_CustGiga.TabIndex = 3;
+            numud_CustGiga.TextAlign = HorizontalAlignment.Right;
             // 
             // tbl_Folder
             // 
@@ -622,22 +653,22 @@
             tbl_Folder.Controls.Add(tabControl1, 0, 0);
             tbl_Folder.Controls.Add(txt_ChipDataView_Left, 0, 1);
             tbl_Folder.Dock = DockStyle.Fill;
-            tbl_Folder.Location = new Point(3, 93);
+            tbl_Folder.Location = new Point(3, 127);
             tbl_Folder.Name = "tbl_Folder";
             tbl_Folder.RowCount = 3;
             tbl_Folder.RowStyles.Add(new RowStyle(SizeType.Percent, 77.21311F));
             tbl_Folder.RowStyles.Add(new RowStyle(SizeType.Percent, 22.7868843F));
             tbl_Folder.RowStyles.Add(new RowStyle(SizeType.Absolute, 38F));
-            tbl_Folder.Size = new Size(379, 649);
+            tbl_Folder.Size = new Size(388, 615);
             tbl_Folder.TabIndex = 4;
             // 
             // lbl_FolderContents
             // 
             lbl_FolderContents.AutoSize = true;
             lbl_FolderContents.Dock = DockStyle.Fill;
-            lbl_FolderContents.Location = new Point(3, 610);
+            lbl_FolderContents.Location = new Point(3, 576);
             lbl_FolderContents.Name = "lbl_FolderContents";
-            lbl_FolderContents.Size = new Size(373, 39);
+            lbl_FolderContents.Size = new Size(382, 39);
             lbl_FolderContents.TabIndex = 2;
             // 
             // tabControl1
@@ -649,7 +680,7 @@
             tabControl1.Location = new Point(3, 3);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(373, 465);
+            tabControl1.Size = new Size(382, 439);
             tabControl1.TabIndex = 3;
             // 
             // tab_Folder
@@ -658,7 +689,7 @@
             tab_Folder.Location = new Point(4, 24);
             tab_Folder.Name = "tab_Folder";
             tab_Folder.Padding = new Padding(3);
-            tab_Folder.Size = new Size(365, 437);
+            tab_Folder.Size = new Size(374, 411);
             tab_Folder.TabIndex = 0;
             tab_Folder.Text = "Folder";
             tab_Folder.UseVisualStyleBackColor = true;
@@ -672,7 +703,7 @@
             dgv_Folder.Location = new Point(3, 3);
             dgv_Folder.Name = "dgv_Folder";
             dgv_Folder.ReadOnly = true;
-            dgv_Folder.Size = new Size(359, 431);
+            dgv_Folder.Size = new Size(368, 405);
             dgv_Folder.TabIndex = 3;
             // 
             // tab_Checklist
@@ -682,7 +713,7 @@
             tab_Checklist.Location = new Point(4, 24);
             tab_Checklist.Name = "tab_Checklist";
             tab_Checklist.Padding = new Padding(3);
-            tab_Checklist.Size = new Size(365, 437);
+            tab_Checklist.Size = new Size(374, 411);
             tab_Checklist.TabIndex = 1;
             tab_Checklist.Text = "Checklist";
             tab_Checklist.UseVisualStyleBackColor = true;
@@ -693,14 +724,14 @@
             flw_Checklist.Dock = DockStyle.Fill;
             flw_Checklist.Location = new Point(3, 3);
             flw_Checklist.Name = "flw_Checklist";
-            flw_Checklist.Size = new Size(359, 431);
+            flw_Checklist.Size = new Size(368, 405);
             flw_Checklist.TabIndex = 0;
             // 
             // tab_RandomHand
             // 
             tab_RandomHand.Location = new Point(4, 24);
             tab_RandomHand.Name = "tab_RandomHand";
-            tab_RandomHand.Size = new Size(365, 437);
+            tab_RandomHand.Size = new Size(374, 411);
             tab_RandomHand.TabIndex = 2;
             tab_RandomHand.Text = "Random Hand";
             tab_RandomHand.UseVisualStyleBackColor = true;
@@ -708,13 +739,97 @@
             // txt_ChipDataView_Left
             // 
             txt_ChipDataView_Left.Dock = DockStyle.Fill;
-            txt_ChipDataView_Left.Location = new Point(3, 474);
+            txt_ChipDataView_Left.Location = new Point(3, 448);
             txt_ChipDataView_Left.Multiline = true;
             txt_ChipDataView_Left.Name = "txt_ChipDataView_Left";
             txt_ChipDataView_Left.ReadOnly = true;
             txt_ChipDataView_Left.ScrollBars = ScrollBars.Both;
-            txt_ChipDataView_Left.Size = new Size(373, 133);
+            txt_ChipDataView_Left.Size = new Size(382, 125);
             txt_ChipDataView_Left.TabIndex = 4;
+            // 
+            // tbl_FolderLayoutPanel
+            // 
+            tbl_FolderLayoutPanel.ColumnCount = 2;
+            tbl_FolderLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tbl_FolderLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tbl_FolderLayoutPanel.Controls.Add(grp_SelectFolder, 0, 0);
+            tbl_FolderLayoutPanel.Controls.Add(btn_SaveFolders, 1, 2);
+            tbl_FolderLayoutPanel.Controls.Add(btn_NewFolder, 0, 1);
+            tbl_FolderLayoutPanel.Controls.Add(btn_DeleteFolder, 1, 1);
+            tbl_FolderLayoutPanel.Controls.Add(btn_LoadFolders, 0, 2);
+            tbl_FolderLayoutPanel.Dock = DockStyle.Fill;
+            tbl_FolderLayoutPanel.Location = new Point(3, 3);
+            tbl_FolderLayoutPanel.Name = "tbl_FolderLayoutPanel";
+            tbl_FolderLayoutPanel.RowCount = 3;
+            tbl_FolderLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tbl_FolderLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tbl_FolderLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tbl_FolderLayoutPanel.Size = new Size(388, 118);
+            tbl_FolderLayoutPanel.TabIndex = 5;
+            // 
+            // grp_SelectFolder
+            // 
+            grp_SelectFolder.AutoSize = true;
+            grp_SelectFolder.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            tbl_FolderLayoutPanel.SetColumnSpan(grp_SelectFolder, 2);
+            grp_SelectFolder.Controls.Add(cmb_SelectFolder);
+            grp_SelectFolder.Dock = DockStyle.Fill;
+            grp_SelectFolder.Location = new Point(3, 3);
+            grp_SelectFolder.Name = "grp_SelectFolder";
+            grp_SelectFolder.Size = new Size(382, 53);
+            grp_SelectFolder.TabIndex = 0;
+            grp_SelectFolder.TabStop = false;
+            grp_SelectFolder.Text = "Select &Folder";
+            // 
+            // cmb_SelectFolder
+            // 
+            cmb_SelectFolder.Dock = DockStyle.Fill;
+            cmb_SelectFolder.FormattingEnabled = true;
+            cmb_SelectFolder.ItemHeight = 15;
+            cmb_SelectFolder.Location = new Point(3, 19);
+            cmb_SelectFolder.Name = "cmb_SelectFolder";
+            cmb_SelectFolder.Size = new Size(376, 23);
+            cmb_SelectFolder.TabIndex = 0;
+            // 
+            // btn_SaveFolders
+            // 
+            btn_SaveFolders.Dock = DockStyle.Fill;
+            btn_SaveFolders.Location = new Point(197, 91);
+            btn_SaveFolders.Name = "btn_SaveFolders";
+            btn_SaveFolders.Size = new Size(188, 24);
+            btn_SaveFolders.TabIndex = 2;
+            btn_SaveFolders.Text = "&Save Folders";
+            btn_SaveFolders.UseVisualStyleBackColor = true;
+            // 
+            // btn_NewFolder
+            // 
+            btn_NewFolder.Dock = DockStyle.Fill;
+            btn_NewFolder.Location = new Point(3, 62);
+            btn_NewFolder.Name = "btn_NewFolder";
+            btn_NewFolder.Size = new Size(188, 23);
+            btn_NewFolder.TabIndex = 0;
+            btn_NewFolder.Text = "&New Folder";
+            btn_NewFolder.UseVisualStyleBackColor = true;
+            // 
+            // btn_DeleteFolder
+            // 
+            btn_DeleteFolder.Dock = DockStyle.Fill;
+            btn_DeleteFolder.Location = new Point(197, 62);
+            btn_DeleteFolder.Name = "btn_DeleteFolder";
+            btn_DeleteFolder.Size = new Size(188, 23);
+            btn_DeleteFolder.TabIndex = 1;
+            btn_DeleteFolder.Text = "&Delete Folder";
+            btn_DeleteFolder.UseVisualStyleBackColor = true;
+            // 
+            // btn_LoadFolders
+            // 
+            btn_LoadFolders.Dock = DockStyle.Fill;
+            btn_LoadFolders.Location = new Point(3, 91);
+            btn_LoadFolders.Name = "btn_LoadFolders";
+            btn_LoadFolders.Size = new Size(188, 24);
+            btn_LoadFolders.TabIndex = 3;
+            btn_LoadFolders.Text = "&Load Folders";
+            btn_LoadFolders.UseVisualStyleBackColor = true;
             // 
             // frm_DeckBuilder
             // 
@@ -726,8 +841,9 @@
             Text = "Folder Builder";
             tbl_MainLayout.ResumeLayout(false);
             tbl_MainLayout.PerformLayout();
-            grp_SelectFolder.ResumeLayout(false);
-            tbl_SaveLoadEtc.ResumeLayout(false);
+            tbl_GameDetails.ResumeLayout(false);
+            tbl_GameDetails.PerformLayout();
+            grp_SelectGame.ResumeLayout(false);
             tbl_Cards.ResumeLayout(false);
             grp_FilterChips.ResumeLayout(false);
             tbl_Filters.ResumeLayout(false);
@@ -740,13 +856,20 @@
             ((System.ComponentModel.ISupportInitialize)split_GameChips).EndInit();
             split_GameChips.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgv_ChipList).EndInit();
-            grp_SelectGame.ResumeLayout(false);
+            grp_NaviCust.ResumeLayout(false);
+            tbl_NaviCust.ResumeLayout(false);
+            tbl_NaviCust.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)numud_CustMega).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numud_CustGiga).EndInit();
             tbl_Folder.ResumeLayout(false);
             tbl_Folder.PerformLayout();
             tabControl1.ResumeLayout(false);
             tab_Folder.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgv_Folder).EndInit();
             tab_Checklist.ResumeLayout(false);
+            tbl_FolderLayoutPanel.ResumeLayout(false);
+            tbl_FolderLayoutPanel.PerformLayout();
+            grp_SelectFolder.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -758,7 +881,7 @@
         private ComboBox cmb_SelectFolder;
         private Button btn_NewFolder;
         private Button btn_DeleteFolder;
-        private TableLayoutPanel tbl_SaveLoadEtc;
+        private TableLayoutPanel tbl_GameDetails;
         private Button btn_SaveFolders;
         private Button btn_LoadFolders;
         private TableLayoutPanel tbl_Cards;
@@ -809,5 +932,13 @@
         private FlowLayoutPanel flw_Checklist;
         private Label lbl_LocationText;
         private TextBox txt_SearchLocationText;
+        private TableLayoutPanel tbl_FolderLayoutPanel;
+        private TextBox txt_GameDetails;
+        private GroupBox grp_NaviCust;
+        private TableLayoutPanel tbl_NaviCust;
+        private Label lbl_CustMega;
+        private Label lbl_CustGiga;
+        private NumericUpDown numud_CustMega;
+        private NumericUpDown numud_CustGiga;
     }
 }

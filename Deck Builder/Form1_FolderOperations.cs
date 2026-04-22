@@ -1,4 +1,5 @@
 ﻿using Deck_Builder.Classes;
+using Deck_Builder.Extensions;
 using System.Text;
 using System.Text.Json;
 
@@ -81,6 +82,9 @@ namespace Deck_Builder
 
             dgv_FolderBindingSource.DataSource = null;
             dgv_FolderBindingSource.DataSource = _currentFolder.Chips;
+
+            numud_CustMega.Value = _currentFolder.AdditionalMegaChips;
+            numud_CustGiga.Value = _currentFolder.AdditionalGigaChips;
         }
 
         public void LoadAllFolders()
@@ -100,9 +104,6 @@ namespace Deck_Builder
                 return;
             }
 
-            _currentFolder = new();
-            currentFolders = new();
-
             try
             {
                 Stream loadFileStream;
@@ -112,53 +113,35 @@ namespace Deck_Builder
                     throw new Exception();
                 }
 
-                currentFolders = JsonSerializer.Deserialize<List<Folder>>(loadFileStream);
+                var loadedFolders = JsonSerializer.Deserialize<List<Folder>>(loadFileStream);
 
-                if (currentFolders is null)
+                if (loadedFolders is null)
                 {
-                    throw new Exception();
+                    throw new Exception($"No folders were found in the selected file {loadFileDialog.FileName}");
                 }
+
+                currentFolders = loadedFolders;
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error reading file.\n{ex}", "Error Reading File");
-
-                currentFolders = new();
-                _currentFolder = new() { GameName = cmb_SelectGame.SelectedValue!.ToString()!, FolderName = string.Empty, Chips = new() };
-                SaveCurrentFolder();
+                MessageBox.Show($"Error reading file.\n{ex}", "Error Reading File", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
 
-            var potentialFolder = currentFolders.FirstOrDefault(cf => cf.GameName.Equals(cmb_SelectGame.SelectedValue));
+            string currentGameName = cmb_SelectGame.SelectedValue!.ToString()!;
+            _currentFolder = currentFolders.FirstOrDefault(cf => cf.GameName.Equals(currentGameName))
+                ?? currentFolders.FirstOrDefault(f => cmb_SelectGame.Items.Contains(f.GameName))
+                ?? new Folder() { GameName = currentGameName, Chips = new(), FolderName = string.Empty };
 
-            if (potentialFolder is not null && cmb_SelectGame.Items.Contains(potentialFolder.GameName))
-            {
-                _currentFolder = potentialFolder;
-
-                cmb_SelectGame.SelectedIndex = cmb_SelectGame.Items.IndexOf(_currentFolder.GameName);
-            }
-            else if (potentialFolder is null)
-            {
-                _currentFolder = new() { GameName = cmb_SelectGame.SelectedValue!.ToString()!, FolderName = string.Empty, Chips = new() };
-            }
-            else if (_currentFolder is not null && _currentFolder.Chips.Count == 0)
-            {
-                _currentFolder.GameName = cmb_SelectGame.SelectedValue!.ToString()!;
-            }
-            else if (_currentFolder is not null && !string.IsNullOrEmpty(_currentFolder.GameName))
-            {
-                cmb_SelectGame.SelectedIndex = cmb_SelectGame.Items.IndexOf(_currentFolder.GameName);
-            }
-            else
-            {
-                _currentFolder = new() { GameName = cmb_SelectGame.SelectedValue!.ToString()!, FolderName = string.Empty, Chips = new() };
-            }
+            cmb_SelectGame.SelectedIndex = cmb_SelectGame.Items.IndexOf(_currentFolder.GameName);
 
             cmb_SelectFolder.DataSource = currentFolders.Select(cf => cf.FolderName).ToList();
             cmb_SelectFolder.SelectedIndex = currentFolders.IndexOf(_currentFolder);
 
             SaveCurrentFolder();
 
-            dgv_FolderBindingSource.DataSource = null;
+            cmb_SelectFolder.DataSource = currentFolders.Select(cf => cf.FolderName).ToList();
+            cmb_SelectFolder.SelectedIndex = currentFolders.IndexOf(_currentFolder);
             dgv_FolderBindingSource.DataSource = _currentFolder.Chips;
         }
 
@@ -209,6 +192,79 @@ namespace Deck_Builder
             cmb_SelectFolder.DataSource = currentFolders.Select(cf => cf.FolderName).ToList();
 
             cmb_SelectFolder.SelectedIndex = 0;
+        }
+
+        public (bool, string) IsFolderValid (Folder folder)
+        {
+            var game = _availableGames.FirstOrDefault(g => g.Name.Equals(folder.GameName));
+            int allCodesChipQuantity = 0;
+
+            if (game is null)
+            {
+                return (false, $"Game {folder.GameName} not found.");
+            }
+
+            var gameRules = game.Rules;
+
+            if (gameRules.MaxFolderSize < folder.Chips.Sum(c => c.Quantity))
+            {
+                return (false, $"More than {gameRules.MaxFolderSize} chip{(gameRules.MaxFolderSize == 1 ? "" : "s")} in the folder.");
+            }
+
+            foreach (var chipByName in folder.Chips.Select(c => c.Name))
+            {
+                allCodesChipQuantity = folder.Chips.Where(c => chipByName.Equals(c.Name)).Sum(c => c.Quantity);
+
+                switch (folder.Chips.First(c => c.Name.Equals(chipByName)).Game_ChipType)
+                {
+                    case ChipType.Standard:
+                        if (allCodesChipQuantity > gameRules.MaxSameStandardChip)
+                        {
+                            return (false, $"More than {gameRules.MaxSameStandardChip} cop{(gameRules.MaxSameStandardChip == 1 ? "y" : "ies")} of {chipByName}.");
+                        }
+                    break;
+                    case ChipType.Mega:
+                        if (allCodesChipQuantity > gameRules.MaxSameMegaChip + (int)numud_CustMega.Value)
+                        {
+                            return (false, $"More than {gameRules.MaxSameMegaChip + (int)numud_CustMega.Value} cop{(gameRules.MaxSameMegaChip + (int)numud_CustMega.Value == 1 ? "y" : "ies")} of {chipByName}.");
+                        }
+                    break;
+                    case ChipType.Giga:
+                        if (allCodesChipQuantity > gameRules.MaxSameGigaChip + (int)numud_CustGiga.Value)
+                        {
+                            return (false, $"More than {gameRules.MaxSameGigaChip + (int)numud_CustGiga.Value} cop{(gameRules.MaxSameGigaChip + (int)numud_CustGiga.Value == 1 ? "y" : "ies")} of {chipByName}.");
+                        }
+                    break;
+                    case ChipType.Dark:
+                        if (allCodesChipQuantity > gameRules.MaxSameDarkChip)
+                        {
+                            return (false, $"More than {gameRules.MaxSameDarkChip} cop{(gameRules.MaxSameDarkChip == 1 ? "y" : "ies")} of {chipByName}.");
+                        }
+                    break;
+                }
+            }
+
+            if (folder.Chips.Where(c => c.ChipType.IsChipType(ChipType.Standard)).Sum(c => c.Quantity) > gameRules.MaxFolderSize)
+            {
+                return (false, $"More than {gameRules.MaxFolderSize} Standard chip{(gameRules.MaxFolderSize == 1 ? "" : "s")} in the folder.");
+            }
+
+            if (folder.Chips.Where(c => c.ChipType.IsChipType(ChipType.Mega)).Sum(c => c.Quantity) > gameRules.MaxMegaChips + (int)numud_CustMega.Value)
+            {
+                return (false, $"More than {gameRules.MaxMegaChips + (int)numud_CustMega.Value} Mega chip{(gameRules.MaxMegaChips + (int)numud_CustMega.Value == 1 ? "" : "s")} in the folder.");
+            }
+
+            if (folder.Chips.Where(c => c.ChipType.IsChipType(ChipType.Giga)).Sum(c => c.Quantity) > gameRules.MaxGigaChips + (int)numud_CustGiga.Value)
+            {
+                return (false, $"More than {gameRules.MaxGigaChips + (int)numud_CustGiga.Value} Giga chip{(gameRules.MaxGigaChips + (int)numud_CustGiga.Value == 1 ? "" : "s")} in the folder.");
+            }
+
+            if (folder.Chips.Where(c => c.ChipType.IsChipType(ChipType.Dark)).Sum(c => c.Quantity) > gameRules.MaxDarkChips)
+            {
+                return (false, $"More than {gameRules.MaxDarkChips} Dark chip{(gameRules.MaxDarkChips == 1 ? "" : "s")} in the folder.");
+            }
+
+            return (true, string.Empty);
         }
     }
 }

@@ -10,6 +10,9 @@ namespace Deck_Builder.Classes
         public string FolderName { get; set; } = string.Empty;
         public List<FolderChip> Chips { get; set; } = new List<FolderChip>();
 
+        public int AdditionalMegaChips { get; set; } = 0;
+        public int AdditionalGigaChips { get; set; } = 0;
+
         public bool IsFolderValid ()
         {
             if (Chips.Count != 30)

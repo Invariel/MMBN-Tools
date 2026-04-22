@@ -3,6 +3,7 @@ using Deck_Builder.Extensions;
 using System.Collections;
 using System.Drawing.Text;
 using System.Globalization;
+using System.Text;
 using System.Text.Json;
 
 namespace Deck_Builder;
@@ -70,6 +71,34 @@ public partial class frm_DeckBuilder : Form
 
         btn_DeleteFolder.Click += DeleteFolder;
 
+        numud_CustMega.ValueChanged += delegate
+        {
+            txt_GameDetails.Text = GenerateGameDetails();
+
+            lbl_FolderContents.Text = _currentFolder.ToString();
+
+            (bool valid, string error) = IsFolderValid(_currentFolder);
+
+            lbl_FolderContents.BackColor = valid ? lbl_ChipDataView_Right.BackColor : Color.Red;
+            lbl_FolderContents.Text = valid ? lbl_FolderContents.Text : "Invalid folder: " + error + "\n";
+
+            _currentFolder.AdditionalMegaChips = (int)numud_CustMega.Value;
+        };
+
+        numud_CustGiga.ValueChanged += delegate
+        {
+            txt_GameDetails.Text = GenerateGameDetails();
+
+            lbl_FolderContents.Text = _currentFolder.ToString();
+
+            (bool valid, string error) = IsFolderValid(_currentFolder);
+
+            lbl_FolderContents.BackColor = valid ? lbl_ChipDataView_Right.BackColor : Color.Red;
+            lbl_FolderContents.Text = valid ? lbl_FolderContents.Text : "Invalid folder: " + error + "\n";
+
+            _currentFolder.AdditionalGigaChips = (int)numud_CustGiga.Value;
+        };
+
         _currentFolder.GameName = cmb_SelectGame.Text;
     }
 
@@ -102,6 +131,22 @@ public partial class frm_DeckBuilder : Form
         cmb_SelectFolder.DataSource = currentFolders.Select(cf => cf.FolderName).ToList();
         var index = currentFolders.IndexOf(_currentFolder);
         cmb_SelectFolder.SelectedIndex = index;
+
+        txt_GameDetails.Text = GenerateGameDetails();
+    }
+
+    public string GenerateGameDetails ()
+    {
+        var game = GetCurrentGame();
+
+        bool hasDarkChips = game.Battlechips.Any(c => c.ChipType.IsChipType(ChipType.Dark)) && game.Rules.MaxDarkChips > 0;
+
+return
+$"""
+Standard: {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Standard)), 3} | Max Same: {game.Rules.MaxSameStandardChip, 2} | Max in Folder: {game.Rules.MaxFolderSize, 3}{(hasDarkChips ? $" |{"",-10}Dark: {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Dark)), 3}" : ""), -1}
+Mega    : {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Mega)), 3} | Max Same: {game.Rules.MaxSameMegaChip, 2} | Max in Folder: {game.Rules.MaxMegaChips + (int)numud_CustMega.Value, 3}{(hasDarkChips ? $" |{"",-10} Max: {game.Rules.MaxDarkChips, 3}" : ""), -1}
+Giga    : {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Giga)), 3} | Max Same: {game.Rules.MaxSameGigaChip, 2} | Max in Folder: {game.Rules.MaxGigaChips + (int)numud_CustGiga.Value, 3}{(hasDarkChips ? $" |{"",-10}Same: {game.Rules.MaxSameDarkChip,3}" : ""), -1}
+""";
     }
 
     public void Create_dgv_ChipList()
@@ -127,6 +172,7 @@ public partial class frm_DeckBuilder : Form
             DefaultCellStyle = new DataGridViewCellStyle()
             {
                 Alignment = DataGridViewContentAlignment.MiddleLeft,
+                Font = CreateFont("BN6FontBold", 16)
             },
             SortMode = DataGridViewColumnSortMode.Programmatic
         });
@@ -139,6 +185,7 @@ public partial class frm_DeckBuilder : Form
             DefaultCellStyle = new DataGridViewCellStyle()
             {
                 Alignment = DataGridViewContentAlignment.MiddleLeft,
+                Font = CreateFont("BN6FontBold", 16)
             },
             SortMode = DataGridViewColumnSortMode.Automatic
         });
@@ -151,6 +198,7 @@ public partial class frm_DeckBuilder : Form
             DefaultCellStyle = new DataGridViewCellStyle()
             {
                 Alignment = DataGridViewContentAlignment.MiddleLeft,
+                Font = CreateFont("BN6FontBold", 16)
             },
             SortMode = DataGridViewColumnSortMode.Programmatic
         });
@@ -162,7 +210,8 @@ public partial class frm_DeckBuilder : Form
                 AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells,
                 DefaultCellStyle = new DataGridViewCellStyle()
                 {
-                    Alignment = DataGridViewContentAlignment.MiddleLeft,
+                    Alignment = DataGridViewContentAlignment.MiddleCenter,
+                    Font = CreateFont("BN6FontTiny", 18)
                 },
                 SortMode = DataGridViewColumnSortMode.NotSortable
             });
@@ -193,6 +242,11 @@ public partial class frm_DeckBuilder : Form
             {
                 lbl_FolderContents.Text = _currentFolder.ToString();
 
+                (bool valid, string error) = IsFolderValid(_currentFolder);
+
+                lbl_FolderContents.BackColor = valid ? lbl_ChipDataView_Right.BackColor : Color.Red;
+                lbl_FolderContents.Text = valid ? lbl_FolderContents.Text : "Invalid folder: " + error + "\n";
+
                 GenerateChecklist();
             }
         };
@@ -213,6 +267,8 @@ public partial class frm_DeckBuilder : Form
             DefaultCellStyle = new DataGridViewCellStyle()
             {
                 Alignment = DataGridViewContentAlignment.MiddleLeft,
+                Font = CreateFont("BN6FontBold", 14),
+                Padding = new Padding(0, 0, 0, 0)
             },
             SortMode = DataGridViewColumnSortMode.Programmatic
         });
@@ -225,6 +281,8 @@ public partial class frm_DeckBuilder : Form
             DefaultCellStyle = new DataGridViewCellStyle()
             {
                 Alignment = DataGridViewContentAlignment.MiddleCenter,
+                Font = CreateFont("BN6FontTiny", 18),
+                Padding = new Padding(0, 0, 0, 0)
             },
             SortMode = DataGridViewColumnSortMode.Programmatic
         });
@@ -237,6 +295,8 @@ public partial class frm_DeckBuilder : Form
             DefaultCellStyle = new DataGridViewCellStyle()
             {
                 Alignment = DataGridViewContentAlignment.MiddleCenter,
+                Font = CreateFont("BN6FontBigCond", 14),
+                Padding = new Padding(0, 0, 0, 0)
             },
             SortMode = DataGridViewColumnSortMode.Programmatic
         });
@@ -249,6 +309,8 @@ public partial class frm_DeckBuilder : Form
             DefaultCellStyle = new DataGridViewCellStyle()
             {
                 Alignment = DataGridViewContentAlignment.MiddleCenter,
+                Font = CreateFont("BN6FontBold", 14),
+                Padding = new Padding(0, 0, 0, 0)
             },
             SortMode = DataGridViewColumnSortMode.Programmatic
         });
@@ -259,6 +321,11 @@ public partial class frm_DeckBuilder : Form
             Name = "-1",
             Text = "-",
             UseColumnTextForButtonValue = true,
+            DefaultCellStyle = new DataGridViewCellStyle()
+            {
+                Alignment = DataGridViewContentAlignment.MiddleCenter,
+                Font = CreateFont("BN6FontTiny", 18)
+            },
         });
 
         dgv_Folder.Columns.Add(new DataGridViewButtonColumn()
@@ -267,6 +334,11 @@ public partial class frm_DeckBuilder : Form
             Name = "X",
             Text = "X",
             UseColumnTextForButtonValue = true,
+            DefaultCellStyle = new DataGridViewCellStyle()
+            {
+                Alignment = DataGridViewContentAlignment.MiddleCenter,
+                Font = CreateFont("BN6FontTiny", 18)
+            },
         });
 
         dgv_Folder.CellClick += dgv_Folder_Clicked;
@@ -334,9 +406,19 @@ public partial class frm_DeckBuilder : Form
         grp_FilterChips.Font = CreateFont("BN6FontBig", 14);
         grp_SelectFolder.Font = CreateFont("BN6FontBig", 14);
         grp_SelectGame.Font = CreateFont("BN6FontBig", 14);
+        grp_NaviCust.Font = CreateFont("BN6FontBig", 14);
 
         cmb_SelectFolder.Font = CreateFont("BN6FontBig", 14);
         cmb_SelectGame.Font = CreateFont("BN6FontBig", 14);
+
+        txt_GameDetails.Font = CreateFont("BN6FontSmall", 14);
+
+        lbl_CustMega.Font = CreateFont("BN6FontSmall", 14);
+        lbl_CustGiga.Font = CreateFont("BN6FontSmall", 14);
+
+        numud_CustMega.Font = CreateFont("BN6FontBold", 16);
+        numud_CustGiga.Font = CreateFont("BN6FontBold", 16);
+
     }
 
     internal void LoadGamesAndBattlechips()
@@ -346,11 +428,9 @@ public partial class frm_DeckBuilder : Form
 
         foreach (var gameFile in gameFiles)
         {
-            string filePath = Path.Combine(gameDirectory, gameFile);
-
-            if (File.Exists(filePath))
+            if (File.Exists(gameFile))
             {
-                string fileText = File.ReadAllText(filePath);
+                string fileText = File.ReadAllText(gameFile);
                 if (fileText is not null)
                 {
                     try
@@ -365,6 +445,12 @@ public partial class frm_DeckBuilder : Form
                     }
                 }
             }
+        }
+
+        if (_availableGames.Count == 0)
+        {
+            MessageBox.Show("No games loaded.\nThe program cannot function without game data.\nPlease ensure that the ChipData folder is in the ChipData subdirectory and contains valid .json files.", "No Games Loaded", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            Application.Exit();
         }
     }
 

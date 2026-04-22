@@ -2,9 +2,8 @@
   "Name": "Mega Man Battle Network 4 - Red Sun",
   "Rules": {
     "MaxFolderSize": 30,
-    "MaxCopies": 4,
     "MaxMegaChips": 5,
-    "MaxGigaChips": 3,
+    "MaxGigaChips": 1,
     "MaxDarkChips": 0,
     "MaxSameStandardChip": 4,
     "MaxSameMegaChip": 1,
