@@ -270,7 +270,7 @@ namespace Deck_Builder
             return (true, string.Empty);
         }
 
-        public string GenerateRandomHands(int hands, int customSize)
+        public string GenerateRandomHands(int draws, int customSize)
         {
             Dictionary<string, int> chipFrequency = new();
             List<int> numberOfChips = new();
@@ -289,13 +289,13 @@ namespace Deck_Builder
                 }
             }
 
-            for (int i = 0; i < hands; ++ i)
+            for (int i = 0; i < draws; ++ i)
             {
                 var hand = GenerateRandomHand(entireFolder, customSize);
 
                 foreach (var chip in hand)
                 {
-                    string key = $"{chip.Name} {chip.Code}";
+                    string key = $"{chip.Name, 8} {chip.Code}";
                     if (!chipFrequency.ContainsKey(key))
                     {
                         chipFrequency[key] = 0;
@@ -331,15 +331,16 @@ namespace Deck_Builder
                 numberOfChips.Count(c => c == 1)
             };
 
+            int freqWidth = (int)Math.Log10(draws) + 1;
+
             foreach (var frequency in chipFrequency.OrderByDescending(kv => kv.Value))
             {
-                string frequencyLine = $"{frequency.Key}: {frequency.Value} ({Math.Round((double)frequency.Value / hands * 100, 2)}%)";
-
-                sb.Append($"{frequencyLine, -20}");
+                string frequencyLine = $"{frequency.Key}: {frequency.Value.ToString().PadLeft(freqWidth)} ({Math.Round((double)frequency.Value / draws * 100, 2), 5}%)";
+                sb.Append($"{frequencyLine, -25}");
 
                 if (line < 5)
                 {
-                    string handSizeLine = $"{5 - line} Chips: {handSizes[line]}";
+                    string handSizeLine = $"[{5 - line}]: {handSizes[line].ToString().PadLeft(freqWidth)}";
                     sb.Append($"{handSizeLine, 10}");
                     ++line;
                 }

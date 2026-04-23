@@ -12,7 +12,9 @@ public partial class frm_DeckBuilder : Form
     [System.Runtime.InteropServices.DllImport("gdi32.dll")]
     private static extern IntPtr AddFontMemResourceEx(IntPtr pbFont, uint cbFont, IntPtr pdv, [System.Runtime.InteropServices.In] ref uint pcFonts);
 
-    private PrivateFontCollection _internalFonts = new();
+    private static frm_About _aboutForm = new frm_About();
+
+    internal static PrivateFontCollection _internalFonts = new();
 
     private List<Game> _availableGames = new();
 
@@ -126,6 +128,16 @@ public partial class frm_DeckBuilder : Form
         _timer.Enabled = true;
 
         btn_Generate.Click += delegate { txt_Results.Text = GenerateRandomHands((int)numud_Draws.Value, (int)numud_HandSize.Value); };
+
+        aboutToolStripMenuItem1.Click += delegate
+        {
+            if (_aboutForm.IsDisposed)
+            {
+                _aboutForm = new frm_About();
+            }
+            _aboutForm.Show();
+            _aboutForm.Focus();
+        };
     }
 
     public void CreateTheLights ()
@@ -547,7 +559,7 @@ Giga    : {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Giga)), 3}
     }
 
     /// <summary>
-    /// Font: https://www.dafont.com/mega-man-battle-network.font
+    /// Font: https://x.com/megarock_exe/status/959320476790095872
     /// How to Use the Font in WinForms: https://stackoverflow.com/questions/556147/how-do-i-embed-my-own-fonts-in-a-winforms-app
     /// </summary>
     internal void ConfigureMMBNFont()
@@ -566,7 +578,7 @@ Giga    : {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Giga)), 3}
         }
     }
 
-    private Font CreateFont (string fontFace, float fontSize)
+    internal static Font CreateFont (string fontFace, float fontSize)
         => new Font (_internalFonts.Families.First(f => f.Name.Equals(fontFace)), fontSize);
 
     internal void AssignFonts()
@@ -626,7 +638,7 @@ Giga    : {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Giga)), 3}
 
         btn_Generate.Font = CreateFont("BN6FontBig", 14);
 
-        txt_Results.Font = CreateFont("BN6FontThin", 14);
+        txt_Results.Font = CreateFont("BN6FontThin", 12);
     }
 
     internal void LoadGamesAndBattlechips()

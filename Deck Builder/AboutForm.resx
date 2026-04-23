@@ -117,7 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="rtxt_About.Text" xml:space="preserve">
+    <value>Mega Man Battle Network Folder Builder
+By: Invariel (@gmail.com, BlueSky, Discord, Twitch, Twitter)
+
+Fonts by @megarock_exe (Twitter)
+https://x.com/megarock_exe/status/959320476790095872
+
+Additional Suggestions from
+@HuginnPlays (Twitch)</value>
+  </data>
 </root>
