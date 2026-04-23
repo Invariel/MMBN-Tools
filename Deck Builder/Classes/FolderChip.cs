@@ -11,6 +11,9 @@
         public ChipType Game_ChipType { get => GameChipType(); }
         public ChipType GameChipType() => (ChipType)(ChipType & 0b1111);
 
+        public override string ToString()
+            => $"{Name} {Code}";
+
         public int CompareTo(object? obj)
         {
             if (obj is not FolderChip other)

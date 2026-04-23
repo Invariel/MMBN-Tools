@@ -10,5 +10,6 @@
         public int MaxSameMegaChip { get; set; } = 1;
         public int MaxSameGigaChip { get; set; } = 1;
         public int MaxSameDarkChip { get; set; } = 1;
+        public int MaxCustomChips { get; set; } = 8;
     }
 }

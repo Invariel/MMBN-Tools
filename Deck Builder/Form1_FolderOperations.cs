@@ -1,5 +1,6 @@
 ﻿using Deck_Builder.Classes;
 using Deck_Builder.Extensions;
+using System.Collections.Immutable;
 using System.Text;
 using System.Text.Json;
 
@@ -133,15 +134,17 @@ namespace Deck_Builder
                 ?? currentFolders.FirstOrDefault(f => cmb_SelectGame.Items.Contains(f.GameName))
                 ?? new Folder() { GameName = currentGameName, Chips = new(), FolderName = string.Empty };
 
+            string folderName = _currentFolder.FolderName;
+
             cmb_SelectGame.SelectedIndex = cmb_SelectGame.Items.IndexOf(_currentFolder.GameName);
+
+            _currentFolder.FolderName = folderName; // I hate having to do this.
 
             cmb_SelectFolder.DataSource = currentFolders.Select(cf => cf.FolderName).ToList();
             cmb_SelectFolder.SelectedIndex = currentFolders.IndexOf(_currentFolder);
 
             SaveCurrentFolder();
 
-            cmb_SelectFolder.DataSource = currentFolders.Select(cf => cf.FolderName).ToList();
-            cmb_SelectFolder.SelectedIndex = currentFolders.IndexOf(_currentFolder);
             dgv_FolderBindingSource.DataSource = _currentFolder.Chips;
         }
 
@@ -265,6 +268,100 @@ namespace Deck_Builder
             }
 
             return (true, string.Empty);
+        }
+
+        public string GenerateRandomHands(int hands, int customSize)
+        {
+            Dictionary<string, int> chipFrequency = new();
+            List<int> numberOfChips = new();
+
+            if (_currentFolder.Chips.Sum(c => c.Quantity) < (int)GetCurrentGame().Rules.MaxFolderSize)
+            {
+                return "A full folder is required to generate random hands.";
+            }
+
+            List<FolderChip> entireFolder = new();
+            foreach (var chip in _currentFolder.Chips)
+            {
+                for (int i = 0; i < chip.Quantity; i++)
+                {
+                    entireFolder.Add(new FolderChip() { Name = chip.Name, Code = chip.Code, Quantity = 1 });
+                }
+            }
+
+            for (int i = 0; i < hands; ++ i)
+            {
+                var hand = GenerateRandomHand(entireFolder, customSize);
+
+                foreach (var chip in hand)
+                {
+                    string key = $"{chip.Name} {chip.Code}";
+                    if (!chipFrequency.ContainsKey(key))
+                    {
+                        chipFrequency[key] = 0;
+                    }
+                    chipFrequency[key] ++;
+                }
+
+                var mostCommonName = hand.GroupBy(c => c.Name).Select(g => new { Name = g.Key, Quantity = g.Sum(c => c.Quantity) }).OrderByDescending(g => g.Quantity).ThenBy(g => g.Name).First();
+                var starCodes = hand.Where(c => c.Code.Equals("*")).ToList();
+                var mostCommonCode =
+                    hand
+                        .Except(starCodes)
+                        .GroupBy(c => c.Code)
+                        .Select(g => new { Code = g.Key, Quantity = hand.Where(c => c.Code.Equals(g.Key)).Count() })
+                        .OrderByDescending(g => g.Quantity)
+                        .ThenBy(g => g.Code)
+                        .First();
+
+                int numChips = Math.Min(5, Math.Max(mostCommonName.Quantity, mostCommonCode.Quantity + starCodes.Count));
+
+                numberOfChips.Add(numChips);
+            }
+
+            StringBuilder sb = new();
+            int line = 0;
+
+            int[] handSizes = 
+            {
+                numberOfChips.Count(c => c == 5),
+                numberOfChips.Count(c => c == 4),
+                numberOfChips.Count(c => c == 3),
+                numberOfChips.Count(c => c == 2),
+                numberOfChips.Count(c => c == 1)
+            };
+
+            foreach (var frequency in chipFrequency.OrderByDescending(kv => kv.Value))
+            {
+                string frequencyLine = $"{frequency.Key}: {frequency.Value} ({Math.Round((double)frequency.Value / hands * 100, 2)}%)";
+
+                sb.Append($"{frequencyLine, -20}");
+
+                if (line < 5)
+                {
+                    string handSizeLine = $"{5 - line} Chips: {handSizes[line]}";
+                    sb.Append($"{handSizeLine, 10}");
+                    ++line;
+                }
+
+                sb.AppendLine();
+            }
+
+            return sb.ToString();
+        }
+
+        public List<FolderChip> GenerateRandomHand(List<FolderChip> folder, int customSize)
+        {
+            List<FolderChip> shuffleFolder = new List<FolderChip>();
+            shuffleFolder.AddRange(folder);
+
+            Random random = new Random();
+            for (int i = 0; i < random.Next(10); ++ i)
+            {
+                shuffleFolder = shuffleFolder.Shuffle().ToList();
+            }
+
+            return shuffleFolder.Take(customSize).ToList();
         }
     }
 }

@@ -84,6 +84,13 @@
             tab_Checklist = new TabPage();
             flw_Checklist = new FlowLayoutPanel();
             tab_RandomHand = new TabPage();
+            panel_RandomHand = new Panel();
+            txt_Results = new TextBox();
+            btn_Generate = new Button();
+            numud_HandSize = new NumericUpDown();
+            lbl_HandSize = new Label();
+            numud_Draws = new NumericUpDown();
+            lbl_NumberOfDraws = new Label();
             txt_ChipDataView_Left = new TextBox();
             tbl_FolderLayoutPanel = new TableLayoutPanel();
             grp_SelectFolder = new GroupBox();
@@ -113,6 +120,10 @@
             tab_Folder.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgv_Folder).BeginInit();
             tab_Checklist.SuspendLayout();
+            tab_RandomHand.SuspendLayout();
+            panel_RandomHand.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)numud_HandSize).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numud_Draws).BeginInit();
             tbl_FolderLayoutPanel.SuspendLayout();
             grp_SelectFolder.SuspendLayout();
             SuspendLayout();
@@ -429,6 +440,7 @@
             textBox1.ReadOnly = true;
             textBox1.Size = new Size(215, 88);
             textBox1.TabIndex = 18;
+            textBox1.Visible = false;
             // 
             // btn_5_2
             // 
@@ -437,6 +449,7 @@
             btn_5_2.Size = new Size(35, 35);
             btn_5_2.TabIndex = 17;
             btn_5_2.UseVisualStyleBackColor = true;
+            btn_5_2.Visible = false;
             // 
             // btn_4_2
             // 
@@ -445,6 +458,7 @@
             btn_4_2.Size = new Size(35, 35);
             btn_4_2.TabIndex = 16;
             btn_4_2.UseVisualStyleBackColor = true;
+            btn_4_2.Visible = false;
             // 
             // btn_3_2
             // 
@@ -453,6 +467,7 @@
             btn_3_2.Size = new Size(35, 35);
             btn_3_2.TabIndex = 15;
             btn_3_2.UseVisualStyleBackColor = true;
+            btn_3_2.Visible = false;
             // 
             // btn_2_2
             // 
@@ -461,6 +476,7 @@
             btn_2_2.Size = new Size(35, 35);
             btn_2_2.TabIndex = 14;
             btn_2_2.UseVisualStyleBackColor = true;
+            btn_2_2.Visible = false;
             // 
             // btn_1_2
             // 
@@ -469,6 +485,7 @@
             btn_1_2.Size = new Size(35, 35);
             btn_1_2.TabIndex = 13;
             btn_1_2.UseVisualStyleBackColor = true;
+            btn_1_2.Visible = false;
             // 
             // btn_0_2
             // 
@@ -477,6 +494,7 @@
             btn_0_2.Size = new Size(35, 35);
             btn_0_2.TabIndex = 12;
             btn_0_2.UseVisualStyleBackColor = true;
+            btn_0_2.Visible = false;
             // 
             // btn_5_1
             // 
@@ -485,6 +503,7 @@
             btn_5_1.Size = new Size(35, 35);
             btn_5_1.TabIndex = 11;
             btn_5_1.UseVisualStyleBackColor = true;
+            btn_5_1.Visible = false;
             // 
             // btn_4_1
             // 
@@ -493,6 +512,7 @@
             btn_4_1.Size = new Size(35, 35);
             btn_4_1.TabIndex = 10;
             btn_4_1.UseVisualStyleBackColor = true;
+            btn_4_1.Visible = false;
             // 
             // btn_3_1
             // 
@@ -501,6 +521,7 @@
             btn_3_1.Size = new Size(35, 35);
             btn_3_1.TabIndex = 9;
             btn_3_1.UseVisualStyleBackColor = true;
+            btn_3_1.Visible = false;
             // 
             // btn_2_1
             // 
@@ -509,6 +530,7 @@
             btn_2_1.Size = new Size(35, 35);
             btn_2_1.TabIndex = 8;
             btn_2_1.UseVisualStyleBackColor = true;
+            btn_2_1.Visible = false;
             // 
             // btn_1_1
             // 
@@ -517,6 +539,7 @@
             btn_1_1.Size = new Size(35, 35);
             btn_1_1.TabIndex = 7;
             btn_1_1.UseVisualStyleBackColor = true;
+            btn_1_1.Visible = false;
             // 
             // btn_0_1
             // 
@@ -525,6 +548,7 @@
             btn_0_1.Size = new Size(35, 35);
             btn_0_1.TabIndex = 6;
             btn_0_1.UseVisualStyleBackColor = true;
+            btn_0_1.Visible = false;
             // 
             // btn_5_0
             // 
@@ -533,6 +557,7 @@
             btn_5_0.Size = new Size(35, 35);
             btn_5_0.TabIndex = 5;
             btn_5_0.UseVisualStyleBackColor = true;
+            btn_5_0.Visible = false;
             // 
             // btn_4_0
             // 
@@ -541,6 +566,7 @@
             btn_4_0.Size = new Size(35, 35);
             btn_4_0.TabIndex = 4;
             btn_4_0.UseVisualStyleBackColor = true;
+            btn_4_0.Visible = false;
             // 
             // btn_3_0
             // 
@@ -549,6 +575,7 @@
             btn_3_0.Size = new Size(35, 35);
             btn_3_0.TabIndex = 3;
             btn_3_0.UseVisualStyleBackColor = true;
+            btn_3_0.Visible = false;
             // 
             // btn_2_0
             // 
@@ -557,6 +584,7 @@
             btn_2_0.Size = new Size(35, 35);
             btn_2_0.TabIndex = 2;
             btn_2_0.UseVisualStyleBackColor = true;
+            btn_2_0.Visible = false;
             // 
             // btn_1_0
             // 
@@ -565,6 +593,7 @@
             btn_1_0.Size = new Size(35, 35);
             btn_1_0.TabIndex = 1;
             btn_1_0.UseVisualStyleBackColor = true;
+            btn_1_0.Visible = false;
             // 
             // btn_0_0
             // 
@@ -573,6 +602,7 @@
             btn_0_0.Size = new Size(35, 35);
             btn_0_0.TabIndex = 0;
             btn_0_0.UseVisualStyleBackColor = true;
+            btn_0_0.Visible = false;
             // 
             // grp_NaviCust
             // 
@@ -729,12 +759,86 @@
             // 
             // tab_RandomHand
             // 
+            tab_RandomHand.Controls.Add(panel_RandomHand);
             tab_RandomHand.Location = new Point(4, 24);
             tab_RandomHand.Name = "tab_RandomHand";
             tab_RandomHand.Size = new Size(374, 411);
             tab_RandomHand.TabIndex = 2;
             tab_RandomHand.Text = "Random Hand";
             tab_RandomHand.UseVisualStyleBackColor = true;
+            // 
+            // panel_RandomHand
+            // 
+            panel_RandomHand.Controls.Add(txt_Results);
+            panel_RandomHand.Controls.Add(btn_Generate);
+            panel_RandomHand.Controls.Add(numud_HandSize);
+            panel_RandomHand.Controls.Add(lbl_HandSize);
+            panel_RandomHand.Controls.Add(numud_Draws);
+            panel_RandomHand.Controls.Add(lbl_NumberOfDraws);
+            panel_RandomHand.Dock = DockStyle.Fill;
+            panel_RandomHand.Location = new Point(0, 0);
+            panel_RandomHand.Name = "panel_RandomHand";
+            panel_RandomHand.Size = new Size(374, 411);
+            panel_RandomHand.TabIndex = 0;
+            // 
+            // txt_Results
+            // 
+            txt_Results.Location = new Point(32, 95);
+            txt_Results.Multiline = true;
+            txt_Results.Name = "txt_Results";
+            txt_Results.ReadOnly = true;
+            txt_Results.Size = new Size(310, 284);
+            txt_Results.TabIndex = 5;
+            // 
+            // btn_Generate
+            // 
+            btn_Generate.Location = new Point(32, 59);
+            btn_Generate.Name = "btn_Generate";
+            btn_Generate.Size = new Size(310, 23);
+            btn_Generate.TabIndex = 4;
+            btn_Generate.Text = "Generate Opening Hands";
+            btn_Generate.UseVisualStyleBackColor = true;
+            // 
+            // numud_HandSize
+            // 
+            numud_HandSize.Location = new Point(282, 30);
+            numud_HandSize.Maximum = new decimal(new int[] { 10, 0, 0, 0 });
+            numud_HandSize.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numud_HandSize.Name = "numud_HandSize";
+            numud_HandSize.Size = new Size(60, 23);
+            numud_HandSize.TabIndex = 3;
+            numud_HandSize.TextAlign = HorizontalAlignment.Right;
+            numud_HandSize.Value = new decimal(new int[] { 5, 0, 0, 0 });
+            // 
+            // lbl_HandSize
+            // 
+            lbl_HandSize.AutoSize = true;
+            lbl_HandSize.Location = new Point(200, 32);
+            lbl_HandSize.Name = "lbl_HandSize";
+            lbl_HandSize.Size = new Size(49, 15);
+            lbl_HandSize.TabIndex = 2;
+            lbl_HandSize.Text = "Custom";
+            // 
+            // numud_Draws
+            // 
+            numud_Draws.Location = new Point(101, 30);
+            numud_Draws.Maximum = new decimal(new int[] { 10000, 0, 0, 0 });
+            numud_Draws.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numud_Draws.Name = "numud_Draws";
+            numud_Draws.Size = new Size(60, 23);
+            numud_Draws.TabIndex = 1;
+            numud_Draws.TextAlign = HorizontalAlignment.Right;
+            numud_Draws.Value = new decimal(new int[] { 10, 0, 0, 0 });
+            // 
+            // lbl_NumberOfDraws
+            // 
+            lbl_NumberOfDraws.Anchor = AnchorStyles.Right;
+            lbl_NumberOfDraws.AutoSize = true;
+            lbl_NumberOfDraws.Location = new Point(32, 32);
+            lbl_NumberOfDraws.Name = "lbl_NumberOfDraws";
+            lbl_NumberOfDraws.Size = new Size(39, 15);
+            lbl_NumberOfDraws.TabIndex = 0;
+            lbl_NumberOfDraws.Text = "Draws";
             // 
             // txt_ChipDataView_Left
             // 
@@ -837,6 +941,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1132, 745);
             Controls.Add(tbl_MainLayout);
+            MinimumSize = new Size(1148, 784);
             Name = "frm_DeckBuilder";
             Text = "Folder Builder";
             tbl_MainLayout.ResumeLayout(false);
@@ -867,6 +972,11 @@
             tab_Folder.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgv_Folder).EndInit();
             tab_Checklist.ResumeLayout(false);
+            tab_RandomHand.ResumeLayout(false);
+            panel_RandomHand.ResumeLayout(false);
+            panel_RandomHand.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)numud_HandSize).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numud_Draws).EndInit();
             tbl_FolderLayoutPanel.ResumeLayout(false);
             tbl_FolderLayoutPanel.PerformLayout();
             grp_SelectFolder.ResumeLayout(false);
@@ -940,5 +1050,12 @@
         private Label lbl_CustGiga;
         private NumericUpDown numud_CustMega;
         private NumericUpDown numud_CustGiga;
+        private Panel panel_RandomHand;
+        private NumericUpDown numud_Draws;
+        private Label lbl_NumberOfDraws;
+        private NumericUpDown numud_HandSize;
+        private Label lbl_HandSize;
+        private Button btn_Generate;
+        private TextBox txt_Results;
     }
 }

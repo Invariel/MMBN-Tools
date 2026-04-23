@@ -378,12 +378,12 @@ Traders: {chip.Traders}
             else if (chip.ChipType.IsChipType(ChipType.Mega))
             {
                 maxSameChipQuantity = game.Rules.MaxSameMegaChip;
-                maxSameChipClassQuantity = game.Rules.MaxMegaChips;
+                maxSameChipClassQuantity = game.Rules.MaxMegaChips + (int)numud_CustMega.Value;
             }
             else if (chip.ChipType.IsChipType(ChipType.Giga))
             {
                 maxSameChipQuantity = game.Rules.MaxSameGigaChip;
-                maxSameChipClassQuantity = game.Rules.MaxGigaChips;
+                maxSameChipClassQuantity = game.Rules.MaxGigaChips + (int)numud_CustGiga.Value;
             }
             else if (chip.ChipType.IsChipType(ChipType.Dark))
             {

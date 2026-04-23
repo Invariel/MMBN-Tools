@@ -13,17 +13,6 @@ namespace Deck_Builder.Classes
         public int AdditionalMegaChips { get; set; } = 0;
         public int AdditionalGigaChips { get; set; } = 0;
 
-        public bool IsFolderValid ()
-        {
-            if (Chips.Count != 30)
-            {
-                return false;
-            }
-
-            // Check the Game Rules for validity.
-            return true;
-        }
-
         public override string ToString()
         {
             Dictionary<string, int> chipCodes = new();

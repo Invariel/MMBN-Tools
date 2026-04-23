@@ -3,7 +3,6 @@ using Deck_Builder.Extensions;
 using System.Collections;
 using System.Drawing.Text;
 using System.Globalization;
-using System.Text;
 using System.Text.Json;
 
 namespace Deck_Builder;
@@ -23,6 +22,24 @@ public partial class frm_DeckBuilder : Form
     private Folder _currentFolder = new();
 
     private BindingSource dgv_FolderBindingSource = new();
+
+    private System.Timers.Timer _timer = new();
+    private int _cycle = 0;
+    private List<PictureBox> _zeroLights = new();
+    private List<PictureBox> _oneLights = new();
+    private List<PictureBox> _twoLights = new();
+
+    private Image _zeroLight = new Bitmap("./Images/Light_00.gif");
+    private Image _oneLight = new Bitmap("./Images/Light_01.gif");
+    private Image _twoLight = new Bitmap("./Images/Light_02.gif");
+
+    ~frm_DeckBuilder()
+    {
+        _timer.Dispose();
+        _zeroLight.Dispose();
+        _oneLight.Dispose();
+        _twoLight.Dispose();
+    }
 
     public frm_DeckBuilder()
     {
@@ -100,6 +117,182 @@ public partial class frm_DeckBuilder : Form
         };
 
         _currentFolder.GameName = cmb_SelectGame.Text;
+
+        CreateTheLights();
+
+        _timer.Elapsed += SwapTheLights;
+        _timer.Interval = 250;
+        _timer.AutoReset = true;
+        _timer.Enabled = true;
+
+        btn_Generate.Click += delegate { txt_Results.Text = GenerateRandomHands((int)numud_Draws.Value, (int)numud_HandSize.Value); };
+    }
+
+    public void CreateTheLights ()
+    {
+        int count = 0;
+        int i = 0;
+        int j = 0;
+
+        PictureBox lastPictureBox = null!;
+
+        // Top
+        for (i = 8; i < panel_RandomHand.Width; i += 16)
+        {
+            PictureBox pictureBox = new PictureBox();
+            pictureBox.Parent = panel_RandomHand;
+            pictureBox.Anchor = AnchorStyles.None;
+            pictureBox.Dock = DockStyle.None;
+            pictureBox.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox.Location = new Point(i, 16);
+
+            switch (count)
+            {
+                case 0:
+                    pictureBox.Image = _zeroLight;
+                    _zeroLights.Add(pictureBox);
+                    break;
+                case 1:
+                    pictureBox.Image = _oneLight;
+                    _oneLights.Add(pictureBox);
+                    break;
+                case 2:
+                    pictureBox.Image = _twoLight;
+                    _twoLights.Add(pictureBox);
+                    break;
+            }
+
+            count = (++count) % 3;
+            lastPictureBox = pictureBox;
+        }
+
+        i -= 16;
+
+        for (j = lastPictureBox!.Location.Y + 16; j < tab_RandomHand.Height; j += 16)
+        {
+            PictureBox pictureBox = new PictureBox();
+            pictureBox.Parent = panel_RandomHand;
+            pictureBox.Anchor = AnchorStyles.None;
+            pictureBox.Dock = DockStyle.None;
+            pictureBox.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox.Location = new Point(i, j);
+
+            switch (count)
+            {
+                case 0:
+                    pictureBox.Image = _zeroLight;
+                    _zeroLights.Add(pictureBox);
+                    break;
+                case 1:
+                    pictureBox.Image = _oneLight;
+                    _oneLights.Add(pictureBox);
+                    break;
+                case 2:
+                    pictureBox.Image = _twoLight;
+                    _twoLights.Add(pictureBox);
+                    break;
+            }
+
+            count = (++count) % 3;
+            lastPictureBox = pictureBox;
+        }
+
+        j -= 16;
+
+        for (; i > 0; i -= 16)
+        {
+            PictureBox pictureBox = new PictureBox();
+            pictureBox.Parent = panel_RandomHand;
+            pictureBox.Anchor = AnchorStyles.None;
+            pictureBox.Dock = DockStyle.None;
+            pictureBox.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox.Location = new Point(i, j);
+            switch (count)
+            {
+                case 0:
+                    pictureBox.Image = _zeroLight;
+                    _zeroLights.Add(pictureBox);
+                    break;
+                case 1:
+                    pictureBox.Image = _oneLight;
+                    _oneLights.Add(pictureBox);
+                    break;
+                case 2:
+                    pictureBox.Image = _twoLight;
+                    _twoLights.Add(pictureBox);
+                    break;
+            }
+            count = (++count) % 3;
+            lastPictureBox = pictureBox;
+        }
+
+        i += 16;
+
+        for (; j > 0; j -= 16)
+        {
+            PictureBox pictureBox = new PictureBox();
+            pictureBox.Parent = panel_RandomHand;
+            pictureBox.Anchor = AnchorStyles.None;
+            pictureBox.Dock = DockStyle.None;
+            pictureBox.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox.Location = new Point(i, j);
+            switch (count)
+            {
+                case 0:
+                    pictureBox.Image = _zeroLight;
+                    _zeroLights.Add(pictureBox);
+                    break;
+                case 1:
+                    pictureBox.Image = _oneLight;
+                    _oneLights.Add(pictureBox);
+                    break;
+                case 2:
+                    pictureBox.Image = _twoLight;
+                    _twoLights.Add(pictureBox);
+                    break;
+            }
+            count = (++count) % 3;
+            lastPictureBox = pictureBox;
+        }
+    }
+
+    private void UpdateLight (PictureBox light, Image image)
+    {
+        if (!this.IsDisposed && !this.Disposing)
+        {
+            try
+            {
+                this.Invoke(new Action(() => light.Image = image));
+            }
+            catch (Exception)
+            {
+                // Intentionally blank.
+            }
+        }
+    }
+
+    public void SwapTheLights (object? sender, System.Timers.ElapsedEventArgs e)
+    {
+        _cycle = (_cycle + 2) % 3;
+
+        switch (_cycle)
+        {
+            case 0:
+                foreach (var light in _zeroLights) { UpdateLight (light, _zeroLight); }
+                foreach (var light in _oneLights) { UpdateLight (light, _oneLight); }
+                foreach (var light in _twoLights) { UpdateLight (light, _twoLight); }
+                break;
+            case 1:
+                foreach (var light in _zeroLights) { UpdateLight (light, _oneLight); }
+                foreach (var light in _oneLights) { UpdateLight (light, _twoLight); }
+                foreach (var light in _twoLights) { UpdateLight (light, _zeroLight); }
+                break;
+            case 2:
+                foreach (var light in _zeroLights) { UpdateLight (light, _twoLight); }
+                foreach (var light in _oneLights) { UpdateLight (light, _zeroLight); }
+                foreach (var light in _twoLights) { UpdateLight (light, _oneLight); }
+                break;
+        }
     }
 
     public void LoadSelectedGameData (object? sender, EventArgs e)
@@ -133,6 +326,12 @@ public partial class frm_DeckBuilder : Form
         cmb_SelectFolder.SelectedIndex = index;
 
         txt_GameDetails.Text = GenerateGameDetails();
+
+        numud_HandSize.Maximum = GetCurrentGame().Rules.MaxCustomChips;
+        if (numud_HandSize.Value > numud_HandSize.Maximum)
+        {
+            numud_HandSize.Value = 5;
+        }
     }
 
     public string GenerateGameDetails ()
@@ -419,6 +618,15 @@ Giga    : {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Giga)), 3}
         numud_CustMega.Font = CreateFont("BN6FontBold", 16);
         numud_CustGiga.Font = CreateFont("BN6FontBold", 16);
 
+        lbl_NumberOfDraws.Font = CreateFont("BN6FontSmall", 14);
+        lbl_HandSize.Font = CreateFont("BN6FontSmall", 14);
+
+        numud_Draws.Font = CreateFont("BN6FontBold", 16);
+        numud_HandSize.Font = CreateFont("BN6FontBold", 16);
+
+        btn_Generate.Font = CreateFont("BN6FontBig", 14);
+
+        txt_Results.Font = CreateFont("BN6FontThin", 14);
     }
 
     internal void LoadGamesAndBattlechips()

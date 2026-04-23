@@ -8,7 +8,8 @@
     "MaxSameStandardChip": 4,
     "MaxSameMegaChip": 1,
     "MaxSameGigaChip": 1,
-    "MaxSameDarkChip": 0
+    "MaxSameDarkChip": 0,
+    "MaxCustomChips": 8
   },
   "Battlechips": [
     {
