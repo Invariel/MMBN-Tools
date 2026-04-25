@@ -98,7 +98,7 @@ public partial class frm_DeckBuilder : Form
 
             (bool valid, string error) = IsFolderValid(_currentFolder);
 
-            lbl_FolderContents.BackColor = valid ? lbl_ChipDataView_Right.BackColor : Color.Red;
+            lbl_FolderContents.BackColor = valid ? txt_ChipDataView_Right.BackColor : Color.Red;
             lbl_FolderContents.Text = valid ? lbl_FolderContents.Text : "Invalid folder: " + error + "\n";
 
             _currentFolder.AdditionalMegaChips = (int)numud_CustMega.Value;
@@ -112,7 +112,7 @@ public partial class frm_DeckBuilder : Form
 
             (bool valid, string error) = IsFolderValid(_currentFolder);
 
-            lbl_FolderContents.BackColor = valid ? lbl_ChipDataView_Right.BackColor : Color.Red;
+            lbl_FolderContents.BackColor = valid ? txt_ChipDataView_Right.BackColor : Color.Red;
             lbl_FolderContents.Text = valid ? lbl_FolderContents.Text : "Invalid folder: " + error + "\n";
 
             _currentFolder.AdditionalGigaChips = (int)numud_CustGiga.Value;
@@ -330,8 +330,8 @@ public partial class frm_DeckBuilder : Form
         Create_dgv_Folder();
         AddBattlechipsToChipList(GetCurrentGame().Battlechips);
 
-        lbl_ChipDataView_Right.Text = "";
         txt_ChipDataView_Left.Text = "";
+        txt_ChipDataView_Right.Text = "";
 
         cmb_SelectFolder.DataSource = currentFolders.Select(cf => cf.FolderName).ToList();
         var index = currentFolders.IndexOf(_currentFolder);
@@ -455,7 +455,7 @@ Giga    : {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Giga)), 3}
 
                 (bool valid, string error) = IsFolderValid(_currentFolder);
 
-                lbl_FolderContents.BackColor = valid ? lbl_ChipDataView_Right.BackColor : Color.Red;
+                lbl_FolderContents.BackColor = valid ? lbl_CustGiga.BackColor : Color.Red;
                 lbl_FolderContents.Text = valid ? lbl_FolderContents.Text : "Invalid folder: " + error + "\n";
 
                 GenerateChecklist();
@@ -604,7 +604,7 @@ Giga    : {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Giga)), 3}
         txt_SearchLocationText.Font = CreateFont("BN6FontBold", 14);
 
         txt_ChipDataView_Left.Font = CreateFont("BN6FontSmall", 14);
-        lbl_ChipDataView_Right.Font = CreateFont("BN6FontSmall", 14);
+        txt_ChipDataView_Right.Font = CreateFont("BN6FontSmall", 14);
         lbl_Error.Font = CreateFont("BN6FontSmall", 14);
         lbl_FolderContents.Font = CreateFont("BN6FontSmall", 12);
 

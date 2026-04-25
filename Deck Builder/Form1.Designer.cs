@@ -47,7 +47,6 @@
             lbl_LocationText = new Label();
             txt_SearchLocationText = new TextBox();
             tbl_ChipView = new TableLayoutPanel();
-            lbl_ChipDataView_Right = new Label();
             lbl_Error = new Label();
             split_GameChips = new SplitContainer();
             dgv_ChipList = new DataGridView();
@@ -70,6 +69,7 @@
             btn_2_0 = new Button();
             btn_1_0 = new Button();
             btn_0_0 = new Button();
+            txt_ChipDataView_Right = new TextBox();
             grp_NaviCust = new GroupBox();
             tbl_NaviCust = new TableLayoutPanel();
             lbl_CustMega = new Label();
@@ -358,9 +358,9 @@
             // 
             tbl_ChipView.ColumnCount = 1;
             tbl_ChipView.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tbl_ChipView.Controls.Add(lbl_ChipDataView_Right, 0, 1);
             tbl_ChipView.Controls.Add(lbl_Error, 0, 2);
             tbl_ChipView.Controls.Add(split_GameChips, 0, 0);
+            tbl_ChipView.Controls.Add(txt_ChipDataView_Right, 0, 1);
             tbl_ChipView.Dock = DockStyle.Fill;
             tbl_ChipView.Location = new Point(3, 177);
             tbl_ChipView.Name = "tbl_ChipView";
@@ -370,16 +370,6 @@
             tbl_ChipView.RowStyles.Add(new RowStyle(SizeType.Percent, 5F));
             tbl_ChipView.Size = new Size(726, 415);
             tbl_ChipView.TabIndex = 1;
-            // 
-            // lbl_ChipDataView_Right
-            // 
-            lbl_ChipDataView_Right.AutoSize = true;
-            lbl_ChipDataView_Right.Dock = DockStyle.Fill;
-            lbl_ChipDataView_Right.Location = new Point(3, 249);
-            lbl_ChipDataView_Right.Name = "lbl_ChipDataView_Right";
-            lbl_ChipDataView_Right.Size = new Size(720, 145);
-            lbl_ChipDataView_Right.TabIndex = 1;
-            lbl_ChipDataView_Right.Text = " ";
             // 
             // lbl_Error
             // 
@@ -607,6 +597,17 @@
             btn_0_0.TabIndex = 0;
             btn_0_0.UseVisualStyleBackColor = true;
             btn_0_0.Visible = false;
+            // 
+            // txt_ChipDataView_Right
+            // 
+            txt_ChipDataView_Right.Dock = DockStyle.Fill;
+            txt_ChipDataView_Right.Location = new Point(3, 252);
+            txt_ChipDataView_Right.Multiline = true;
+            txt_ChipDataView_Right.Name = "txt_ChipDataView_Right";
+            txt_ChipDataView_Right.ReadOnly = true;
+            txt_ChipDataView_Right.ScrollBars = ScrollBars.Both;
+            txt_ChipDataView_Right.Size = new Size(720, 139);
+            txt_ChipDataView_Right.TabIndex = 4;
             // 
             // grp_NaviCust
             // 
@@ -1036,7 +1037,6 @@
         private GroupBox grp_SelectGame;
         private ComboBox cmb_SelectGame;
         private TableLayoutPanel tbl_Folder;
-        private Label lbl_ChipDataView_Right;
         private Label lbl_Error;
         private Label lbl_FolderContents;
         private DataGridView dgv_ChipList;
@@ -1091,5 +1091,6 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem aboutToolStripMenuItem;
         private ToolStripMenuItem aboutToolStripMenuItem1;
+        private TextBox txt_ChipDataView_Right;
     }
 }

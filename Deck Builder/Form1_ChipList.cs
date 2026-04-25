@@ -68,7 +68,7 @@ namespace Deck_Builder
             }
             else
             {
-                lbl_ChipDataView_Right.Text = CalculateLabelText(battlechip);
+                txt_ChipDataView_Right.Text = CalculateLabelText(battlechip);
             }
         }
 
@@ -94,7 +94,7 @@ namespace Deck_Builder
                 return;
             }
 
-            lbl_ChipDataView_Right.Text = CalculateLabelText(battlechip);
+            txt_ChipDataView_Right.Text = CalculateLabelText(battlechip);
         }
 
         public void dgv_ChipList_Sort(object? sender, DataGridViewCellMouseEventArgs e)
@@ -343,10 +343,10 @@ $"""
 {chip.Description}
 
 {(code is null ?
-    string.Join('\n', chip.Locations.Split(';').Select(l => l.Trim())) :
+    string.Join(Environment.NewLine, chip.Locations.Split(';').Select(l => l.Trim())) :
     chip.Locations.Split(';').Select(l => l.Trim()).First(c => c.StartsWith(code)))}
 
-Traders: {chip.Traders}
+{(string.IsNullOrEmpty(chip.Traders) ? "" : $"Traders: {chip.Traders}")}
 """;
 
 

@@ -200,7 +200,7 @@
       "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "B, G, H, P, R, *",
-      "Locations": "B: Shrimpy (High & Mid: LV9~S);G: Talk to scientist in Okuden Valley (Ch. 2 only), Shrimpy (Low: LV9~S);H: Shrimpy (Mid: LV9~S);P: Shrimpy (High: LV9~S);R: Gas Stove Comp BMD, Shrimpy (LV5~7)",
+      "Locations": "B: Shrimpy (High & Mid: LV9~S);G: Talk to scientist in Okuden Valley (Ch. 2 only), Shrimpy (Low: LV9~S);H: Shrimpy (Mid: LV9~S);P: Shrimpy (High: LV9~S);R: Gas Stove Comp BMD, Shrimpy (LV5~7);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -226,7 +226,7 @@
       "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "C, D, J, N, S, *",
-      "Locations": "C: Shrimpy2 (High: LV9~S; Low: LV5~7);D: Shrimpy2 (High: LV9~S);J: Shrimpy2 (Mid: LV5~7);N: Shrimpy2 (High: LV5~7; Mid: LV9~S), Netopia 1 GMD;S: Shrimpy2 (Mid & Low: LV9~S)",
+      "Locations": "C: Shrimpy2 (High: LV9~S; Low: LV5~7);D: Shrimpy2 (High: LV9~S);J: Shrimpy2 (Mid: LV5~7);N: Shrimpy2 (High: LV5~7; Mid: LV9~S), Netopia 1 GMD;S: Shrimpy2 (Mid & Low: LV9~S);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -252,7 +252,7 @@
       "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "K, O, P, T, V, *",
-      "Locations": "K: Shrimpy3 (High: LV5~7), Netopia 1 GMD;O: Shrimpy3 (Low: LV5~7);P: Shrimpy3 (High & Mid: LV9~S);T: Shrimpy3 (Mid: LV5~7);V: Shrimpy3 (LV9~S)",
+      "Locations": "K: Shrimpy3 (High: LV5~7), Netopia 1 GMD;O: Shrimpy3 (Low: LV5~7);P: Shrimpy3 (High & Mid: LV9~S);T: Shrimpy3 (Mid: LV5~7);V: Shrimpy3 (LV9~S);*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -278,7 +278,7 @@
       "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "E, F, I, L, M, *",
-      "Locations": "E: Puffy (Mid: LV9~S);F: Puffy (High: LV9~S);I: Puffy (LV5~7);L: Puffy (Low: LV9~S);M: Puffy (LV7~10)",
+      "Locations": "E: Puffy (Mid: LV9~S);F: Puffy (High: LV9~S);I: Puffy (LV5~7);L: Puffy (Low: LV9~S);M: Puffy (LV7~10);*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -304,7 +304,7 @@
       "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "B, G, H, P, R, *",
-      "Locations": "B: Spikey (High & Mid: LV9~S);G: Spikey (High & Mid: LV7~10);H: Spikey (Mid: LV5~7);P: Spikey (High: LV5~7);R: Trader only",
+      "Locations": "B: Spikey (High & Mid: LV9~S);G: Spikey (High & Mid: LV7~10);H: Spikey (Mid: LV5~7);P: Spikey (High: LV5~7);R: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -330,7 +330,7 @@
       "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "C, D, J, N, S, *",
-      "Locations": "C: Spikey2 (Mid: LV5~7), Netopia 2 GMD;D: Spikey2 (High & Mid: LV7~10);J: Spikey2 (High: LV5~7);N: Spikey2 (High & Mid: LV9~S), Yumland 1 GMD;S: Spikey2 (High & Mid: LV9~S)",
+      "Locations": "C: Spikey2 (Mid: LV5~7), Netopia 2 GMD;D: Spikey2 (High & Mid: LV7~10);J: Spikey2 (High: LV5~7);N: Spikey2 (High & Mid: LV9~S), Yumland 1 GMD;S: Spikey2 (High & Mid: LV9~S);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -356,7 +356,7 @@
       "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "K, O, P, T, V, *",
-      "Locations": "K: Spikey3 (Mid: LV7~10);O: Spikey3 (High: LV7~10), Undernet 3 GMD;P: Spikey3 (High: LV9~S);T: Spikey3 (Mid: LV9~S);V: Spikey3 (High & Mid: LV9~S)",
+      "Locations": "K: Spikey3 (Mid: LV7~10);O: Spikey3 (High: LV7~10), Undernet 3 GMD;P: Spikey3 (High: LV9~S);T: Spikey3 (Mid: LV9~S);V: Spikey3 (High & Mid: LV9~S);*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -382,7 +382,7 @@
       "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "E, F, I, L, M, *",
-      "Locations": "E: Buffy (Mid: LV9~S);F: Buffy (Low: LV9~S);I: Buffy (LV5~7);L: Buffy (High: LV9~S);M: Buffy (LV7~10)",
+      "Locations": "E: Buffy (Mid: LV9~S);F: Buffy (Low: LV9~S);I: Buffy (LV5~7);L: Buffy (High: LV9~S);M: Buffy (LV7~10);*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -460,7 +460,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "D, J, O, Q, T, *",
-      "Locations": "D: Beetank2 (Low: LV7~10);J: Beetank2 (High & Mid: LV7~10);O: Beetank2 (High: LV9~S);Q: Beetank2 (Mid: LV9~S);T: Beetank2 (Low: LV9~S), Yumland 2 GMD",
+      "Locations": "D: Beetank2 (Low: LV7~10);J: Beetank2 (High & Mid: LV7~10);O: Beetank2 (High: LV9~S);Q: Beetank2 (Mid: LV9~S);T: Beetank2 (Low: LV9~S), Yumland 2 GMD;*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -642,7 +642,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "A, I, L, O, Y, *",
-      "Locations": "A: Swordy (LV9~S), Undernet 1 GMD;I: Swordy (High: LV5~7);L: Swordy (LV7~10), Castle Comp 4 BMD, Koto Area BMD;O: Swordy (Mid: LV5~7);Y: Swordy (Low: LV5~7), Den Area 3 GMD",
+      "Locations": "A: Swordy (LV9~S), Undernet 1 GMD;I: Swordy (High: LV5~7);L: Swordy (LV7~10), Castle Comp 4 BMD, Koto Area BMD;O: Swordy (Mid: LV5~7);Y: Swordy (Low: LV5~7), Den Area 3 GMD;*: Unobtainable",
       "Traders": "Marine Harbor Lobby, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -668,7 +668,7 @@
       "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "F, H, N, R, U, *",
-      "Locations": "F: Swordy2 (LV7~10);H: Swordy2 (Mid: LV9~S);N: Swordy2 (High: LV9~S);R: Swordy2 (Low: LV9~S);U: Trader only",
+      "Locations": "F: Swordy2 (LV7~10);H: Swordy2 (Mid: LV9~S);N: Swordy2 (High: LV9~S);R: Swordy2 (Low: LV9~S);U: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -694,7 +694,7 @@
       "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "A, H, N, R, W, *",
-      "Locations": "A: Swordy3 (High & Low: LV7~10);H: Swordy3 (Mid: LV9~S);N: Swordy3 (High: LV9~S), KotoSquare NetDealer (5000ƶ);R: Swordy3 (Low: LV9~S);W: Swordy3 (Mid: LV7~10)",
+      "Locations": "A: Swordy3 (High & Low: LV7~10);H: Swordy3 (Mid: LV9~S);N: Swordy3 (High: LV9~S), KotoSquare NetDealer (5000ƶ);R: Swordy3 (Low: LV9~S);W: Swordy3 (Mid: LV7~10);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -850,7 +850,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "E, I, L, P, S, *",
-      "Locations": "E: Snapper (LV9~S);I: Snapper (Mid & Low: LV9~S);L: Snapper (Mid & Low: LV7~10);P: Snapper (High: LV7~10);S: Snapper (High: LV9~S)",
+      "Locations": "E: Snapper (LV9~S);I: Snapper (Mid & Low: LV9~S);L: Snapper (Mid & Low: LV7~10);P: Snapper (High: LV7~10);S: Snapper (High: LV9~S);*: Unobtainable",
       "Traders": "Netopia Town, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -876,7 +876,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "D, F, J, Q, R, *",
-      "Locations": "D: Snapper2 (LV9~S);F: Snapper2 (High: LV9~S);J: Snapper2 (Mid & Low: LV7~10);Q: Snapper2 (Mid & Low: LV9~S);R: Snapper2 (High: LV7~10)",
+      "Locations": "D: Snapper2 (LV9~S);F: Snapper2 (High: LV9~S);J: Snapper2 (Mid & Low: LV7~10);Q: Snapper2 (Mid & Low: LV9~S);R: Snapper2 (High: LV7~10);*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -902,7 +902,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "C, G, H, K, N, *",
-      "Locations": "C: Snapper3 (LV9~S);G: Snapper3 (High: LV9~S);H: Snapper3 (High: LV7~10);K: Snapper3 (Mid & Low: LV9~S);N: Snapper3 (Mid & Low: LV7~10)",
+      "Locations": "C: Snapper3 (LV9~S);G: Snapper3 (High: LV9~S);H: Snapper3 (High: LV7~10);K: Snapper3 (Mid & Low: LV9~S);N: Snapper3 (Mid & Low: LV7~10);*: Unobtainable",
       "Traders": "Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -928,7 +928,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "B, G, K, Q, T, *",
-      "Locations": "B: NumberMan's wares (7500ƶ);G: Trader only;K: Trader only;Q: Trader only;T: Trader only",
+      "Locations": "B: NumberMan's wares (7500ƶ);G: Trader only;K: Trader only;Q: Trader only;T: Trader only;*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor",
       "MegaManLocation": {
         "X": 0,
@@ -954,7 +954,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "N, O, T, U, W, *",
-      "Locations": "N: Trader only;O: ShadowMnV3 (LV9~S);T: Trader only;U: Trader only;W: Trader only",
+      "Locations": "N: Trader only;O: ShadowMnV3 (LV9~S);T: Trader only;U: Trader only;W: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -980,7 +980,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "B, L, N, T, Z, *",
-      "Locations": "B: Chip Trading (Marine Harbor Station), Undernet 7 GMD;L: Mole2 (Low: LV4~7, 9~S);N: Mole2 (High: LV4~7, 9~S);T: Mole2 (Mid: LV4~7, 9~S);Z: Trader only",
+      "Locations": "B: Chip Trading (Marine Harbor Station), Undernet 7 GMD;L: Mole2 (Low: LV4~7, 9~S);N: Mole2 (High: LV4~7, 9~S);T: Mole2 (Mid: LV4~7, 9~S);Z: Trader only;*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -1032,7 +1032,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "H, J, L, R, U, *",
-      "Locations": "H: Mettaur (Mid: LV9~S);J: Mettaur (High: LV9~S; Mid: LV7~10);L: Mettaur (Low: LV9~S);R: Mettaur (High: LV7~10);U: Mettaur (Low: LV7~10), Den Area 2 GMD",
+      "Locations": "H: Mettaur (Mid: LV9~S);J: Mettaur (High: LV9~S; Mid: LV7~10);L: Mettaur (Low: LV9~S);R: Mettaur (High: LV7~10);U: Mettaur (Low: LV7~10), Den Area 2 GMD;*: Unobtainable",
       "Traders": "Marine Harbor Lobby, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1058,7 +1058,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "E, I, M, S, W, *",
-      "Locations": "E: Mettaur2 (High: LV9~S);I: Talk to Higsby in Netopia (Ch. 5 only), Mettaur2 (High: LV9~S), Yumland 2 GMD;M: Mettaur2 (Mid: LV9~S);S: Mettaur2 (Mid & Low: LV9~S);W: Mettaur2 (LV7~10), Netopia 3 GMD",
+      "Locations": "E: Mettaur2 (High: LV9~S);I: Talk to Higsby in Netopia (Ch. 5 only), Mettaur2 (High: LV9~S), Yumland 2 GMD;M: Mettaur2 (Mid: LV9~S);S: Mettaur2 (Mid & Low: LV9~S);W: Mettaur2 (LV7~10), Netopia 3 GMD;*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1084,7 +1084,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "G, N, Q, T, V, *",
-      "Locations": "G: Mettaur3 (Low: LV9~S), UnderKoto GMD;N: Mettaur3 (High: LV7~10);Q: Mettaur3 (High & Mid: LV9~S);T: Mettaur3 (Mid: LV7~10);V: Mettaur3 (Low: LV7~10), Undernet 4 GMD",
+      "Locations": "G: Mettaur3 (Low: LV9~S), UnderKoto GMD;N: Mettaur3 (High: LV7~10);Q: Mettaur3 (High & Mid: LV9~S);T: Mettaur3 (Mid: LV7~10);V: Mettaur3 (Low: LV7~10), Undernet 4 GMD;*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1110,7 +1110,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "A, M, P, Q, W, *",
-      "Locations": "A: Flappy (High: LV9~S; Low: LV7~10);M: Flappy (Low: LV9~S);P: Flappy (Mid: LV7~10);Q: Flappy (Mid: LV9~S);W: Flappy (High: LV7~10)",
+      "Locations": "A: Flappy (High: LV9~S; Low: LV7~10);M: Flappy (Low: LV9~S);P: Flappy (Mid: LV7~10);Q: Flappy (Mid: LV9~S);W: Flappy (High: LV7~10);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1136,7 +1136,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "B, G, N, Q, W, *",
-      "Locations": "B: Flappy2 (High & Low: LV9~S);G: Flappy2 (Mid: LV9~S);N: Flappy2 (Low: LV7~10);Q: Flappy2 (High: LV7~10);W: Talk to Higsby in Netopia (Ch. 5 only), Flappy2 (Mid: LV7~10), UnderKoto GMD",
+      "Locations": "B: Flappy2 (High & Low: LV9~S);G: Flappy2 (Mid: LV9~S);N: Flappy2 (Low: LV7~10);Q: Flappy2 (High: LV7~10);W: Talk to Higsby in Netopia (Ch. 5 only), Flappy2 (Mid: LV7~10), UnderKoto GMD;*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1162,7 +1162,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "C, E, O, Q, W, *",
-      "Locations": "C: Trader only;E: Trader only;O: Trader only;Q: Flappy3 (LV9~S);W: Flappy3 (LV9~S)",
+      "Locations": "C: Trader only;E: Trader only;O: Trader only;Q: Flappy3 (LV9~S);W: Flappy3 (LV9~S);*: Unobtainable",
       "Traders": "Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1188,7 +1188,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "B, D, H, K, N, *",
-      "Locations": "B: Dex's PC BMD, GutsMan;V: 3; (High: LV5~7);D: Give souvenir to Dex (Ch. 6 only), GutsManV3 (Mid & Low: LV5~7);H: GutsManV3 (Mid: LV4~5);K: GutsManV3 (Low: LV4~5);N: GutsManV3 (High: LV4~5)",
+      "Locations": "B: Dex's PC BMD, GutsManV3 (High: LV5~7);D: Give souvenir to Dex (Ch. 6 only), GutsManV3 (Mid & Low: LV5~7);H: GutsManV3 (Mid: LV4~5);K: GutsManV3 (Low: LV4~5);N: GutsManV3 (High: LV4~5);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1214,7 +1214,7 @@
       "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "B, D, L, P, S, *",
-      "Locations": "B: Yumland 1 NetDealer (800ƶ);D: Den Area 3 GMD;L: Trader only;P: Trader only;S: Trader only",
+      "Locations": "B: Yumland 1 NetDealer (800ƶ);D: Den Area 3 GMD;L: Trader only;P: Trader only;S: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1266,7 +1266,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "O, Q, S, U, W, *",
-      "Locations": "O: Yumland 1 GMD;Q: Mother Comp 2 BMD;S: Famous's Folder;U: Trader only;W: Famous's Folder",
+      "Locations": "O: Yumland 1 GMD;Q: Mother Comp 2 BMD;S: Famous's Folder;U: Trader only;W: Famous's Folder;*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1318,7 +1318,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "A, C, F, I, J, *",
-      "Locations": "A: Shellgeek (High & Mid: LV9~S), Undernet 4 GMD;C: Famous's Folder, Shellgeek (Low: LV5~S);F: Shellgeek (High & Mid: LV5~7);I: Famous's Folder, Shellgeek (High & Mid: LV9~S);J: Shellgeek (High & Mid: LV7~10)",
+      "Locations": "A: Shellgeek (High & Mid: LV9~S), Undernet 4 GMD;C: Famous's Folder, Shellgeek (Low: LV5~S);F: Shellgeek (High & Mid: LV5~7);I: Famous's Folder, Shellgeek (High & Mid: LV9~S);J: Shellgeek (High & Mid: LV7~10);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1344,7 +1344,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "C, I, M, T, V, *",
-      "Locations": "C: Jennifer's chipfolder, Shellnerd (Low: LV5~S), Shellman (Low: LV5~S);I: Jennifer's chipfolder, Shellnerd (High & Mid: LV9~S);M: Shellnerd (High & Mid: LV9~S);T: Shellnerd (High & Mid: LV7~10);V: Shellnerd (High & Mid: LV5~7)",
+      "Locations": "C: Jennifer's chipfolder, Shellnerd (Low: LV5~S), Shellman (Low: LV5~S);I: Jennifer's chipfolder, Shellnerd (High & Mid: LV9~S);M: Shellnerd (High & Mid: LV9~S);T: Shellnerd (High & Mid: LV7~10);V: Shellnerd (High & Mid: LV5~7);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1370,7 +1370,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "C, H, I, P, U, *",
-      "Locations": "C: Trader only;H: Shellman (High & Mid: LV7~10);I: Shellman (High & Mid: LV9~S);P: Shellman (High & Mid: LV9~S);U: Shellman (High & Mid: LV5~7)",
+      "Locations": "C: Trader only;H: Shellman (High & Mid: LV7~10);I: Shellman (High & Mid: LV9~S);P: Shellman (High & Mid: LV9~S);U: Shellman (High & Mid: LV5~7);*: Unobtainable",
       "Traders": "Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1396,7 +1396,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "E, I, K, O, T, *",
-      "Locations": "E: WWW Area 1 NetDealer (20000ƶ);I: Trader only;K: Trader only;O: Trader only;T: Trader only",
+      "Locations": "E: WWW Area 1 NetDealer (20000ƶ);I: Trader only;K: Trader only;O: Trader only;T: Trader only;*: Unobtainable",
       "Traders": "RetroChip Trader",
       "MegaManLocation": {
         "X": 0,
@@ -1526,7 +1526,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "E, J, L, M, Q, *",
-      "Locations": "E: WWW Area 1 NetDealer (20000ƶ);J: Trader only;L: Trader only;M: Trader only;Q: Trader only",
+      "Locations": "E: WWW Area 1 NetDealer (20000ƶ);J: Trader only;L: Trader only;M: Trader only;Q: Trader only;*: Unobtainable",
       "Traders": "RetroChip Trader",
       "MegaManLocation": {
         "X": 0,
@@ -1552,7 +1552,7 @@
       "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "N, O, T, U, Y, *",
-      "Locations": "N: Undernet 3 GMD;O: Trader only;T: Trader only;U: Trader only;Y: Request Board 'Detective job'",
+      "Locations": "N: Undernet 3 GMD;O: Trader only;T: Trader only;U: Trader only;Y: Request Board 'Detective job';*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor",
       "MegaManLocation": {
         "X": 0,
@@ -1578,7 +1578,7 @@
       "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "P, R, T, W, Z, *",
-      "Locations": "P: Chip Trading (Netopia Alley);R: Trader only;T: Trader only;W: Trader only;Z: Trader only",
+      "Locations": "P: Chip Trading (Netopia Alley);R: Trader only;T: Trader only;W: Trader only;Z: Trader only;*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor",
       "MegaManLocation": {
         "X": 0,
@@ -1604,7 +1604,7 @@
       "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "A, B, F, L, S, *",
-      "Locations": "A: Fishy2 (High: LV9~S);B: Fishy2 (High: LV7~10);F: Fishy2 (LV7~10);L: Fishy2 (High & Mid: LV9~S);S: Fishy2 (Low: LV9~S)",
+      "Locations": "A: Fishy2 (High: LV9~S);B: Fishy2 (High: LV7~10);F: Fishy2 (LV7~10);L: Fishy2 (High & Mid: LV9~S);S: Fishy2 (Low: LV9~S);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1656,7 +1656,7 @@
       "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "B, G, N, R, S, *",
-      "Locations": "B: TuffBunny (LV9~S);G: TuffBunny (Low: LV5~7);N: TuffBunny (Mid: LV5~7);R: TuffBunny (High: LV5~7);S: TuffBunny (LV7~10)",
+      "Locations": "B: TuffBunny (LV9~S);G: TuffBunny (Low: LV5~7);N: TuffBunny (Mid: LV5~7);R: TuffBunny (High: LV5~7);S: TuffBunny (LV7~10);*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1682,7 +1682,7 @@
       "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "C, E, O, T, Z, *",
-      "Locations": "C: MegaBunny (Mid & Low: LV9~S);E: MegaBunny (LV7~10);O: MegaBunny (High: LV5~7);T: MegaBunny (Mid & Low: LV5~7);Z: MegaBunny (High: LV9~S)",
+      "Locations": "C: MegaBunny (Mid & Low: LV9~S);E: MegaBunny (LV7~10);O: MegaBunny (High: LV5~7);T: MegaBunny (Mid & Low: LV5~7);Z: MegaBunny (High: LV9~S);*: Unobtainable",
       "Traders": "Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1708,7 +1708,7 @@
       "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "G, O, Q, U, W, *",
-      "Locations": "G: Sparky (LV7~S);O: Trader only;Q: Trader only;U: Trader only;W: Trader only",
+      "Locations": "G: Sparky (LV7~S);O: Trader only;Q: Trader only;U: Trader only;W: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1734,7 +1734,7 @@
       "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "H, J, K, P, R, *",
-      "Locations": "H: Trader only;J: Trader only;K: Trader only;P: Sparkler (LV9~S);R: Sparkler (LV7~10)",
+      "Locations": "H: Trader only;J: Trader only;K: Trader only;P: Sparkler (LV9~S);R: Sparkler (LV7~10);*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1760,7 +1760,7 @@
       "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "L, S, T, Y, Z, *",
-      "Locations": "L: Sparknoid (LV7~10);S: Sparknoid (LV9~S);T: Trader only;Y: Trader only;Z: Trader only",
+      "Locations": "L: Sparknoid (LV7~10);S: Sparknoid (LV9~S);T: Trader only;Y: Trader only;Z: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1786,7 +1786,7 @@
       "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "A, C, G, Q, T, *",
-      "Locations": "A: Mushy (High & Low: LV9~S);C: Mushy (Mid: LV9~S);G: Mushy (Low: LV7~10);Q: Mushy (Mid: LV7~10);T: Mushy (High: LV7~10)",
+      "Locations": "A: Mushy (High & Low: LV9~S);C: Mushy (Mid: LV9~S);G: Mushy (Low: LV7~10);Q: Mushy (Mid: LV7~10);T: Mushy (High: LV7~10);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1812,7 +1812,7 @@
       "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "B, E, H, J, N, *",
-      "Locations": "B: Mashy (High: LV7~10);E: Jennifer's chipfolder, Mashy (Mid: LV9~S);H: Mashy (High & Low: LV9~S);J: Mashy (Mid: LV7~10);N: Mashy (Low: LV7~10), Air Comp 1 BMD",
+      "Locations": "B: Mashy (High: LV7~10);E: Jennifer's chipfolder, Mashy (Mid: LV9~S);H: Mashy (High & Low: LV9~S);J: Mashy (Mid: LV7~10);N: Mashy (Low: LV7~10), Air Comp 1 BMD;*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1838,7 +1838,7 @@
       "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "D, K, M, P, Q, *",
-      "Locations": "D: Moshy (Mid: LV7~10);K: Moshy (Low: LV7~10);M: Moshy (High: LV9~S);P: Moshy (High: LV7~10);Q: Moshy (Mid & Low: LV9~S)",
+      "Locations": "D: Moshy (Mid: LV7~10);K: Moshy (Low: LV7~10);M: Moshy (High: LV9~S);P: Moshy (High: LV7~10);Q: Moshy (Mid & Low: LV9~S);*: Unobtainable",
       "Traders": "Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1942,7 +1942,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "C, E, R, T, V, *",
-      "Locations": "C: Yort (Low: LV7~S);E: Yort (High & Mid: LV9~S);R: Yort (High & Mid: LV9~S);T: Yort (High & Mid: LV7~10);V: Yort (High & Mid: LV7~10)",
+      "Locations": "C: Yort (Low: LV7~S);E: Yort (High & Mid: LV9~S);R: Yort (High & Mid: LV9~S);T: Yort (High & Mid: LV7~10);V: Yort (High & Mid: LV7~10);*: Unobtainable",
       "Traders": "Netopia Town, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1968,7 +1968,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "A, G, J, K, N, *",
-      "Locations": "A: Yurt (High & Mid: LV9~S);G: Yurt (Low: LV9~S);J: Yurt (Mid: LV7~10);K: Yurt (High: LV7~10);N: Yurt (Low: LV7~10)",
+      "Locations": "A: Yurt (High & Mid: LV9~S);G: Yurt (Low: LV9~S);J: Yurt (Mid: LV7~10);K: Yurt (High: LV7~10);N: Yurt (Low: LV7~10);*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -1994,7 +1994,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "D, I, M, S, Y, *",
-      "Locations": "D: Yart (Low: LV9~S);I: Yart (High: LV9~S);M: Yart (Mid: LV9~S);S: Yart (Low: LV9~S);Y: Yart (High: LV9~S)",
+      "Locations": "D: Yart (Low: LV9~S);I: Yart (High: LV9~S);M: Yart (Mid: LV9~S);S: Yart (Low: LV9~S);Y: Yart (High: LV9~S);*: Unobtainable",
       "Traders": "Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2020,7 +2020,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "A, O, P, S, Z, *",
-      "Locations": "A: Trader only;O: Dominerd (LV7~10);P: Dominerd (LV5~7);S: Dominerd (LV9~S);Z: Trader only",
+      "Locations": "A: Trader only;O: Dominerd (LV7~10);P: Dominerd (LV5~7);S: Dominerd (LV9~S);Z: Trader only;*: Unobtainable",
       "Traders": "Netopia Town, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2046,7 +2046,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "A, O, P, T, V, *",
-      "Locations": "A: Dominerd2 (LV9~S);O: Dominerd2 (LV9~S);P: Dominerd2 (LV7~10);T: Trader only;V: Trader only",
+      "Locations": "A: Dominerd2 (LV9~S);O: Dominerd2 (LV9~S);P: Dominerd2 (LV7~10);T: Trader only;V: Trader only;*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2072,7 +2072,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "A, O, P, U, W, *",
-      "Locations": "A: Dominerd3 (Low: LV7~10);O: Dominerd3 (LV9~S);P: Dominerd3 (LV9~S);U: Trader only;W: Trader only",
+      "Locations": "A: Dominerd3 (Low: LV7~10);O: Dominerd3 (LV9~S);P: Dominerd3 (LV9~S);U: Trader only;W: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2098,7 +2098,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "R, T, U, V, Z, *",
-      "Locations": "R: Trader only;T: Mother Comp 4 BMD;U: NetSquare NetDealer (4800ƶ);V: Trader only;Z: Chip Trading (Official Center)",
+      "Locations": "R: Trader only;T: Mother Comp 4 BMD;U: NetSquare NetDealer (4800ƶ);V: Trader only;Z: Chip Trading (Official Center);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2124,7 +2124,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "J, K, O, V, Z, *",
-      "Locations": "J: Trader only;K: Trader only;O: Trader only;V: Trader only;Z: Koto Square BugFrag shop (16BF)",
+      "Locations": "J: Trader only;K: Trader only;O: Trader only;V: Trader only;Z: Koto Square BugFrag shop (16BF);*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -2176,7 +2176,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "B, N, O, R, S, *",
-      "Locations": "B: Trader only;N: Famous's Folder, Netopia 2 GMD;O: Trader only;R: Trader only;S: Famous's Folder, Yumland 1 PMD",
+      "Locations": "B: Trader only;N: Famous's Folder, Netopia 2 GMD;O: Trader only;R: Trader only;S: Famous's Folder, Yumland 1 PMD;*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2202,7 +2202,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "E, I, L, S, V, *",
-      "Locations": "E: Talk to man in Business Class Airplane (Ch. 6 only), Jennifer's chipfolder;I: Examine Dad's PC (Ch. 5 only);L: Undernet 7 PMD;S: Trader only;V: Chip Trading (Netopia Center)",
+      "Locations": "E: Talk to man in Business Class Airplane (Ch. 6 only), Jennifer's chipfolder;I: Examine Dad's PC (Ch. 5 only);L: Undernet 7 PMD;S: Trader only;V: Chip Trading (Netopia Center);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2228,7 +2228,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "D, G, L, O, Z, *",
-      "Locations": "D: Trader only;G: Trader only;L: Trader only;O: Trader only;Z: Request Board 'Return my gem!'",
+      "Locations": "D: Trader only;G: Trader only;L: Trader only;O: Trader only;Z: Request Board 'Return my gem!';*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -2254,7 +2254,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "D, S, U, W, Z, *",
-      "Locations": "D: Trader only;S: Puffball (LV9~S);U: Puffball (Mid & Low: LV7~10), Poofball (Low: LV7~10);W: Puffball (High: LV7~10), Poofball (Low: LV9~S);Z: Trader only",
+      "Locations": "D: Trader only;S: Puffball (LV9~S);U: Puffball (Mid & Low: LV7~10), Poofball (Low: LV7~10);W: Puffball (High: LV7~10), Poofball (Low: LV9~S);Z: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2280,7 +2280,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "P, Q, U, W, Y, *",
-      "Locations": "P: Trader only;Q: Trader only;U: Poofball (High & Mid: LV7~10);W: Poofball (High & Mid: LV9~S);Y: Trader only",
+      "Locations": "P: Trader only;Q: Trader only;U: Poofball (High & Mid: LV7~10);W: Poofball (High & Mid: LV9~S);Y: Trader only;*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2306,7 +2306,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "A, C, E, G, I, *",
-      "Locations": "A: Null (High: LV9~S);C: Null (Low: LV7~S);E: Null (Mid: LV9~S);G: Null (High: LV7~10);I: Null (Mid: LV7~10)",
+      "Locations": "A: Null (High: LV9~S);C: Null (Low: LV7~S);E: Null (Mid: LV9~S);G: Null (High: LV7~10);I: Null (Mid: LV7~10);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2332,7 +2332,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "B, D, F, H, J, *",
-      "Locations": "B: Void (Low: LV7~S);D: Void (Mid: LV9~S);F: Void (High: LV9~S);H: Void (Mid: LV7~10);J: Void (High: LV7~10)",
+      "Locations": "B: Void (Low: LV7~S);D: Void (Mid: LV9~S);F: Void (High: LV9~S);H: Void (Mid: LV7~10);J: Void (High: LV7~10);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2462,7 +2462,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "C, G, K, M, Z, *",
-      "Locations": "C: Handy (LV9~S);G: Handy (Low: LV9~S);K: Handy (Mid: LV9~S);M: Handy (High: LV9~S);Z: Handy (LV7~10)",
+      "Locations": "C: Handy (LV9~S);G: Handy (Low: LV9~S);K: Handy (Mid: LV9~S);M: Handy (High: LV9~S);Z: Handy (LV7~10);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2488,7 +2488,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "F, G, K, O, Z, *",
-      "Locations": "F: Handy2 (High: LV9~S; Low: LV7~10);G: Handy2 (Mid: LV9~S);K: Handy2 (Low: LV9~S);O: Handy2 (Mid & Low: LV9~S);Z: Handy2 (High: LV9~S)",
+      "Locations": "F: Handy2 (High: LV9~S; Low: LV7~10);G: Handy2 (Mid: LV9~S);K: Handy2 (Low: LV9~S);O: Handy2 (Mid & Low: LV9~S);Z: Handy2 (High: LV9~S);*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2514,7 +2514,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "E, G, K, P, Z, *",
-      "Locations": "E: Handy3 (High: LV9~S);G: Handy3 (Low: LV9~S);K: Handy3 (Mid: LV9~S);P: Handy3 (Mid: LV9~S);Z: Handy3 (High & Low: LV9~S)",
+      "Locations": "E: Handy3 (High: LV9~S);G: Handy3 (Low: LV9~S);K: Handy3 (Mid: LV9~S);P: Handy3 (Mid: LV9~S);Z: Handy3 (High & Low: LV9~S);*: Unobtainable",
       "Traders": "Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2540,7 +2540,7 @@
       "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "C, G, I, K, N, *",
-      "Locations": "C: Cloudy (Mid: LV9~S);G: Jennifer's chipfolder, Cloudy (Low: LV9~S);I: Cloudy (LV5~7);K: Cloudy (LV7~10);N: Cloudy (High: LV9~S)",
+      "Locations": "C: Cloudy (Mid: LV9~S);G: Jennifer's chipfolder, Cloudy (Low: LV9~S);I: Cloudy (LV5~7);K: Cloudy (LV7~10);N: Cloudy (High: LV9~S);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2566,7 +2566,7 @@
       "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "D, H, J, L, O, *",
-      "Locations": "D: Cloudy2 (Mid: LV9~S), Undernet 3 GMD;H: Cloudy2 (Low: LV9~S);J: Cloudy2 (LV5~7);L: Cloudy2 (LV7~10);O: Cloudy2 (High: LV9~S)",
+      "Locations": "D: Cloudy2 (Mid: LV9~S), Undernet 3 GMD;H: Cloudy2 (Low: LV9~S);J: Cloudy2 (LV5~7);L: Cloudy2 (LV7~10);O: Cloudy2 (High: LV9~S);*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2592,7 +2592,7 @@
       "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "Q, R, T, U, W, *",
-      "Locations": "Q: Cloudy3 (High: LV9~S);R: Cloudy3 (High & Low: LV7~10);T: Cloudy3 (Mid: LV9~S);U: Cloudy3 (Mid: LV7~10);W: Cloudy3 (Low: LV9~S)",
+      "Locations": "Q: Cloudy3 (High: LV9~S);R: Cloudy3 (High & Low: LV7~10);T: Cloudy3 (Mid: LV9~S);U: Cloudy3 (Mid: LV7~10);W: Cloudy3 (Low: LV9~S);*: Unobtainable",
       "Traders": "Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2644,7 +2644,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "H, M, Q, R, T, *",
-      "Locations": "H: Trader only;M: Trader only;Q: Trader only;R: WWW Area 1 NetDealer (20000ƶ);T: Trader only",
+      "Locations": "H: Trader only;M: Trader only;Q: Trader only;R: WWW Area 1 NetDealer (20000ƶ);T: Trader only;*: Unobtainable",
       "Traders": "RetroChip Trader",
       "MegaManLocation": {
         "X": 0,
@@ -2670,7 +2670,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "E, J, P, W, Y, *",
-      "Locations": "E: WWW Area 1 NetDealer (20000ƶ);J: Trader only;P: Trader only;W: Trader only;Y: Trader only",
+      "Locations": "E: WWW Area 1 NetDealer (20000ƶ);J: Trader only;P: Trader only;W: Trader only;Y: Trader only;*: Unobtainable",
       "Traders": "RetroChip Trader",
       "MegaManLocation": {
         "X": 0,
@@ -2696,7 +2696,7 @@
       "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "E, G, J, K, N, *",
-      "Locations": "E: Twisty (Mid & Low: LV9~S);G: Twisty (High: LV9~S);J: Twisty (Mid: LV7~10);K: Twisty (High: LV7~10);N: Twisty (Low: LV7~10)",
+      "Locations": "E: Twisty (Mid & Low: LV9~S);G: Twisty (High: LV9~S);J: Twisty (Mid: LV7~10);K: Twisty (High: LV7~10);N: Twisty (Low: LV7~10);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2722,7 +2722,7 @@
       "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "B, F, I, R, U, *",
-      "Locations": "B: Twisty2 (Mid: LV7~10);F: Twisty2 (Mid: LV9~S);I: Twisty2 (Low: LV7~10);R: Twisty2 (High & Low: LV9~S);U: Twisty2 (High: LV7~10)",
+      "Locations": "B: Twisty2 (Mid: LV7~10);F: Twisty2 (Mid: LV9~S);I: Twisty2 (Low: LV7~10);R: Twisty2 (High & Low: LV9~S);U: Twisty2 (High: LV7~10);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2748,7 +2748,7 @@
       "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "A, L, M, T, Y, *",
-      "Locations": "A: Twisty3 (Low: LV9~S);L: Twisty3 (High: LV9~S);M: Twisty3 (Mid & Low: LV7~10);T: Twisty3 (High: LV7~10);Y: Twisty3 (Mid: LV9~S)",
+      "Locations": "A: Twisty3 (Low: LV9~S);L: Twisty3 (High: LV9~S);M: Twisty3 (Mid & Low: LV7~10);T: Twisty3 (High: LV7~10);Y: Twisty3 (Mid: LV9~S);*: Unobtainable",
       "Traders": "Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2774,7 +2774,7 @@
       "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "A, B, Q, T, W, *",
-      "Locations": "A: Octon (High: LV9~S);B: Octon (Mid: LV9~S);Q: Octon (Low: LV9~S);T: Octon (High & Low: LV9~S);W: Octon (Mid: LV9~S)",
+      "Locations": "A: Octon (High: LV9~S);B: Octon (Mid: LV9~S);Q: Octon (Low: LV9~S);T: Octon (High & Low: LV9~S);W: Octon (Mid: LV9~S);*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2800,7 +2800,7 @@
       "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "E, H, J, K, V, *",
-      "Locations": "E: Octor (High: LV9~S);H: Octor (High: LV9~S);J: Octor (Mid & Low: LV9~S);K: Octor (Mid: LV9~S);V: Octor (Low: LV9~S)",
+      "Locations": "E: Octor (High: LV9~S);H: Octor (High: LV9~S);J: Octor (Mid & Low: LV9~S);K: Octor (Mid: LV9~S);V: Octor (Low: LV9~S);*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2826,7 +2826,7 @@
       "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "C, F, R, S, U, *",
-      "Locations": "C: Octovian (Low: LV9~S);F: Octovian (Mid & Low: LV9~S);R: Octovian (High: LV9~S);S: Octovian (Mid: LV9~S);U: Octovian (High: LV9~S)",
+      "Locations": "C: Octovian (Low: LV9~S);F: Octovian (Mid & Low: LV9~S);R: Octovian (High: LV9~S);S: Octovian (Mid: LV9~S);U: Octovian (High: LV9~S);*: Unobtainable",
       "Traders": "Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -2852,7 +2852,7 @@
       "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "A, B, D, L, S, *",
-      "Locations": "A: Trader only;B: Yumland 2 PMD;D: Trader only;L: Trader only;S: Trader only",
+      "Locations": "A: Trader only;B: Yumland 2 PMD;D: Trader only;L: Trader only;S: Trader only;*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor",
       "MegaManLocation": {
         "X": 0,
@@ -2878,7 +2878,7 @@
       "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "F, G, O, R, Y, *",
-      "Locations": "F: Lavagon (LV9~S);G: Lavagon (LV9~S);O: Trader only;R: Lavagon (LV7~10);Y: Lavagon (LV7~10)",
+      "Locations": "F: Lavagon (LV9~S);G: Lavagon (LV9~S);O: Trader only;R: Lavagon (LV7~10);Y: Lavagon (LV7~10);*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -2904,7 +2904,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "E, I, L, Q, U, *",
-      "Locations": "E: Trader only;I: Trader only;L: Trader only;Q: WWW Area 1 NetDealer (50000ƶ);U: Trader only",
+      "Locations": "E: Trader only;I: Trader only;L: Trader only;Q: WWW Area 1 NetDealer (50000ƶ);U: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -2930,7 +2930,7 @@
       "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "C, M, S, T, W, *",
-      "Locations": "C: Trader only;M: Trader only;S: Trader only;T: Trader only;W: WWW Area 2 PMD",
+      "Locations": "C: Trader only;M: Trader only;S: Trader only;T: Trader only;W: WWW Area 2 PMD;*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -3086,7 +3086,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "D, I, M, N, T, *",
-      "Locations": "D: Jennifer's chipfolder, UnderKoto NetDealer (10000ƶ);I: Undernet 4 GMD;M: Trader only;N: Trader only;T: Trader only",
+      "Locations": "D: Jennifer's chipfolder, UnderKoto NetDealer (10000ƶ);I: Undernet 4 GMD;M: Trader only;N: Trader only;T: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor",
       "MegaManLocation": {
         "X": 0,
@@ -3216,7 +3216,7 @@
       "ChipType": 1,
       "Elements": [ 64 ],
       "Codes": "O, Q, S, U, W, *",
-      "Locations": "O: NumberMan's wares (4000ƶ);Q: Trader only;S: Spooky3 (High & Mid: LV7~10), Air Comp 5 BMD;U: Jennifer's chipfolder, Castle Comp 5 BMD;W: Trader only",
+      "Locations": "O: NumberMan's wares (4000ƶ);Q: Trader only;S: Spooky3 (High & Mid: LV7~10), Air Comp 5 BMD;U: Jennifer's chipfolder, Castle Comp 5 BMD;W: Trader only;*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -3242,7 +3242,7 @@
       "ChipType": 1,
       "Elements": [ 64 ],
       "Codes": "N, P, R, T, V, *",
-      "Locations": "N: Trader only;P: Give souvenir to Mayl (Ch. 6 only);R: Trader only;T: Apartment Comp 1 BMD, Gospel Server 1 BMD;V: Trader only",
+      "Locations": "N: Trader only;P: Give souvenir to Mayl (Ch. 6 only);R: Trader only;T: Apartment Comp 1 BMD, Gospel Server 1 BMD;V: Trader only;*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -3268,7 +3268,7 @@
       "ChipType": 1,
       "Elements": [ 64 ],
       "Codes": "M, N, U, V, W, *",
-      "Locations": "M: Request Board 'To bug academics';N: Trader only;U: Trader only;V: Trader only;W: Undernet 6 GMD",
+      "Locations": "M: Request Board 'To bug academics';N: Trader only;U: Trader only;V: Trader only;W: Undernet 6 GMD;*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -3294,7 +3294,7 @@
       "ChipType": 1,
       "Elements": [ 64 ],
       "Codes": "O, R, V, W, Z, *",
-      "Locations": "O: Trader only;R: Undernet 7 BMD;V: Trader only;W: Trader only;Z: Trader only",
+      "Locations": "O: Trader only;R: Undernet 7 BMD;V: Trader only;W: Trader only;Z: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -3372,7 +3372,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "A, L, P, S, W, *",
-      "Locations": "A: Trader only;L: Trader only;P: Trader only;S: Trader only;W: Undernet 1 NetDealer (10000ƶ)",
+      "Locations": "A: Trader only;L: Trader only;P: Trader only;S: Trader only;W: Undernet 1 NetDealer (10000ƶ);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor",
       "MegaManLocation": {
         "X": 0,
@@ -3398,7 +3398,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "C, K, L, Q, S, *",
-      "Locations": "C: Trader only;K: Trader only;L: Trader only;Q: Trader only;S: NumberMan's wares (10000ƶ)",
+      "Locations": "C: Trader only;K: Trader only;L: Trader only;Q: Trader only;S: NumberMan's wares (10000ƶ);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, Netopia Town",
       "MegaManLocation": {
         "X": 0,
@@ -3424,7 +3424,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "J, M, R, T, Z, *",
-      "Locations": "J: Trader only;M: Trader only;R: Trader only;T: Trader only;Z: NumberMan's wares (14000ƶ)",
+      "Locations": "J: Trader only;M: Trader only;R: Trader only;T: Trader only;Z: NumberMan's wares (14000ƶ);*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor",
       "MegaManLocation": {
         "X": 0,
@@ -3450,7 +3450,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "E, J, N, P, Y, *",
-      "Locations": "E: Trader only;J: Trader only;N: Trader only;P: Trader only;Y: Talk to girl in Marine Harbor hiding behind wall (starting in Ch. 5)",
+      "Locations": "E: Trader only;J: Trader only;N: Trader only;P: Trader only;Y: Talk to girl in Marine Harbor hiding behind wall (starting in Ch. 5);*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -3476,7 +3476,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "F, H, J, L, N, *",
-      "Locations": "F: Folder1;H: Famous's Folder;J: Jennifer's chipfolder;L: Trader only;N: Chip Trading (Okuden Valledy)",
+      "Locations": "F: Folder1;H: Famous's Folder;J: Jennifer's chipfolder;L: Trader only;N: Chip Trading (Okuden Valledy);*: Unobtainable",
       "Traders": "Marine Harbor Lobby, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -3684,7 +3684,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "O, P, U, V, Z, *",
-      "Locations": "O: Autolock Comp PMD;P: Trader only;U: Trader only;V: Trader only;Z: Trader only",
+      "Locations": "O: Autolock Comp PMD;P: Trader only;U: Trader only;V: Trader only;Z: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -3762,7 +3762,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "H, K, M, U, W, *",
-      "Locations": "H: Trader only;K: Trader only;M: Trader only;U: PharoManV3 (High: LV9~S);W: PharoManV3 (Mid & Low: LV9~S)",
+      "Locations": "H: Trader only;K: Trader only;M: Trader only;U: PharoManV3 (High: LV9~S);W: PharoManV3 (Mid & Low: LV9~S);*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -3970,7 +3970,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "D, I, J, T, W, *",
-      "Locations": "D: Mole (LV1~S);I: Mole (High: LV1~S);J: Trader only;T: Mole (Mid: LV1~S);W: Mole (Low: LV1~S)",
+      "Locations": "D: Mole (LV1~S);I: Mole (High: LV1~S);J: Trader only;T: Mole (Mid: LV1~S);W: Mole (Low: LV1~S);*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -4022,7 +4022,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "B, G, H, L, R, *",
-      "Locations": "B: Shadow (Mid & Low: LV9~S);G: Shadow (Mid & Low: LV9~S);H: Shadow (High: LV9~S);L: Shadow (High: LV9~S);R: Shadow (LV7~10)",
+      "Locations": "B: Shadow (Mid & Low: LV9~S);G: Shadow (Mid & Low: LV9~S);H: Shadow (High: LV9~S);L: Shadow (High: LV9~S);R: Shadow (LV7~10);*: Unobtainable",
       "Traders": "Netopia Town, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -4048,7 +4048,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "D, E, J, M, T, *",
-      "Locations": "D: RedDevil (LV9~S);E: RedDevil (High: LV9~S);J: RedDevil (Mid & Low: LV9~S);M: RedDevil (High: LV7~10);T: RedDevil (Mid & Low: LV7~10)",
+      "Locations": "D: RedDevil (LV9~S);E: RedDevil (High: LV9~S);J: RedDevil (Mid & Low: LV9~S);M: RedDevil (High: LV7~10);T: RedDevil (Mid & Low: LV7~10);*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -4074,7 +4074,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "C, F, K, N, V, *",
-      "Locations": "C: BlueDemon (LV9~S);F: BlueDemon (High: LV9~S);K: BlueDemon (Mid & Low: LV9~S);N: BlueDemon (High: LV7~10);V: BlueDemon (Mid & Low: LV7~10)",
+      "Locations": "C: BlueDemon (LV9~S);F: BlueDemon (High: LV9~S);K: BlueDemon (Mid & Low: LV9~S);N: BlueDemon (High: LV7~10);V: BlueDemon (Mid & Low: LV7~10);*: Unobtainable",
       "Traders": "Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -4152,7 +4152,7 @@
       "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "I, J, Q, R, W, *",
-      "Locations": "I: Trader only;J: Trader only;Q: Trader only;R: WWW Area 1 NetDealer (20000ƶ);W: Trader only",
+      "Locations": "I: Trader only;J: Trader only;Q: Trader only;R: WWW Area 1 NetDealer (20000ƶ);W: Trader only;*: Unobtainable",
       "Traders": "RetroChip Trader",
       "MegaManLocation": {
         "X": 0,
@@ -4178,7 +4178,7 @@
       "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "A, D, R, S, W, *",
-      "Locations": "A: Popper2 (Low: LV9~S);D: Popper2 (High: LV9~S);R: Popper2 (High: LV9~S);S: Popper2 (Low: LV9~S);W: Popper2 (Mid: LV9~S)",
+      "Locations": "A: Popper2 (Low: LV9~S);D: Popper2 (High: LV9~S);R: Popper2 (High: LV9~S);S: Popper2 (Low: LV9~S);W: Popper2 (Mid: LV9~S);*: Unobtainable",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -4256,7 +4256,7 @@
       "ChipType": 1,
       "Elements": [ 4 ],
       "Codes": "C, G, K, O, S, *",
-      "Locations": "C: Trader only;G: Trader only;K: Trader only;O: Trader only;S: MegalianW (LV7~S)",
+      "Locations": "C: Trader only;G: Trader only;K: Trader only;O: Trader only;S: MegalianW (LV7~S);*: Unobtainable",
       "Traders": "Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -4282,7 +4282,7 @@
       "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "D, H, L, P, T, *",
-      "Locations": "D: Trader only;H: Trader only;L: MegalianE (LV7~S);P: Trader only;T: Trader only",
+      "Locations": "D: Trader only;H: Trader only;L: MegalianE (LV7~S);P: Trader only;T: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -4308,7 +4308,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "B, G, I, O, Q, *",
-      "Locations": "B: Scutz (High & Low: LV9~S), Scuttle (High & Low: LV9~S), Scuttler (High & Low: LV9~S), Scuttzer (High & Low: LV9~S);G: Scutz (High & Low: LV9~S), Scuttle (High & Low: LV9~S), Scuttler (High & Low: LV9~S), Scuttzer (High & Low: LV9~S);I: Scutz (Mid: LV9~S), Scuttle (Mid: LV9~S), Scuttler (Mid: LV9~S), Scuttzer (Mid: LV9~S);O: Scutz (Mid: LV9~S), Scuttle (Mid: LV9~S), Scuttler (Mid: LV9~S), Scuttzer (Mid: LV9~S);Q: Trader only",
+      "Locations": "B: Scutz (High & Low: LV9~S), Scuttle (High & Low: LV9~S), Scuttler (High & Low: LV9~S), Scuttzer (High & Low: LV9~S);G: Scutz (High & Low: LV9~S), Scuttle (High & Low: LV9~S), Scuttler (High & Low: LV9~S), Scuttzer (High & Low: LV9~S);I: Scutz (Mid: LV9~S), Scuttle (Mid: LV9~S), Scuttler (Mid: LV9~S), Scuttzer (Mid: LV9~S);O: Scutz (Mid: LV9~S), Scuttle (Mid: LV9~S), Scuttler (Mid: LV9~S), Scuttzer (Mid: LV9~S);Q: Trader only;*: Unobtainable",
       "Traders": "ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -4334,7 +4334,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "D, F, J, N, R, *",
-      "Locations": "D: Scuttlest (Mid: LV9~S);F: Scuttlest (Mid: LV9~S);J: Scuttlest (High: LV9~S);N: Scuttlest (Low: LV9~S);R: Scuttlest (High & Low: LV9~S)",
+      "Locations": "D: Scuttlest (Mid: LV9~S);F: Scuttlest (Mid: LV9~S);J: Scuttlest (High: LV9~S);N: Scuttlest (Low: LV9~S);R: Scuttlest (High & Low: LV9~S);*: Unobtainable",
       "Traders": "ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -4360,7 +4360,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "E, H, K, M, T, *",
-      "Locations": "E: BassDelux (High: LV9~S);H: Unobtainable;K: BassDelux (Mid: LV9~S);M: Unobtainable;T: BassDelux (Low: LV9~S)",
+      "Locations": "E: BassDelux (High: LV9~S);H: Unobtainable;K: BassDelux (Mid: LV9~S);M: Unobtainable;T: BassDelux (Low: LV9~S);*: Unobtainable",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -4542,7 +4542,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "B, D, H, P, R, *",
-      "Locations": "B: Trader only;D: Trader only;H: Undernet 7 BMD, WWW Area 3 PMD;P: Trader only;R: Trader only",
+      "Locations": "B: Trader only;D: Trader only;H: Undernet 7 BMD, WWW Area 3 PMD;P: Trader only;R: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -4620,7 +4620,7 @@
       "ChipType": 1,
       "Elements": [ 1 ],
       "Codes": "F, K, L, P, T, *",
-      "Locations": "F: Trader only;K: Trader only;L: Trader only;P: Trader only;T: NumberMan's wares (8000ƶ)",
+      "Locations": "F: Trader only;K: Trader only;L: Trader only;P: Trader only;T: NumberMan's wares (8000ƶ);*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -4646,7 +4646,7 @@
       "ChipType": 1,
       "Elements": [ 8 ],
       "Codes": "E, H, N, U, Y, *",
-      "Locations": "E: Trader only;H: NumberMan's wares (9000ƶ);N: Trader only;U: Trader only;Y: Trader only",
+      "Locations": "E: Trader only;H: NumberMan's wares (9000ƶ);N: Trader only;U: Trader only;Y: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -4672,7 +4672,7 @@
       "ChipType": 1,
       "Elements": [ 2 ],
       "Codes": "A, D, Q, W, Z, *",
-      "Locations": "A: Trader only;D: Trader only;Q: Trader only;W: NumberMan's wares (10000ƶ);Z: Trader only",
+      "Locations": "A: Trader only;D: Trader only;Q: Trader only;W: NumberMan's wares (10000ƶ);Z: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -4698,7 +4698,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "C, J, M, R, S, *",
-      "Locations": "C: Trader only;J: Trader only;M: Trader only;R: Trader only;S: Chip Trading (Airplane)",
+      "Locations": "C: Trader only;J: Trader only;M: Trader only;R: Trader only;S: Chip Trading (Airplane);*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -4724,7 +4724,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "D, H, I, M, T, *",
-      "Locations": "D: Trader only;H: Undernet 7 PMD;I: Trader only;M: Trader only;T: Trader only",
+      "Locations": "D: Trader only;H: Undernet 7 PMD;I: Trader only;M: Trader only;T: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -4750,7 +4750,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "K, L, O, T, X, *",
-      "Locations": "K: Trader only;L: Trader only;O: Trader only;T: Trader only;X: WWW Area 3 PMD",
+      "Locations": "K: Trader only;L: Trader only;O: Trader only;T: Trader only;X: WWW Area 3 PMD;*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -4776,7 +4776,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "B, D, M, P, W, *",
-      "Locations": "B: Trader only;D: Receive from Doc during the story (Ch. 7);M: UnderKoto PMD;P: Trader only;W: Trader only",
+      "Locations": "B: Trader only;D: Receive from Doc during the story (Ch. 7);M: UnderKoto PMD;P: Trader only;W: Trader only;*: Unobtainable",
       "Traders": "Marine Harbor outside",
       "MegaManLocation": {
         "X": 0,
@@ -4828,7 +4828,7 @@
       "ChipType": 1,
       "Elements": [ 0 ],
       "Codes": "*",
-      "Locations": "*: Talk to Yai (starting in Ch. 8), Jennifer's chipfolder, Undernet 1 NetDealer (8000ƶ), Undernet 5 PMD",
+      "Locations": "*: Talk to Yai (starting in Ch. 8), Jennifer's chipfolder, Undernet 1 NetDealer (8000ƶ), Undernet 5 PMD,",
       "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -5088,7 +5088,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "R, *",
-      "Locations": "R: E-Mail from Mayl (Ch. 7)",
+      "Locations": "R: E-Mail from Mayl (Ch. 7);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -5140,7 +5140,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "G, *",
-      "Locations": "G: GutsManV2 (LV1~S), GutsManV3 (LV7~10)",
+      "Locations": "G: GutsManV2 (LV1~S), GutsManV3 (LV7~10);*: Unobtainable",
       "Traders": "Netopia Town (No *), ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -5166,7 +5166,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "G, *",
-      "Locations": "G: GutsManV3 (LV9~S)",
+      "Locations": "G: GutsManV3 (LV9~S);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -5218,7 +5218,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "B, *",
-      "Locations": "B: ProtoManV3 (Lv7~10)",
+      "Locations": "B: ProtoManV3 (Lv7~10);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -5244,7 +5244,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "B, *",
-      "Locations": "B: ProtoManV3 (LV9~S)",
+      "Locations": "B: ProtoManV3 (LV9~S);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -5478,7 +5478,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "C, *",
-      "Locations": "C: CutManV3; (LV9~S);*: Trader only",
+      "Locations": "C: CutManV3 (LV9~S);*: Trader only",
       "Traders": "ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -5530,7 +5530,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "S, *",
-      "Locations": "S: ShadowMnV3 (Lv7~10)",
+      "Locations": "S: ShadowMnV3 (Lv7~10);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -5556,7 +5556,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "S, *",
-      "Locations": "S: ShadowMnV3 (LV9~S)",
+      "Locations": "S: ShadowMnV3 (LV9~S);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -5608,7 +5608,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "K, *",
-      "Locations": "K: KnightMnV3 (Lv7~10)",
+      "Locations": "K: KnightMnV3 (Lv7~10);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -5634,7 +5634,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "K, *",
-      "Locations": "K: KnightMnV3 (LV9~S)",
+      "Locations": "K: KnightMnV3 (LV9~S);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -5686,7 +5686,7 @@
       "ChipType": 2,
       "Elements": [ 8 ],
       "Codes": "M, *",
-      "Locations": "M: MagnetMnV3 (Lv7~10)",
+      "Locations": "M: MagnetMnV3 (Lv7~10);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -5712,7 +5712,7 @@
       "ChipType": 2,
       "Elements": [ 8 ],
       "Codes": "M, *",
-      "Locations": "M: MagnetMnV3 (LV9~S)",
+      "Locations": "M: MagnetMnV3 (LV9~S);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -5764,7 +5764,7 @@
       "ChipType": 2,
       "Elements": [ 2 ],
       "Codes": "F, *",
-      "Locations": "F: FreezeMnV3 (Lv7~10)",
+      "Locations": "F: FreezeMnV3 (Lv7~10);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -5790,7 +5790,7 @@
       "ChipType": 2,
       "Elements": [ 2 ],
       "Codes": "F, *",
-      "Locations": "F: FreezeMnV3 (LV9~S)",
+      "Locations": "F: FreezeMnV3 (LV9~S);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -5842,7 +5842,7 @@
       "ChipType": 2,
       "Elements": [ 1 ],
       "Codes": "H, *",
-      "Locations": "H: HeatManV3 (LV7~10)",
+      "Locations": "H: HeatManV3 (LV7~10);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -5868,7 +5868,7 @@
       "ChipType": 2,
       "Elements": [ 1 ],
       "Codes": "H, *",
-      "Locations": "H: HeatManV3 (LV9~S)",
+      "Locations": "H: HeatManV3 (LV9~S);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -5894,7 +5894,7 @@
       "ChipType": 2,
       "Elements": [ 8 ],
       "Codes": "T, *",
-      "Locations": "T: ToadMan;V: 2; (LV1~S), ToadManV3 (LV5~7);*: Trader only",
+      "Locations": "T: ToadManV2 (LV1~S), ToadManV3 (LV5~7);*: Trader only",
       "Traders": "ACDC Metro Station",
       "MegaManLocation": {
         "X": 0,
@@ -5920,7 +5920,7 @@
       "ChipType": 2,
       "Elements": [ 8 ],
       "Codes": "T, *",
-      "Locations": "T: ToadManV3 (LV7~10)",
+      "Locations": "T: ToadManV3 (LV7~10);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -5946,7 +5946,7 @@
       "ChipType": 2,
       "Elements": [ 8 ],
       "Codes": "T, *",
-      "Locations": "T: ToadManV3 (LV9~S)",
+      "Locations": "T: ToadManV3 (LV9~S);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -5998,7 +5998,7 @@
       "ChipType": 2,
       "Elements": [ 8 ],
       "Codes": "T, *",
-      "Locations": "T: ThunManV3 (LV7~10)",
+      "Locations": "T: ThunManV3 (LV7~10);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -6024,7 +6024,7 @@
       "ChipType": 2,
       "Elements": [ 8 ],
       "Codes": "T, *",
-      "Locations": "T: ThunManV3 (LV9~S)",
+      "Locations": "T: ThunManV3 (LV9~S);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -6076,7 +6076,7 @@
       "ChipType": 2,
       "Elements": [ 4 ],
       "Codes": "S, *",
-      "Locations": "S: SnakeManV3 (LV7~10)",
+      "Locations": "S: SnakeManV3 (LV7~10);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -6102,7 +6102,7 @@
       "ChipType": 2,
       "Elements": [ 4 ],
       "Codes": "S, *",
-      "Locations": "S: SnakeManV3 (LV9~S)",
+      "Locations": "S: SnakeManV3 (LV9~S);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -6154,7 +6154,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "G, *",
-      "Locations": "G: GateManV3 (LV7~10)",
+      "Locations": "G: GateManV3 (LV7~10);*: Unobtainable",
       "Traders": "Netopia Town (No *), ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -6180,7 +6180,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "G, *",
-      "Locations": "G: GateManV3 (LV9~S)",
+      "Locations": "G: GateManV3 (LV9~S);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -6206,7 +6206,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "P, *",
-      "Locations": "P: PharoManV2 (LV1~S), PharoManV3 (LV5~7)",
+      "Locations": "P: PharoManV2 (LV1~S), PharoManV3 (LV5~7);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -6232,7 +6232,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "P, *",
-      "Locations": "P: PharoManV3 (LV7~10)",
+      "Locations": "P: PharoManV3 (LV7~10);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -6258,7 +6258,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "P, *",
-      "Locations": "P: PharoManV3 (LV9~S)",
+      "Locations": "P: PharoManV3 (LV9~S);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -6284,7 +6284,7 @@
       "ChipType": 2,
       "Elements": [ 1 ],
       "Codes": "N, *",
-      "Locations": "N: NapalmMnV2 (LV1~S), NapalmMnV3 (LV5~7)",
+      "Locations": "N: NapalmMnV2 (LV1~S), NapalmMnV3 (LV5~7);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -6310,7 +6310,7 @@
       "ChipType": 2,
       "Elements": [ 1 ],
       "Codes": "N, *",
-      "Locations": "N: NapalmMnV3 (LV7~10)",
+      "Locations": "N: NapalmMnV3 (LV7~10);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -6336,7 +6336,7 @@
       "ChipType": 2,
       "Elements": [ 1 ],
       "Codes": "N, *",
-      "Locations": "N: NapalmMnV3 (LV9~S)",
+      "Locations": "N: NapalmMnV3 (LV9~S);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -6362,7 +6362,7 @@
       "ChipType": 2,
       "Elements": [ 4 ],
       "Codes": "P, *",
-      "Locations": "P: PlanetMnV2 (LV1~S), PlanetMnV3 (LV5~7)",
+      "Locations": "P: PlanetMnV2 (LV1~S), PlanetMnV3 (LV5~7);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -6388,7 +6388,7 @@
       "ChipType": 2,
       "Elements": [ 4 ],
       "Codes": "P, *",
-      "Locations": "P: PlanetMnV3 (LV7~10)",
+      "Locations": "P: PlanetMnV3 (LV7~10);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -6414,7 +6414,7 @@
       "ChipType": 2,
       "Elements": [ 4 ],
       "Codes": "P, *",
-      "Locations": "P: PlanetMnV3 (LV9~S)",
+      "Locations": "P: PlanetMnV3 (LV9~S);*: Unobtainable",
       "Traders": "ACDC Metro Station (No *)",
       "MegaManLocation": {
         "X": 0,
@@ -6440,7 +6440,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "F, *",
-      "Locations": "F: BassDelux (LV5~7), RealBass (Fixed data after battle)",
+      "Locations": "F: BassDelux (LV5~7), RealBass (Fixed data after battle);*: Unobtainable",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6466,7 +6466,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "F, *",
-      "Locations": "F: BassDelux (LV7~10)",
+      "Locations": "F: BassDelux (LV7~10);*: Unobtainable",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6492,7 +6492,7 @@
       "ChipType": 2,
       "Elements": [ 0 ],
       "Codes": "X, *",
-      "Locations": "X: BassDelux (LV9~S)",
+      "Locations": "X: BassDelux (LV9~S);*: Unobtainable",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6775,10 +6775,10 @@
     {
       "Number": 261,
       "Name": "GateSP",
-      "ChipType": 1026,
+      "ChipType": 4098,
       "Elements": [ 0 ],
       "Codes": "G, *",
-      "Locations": "G: Event distribution, (BNLC) Download Chip",
+      "Locations": "G: Event distribution, (BNLC) Download Chip;*: Unobtainable",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6801,10 +6801,10 @@
     {
       "Number": 262,
       "Name": "FireGspl",
-      "ChipType": 1026,
+      "ChipType": 4098,
       "Elements": [ 1 ],
       "Codes": "X, *",
-      "Locations": "X: Event distribution, (BNLC) Download Chip",
+      "Locations": "X: Event distribution, (BNLC) Download Chip;*: Unobtainable",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6827,10 +6827,10 @@
     {
       "Number": 263,
       "Name": "AquaGspl",
-      "ChipType": 1026,
+      "ChipType": 4098,
       "Elements": [ 2 ],
       "Codes": "X, *",
-      "Locations": "X: Event distribution, (BNLC) Download Chip",
+      "Locations": "X: Event distribution, (BNLC) Download Chip;*: Unobtainable",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6853,10 +6853,10 @@
     {
       "Number": 264,
       "Name": "ElecGspl",
-      "ChipType": 1026,
+      "ChipType": 4098,
       "Elements": [ 8 ],
       "Codes": "X, *",
-      "Locations": "X: Event distribution, (BNLC) Download Chip",
+      "Locations": "X: Event distribution, (BNLC) Download Chip;*: Unobtainable",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6879,10 +6879,10 @@
     {
       "Number": 265,
       "Name": "WoodGspl",
-      "ChipType": 1026,
+      "ChipType": 4098,
       "Elements": [ 4 ],
       "Codes": "X, *",
-      "Locations": "X: Event distribution, (BNLC) Download Chip",
+      "Locations": "X: Event distribution, (BNLC) Download Chip;*: Unobtainable",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6905,10 +6905,10 @@
     {
       "Number": 266,
       "Name": "Snctuary",
-      "ChipType": 1025,
+      "ChipType": 4097,
       "Elements": [ 0 ],
       "Codes": "A, C, E, L, S, *",
-      "Locations": "A: Appears in normal Continue's Pack after clearing Hard Mode once;C: Appears in normal Continue's Pack after clearing Hard Mode once;E: Appears in normal Continue's Pack after clearing Hard Mode once;L: Appears in normal Continue's Pack after clearing Hard Mode once;S: Appears in normal Continue's Pack after clearing Hard Mode once",
+      "Locations": "A: Appears in normal Continue's Pack after clearing Hard Mode once;C: Appears in normal Continue's Pack after clearing Hard Mode once;E: Appears in normal Continue's Pack after clearing Hard Mode once;L: Appears in normal Continue's Pack after clearing Hard Mode once;S: Appears in normal Continue's Pack after clearing Hard Mode once;*: Unobtainable",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
