@@ -24,6 +24,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Update="ChipData\MMBN.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="ChipData\MMBN2.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
 	  <None Update="ChipData\MMBN5_TeamColonel.json">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>

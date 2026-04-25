@@ -12,7 +12,7 @@ public partial class frm_DeckBuilder : Form
     [System.Runtime.InteropServices.DllImport("gdi32.dll")]
     private static extern IntPtr AddFontMemResourceEx(IntPtr pbFont, uint cbFont, IntPtr pdv, [System.Runtime.InteropServices.In] ref uint pcFonts);
 
-    private static frm_About _aboutForm = new frm_About();
+    private static frm_About _aboutForm;
 
     internal static PrivateFontCollection _internalFonts = new();
 
@@ -131,9 +131,9 @@ public partial class frm_DeckBuilder : Form
 
         aboutToolStripMenuItem1.Click += delegate
         {
-            if (_aboutForm.IsDisposed)
+            if (_aboutForm == null || _aboutForm.IsDisposed)
             {
-                _aboutForm = new frm_About();
+                _aboutForm = new frm_About(CreateFont("MMBN6Big", 16));
             }
             _aboutForm.Show();
             _aboutForm.Focus();

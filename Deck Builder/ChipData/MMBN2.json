@@ -1,0 +1,6932 @@
+{
+  "Name": "Mega Man Battle Network 2",
+  "Rules": {
+    "MaxFolderSize": 30,
+    "MaxMegaChips": 5,
+    "MaxGigaChips": 0,
+    "MaxDarkChips": 0,
+    "MaxSameStandardChip": 5,
+    "MaxSameMegaChip": 5,
+    "MaxSameGigaChip": 0,
+    "MaxSameDarkChip": 0,
+    "MaxCustomChips": 8
+  },
+  "Battlechips": [
+    {
+      "Number": 1,
+      "Name": "Cannon",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, B, C, D, E, *",
+      "Locations": "A: Folder1, Canodumb (High: LV5~7);B: Folder1, Canodumb (Mid: LV5~7);C: Famous's Folder, Canodumb (LV9~S), Bomb Comp 1 BMD;D: Canodumb (High & Low: LV7~10);E: Famous's Folder, Canodumb (Mid: LV7~10; Low: LV5~7);*: Quiz (Netopia Boarding - Gift Shop), (BNLC) LC Trader (ACDC)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 16,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Cannon for attacking 1 enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 2,
+      "Name": "HiCannon",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, D, E, F, G, *",
+      "Locations": "C: Canodumb2 (LV7~10), Undernet 2 GMD;D: Canodumb2 (LV9~S), Undernet 2 GMD;E: Famous's Folder, Canodumb2 (LV9~S), Air Comp 2 BMD, Yumland 2 GMD;F: Famous's Folder, Canodumb2 (LV5~7), Undernet 2 GMD;G: Famous's Folder, Canodumb2 (LV7~10), Netopia 3 GMD, Undernet 2 GMD;*: Apartment Comp 2 BMD, (BNLC) LC Trader (ACDC)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "60",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Cannon for attacking 1 enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 3,
+      "Name": "M-Cannon",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E, F, G, H, I, *",
+      "Locations": "E: Canodumb3 (LV9~S), Yumland 2 GMD;F: Canodumb3 (LV7~10);G: Canodumb3 (LV9~S);H: Canodumb3 (LV7~10);I: Canodumb3 (LV5~7), Undernet 3 GMD;*: (BNLC) LC Trader (ACDC), (GBA) Unobtainable",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "80",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Cannon for attacking 1 enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 4,
+      "Name": "Shotgun",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, F, H, J, N, *",
+      "Locations": "B: Den Area 1 NetDealer (200ƶ);F: Trader only;H: Trader only;J: Folder1;N: Trader only;*: Mother Comp 3 BMD, (BNLC) LC Trader (Marine Lobby, Netopia, ACDC)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 4,
+      "Damage": "30",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Explodes 1 square behind",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 5,
+      "Name": "V-Gun",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, F, G, L, P, *",
+      "Locations": "A: Gas Comp 1 BMD (missable)[1];F: Trader only;G: Trader only;L: Folder1;P: Den Area 2 GMD;*: (BNLC) LC Trader (Marine Lobby, ACDC), (GBA) Unobtainable",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 4,
+      "Damage": "30",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Explodes 2 diagonal squares",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 6,
+      "Name": "CrossGun",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H, J, M, Q, S, *",
+      "Locations": "H: Trader only;J: The Square NetDealer (600ƶ);M: Famous's Folder;Q: Famous's Folder;S: Den Area 2 BMD;*: Koto Square BugFrag shop (1BF), (BNLC) LC Trader (Marine Lobby, ACDC)",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 8,
+      "Damage": "30",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Explodes 4 diagonal squares",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 7,
+      "Name": "Spreader",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "M, N, O, P, Q, *",
+      "Locations": "M: Koto Square BugFrag shop (1BF);N: Yumland 1 NetDealer (800ƶ), Koto Area GMD;O: Den Area 3 NetDealer (800ƶ), Den Area 3 GMD;P: Mother Comp 2 BMD, Yumland 1 GMD;Q: Den Area 1 NetDealer (1000ƶ);*: Chip Trading (ACDC Town), (BNLC) LC Trader (Marine Lobby, Netopia, Marine outside, ACDC)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "30",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Creates a large explosion",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 8,
+      "Name": "Bubbler",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "B, G, H, P, R, *",
+      "Locations": "B: Shrimpy (High & Mid: LV9~S);G: Talk to scientist in Okuden Valley (Ch. 2 only), Shrimpy (Low: LV9~S);H: Shrimpy (Mid: LV9~S);P: Shrimpy (High: LV9~S);R: Gas Stove Comp BMD, Shrimpy (LV5~7)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Explodes 1 square behind",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 9,
+      "Name": "Bub-V",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "C, D, J, N, S, *",
+      "Locations": "C: Shrimpy2 (High: LV9~S; Low: LV5~7);D: Shrimpy2 (High: LV9~S);J: Shrimpy2 (Mid: LV5~7);N: Shrimpy2 (High: LV5~7; Mid: LV9~S), Netopia 1 GMD;S: Shrimpy2 (Mid & Low: LV9~S)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 16,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Explodes 2 diagonal squares",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 10,
+      "Name": "BubCross",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "K, O, P, T, V, *",
+      "Locations": "K: Shrimpy3 (High: LV5~7), Netopia 1 GMD;O: Shrimpy3 (Low: LV5~7);P: Shrimpy3 (High & Mid: LV9~S);T: Shrimpy3 (Mid: LV5~7);V: Shrimpy3 (LV9~S)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Explodes 4 diagonal squares",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 11,
+      "Name": "BubSprd",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "E, F, I, L, M, *",
+      "Locations": "E: Puffy (Mid: LV9~S);F: Puffy (High: LV9~S);I: Puffy (LV5~7);L: Puffy (Low: LV9~S);M: Puffy (LV7~10)",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Creates a large explosion",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 12,
+      "Name": "HeatShot",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "B, G, H, P, R, *",
+      "Locations": "B: Spikey (High & Mid: LV9~S);G: Spikey (High & Mid: LV7~10);H: Spikey (Mid: LV5~7);P: Spikey (High: LV5~7);R: Trader only",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 14,
+      "Damage": "50",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Explodes 1 square behind",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 13,
+      "Name": "Heat-V",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "C, D, J, N, S, *",
+      "Locations": "C: Spikey2 (Mid: LV5~7), Netopia 2 GMD;D: Spikey2 (High & Mid: LV7~10);J: Spikey2 (High: LV5~7);N: Spikey2 (High & Mid: LV9~S), Yumland 1 GMD;S: Spikey2 (High & Mid: LV9~S)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 18,
+      "Damage": "50",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Explodes 2 diagonal squares",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 14,
+      "Name": "HeatCros",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "K, O, P, T, V, *",
+      "Locations": "K: Spikey3 (Mid: LV7~10);O: Spikey3 (High: LV7~10), Undernet 3 GMD;P: Spikey3 (High: LV9~S);T: Spikey3 (Mid: LV9~S);V: Spikey3 (High & Mid: LV9~S)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 22,
+      "Damage": "50",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Explodes 4 diagonal squares",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 15,
+      "Name": "HeatSprd",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "E, F, I, L, M, *",
+      "Locations": "E: Buffy (Mid: LV9~S);F: Buffy (Low: LV9~S);I: Buffy (LV5~7);L: Buffy (High: LV9~S);M: Buffy (LV7~10)",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 36,
+      "Damage": "50",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Creates a large explosion",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 16,
+      "Name": "MiniBomb",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, E, G, L, O, *",
+      "Locations": "B: Folder1, Den Area 2 GMD;E: Beetank (High: LV5~7);G: Trader only;L: Trader only;O: Trader only;*: Portable Game Comp BMD, (BNLC) LC Trader (Marine Lobby, ACDC)",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 8,
+      "Damage": "50",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Throws a bomb 3 squares",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 17,
+      "Name": "LilBomb",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "F, J, O, Q, T, *",
+      "Locations": "F: Beetank (Mid: LV7~10);J: Beetank (Low: LV7~10), Den Area 1 NetDealer (500ƶ);O: Beetank (High & Mid: LV9~S);Q: Beetank (Low: LV9~S), Koto Area GMD;T: Beetank (Mid & Low: LV5~7; High: LV7~10);*: Air Comp 4 BMD",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "50",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Bomb that explodes vertically",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 18,
+      "Name": "CrosBomb",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, J, O, Q, T, *",
+      "Locations": "D: Beetank2 (Low: LV7~10);J: Beetank2 (High & Mid: LV7~10);O: Beetank2 (High: LV9~S);Q: Beetank2 (Mid: LV9~S);T: Beetank2 (Low: LV9~S), Yumland 2 GMD",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 16,
+      "Damage": "60",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Bomb that explodes in a cross",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 19,
+      "Name": "BigBomb",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "O, Q, T, V, Y, *",
+      "Locations": "O: Beetank3 (High & Mid: LV9~S), WWW Area 1 GMD;Q: Trader only;T: Beetank3 (Low: LV9~S);V: Beetank3 (High: LV7~10);Y: Beetank3 (Mid & Low: LV7~10);*: Chip Trading (Netopia City)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "70",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Bomb with a 9-square explosion",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 20,
+      "Name": "TreeBom1",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "B, G, H, P, R, *",
+      "Locations": "B: KillPlant (High & Low: LV9~S);G: KillPlant (Mid: LV9~S; Low: LV7~10);H: KillPlant (High & Mid: LV7~10);P: KillPlant (Mid: LV5~7);R: KillPlant (High & Low: LV5~7), Netopia 1 GMD;*: Talk to Higsby in Netopia (Ch. 5 only), (BNLC) LC Trader (Marine Lobby, Netopia, ACDC)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 10,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Tree seed! Water for a PowerUp!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 21,
+      "Name": "TreeBom2",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "C, D, J, N, S, *",
+      "Locations": "C: KillWeed (Low: LV9~S);D: KillWeed (Low: LV7~10);J: KillWeed (LV5~7);N: KillWeed (High & Mid: LV7~10);S: KillWeed (High & Mid: LV9~S);*: (BNLC) LC Trader (Netopia, Marine outside, ACDC), (GBA) Unobtainable",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 15,
+      "Damage": "120",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Tree seed! Water for a PowerUp!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 22,
+      "Name": "TreeBom3",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "K, O, P, T, V, *",
+      "Locations": "K: KillFleur (High & Mid: LV5~7);O: KillFleur (High & Mid: LV7~10);P: KillFleur (LV9~S);T: KillFleur (Low: LV5~7);V: KillFleur (Low: LV7~10);*: (BNLC) LC Trader (Marine outside, ACDC), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "150",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Tree seed! Water for a PowerUp!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 23,
+      "Name": "Sword",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, K, L, S, Y, *",
+      "Locations": "A: Famous's Folder, Undernet 1 GMD;K: Trader only;L: Famous's Folder, Blackboard Comp BMD;S: Folder1, Castle Comp 2 BMD, Den Area 2 GMD;Y: Famous's Folder;*: (BNLC) LC Trader (Marine Lobby, ACDC), (GBA) Unobtainable",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "80",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Cut enemy in front! Range is 1",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 24,
+      "Name": "WideSwrd",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, C, L, Q, Y, *",
+      "Locations": "A: Famous's Folder, Undernet 1 GMD;C: Trader only;L: Folder1, The Square NetDealer (800ƶ), Bomb Comp 2 BMD, Mother Comp 4 BMD;Q: Trader only;Y: Famous's Folder, Jennifer's chipfolder, Den Area 3 GMD;*: NetSquare NetDealer (3000ƶ)",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 16,
+      "Damage": "80",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Cut enemy in front! Range is 3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 25,
+      "Name": "LongSwrd",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, I, L, O, Y, *",
+      "Locations": "A: Swordy (LV9~S), Undernet 1 GMD;I: Swordy (High: LV5~7);L: Swordy (LV7~10), Castle Comp 4 BMD, Koto Area BMD;O: Swordy (Mid: LV5~7);Y: Swordy (Low: LV5~7), Den Area 3 GMD",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 22,
+      "Damage": "80",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Cut enemy in front! Range is 2",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 26,
+      "Name": "FireSwrd",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "F, H, N, R, U, *",
+      "Locations": "F: Swordy2 (LV7~10);H: Swordy2 (Mid: LV9~S);N: Swordy2 (High: LV9~S);R: Swordy2 (Low: LV9~S);U: Trader only",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Flame sword cuts 3 vertical",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 27,
+      "Name": "AquaSwrd",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A, H, N, R, W, *",
+      "Locations": "A: Swordy3 (High & Low: LV7~10);H: Swordy3 (Mid: LV9~S);N: Swordy3 (High: LV9~S), KotoSquare NetDealer (5000ƶ);R: Swordy3 (Low: LV9~S);W: Swordy3 (Mid: LV7~10)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 26,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Water sword cuts 3 vertical",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 28,
+      "Name": "ElecSwrd",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "E, H, N, R, V, *",
+      "Locations": "E: Ribitta's Van BMD;H: Trader only;N: UnderKoto GMD;R: Trader only;V: Trader only;*: Refrigerator Comp PMD",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 28,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Electric sword cuts 3 vertical",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 29,
+      "Name": "FireBlde",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "F, H, P, R, Z, *",
+      "Locations": "F: Jennifer's chipfolder;H: Trader only;P: Trader only;R: Talk to Official in Lobby (Ch. 4 only), KotoSquare NetDealer (3800ƶ);Z: Trader only;*: WWW Area 1 GMD",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "90",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Flame sword cuts 2 horiz.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 30,
+      "Name": "AquaBlde",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A, F, J, R, Z, *",
+      "Locations": "A: Jennifer's chipfolder;F: Trader only;J: Trader only;R: UnderKoto NetDealer (8000ƶ);Z: Trader only;*: WWW Area 1 GMD",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "90",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Water sword cuts 2 horiz.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 31,
+      "Name": "ElecBlde",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "E, F, M, N, R, *",
+      "Locations": "E: Jennifer's chipfolder;F: Trader only;M: Trader only;N: UnderKoto GMD;R: Undernet 1 NetDealer (9000ƶ);*: WWW Area 1 GMD",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "90",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Electric sword cuts 2 horiz.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 32,
+      "Name": "StepSwrd",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, H, M, Q, U, *",
+      "Locations": "D: Trader only;H: Trader only;M: Request Board 'Please help';Q: Undernet 1 GMD;U: Jennifer's chipfolder;*: (BNLC) LC Trader (Netopia, Marine outside), (GBA) Unobtainable",
+      "Traders": "Netopia Town, Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 54,
+      "Damage": "150",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Two steps, then use a wide sword",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 33,
+      "Name": "Kunai1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E, I, L, P, S, *",
+      "Locations": "E: Snapper (LV9~S);I: Snapper (Mid & Low: LV9~S);L: Snapper (Mid & Low: LV7~10);P: Snapper (High: LV7~10);S: Snapper (High: LV9~S)",
+      "Traders": "Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Kunais up and down 1 square",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 34,
+      "Name": "Kunai2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, F, J, Q, R, *",
+      "Locations": "D: Snapper2 (LV9~S);F: Snapper2 (High: LV9~S);J: Snapper2 (Mid & Low: LV7~10);Q: Snapper2 (Mid & Low: LV9~S);R: Snapper2 (High: LV7~10)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Kunais up and down 2 squares",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 35,
+      "Name": "Kunai3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, G, H, K, N, *",
+      "Locations": "C: Snapper3 (LV9~S);G: Snapper3 (High: LV9~S);H: Snapper3 (High: LV7~10);K: Snapper3 (Mid & Low: LV9~S);N: Snapper3 (Mid & Low: LV7~10)",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 78,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Kunais up and down 3 squares",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 36,
+      "Name": "CustSwrd",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, G, K, Q, T, *",
+      "Locations": "B: NumberMan's wares (7500ƶ);G: Trader only;K: Trader only;Q: Trader only;T: Trader only",
+      "Traders": "Netopia Town, Marine Harbor",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 68,
+      "Damage": "????",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Cust Gauge = Attack Strength",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 37,
+      "Name": "Muramasa",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "N, O, T, U, W, *",
+      "Locations": "N: Trader only;O: ShadowMnV3 (LV9~S);T: Trader only;U: Trader only;W: Trader only",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 88,
+      "Damage": "????",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Sword that uses HPs to attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 38,
+      "Name": "VarSwrd",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, L, N, T, Z, *",
+      "Locations": "B: Chip Trading (Marine Harbor Station), Undernet 7 GMD;L: Mole2 (Low: LV4~7, 9~S);N: Mole2 (High: LV4~7, 9~S);T: Mole2 (Mid: LV4~7, 9~S);Z: Trader only",
+      "Traders": "Netopia Town, Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 40,
+      "Damage": "160",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "A magical, shifting sword",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 39,
+      "Name": "Slasher",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, D, H, L, Q, *",
+      "Locations": "A: Trader only;D: Trader only;H: Trader only;L: Request Board 'Chip please!';Q: Trader only;*: (BNLC) LC Trader (Netopia, Marine outside), (GBA) Unobtainable",
+      "Traders": "Netopia Town, Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "180",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Cuts while A Button is held!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 40,
+      "Name": "Shockwav",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H, J, L, R, U, *",
+      "Locations": "H: Mettaur (Mid: LV9~S);J: Mettaur (High: LV9~S; Mid: LV7~10);L: Mettaur (Low: LV9~S);R: Mettaur (High: LV7~10);U: Mettaur (Low: LV7~10), Den Area 2 GMD",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 10,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Shock goes through enemies",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 41,
+      "Name": "Sonicwav",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E, I, M, S, W, *",
+      "Locations": "E: Mettaur2 (High: LV9~S);I: Talk to Higsby in Netopia (Ch. 5 only), Mettaur2 (High: LV9~S), Yumland 2 GMD;M: Mettaur2 (Mid: LV9~S);S: Mettaur2 (Mid & Low: LV9~S);W: Mettaur2 (LV7~10), Netopia 3 GMD",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "60",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Shock goes through enemies",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 42,
+      "Name": "Dynawave",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "G, N, Q, T, V, *",
+      "Locations": "G: Mettaur3 (Low: LV9~S), UnderKoto GMD;N: Mettaur3 (High: LV7~10);Q: Mettaur3 (High & Mid: LV9~S);T: Mettaur3 (Mid: LV7~10);V: Mettaur3 (Low: LV7~10), Undernet 4 GMD",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 50,
+      "Damage": "90",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Shock goes through enemies",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 43,
+      "Name": "Quake1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, M, P, Q, W, *",
+      "Locations": "A: Flappy (High: LV9~S; Low: LV7~10);M: Flappy (Low: LV9~S);P: Flappy (Mid: LV7~10);Q: Flappy (Mid: LV9~S);W: Flappy (High: LV7~10)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 16,
+      "Damage": "90",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Attack cracks the floor",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 44,
+      "Name": "Quake2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, G, N, Q, W, *",
+      "Locations": "B: Flappy2 (High & Low: LV9~S);G: Flappy2 (Mid: LV9~S);N: Flappy2 (Low: LV7~10);Q: Flappy2 (High: LV7~10);W: Talk to Higsby in Netopia (Ch. 5 only), Flappy2 (Mid: LV7~10), UnderKoto GMD",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "110",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Attack cracks the floor",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 45,
+      "Name": "Quake3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, E, O, Q, W, *",
+      "Locations": "C: Trader only;E: Trader only;O: Trader only;Q: Flappy3 (LV9~S);W: Flappy3 (LV9~S)",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "130",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Attack cracks the floor",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 46,
+      "Name": "GutPunch",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, D, H, K, N, *",
+      "Locations": "B: Dex's PC BMD, GutsMan;V: 3; (High: LV5~7);D: Give souvenir to Dex (Ch. 6 only), GutsManV3 (Mid & Low: LV5~7);H: GutsManV3 (Mid: LV4~5);K: GutsManV3 (Low: LV4~5);N: GutsManV3 (High: LV4~5)",
+      "Traders": "Marine Harbor Lobby, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 8,
+      "Damage": "70",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Punch that pushes 1 square",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 47,
+      "Name": "ColdPnch",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "B, D, L, P, S, *",
+      "Locations": "B: Yumland 1 NetDealer (800ƶ);D: Den Area 3 GMD;L: Trader only;P: Trader only;S: Trader only",
+      "Traders": "Marine Harbor Lobby, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 8,
+      "Damage": "70",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Ice punch pushes 1 square",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 48,
+      "Name": "DashAtk",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, D, G, J, L, *",
+      "Locations": "B: Fishy (High: LV7~10);D: Fishy (High: LV9~S);G: Fishy (High & Mid: LV7~10);J: Fishy (High: LV5~7);L: Fishy (Low: LV7~10);*: Fishy (LV9~S)",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "90",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Dash right through enemies!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 49,
+      "Name": "Wrecker",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "O, Q, S, U, W, *",
+      "Locations": "O: Yumland 1 GMD;Q: Mother Comp 2 BMD;S: Famous's Folder;U: Trader only;W: Famous's Folder",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 16,
+      "Damage": "80",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Can break 3rd square ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 50,
+      "Name": "CannBall",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "O, P, Q, R, S, *",
+      "Locations": "O: HardHead (High: LV9~S);P: HardHead (Mid: LV9~S), Undernet 7 GMD;Q: HardHead (High: LV9~S), Netopia 3 GMD;R: HardHead (Mid: LV9~S), Undernet 7 GMD;S: HardHead (Low: LV9~S), Undernet 7 GMD;*: Netopia 3 PMD",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 22,
+      "Damage": "150",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Can break 3rd square ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 51,
+      "Name": "DoubNdl",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, C, F, I, J, *",
+      "Locations": "A: Shellgeek (High & Mid: LV9~S), Undernet 4 GMD;C: Famous's Folder, Shellgeek (Low: LV5~S);F: Shellgeek (High & Mid: LV5~7);I: Famous's Folder, Shellgeek (High & Mid: LV9~S);J: Shellgeek (High & Mid: LV7~10)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 18,
+      "Damage": "50",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "2 volleys of needles",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 52,
+      "Name": "TripNdl",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, I, M, T, V, *",
+      "Locations": "C: Jennifer's chipfolder, Shellnerd (Low: LV5~S), Shellman (Low: LV5~S);I: Jennifer's chipfolder, Shellnerd (High & Mid: LV9~S);M: Shellnerd (High & Mid: LV9~S);T: Shellnerd (High & Mid: LV7~10);V: Shellnerd (High & Mid: LV5~7)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "50",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "3 volleys of needles",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 53,
+      "Name": "QuadNdl",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, H, I, P, U, *",
+      "Locations": "C: Trader only;H: Shellman (High & Mid: LV7~10);I: Shellman (High & Mid: LV9~S);P: Shellman (High & Mid: LV9~S);U: Shellman (High & Mid: LV5~7)",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "50",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "4 volleys of needles",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 54,
+      "Name": "Trident",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E, I, K, O, T, *",
+      "Locations": "E: WWW Area 1 NetDealer (20000ƶ);I: Trader only;K: Trader only;O: Trader only;T: Trader only",
+      "Traders": "RetroChip Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "60",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "3 volleys of spears",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 55,
+      "Name": "Ratton1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H, I, J, K, L, *",
+      "Locations": "H: Jennifer's chipfolder, Ratty (High & Mid: LV9~S);I: Jennifer's chipfolder, Ratty (High & Mid: LV7~10);J: Jennifer's chipfolder, Ratty (LV5~7);K: Ratty (LV7~10);L: Ratty (LV9~S);*: WWW Area 2 GMD, (BNLC) LC Trader (Marine Lobby, Netopia, ACDC)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 26,
+      "Damage": "70",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "A crawling rat that turns once",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 56,
+      "Name": "Ratton2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "J, K, L, M, N, *",
+      "Locations": "J: Ratty2 (High & Mid: LV9~S);K: Ratty2 (High & Mid: LV7~10);L: Ratty2 (LV5~7);M: Ratty2 (LV7~10);N: Ratty2 (LV9~S);*: WWW Area 2 GMD, (BNLC) LC Trader (Netopia, Marine outside, ACDC)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "80",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "A crawling rat that turns once",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 57,
+      "Name": "Ratton3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "L, M, N, O, P, *",
+      "Locations": "L: Ratty3 (High & Mid: LV9~S);M: Ratty3 (High & Mid: LV7~10);N: Ratty3 (LV5~7);O: Ratty3 (LV7~10);P: Ratty3 (LV9~S);*: WWW Area 2 GMD, (BNLC) LC Trader, (GBA) (Marine outside, ACDC)",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 38,
+      "Damage": "90",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "A crawling rat that turns once",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 58,
+      "Name": "FireRat",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, F, G, H, R, *",
+      "Locations": "B: Trader only;F: WWW Area 2 GMD;G: Trader only;H: Trader only;R: Yumland 1 PMD;*: (BNLC) LC Trader (Netopia, Marine outside), (GBA) Unobtainable",
+      "Traders": "Netopia Town, Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "200",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Amazing when lit with fire",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 59,
+      "Name": "Tornado",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E, J, L, M, Q, *",
+      "Locations": "E: WWW Area 1 NetDealer (20000ƶ);J: Trader only;L: Trader only;M: Trader only;Q: Trader only",
+      "Traders": "RetroChip Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 22,
+      "Damage": "20",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "8-hit tornado 2 ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 60,
+      "Name": "Twister",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "N, O, T, U, Y, *",
+      "Locations": "N: Undernet 3 GMD;O: Trader only;T: Trader only;U: Trader only;Y: Request Board 'Detective job'",
+      "Traders": "Netopia Town, Marine Harbor",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 22,
+      "Damage": "20",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "8-hit tornado 2 ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 61,
+      "Name": "Blower",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "P, R, T, W, Z, *",
+      "Locations": "P: Chip Trading (Netopia Alley);R: Trader only;T: Trader only;W: Trader only;Z: Trader only",
+      "Traders": "Netopia Town, Marine Harbor",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 22,
+      "Damage": "20",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "8-hit tornado 2 ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 62,
+      "Name": "Burner",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "A, B, F, L, S, *",
+      "Locations": "A: Fishy2 (High: LV9~S);B: Fishy2 (High: LV7~10);F: Fishy2 (LV7~10);L: Fishy2 (High & Mid: LV9~S);S: Fishy2 (Low: LV9~S)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 28,
+      "Damage": "150",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Envelopes you with flames!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 63,
+      "Name": "ZapRing1",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "A, M, P, Q, W, *",
+      "Locations": "A: Bunny (LV7~10);M: Bunny (LV9~S);P: Bunny (Low: LV5~7), Koto Area GMD;Q: Bunny (High: LV5~7);W: Bunny (Mid: LV5~7);*: Netopia 2 NetDealer (5000ƶ)",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "20",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Paralyzing electric rings!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 64,
+      "Name": "ZapRing2",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "B, G, N, R, S, *",
+      "Locations": "B: TuffBunny (LV9~S);G: TuffBunny (Low: LV5~7);N: TuffBunny (Mid: LV5~7);R: TuffBunny (High: LV5~7);S: TuffBunny (LV7~10)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 16,
+      "Damage": "30",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Paralyzing electric rings!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 65,
+      "Name": "ZapRing3",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "C, E, O, T, Z, *",
+      "Locations": "C: MegaBunny (Mid & Low: LV9~S);E: MegaBunny (LV7~10);O: MegaBunny (High: LV5~7);T: MegaBunny (Mid & Low: LV5~7);Z: MegaBunny (High: LV9~S)",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Paralyzing electric rings!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 66,
+      "Name": "Satelit1",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "G, O, Q, U, W, *",
+      "Locations": "G: Sparky (LV7~S);O: Trader only;Q: Trader only;U: Trader only;W: Trader only",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "60",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "A floating & spinning satellite",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 67,
+      "Name": "Satelit2",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "H, J, K, P, R, *",
+      "Locations": "H: Trader only;J: Trader only;K: Trader only;P: Sparkler (LV9~S);R: Sparkler (LV7~10)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "80",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "A floating & spinning satellite",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 68,
+      "Name": "Satelit3",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "L, S, T, Y, Z, *",
+      "Locations": "L: Sparknoid (LV7~10);S: Sparknoid (LV9~S);T: Trader only;Y: Trader only;Z: Trader only",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 28,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "A floating & spinning satellite",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 69,
+      "Name": "Spice1",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "A, C, G, Q, T, *",
+      "Locations": "A: Mushy (High & Low: LV9~S);C: Mushy (Mid: LV9~S);G: Mushy (Low: LV7~10);Q: Mushy (Mid: LV7~10);T: Mushy (High: LV7~10)",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 14,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Unhealthy powder on all grass",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 70,
+      "Name": "Spice2",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "B, E, H, J, N, *",
+      "Locations": "B: Mashy (High: LV7~10);E: Jennifer's chipfolder, Mashy (Mid: LV9~S);H: Mashy (High & Low: LV9~S);J: Mashy (Mid: LV7~10);N: Mashy (Low: LV7~10), Air Comp 1 BMD",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 28,
+      "Damage": "120",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Unhealthy powder on all grass",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 71,
+      "Name": "Spice3",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "D, K, M, P, Q, *",
+      "Locations": "D: Moshy (Mid: LV7~10);K: Moshy (Low: LV7~10);M: Moshy (High: LV9~S);P: Moshy (High: LV7~10);Q: Moshy (Mid & Low: LV9~S)",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 42,
+      "Damage": "140",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Unhealthy powder on all grass",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 72,
+      "Name": "MagBomb1",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "F, G, J, M, N, *",
+      "Locations": "F: Magneaker (LV5~7);G: Magneaker (LV7~10);J: Trader only;M: Trader only;N: Trader only;*: Magneaker (LV9~S), (BNLC) LC Trader (Netopia, ACDC)",
+      "Traders": "Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 10,
+      "Damage": "80",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Stops the enemy in its tracks",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 73,
+      "Name": "MagBomb2",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "B, D, I, R, T, *",
+      "Locations": "B: Trader only;D: Magmacker (LV7~10);I: Trader only;R: Magmacker (LV5~7);T: Trader only;*: Magmacker (LV9~S), (BNLC) LC Trader (Netopia, Marine outside, ACDC)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 14,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Stops the enemy in its tracks",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 74,
+      "Name": "MagBomb3",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "H, K, O, Q, S, *",
+      "Locations": "H: Magnoid (LV5~7);K: Trader only;O: Trader only;Q: Magnoid (LV7~10);S: Magnoid (LV9~S);*: (BNLC) LC Trader (Marine outside), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 18,
+      "Damage": "120",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Stops the enemy in its tracks",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 75,
+      "Name": "Yo-Yo1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, E, R, T, V, *",
+      "Locations": "C: Yort (Low: LV7~S);E: Yort (High & Mid: LV9~S);R: Yort (High & Mid: LV9~S);T: Yort (High & Mid: LV7~10);V: Yort (High & Mid: LV7~10)",
+      "Traders": "Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 36,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "A 3-square yo-yo attack!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 76,
+      "Name": "Yo-Yo2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, G, J, K, N, *",
+      "Locations": "A: Yurt (High & Mid: LV9~S);G: Yurt (Low: LV9~S);J: Yurt (Mid: LV7~10);K: Yurt (High: LV7~10);N: Yurt (Low: LV7~10)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 40,
+      "Damage": "50",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "A 3-square yo-yo attack!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 77,
+      "Name": "Yo-Yo3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, I, M, S, Y, *",
+      "Locations": "D: Yart (Low: LV9~S);I: Yart (High: LV9~S);M: Yart (Mid: LV9~S);S: Yart (Low: LV9~S);Y: Yart (High: LV9~S)",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 44,
+      "Damage": "60",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "A 3-square yo-yo attack!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 78,
+      "Name": "CrsShld1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, O, P, S, Z, *",
+      "Locations": "A: Trader only;O: Dominerd (LV7~10);P: Dominerd (LV5~7);S: Dominerd (LV9~S);Z: Trader only",
+      "Traders": "Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 18,
+      "Damage": "130",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Guard then bite into the enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 79,
+      "Name": "CrsShld2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, O, P, T, V, *",
+      "Locations": "A: Dominerd2 (LV9~S);O: Dominerd2 (LV9~S);P: Dominerd2 (LV7~10);T: Trader only;V: Trader only",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "170",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Guard then bite into the enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 80,
+      "Name": "CrsShld3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, O, P, U, W, *",
+      "Locations": "A: Dominerd3 (Low: LV7~10);O: Dominerd3 (LV9~S);P: Dominerd3 (LV9~S);U: Trader only;W: Trader only",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "210",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Guard then bite into the enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 81,
+      "Name": "Hammer",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "R, T, U, V, Z, *",
+      "Locations": "R: Trader only;T: Mother Comp 4 BMD;U: NetSquare NetDealer (4800ƶ);V: Trader only;Z: Chip Trading (Official Center)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Hammer for smashing things!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 82,
+      "Name": "ZeusHamr",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "J, K, O, V, Z, *",
+      "Locations": "J: Trader only;K: Trader only;O: Trader only;V: Trader only;Z: Koto Square BugFrag shop (16BF)",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 70,
+      "Damage": "200",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Damage all if panel",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 83,
+      "Name": "Lance",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "O, P, T, V, Y, *",
+      "Locations": "O: Trader only;P: Gift Shop Comp BMD;T: Trader only;V: Trader only;Y: WWW Area 3 GMD;*: (BNLC) LC Trader (Marine outside), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "90",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "A lance through back line",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 84,
+      "Name": "BrnzFist",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, N, O, R, S, *",
+      "Locations": "B: Trader only;N: Famous's Folder, Netopia 2 GMD;O: Trader only;R: Trader only;S: Famous's Folder, Yumland 1 PMD",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 18,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Fist of death!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 85,
+      "Name": "SilvFist",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E, I, L, S, V, *",
+      "Locations": "E: Talk to man in Business Class Airplane (Ch. 6 only), Jennifer's chipfolder;I: Examine Dad's PC (Ch. 5 only);L: Undernet 7 PMD;S: Trader only;V: Chip Trading (Netopia Center)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "140",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Fist of death!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 86,
+      "Name": "GoldFist",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, G, L, O, Z, *",
+      "Locations": "D: Trader only;G: Trader only;L: Trader only;O: Trader only;Z: Request Board 'Return my gem!'",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 60,
+      "Damage": "180",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Fist of death!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 87,
+      "Name": "PoisMask",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, S, U, W, Z, *",
+      "Locations": "D: Trader only;S: Puffball (LV9~S);U: Puffball (Mid & Low: LV7~10), Poofball (Low: LV7~10);W: Puffball (High: LV7~10), Poofball (Low: LV9~S);Z: Trader only",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Poison 1 panel with A Button!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 88,
+      "Name": "PoisFace",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "P, Q, U, W, Y, *",
+      "Locations": "P: Trader only;Q: Trader only;U: Poofball (High & Mid: LV7~10);W: Poofball (High & Mid: LV9~S);Y: Trader only",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Spread poison w/ A Button!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 89,
+      "Name": "Whirlpl",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, C, E, G, I, *",
+      "Locations": "A: Null (High: LV9~S);C: Null (Low: LV7~S);E: Null (Mid: LV9~S);G: Null (High: LV7~10);I: Null (Mid: LV7~10)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Whirlpool kills weak enemies!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 90,
+      "Name": "Blckhole",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, D, F, H, J, *",
+      "Locations": "B: Void (Low: LV7~S);D: Void (Mid: LV9~S);F: Void (High: LV9~S);H: Void (Mid: LV7~10);J: Void (High: LV7~10)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Black hole kills weak enemies!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 91,
+      "Name": "Meteor9",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "C, E, L, S, V, *",
+      "Locations": "C: MettFire (LV7~10);E: Trader only;L: Trader only;S: MettFire (LV9~S);V: Trader only;*: (BNLC) LC Trader (Marine Lobby, Netopia, ACDC), (GBA) Unobtainable",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "60",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Magic wand shoots 9 meteors",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 92,
+      "Name": "Meteor12",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "A, C, F, J, W, *",
+      "Locations": "A: FullFire (Mid & Low: LV9~S);C: FullFire (High: LV9~S);F: FullFire (Low: LV7~10);J: FullFire (Mid: LV7~10);W: FullFire (High: LV7~10);*: (BNLC) LC Trader (Netopia, Marine outside, ACDC), (GBA) Unobtainable",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "80",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Magic wand shoots 12 meteors",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 93,
+      "Name": "Meteor15",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "D, G, H, R, Z, *",
+      "Locations": "D: DeathFire (Mid: LV7~10);G: DeathFire (Mid & Low: LV9~S);H: DeathFire (High: LV7~10);R: DeathFire (Low: LV7~10);Z: DeathFire (High: LV9~S);*: (BNLC) LC Trader (Marine outside, ACDC), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Magic wand shoots 15 meteors",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 94,
+      "Name": "Meteor18",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "B, G, I, K, O, *",
+      "Locations": "B: Mole2 (Low: LV1~10);G: Mole2 (Mid: LV1~10);I: Trader only;K: Mole2 (High: LV1~10);O: Trader only;*: (BNLC) LC Trader (Marine outside), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 60,
+      "Damage": "150",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Magic wand shoots 18 meteors",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 95,
+      "Name": "TimeBom1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, G, K, M, Z, *",
+      "Locations": "C: Handy (LV9~S);G: Handy (Low: LV9~S);K: Handy (Mid: LV9~S);M: Handy (High: LV9~S);Z: Handy (LV7~10)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "70",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "An area-wide time bomb!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 96,
+      "Name": "TimeBom2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "F, G, K, O, Z, *",
+      "Locations": "F: Handy2 (High: LV9~S; Low: LV7~10);G: Handy2 (Mid: LV9~S);K: Handy2 (Low: LV9~S);O: Handy2 (Mid & Low: LV9~S);Z: Handy2 (High: LV9~S)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "120",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "An area-wide time bomb!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 97,
+      "Name": "TimeBom3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E, G, K, P, Z, *",
+      "Locations": "E: Handy3 (High: LV9~S);G: Handy3 (Low: LV9~S);K: Handy3 (Mid: LV9~S);P: Handy3 (Mid: LV9~S);Z: Handy3 (High & Low: LV9~S)",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "200",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "An area-wide time bomb!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 98,
+      "Name": "LilCloud",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "C, G, I, K, N, *",
+      "Locations": "C: Cloudy (Mid: LV9~S);G: Jennifer's chipfolder, Cloudy (Low: LV9~S);I: Cloudy (LV5~7);K: Cloudy (LV7~10);N: Cloudy (High: LV9~S)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 16,
+      "Damage": "70",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Rain cloud goes back and forth",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 99,
+      "Name": "MedCloud",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "D, H, J, L, O, *",
+      "Locations": "D: Cloudy2 (Mid: LV9~S), Undernet 3 GMD;H: Cloudy2 (Low: LV9~S);J: Cloudy2 (LV5~7);L: Cloudy2 (LV7~10);O: Cloudy2 (High: LV9~S)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "90",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Rain cloud goes back and forth",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 100,
+      "Name": "BigCloud",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "Q, R, T, U, W, *",
+      "Locations": "Q: Cloudy3 (High: LV9~S);R: Cloudy3 (High & Low: LV7~10);T: Cloudy3 (Mid: LV9~S);U: Cloudy3 (Mid: LV7~10);W: Cloudy3 (Low: LV9~S)",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "110",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Rain cloud goes back and forth",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 101,
+      "Name": "Mine",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "L, N, R, S, V, *",
+      "Locations": "L: Trader only;N: Trader only;R: Trader only;S: WWW Area 1 NetDealer (20000ƶ);V: Trader only;*: Trader only",
+      "Traders": "RetroChip Trader (Has *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "300",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Place mine in enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 102,
+      "Name": "FrntSnsr",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H, M, Q, R, T, *",
+      "Locations": "H: Trader only;M: Trader only;Q: Trader only;R: WWW Area 1 NetDealer (20000ƶ);T: Trader only",
+      "Traders": "RetroChip Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 14,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Automatic dynamite device",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 103,
+      "Name": "DblSnsr",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E, J, P, W, Y, *",
+      "Locations": "E: WWW Area 1 NetDealer (20000ƶ);J: Trader only;P: Trader only;W: Trader only;Y: Trader only",
+      "Traders": "RetroChip Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Diagonal dynamite device",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 104,
+      "Name": "Remobit1",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "E, G, J, K, N, *",
+      "Locations": "E: Twisty (Mid & Low: LV9~S);G: Twisty (High: LV9~S);J: Twisty (Mid: LV7~10);K: Twisty (High: LV7~10);N: Twisty (Low: LV7~10)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 8,
+      "Damage": "80",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Generates remobit in enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 105,
+      "Name": "Remobit2",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "B, F, I, R, U, *",
+      "Locations": "B: Twisty2 (Mid: LV7~10);F: Twisty2 (Mid: LV9~S);I: Twisty2 (Low: LV7~10);R: Twisty2 (High & Low: LV9~S);U: Twisty2 (High: LV7~10)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 16,
+      "Damage": "80",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Generates remobit in enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 106,
+      "Name": "Remobit3",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "A, L, M, T, Y, *",
+      "Locations": "A: Twisty3 (Low: LV9~S);L: Twisty3 (High: LV9~S);M: Twisty3 (Mid & Low: LV7~10);T: Twisty3 (High: LV7~10);Y: Twisty3 (Mid: LV9~S)",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "80",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Generates remobit in enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 107,
+      "Name": "AquaBall",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A, B, Q, T, W, *",
+      "Locations": "A: Octon (High: LV9~S);B: Octon (Mid: LV9~S);Q: Octon (Low: LV9~S);T: Octon (High & Low: LV9~S);W: Octon (Mid: LV9~S)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "10",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Pops when it hits something",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 108,
+      "Name": "ElecBall",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "E, H, J, K, V, *",
+      "Locations": "E: Octor (High: LV9~S);H: Octor (High: LV9~S);J: Octor (Mid & Low: LV9~S);K: Octor (Mid: LV9~S);V: Octor (Low: LV9~S)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "10",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Pops when it hits something",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 109,
+      "Name": "HeatBall",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "C, F, R, S, U, *",
+      "Locations": "C: Octovian (Low: LV9~S);F: Octovian (Mid & Low: LV9~S);R: Octovian (High: LV9~S);S: Octovian (Mid: LV9~S);U: Octovian (High: LV9~S)",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "10",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Pops when it hits something",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 110,
+      "Name": "Geyser",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A, B, D, L, S, *",
+      "Locations": "A: Trader only;B: Yumland 2 PMD;D: Trader only;L: Trader only;S: Trader only",
+      "Traders": "Netopia Town, Marine Harbor",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 40,
+      "Damage": "200",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Geyser if there is no panel",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 111,
+      "Name": "LavaDrag",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "F, G, O, R, Y, *",
+      "Locations": "F: Lavagon (LV9~S);G: Lavagon (LV9~S);O: Trader only;R: Lavagon (LV7~10);Y: Lavagon (LV7~10)",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 60,
+      "Damage": "200",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Summons a nasty lava dragon!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 112,
+      "Name": "GodStone",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E, I, L, Q, U, *",
+      "Locations": "E: Trader only;I: Trader only;L: Trader only;Q: WWW Area 1 NetDealer (50000ƶ);U: Trader only",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 60,
+      "Damage": "150",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Summons a God Stone!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 113,
+      "Name": "OldWood",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "C, M, S, T, W, *",
+      "Locations": "C: Trader only;M: Trader only;S: Trader only;T: Trader only;W: WWW Area 2 PMD",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 60,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Summons Old Wood!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 114,
+      "Name": "Guard",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: Talk to Electopia girl in Netopia (Ch. 5 only), Talk to boy running behind Lan's house (Ch. 6 only), Mettaur (LV5~7), Mettaur2 (LV5~7), Netopia 3 GMD",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 2,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Repel the enemy's attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 115,
+      "Name": "PanlOut1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, B, D, L, S, *",
+      "Locations": "A: Trader only;B: Folder1;D: Trader only;L: Trader only;S: Trader only;*: Den Area 1 BMD, (BNLC) LC Trader (Marine Lobby, ACDC)",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 4,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Destroy 1 panel in front",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 116,
+      "Name": "PanlOut3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, E, N, R, Y, *",
+      "Locations": "C: Trader only;E: Trader only;N: Trader only;R: Trader only;Y: Trader only;*: Famous's Folder, Mother Comp 3 BMD, Netopia 2 GMD, (BNLC) LC Trader (Marine Lobby, ACDC)",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 8,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Destroy 3 panels in front",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 117,
+      "Name": "LineOut",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "F, H, J, Q, T, *",
+      "Locations": "F: Flamey (Low: LV9~S);H: Flamey (Mid: LV9~S);J: Flamey (Mid & Low: LV9~S);Q: Flamey (High: LV9~S);T: Flamey (High: LV9~S);*: (BNLC) LC Trader (ACDC), (GBA) Unobtainable",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Destroy 1 line of panels!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 118,
+      "Name": "Catcher",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "F, I, J, N, T, *",
+      "Locations": "F: Jennifer's chipfolder;I: Trader only;J: Trader only;N: RedUFO (LV7~S);T: Yumland 1 NetDealer (2000ƶ);*: (BNLC) LC Trader (Marine Lobby, Netopia, Marine outside), (GBA) Unobtainable",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Sends UFO to steal a chip",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 119,
+      "Name": "Mindbndr",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, I, M, N, T, *",
+      "Locations": "D: Jennifer's chipfolder, UnderKoto NetDealer (10000ƶ);I: Undernet 4 GMD;M: Trader only;N: Trader only;T: Trader only",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 38,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Enemy loses control",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 120,
+      "Name": "Recov10",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "A, C, E, G, L, *",
+      "Locations": "A: Folder1;C: Trader only;E: Trader only;G: Trader only;L: Folder1;*: Den Area 1 NetDealer (500ƶ), Gas Comp 1 BMD, (BNLC) LC Trader (Marine Lobby, ACDC)",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 2,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Recovers 10HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 121,
+      "Name": "Recov30",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "B, D, F, H, M, *",
+      "Locations": "B: Den Area 3 NetDealer (1000ƶ);D: Trader only;F: Koto Area GMD;H: The Square NetDealer (1000ƶ), Spooky (LV5~7);M: Trader only;*: Request Board 'Mission2', Mother Comp 1 BMD, (BNLC) LC Trader (Marine Lobby, ACDC)",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 4,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Recovers 30HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 122,
+      "Name": "Recov50",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "C, E, G, I, N, *",
+      "Locations": "C: Famous's Folder;E: Trader only;G: Spooky2 (High & Mid: LV5~7);I: Yumland 2 GMD;N: Spooky (High & Mid: LV7~10), Bomb Comp 4 BMD;*: Famous's Folder, Talk to Official at License Office (Ch. 3 only), Netopia 1 BMD, (BNLC) LC Trader (Marine Lobby, ACDC)",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 8,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Recovers 50HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 123,
+      "Name": "Recov80",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "D, F, H, J, O, *",
+      "Locations": "D: Jennifer's chipfolder, Netopia 2 GMD;F: Spooky2 (High & Mid: LV7~10), Mother Comp 3 BMD;H: Trader only;J: Trader only;O: Spooky3 (High & Mid: LV5~7);*: Koto Square BugFrag shop (2BF), (BNLC) LC Trader (Marine Lobby, Netopia, ACDC)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 16,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Recovers 80HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 124,
+      "Name": "Recov120",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "O, Q, S, U, W, *",
+      "Locations": "O: NumberMan's wares (4000ƶ);Q: Trader only;S: Spooky3 (High & Mid: LV7~10), Air Comp 5 BMD;U: Jennifer's chipfolder, Castle Comp 5 BMD;W: Trader only",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Recovers 120HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 125,
+      "Name": "Recov150",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "N, P, R, T, V, *",
+      "Locations": "N: Trader only;P: Give souvenir to Mayl (Ch. 6 only);R: Trader only;T: Apartment Comp 1 BMD, Gospel Server 1 BMD;V: Trader only",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Recovers 150HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 126,
+      "Name": "Recov200",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "M, N, U, V, W, *",
+      "Locations": "M: Request Board 'To bug academics';N: Trader only;U: Trader only;V: Trader only;W: Undernet 6 GMD",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Recovers 200HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 127,
+      "Name": "Recov300",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "O, R, V, W, Z, *",
+      "Locations": "O: Trader only;R: Undernet 7 BMD;V: Trader only;W: Trader only;Z: Trader only",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 80,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Recovers 300HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 128,
+      "Name": "PanlGrab",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, H, K, L, P, *",
+      "Locations": "B: Trader only;H: Trader only;K: Trader only;L: Bomb Comp 3 BMD;P: Examine a desk in Room 5A;*: KotoSquare NetDealer (1000ƶ), (BNLC) LC Trader (ACDC)",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 4,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Steals 1 enemy square!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 129,
+      "Name": "AreaGrab",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E, L, R, S, Z, *",
+      "Locations": "E: Den Area 3 NetDealer (2000ƶ);L: Trader only;R: Trader only;S: Folder1, Famous's Folder;Z: Trader only;*: Jennifer's chipfolder, Gospel Server 1 BMD, (BNLC) LC Trader (Marine Lobby, Netopia, Marine outside, ACDC)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 8,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Steals left edge from enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 130,
+      "Name": "GrabRvng",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, L, P, S, W, *",
+      "Locations": "A: Trader only;L: Trader only;P: Trader only;S: Trader only;W: Undernet 1 NetDealer (10000ƶ)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Punishes for stolen panels!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 131,
+      "Name": "Geddon1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, K, L, Q, S, *",
+      "Locations": "C: Trader only;K: Trader only;L: Trader only;Q: Trader only;S: NumberMan's wares (10000ƶ)",
+      "Traders": "Marine Harbor Lobby, Netopia Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 16,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Cracks all panels!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 132,
+      "Name": "Geddon2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "J, M, R, T, Z, *",
+      "Locations": "J: Trader only;M: Trader only;R: Trader only;T: Trader only;Z: NumberMan's wares (14000ƶ)",
+      "Traders": "Netopia Town, Marine Harbor",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Breaks all empty squares!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 133,
+      "Name": "Geddon3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E, J, N, P, Y, *",
+      "Locations": "E: Trader only;J: Trader only;N: Trader only;P: Trader only;Y: Talk to girl in Marine Harbor hiding behind wall (starting in Ch. 5)",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Turns all panels to swamp!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 134,
+      "Name": "Escape",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "F, H, J, L, N, *",
+      "Locations": "F: Folder1;H: Famous's Folder;J: Jennifer's chipfolder;L: Trader only;N: Chip Trading (Okuden Valledy)",
+      "Traders": "Marine Harbor Lobby, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Escapes from some enemies",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 135,
+      "Name": "AirShoes",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, J, O, V, Z, *",
+      "Locations": "A: Koto Square BugFrag shop (4BF), Mole2 (High: LV1~5, 7~S);J: Mole2 (Mid: LV1~5, 7~S);O: Trader only;V: Trader only;Z: Mole2 (Low: LV1~5, 7~S);*: (BNLC) LC Trader (Marine outside), (GBA) Unobtainable",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Stand on empty square",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 136,
+      "Name": "Repair",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, C, E, L, P, *",
+      "Locations": "A: Trader only;C: Castle Comp 2 BMD;E: Trader only;L: Talk to man in Economy Class Airplane (Ch. 6 only), Netopia 1 GMD;P: Trader only;*: NetSquare NetDealer (2400ƶ), (BNLC) LC Trader (Marine Lobby, Netopia, Marine outside)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 8,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Fixes your side's panels",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 137,
+      "Name": "Candle1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, F, I, M, V, *",
+      "Locations": "C: CanDevil (High & Low: LV9~S);F: CanDevil (High: LV9~S);I: CanDevil (Mid: LV9~S);M: CanDevil (Mid: LV9~S);V: CanDevil (Low: LV9~S);*: (BNLC) LC Trader (ACDC), (GBA) Unobtainable",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 50,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Places a healing candle",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 138,
+      "Name": "Candle2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, G, J, L, T, *",
+      "Locations": "A: CanDevil2 (Mid & Low: LV9~S);G: CanDevil2 (Low: LV9~S);J: CanDevil2 (High: LV9~S);L: CanDevil2 (Mid: LV9~S);T: CanDevil2 (High: LV9~S);*: (BNLC) LC Trader (ACDC), (GBA) Unobtainable",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 60,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Places a healing candle",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 139,
+      "Name": "Candle3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, E, H, N, W, *",
+      "Locations": "B: CanDevil3 (Mid: LV9~S);E: CanDevil3 (Low: LV9~S);H: CanDevil3 (Mid: LV9~S);N: CanDevil3 (High & Low: LV9~S);W: CanDevil3 (High: LV9~S);*: (BNLC) LC Trader (ACDC), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 70,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Places a healing candle",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 140,
+      "Name": "RockCube",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, D, G, M, V, *",
+      "Locations": "B: Yumland 1 GMD;D: Trader only;G: Trader only;M: Trader only;V: Trader only;*: Famous's Folder, Yumland 1 NetDealer (500ƶ), Air Comp 1 BMD, Undernet 6 GMD, (BNLC) LC Trader (Marine Lobby, Netopia, Marine outside, ACDC)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 16,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Places a stone cube in front",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 141,
+      "Name": "Prism",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, C, L, N, Q, *",
+      "Locations": "B: Trader only;C: Trader only;L: Trader only;N: Trader only;Q: Netopia 1 PMD;*: (BNLC) LC Trader (Marine outside), (GBA) Unobtainable",
+      "Traders": "Netopia Town, Marine Harbor",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Shoots all over after it hits",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 142,
+      "Name": "Guardian",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "O, P, U, V, Z, *",
+      "Locations": "O: Autolock Comp PMD;P: Trader only;U: Trader only;V: Trader only;Z: Trader only",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 54,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Statue punishes when hit",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 143,
+      "Name": "Wind",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "G, J, O, Q, T, *",
+      "Locations": "G: WindBox (High & Mid: LV7~10), Undernet 6 GMD;J: WindBox (High & Low: LV9~S);O: WindBox (Mid: LV9~S);Q: WindBox (Low: LV7~10);T: WindBox (LV5~7);*: Netopia 2 NetDealer (2000ƶ), (BNLC) LC Trader (Marine Lobby, Netopia, Marine outside, ACDC)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 10,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "WindBox blows at enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 144,
+      "Name": "Fan",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, G, L, N, Y, *",
+      "Locations": "A: VacuumFan (High & Low: LV9~S);G: VacuumFan (High: LV7~10), Undernet 4 GMD;L: VacuumFan (Mid: LV9~S);N: VacuumFan (Mid & Low: LV7~10);Y: VacuumFan (LV5~7);*: Netopia 2 NetDealer (2000ƶ), (BNLC) LC Trader (Netopia, Marine outside, ACDC), (GBA)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 10,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "VacuumFan sucks from enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 145,
+      "Name": "Anubis",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H, K, M, U, W, *",
+      "Locations": "H: Trader only;K: Trader only;M: Trader only;U: PharoManV3 (High: LV9~S);W: PharoManV3 (Mid & Low: LV9~S)",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 90,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Anubis poisons enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 146,
+      "Name": "SloGauge",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: UnderKoto NetDealer (5000ƶ)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 10,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 147,
+      "Name": "FstGauge",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: UnderKoto NetDealer (5000ƶ)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 10,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 148,
+      "Name": "FullCust",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: Undernet 1 NetDealer (5000ƶ), WWW Area 3 GMD",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 10,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 149,
+      "Name": "Invis1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, F, L, R, U, *",
+      "Locations": "A: Spooky (Mid: LV7~10);F: Spooky (Mid: LV9~S);L: Spooky (Low: LV7~10);R: Spooky (High: LV9~S);U: Spooky (High: LV7~10);*: Spooky (LV9~S), (BNLC) LC Trader (Marine Lobby, Netopia, ACDC), (GBA)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Invisible for a while",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 150,
+      "Name": "Invis2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, H, M, Q, V, *",
+      "Locations": "B: Spooky2 (Mid: LV9~S);H: Spooky2 (High: LV9~S);M: Spooky2 (Low: LV7~10);Q: Spooky2 (Mid: LV7~10), Castle Comp 5 BMD;V: Spooky2 (High: LV7~10);*: Spooky2 (LV9~S), (BNLC) LC Trader (Netopia, Marine outside, ACDC)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Invisible for a while",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 151,
+      "Name": "Invis3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, G, K, P, W, *",
+      "Locations": "C: Spooky3 (Low: LV7~10);G: Spooky3 (Mid: LV9~S);K: Spooky3 (Mid: LV7~10), Undernet 6 GMD;P: Spooky3 (High: LV9~S);W: Spooky3 (High: LV7~10);*: Spooky3 (LV9~S), (BNLC) LC Trader (ACDC, Marine outside)",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Invisible for a while",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 152,
+      "Name": "DropDown",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, C, F, Q, S, *",
+      "Locations": "A: Trader only;C: Trader only;F: Trader only;Q: Trader only;S: Popper3 (LV9~S);*: (BNLC) LC Trader (Marine outside), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Invisible until you attack!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 153,
+      "Name": "PopUp",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, I, J, T, W, *",
+      "Locations": "D: Mole (LV1~S);I: Mole (High: LV1~S);J: Trader only;T: Mole (Mid: LV1~S);W: Mole (Low: LV1~S)",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 84,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Invisible except for attack!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 154,
+      "Name": "StoneBod",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, E, S, T, W, *",
+      "Locations": "C: KnightMnV3 (Low: LV7~10);E: KnightMnV3 (Mid: LV7~10);S: KnightMnV3 (High: LV7~10);T: Trader only;W: Trader only;*: (BNLC) LC Trader (Marine outside), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Stone body takes only 1HP damage",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 155,
+      "Name": "Shadow1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, G, H, L, R, *",
+      "Locations": "B: Shadow (Mid & Low: LV9~S);G: Shadow (Mid & Low: LV9~S);H: Shadow (High: LV9~S);L: Shadow (High: LV9~S);R: Shadow (LV7~10)",
+      "Traders": "Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Only sword attacks hurt you",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 156,
+      "Name": "Shadow2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, E, J, M, T, *",
+      "Locations": "D: RedDevil (LV9~S);E: RedDevil (High: LV9~S);J: RedDevil (Mid & Low: LV9~S);M: RedDevil (High: LV7~10);T: RedDevil (Mid & Low: LV7~10)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Only sword attacks hurt you",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 157,
+      "Name": "Shadow3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, F, K, N, V, *",
+      "Locations": "C: BlueDemon (LV9~S);F: BlueDemon (High: LV9~S);K: BlueDemon (Mid & Low: LV9~S);N: BlueDemon (High: LV7~10);V: BlueDemon (Mid & Low: LV7~10)",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Only sword attacks hurt you",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 158,
+      "Name": "UnderSht",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H, J, N, R, W, *",
+      "Locations": "H: Trader only;J: Trader only;N: Chip Trading (Netopia Airport);R: Trader only;W: Trader only;*: (BNLC) LC Trader (Marine outside), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 18,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Lethal hit reduced to just 1HP!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 159,
+      "Name": "Barrier",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, E, L, S, T, *",
+      "Locations": "B: The Square NetDealer (1200ƶ);E: Trader only;L: Air Comp 5 BMD;S: Trader only;T: Trader only;*: Netopia 2 NetDealer (4000ƶ), WWW Area 3 GMD, (BNLC) LC Trader (Netopia, Marine outside, ACDC)",
+      "Traders": "Marine Harbor Lobby, Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 8,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Nullify damage one time!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 160,
+      "Name": "BblWrap",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "I, J, Q, R, W, *",
+      "Locations": "I: Trader only;J: Trader only;Q: Trader only;R: WWW Area 1 NetDealer (20000ƶ);W: Trader only",
+      "Traders": "RetroChip Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 36,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Water barrier reforms",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 161,
+      "Name": "LeafShld",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "A, D, R, S, W, *",
+      "Locations": "A: Popper2 (Low: LV9~S);D: Popper2 (High: LV9~S);R: Popper2 (High: LV9~S);S: Popper2 (Low: LV9~S);W: Popper2 (Mid: LV9~S)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 26,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Next attack heals you",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 162,
+      "Name": "AquaAura",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A, E, I, M, Q, *",
+      "Locations": "A: MegalianA (LV7~S);E: Trader only;I: Trader only;M: WWW Area 3 GMD;Q: Trader only;*: (BNLC) LC Trader (Marine outside), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Repels attacks under 10",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 163,
+      "Name": "FireAura",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "B, F, J, N, R, *",
+      "Locations": "B: Trader only;F: Trader only;J: Trader only;N: Trader only;R: MegalianH (LV7~S);*: (BNLC) LC Trader (ACDC), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 36,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Repels attacks under 40",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 164,
+      "Name": "WoodAura",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "C, G, K, O, S, *",
+      "Locations": "C: Trader only;G: Trader only;K: Trader only;O: Trader only;S: MegalianW (LV7~S)",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 42,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Repels attacks under 80",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 165,
+      "Name": "ElecAura",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "D, H, L, P, T, *",
+      "Locations": "D: Trader only;H: Trader only;L: MegalianE (LV7~S);P: Trader only;T: Trader only",
+      "Traders": "Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Repels non wd attacks under 100",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 166,
+      "Name": "LifeAur1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, G, I, O, Q, *",
+      "Locations": "B: Scutz (High & Low: LV9~S), Scuttle (High & Low: LV9~S), Scuttler (High & Low: LV9~S), Scuttzer (High & Low: LV9~S);G: Scutz (High & Low: LV9~S), Scuttle (High & Low: LV9~S), Scuttler (High & Low: LV9~S), Scuttzer (High & Low: LV9~S);I: Scutz (Mid: LV9~S), Scuttle (Mid: LV9~S), Scuttler (Mid: LV9~S), Scuttzer (Mid: LV9~S);O: Scutz (Mid: LV9~S), Scuttle (Mid: LV9~S), Scuttler (Mid: LV9~S), Scuttzer (Mid: LV9~S);Q: Trader only",
+      "Traders": "ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 60,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Repels all attacks under 100",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 167,
+      "Name": "LifeAur2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, F, J, N, R, *",
+      "Locations": "D: Scuttlest (Mid: LV9~S);F: Scuttlest (Mid: LV9~S);J: Scuttlest (High: LV9~S);N: Scuttlest (Low: LV9~S);R: Scuttlest (High & Low: LV9~S)",
+      "Traders": "ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 70,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Repels all attacks under 150",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 168,
+      "Name": "LifeAur3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E, H, K, M, T, *",
+      "Locations": "E: BassDelux (High: LV9~S);H: Unobtainable;K: BassDelux (Mid: LV9~S);M: Unobtainable;T: BassDelux (Low: LV9~S)",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 80,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Repels all attacks under 200",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 169,
+      "Name": "MagLine",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, E, I, M, Q, *",
+      "Locations": "A: Trader only;E: Trader only;I: Trader only;M: Trader only;Q: Jennifer's chipfolder, UnderSquare NetDealer (8000ƶ);*: (BNLC) LC Trader (Marine outside), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Changes your line to magnet",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 170,
+      "Name": "LavaLine",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, F, J, M, R, *",
+      "Locations": "A: UnderSquare NetDealer (8000ƶ);F: Trader only;J: Trader only;M: Jennifer's chipfolder;R: Trader only;*: (BNLC) LC Trader (Marine outside), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Changes your line to lava",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 171,
+      "Name": "IceLine",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, E, J, N, Q, *",
+      "Locations": "B: Trader only;E: UnderSquare NetDealer (8000ƶ);J: Jennifer's chipfolder;N: Trader only;Q: Trader only;*: (BNLC) LC Trader (Marine outside), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Changes your line to ice",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 172,
+      "Name": "GrassLne",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, F, I, N, R, *",
+      "Locations": "B: Trader only;F: Trader only;I: Trader only;N: Air Comp 3 BMD;R: UnderSquare NetDealer (8000ƶ);*: (BNLC) LC Trader (Marine outside), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Changes your line to grass",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 173,
+      "Name": "LavaStge",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, H, M, U, V, *",
+      "Locations": "D: Trader only;H: Trader only;M: Trader only;U: Trader only;V: WWW Area 1 BMD;*: (BNLC) LC Trader (Marine outside), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Changes all panels to lava",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 174,
+      "Name": "IceStage",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A, C, E, I, S, *",
+      "Locations": "A: Trader only;C: Trader only;E: Trader only;I: Koto Area BMD;S: Trader only;*: (BNLC) LC Trader (Marine outside), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Changes all panels to ice",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 175,
+      "Name": "GrassStg",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, D, H, P, R, *",
+      "Locations": "B: Trader only;D: Trader only;H: Undernet 7 BMD, WWW Area 3 PMD;P: Trader only;R: Trader only",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Changes all panels to grass",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 176,
+      "Name": "HolyPanl",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, E, H, L, R, *",
+      "Locations": "C: BrushMan (Low: LV9~S);E: BrushMan (Mid: LV9~S);H: Trader only;L: BrushMan (High: LV9~S);R: BrushMan (LV7~10);*: (BNLC) LC Trader (Marine outside), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Makes all panels holy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 177,
+      "Name": "Jealosy",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E, J, O, R, U, *",
+      "Locations": "E: Trader only;J: NetSquare NetDealer (10000ƶ);O: Trader only;R: Trader only;U: Trader only;*: (BNLC) LC Trader (Marine outside), (GBA) Unobtainable",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 22,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "More chips means more damage",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 178,
+      "Name": "AntiFire",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "F, K, L, P, T, *",
+      "Locations": "F: Trader only;K: Trader only;L: Trader only;P: Trader only;T: NumberMan's wares (8000ƶ)",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "200",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Punishes enemy for using fire",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 179,
+      "Name": "AntiElec",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "E, H, N, U, Y, *",
+      "Locations": "E: Trader only;H: NumberMan's wares (9000ƶ);N: Trader only;U: Trader only;Y: Trader only",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "200",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Punishes enemy for using elec",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 180,
+      "Name": "AntiWatr",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A, D, Q, W, Z, *",
+      "Locations": "A: Trader only;D: Trader only;Q: Trader only;W: NumberMan's wares (10000ƶ);Z: Trader only",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "200",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Punishes enemy for using aqua",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 181,
+      "Name": "AntiDmg",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C, J, M, R, S, *",
+      "Locations": "C: Trader only;J: Trader only;M: Trader only;R: Trader only;S: Chip Trading (Airplane)",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Fake pain and throw shurikens!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 182,
+      "Name": "AntiSwrd",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D, H, I, M, T, *",
+      "Locations": "D: Trader only;H: Undernet 7 PMD;I: Trader only;M: Trader only;T: Trader only",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Punishes use of swords",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 183,
+      "Name": "AntiNavi",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "K, L, O, T, X, *",
+      "Locations": "K: Trader only;L: Trader only;O: Trader only;T: Trader only;X: WWW Area 3 PMD",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Take the enemy's Navi away",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 184,
+      "Name": "AntiRecv",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B, D, M, P, W, *",
+      "Locations": "B: Trader only;D: Receive from Doc during the story (Ch. 7);M: UnderKoto PMD;P: Trader only;W: Trader only",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Punish the recovery of HPs!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 185,
+      "Name": "Atk+10",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: Folder1, Famous's Folder, Den Area 3 NetDealer (600ƶ), Bomb Comp 4 BMD",
+      "Traders": "Marine Harbor Lobby, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 4,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "+10 to selected AtkChip!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 186,
+      "Name": "Atk+20",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: Talk to Yai (starting in Ch. 8), Jennifer's chipfolder, Undernet 1 NetDealer (8000ƶ), Undernet 5 PMD",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "+20 to selected AtkChip!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 187,
+      "Name": "Atk+30",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: Koto Square BugFrag shop (8BF)",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 38,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "+30 to selected AtkChip!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 188,
+      "Name": "Fire+40",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: KotoSquare NetDealer (3000ƶ)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Adds 40 to Fire AttackChip",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 189,
+      "Name": "Aqua+40",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: Wide Monitor Comp BMD",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Adds 40 to Aqua AttackChip",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 190,
+      "Name": "Wood+40",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: Millions' Bag BMD",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Adds 40 to Wood AttackChip",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 191,
+      "Name": "Elec+40",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: NumberMan's wares (5000ƶ)",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Adds 40 to Elec AttackChip",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 192,
+      "Name": "Navi+20",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: Famous's Folder, Raoul's Radio BMD, Yumland 2 BMD",
+      "Traders": "Netopia Town, Marine Harbor outside, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "+20 to selected NaviChip!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 193,
+      "Name": "Navi+40",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: WWW Area 3 BMD",
+      "Traders": "Marine Harbor outside",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 42,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "+40 to selected NaviChip!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 194,
+      "Name": "Roll",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "R, *",
+      "Locations": "R: E-Mail from Mayl (Ch. 1);*: Trader only",
+      "Traders": "Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 8,
+      "Damage": "60",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Attacks 1 enemy then heals you",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 195,
+      "Name": "RollV2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "R, *",
+      "Locations": "R: Receive from Mayl (Ch. 5);*: Trader only",
+      "Traders": "Netopia Town (No *), ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "80",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Attacks 1 enemy then heals you",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 196,
+      "Name": "RollV3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "R, *",
+      "Locations": "R: E-Mail from Mayl (Ch. 7)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Attacks 1 enemy then heals you",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 197,
+      "Name": "GutsMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "G, *",
+      "Locations": "G: GutsMan (LV1~S), GutsManV3 (LV5~7);*: Trader only",
+      "Traders": "Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "50",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Creeps and smashes panels!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 198,
+      "Name": "GutsManV2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "G, *",
+      "Locations": "G: GutsManV2 (LV1~S), GutsManV3 (LV7~10)",
+      "Traders": "Netopia Town (No *), ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "70",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Creeps and smashes panels!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 199,
+      "Name": "GutsManV3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "G, *",
+      "Locations": "G: GutsManV3 (LV9~S)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "90",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Creeps and smashes panels!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 200,
+      "Name": "ProtoMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "B, *",
+      "Locations": "B: ProtoManV2 (LV1~S), ProtoManV3 (LV5~7);*: Trader only",
+      "Traders": "ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 52,
+      "Damage": "120",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Swings sword at enemy face",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 201,
+      "Name": "ProtoMnV2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "B, *",
+      "Locations": "B: ProtoManV3 (Lv7~10)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "160",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Swings sword at enemy face",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 202,
+      "Name": "ProtoMnV3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "B, *",
+      "Locations": "B: ProtoManV3 (LV9~S)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 76,
+      "Damage": "200",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Swings sword at enemy face",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 203,
+      "Name": "AirMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "A, *",
+      "Locations": "A: AirManV2 (LV1~S), AirManV3 (LV5~7);*: Trader only",
+      "Traders": "Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 16,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Shoots air twisters in a line",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 204,
+      "Name": "AirManV2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "A, *",
+      "Locations": "A: AirManV3 (Lv7~10);*: Trader only",
+      "Traders": "Netopia Town (No *), ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 34,
+      "Damage": "70",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Shoots air twisters in a line",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 205,
+      "Name": "AirManV3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "A, *",
+      "Locations": "A: AirManV3 (LV9~S);*: Trader only",
+      "Traders": "ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 72,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Shoots air twisters in a line",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 206,
+      "Name": "QuickMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "Q, *",
+      "Locations": "Q: QuickManV2 (LV1~S), QuickManV3 (LV5~7);*: Trader only",
+      "Traders": "Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "50",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Boomerang attacks whole row",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 207,
+      "Name": "QuickMnV2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "Q, *",
+      "Locations": "Q: QuickManV3 (Lv7~10);*: Trader only",
+      "Traders": "Netopia Town (No *), ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 56,
+      "Damage": "70",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Boomerang attacks whole row",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 208,
+      "Name": "QuickMnV3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "Q, *",
+      "Locations": "Q: QuickManV3 (LV9~S);*: Trader only",
+      "Traders": "ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 80,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Boomerang attacks whole row",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 209,
+      "Name": "CutMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "C, *",
+      "Locations": "C: CutManV2 (LV1~S), CutManV3 (LV5~7);*: Trader only",
+      "Traders": "Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "150",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Scissor attacks one square",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 210,
+      "Name": "CutManV2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "C, *",
+      "Locations": "C: CutManV3 (Lv7~10);*: Trader only",
+      "Traders": "Netopia Town (No *), ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 50,
+      "Damage": "200",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Scissor attacks one square",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 211,
+      "Name": "CutManV3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "C, *",
+      "Locations": "C: CutManV3; (LV9~S);*: Trader only",
+      "Traders": "ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 80,
+      "Damage": "300",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Scissor attacks one square",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 212,
+      "Name": "ShadoMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "S, *",
+      "Locations": "S: ShadowMnV2 (LV1~S), ShadowMnV3 (LV5~7);*: Trader only",
+      "Traders": "ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "60",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Splits and shoots 3 shurikens!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 213,
+      "Name": "ShadoMnV2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "S, *",
+      "Locations": "S: ShadowMnV3 (Lv7~10)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 80,
+      "Damage": "70",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Splits and shoots 3 shurikens!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 214,
+      "Name": "ShadoMnV3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "S, *",
+      "Locations": "S: ShadowMnV3 (LV9~S)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 96,
+      "Damage": "80",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Splits and shoots 3 shurikens!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 215,
+      "Name": "KnightMn",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "K, *",
+      "Locations": "K: KnightMnV2 (LV1~S), KnightMnV3 (LV5~7);*: Trader only",
+      "Traders": "ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "160",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Smashes enemies in circle!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 216,
+      "Name": "KnghtMnV2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "K, *",
+      "Locations": "K: KnightMnV3 (Lv7~10)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 80,
+      "Damage": "210",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Smashes enemies in circle!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 217,
+      "Name": "KnghtMnV3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "K, *",
+      "Locations": "K: KnightMnV3 (LV9~S)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 96,
+      "Damage": "260",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Smashes enemies in circle!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 218,
+      "Name": "MagnetMn",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "M, *",
+      "Locations": "M: MagnetMnV2 (LV1~S), MagnetMnV3 (LV5~7);*: Trader only",
+      "Traders": "ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "130",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Bipolar tackle on 1 enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 219,
+      "Name": "MagntMnV2",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "M, *",
+      "Locations": "M: MagnetMnV3 (Lv7~10)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "140",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Bipolar tackle on 1 enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 220,
+      "Name": "MagntMnV3",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "M, *",
+      "Locations": "M: MagnetMnV3 (LV9~S)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 80,
+      "Damage": "150",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Bipolar tackle on 1 enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 221,
+      "Name": "FreezeMn",
+      "ChipType": 2,
+      "Elements": [ 2 ],
+      "Codes": "F, *",
+      "Locations": "F: FreezeMnV2 (LV1~S), FreezeMnV3 (LV5~7);*: Trader only",
+      "Traders": "ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "50",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Rains icicles on enemies",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 222,
+      "Name": "FrzManV2",
+      "ChipType": 2,
+      "Elements": [ 2 ],
+      "Codes": "F, *",
+      "Locations": "F: FreezeMnV3 (Lv7~10)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 80,
+      "Damage": "60",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Rains icicles on enemies",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 223,
+      "Name": "FrzManV3",
+      "ChipType": 2,
+      "Elements": [ 2 ],
+      "Codes": "F, *",
+      "Locations": "F: FreezeMnV3 (LV9~S)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 96,
+      "Damage": "70",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Rains icicles on enemies",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 224,
+      "Name": "HeatMan",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "H, *",
+      "Locations": "H: HeatManV2 (LV1~S), HeatManV3 (LV5~7);*: Trader only",
+      "Traders": "ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Flame attack! Range is 3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 225,
+      "Name": "HeatManV2",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "H, *",
+      "Locations": "H: HeatManV3 (LV7~10)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 80,
+      "Damage": "130",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Flame attack! Range is 3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 226,
+      "Name": "HeatManV3",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "H, *",
+      "Locations": "H: HeatManV3 (LV9~S)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 96,
+      "Damage": "160",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Flame attack! Range is 3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 227,
+      "Name": "ToadMan",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "T, *",
+      "Locations": "T: ToadMan;V: 2; (LV1~S), ToadManV3 (LV5~7);*: Trader only",
+      "Traders": "ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 28,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Shocking melody paralyzes!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 228,
+      "Name": "ToadManV2",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "T, *",
+      "Locations": "T: ToadManV3 (LV7~10)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "140",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Shocking melody paralyzes!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 229,
+      "Name": "ToadManV3",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "T, *",
+      "Locations": "T: ToadManV3 (LV9~S)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 68,
+      "Damage": "180",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Shocking melody paralyzes!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 230,
+      "Name": "ThunMan",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "T, *",
+      "Locations": "T: ThunManV2 (LV1~S), ThunManV3 (LV5~7);*: Trader only",
+      "Traders": "ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "80",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Thunder attacks 3rd line",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 231,
+      "Name": "ThunManV2",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "T, *",
+      "Locations": "T: ThunManV3 (LV7~10)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 60,
+      "Damage": "130",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Thunder attacks 3rd line",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 232,
+      "Name": "ThunManV3",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "T, *",
+      "Locations": "T: ThunManV3 (LV9~S)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 90,
+      "Damage": "180",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Thunder attacks 3rd line",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 233,
+      "Name": "SnakeMan",
+      "ChipType": 2,
+      "Elements": [ 4 ],
+      "Codes": "S, *",
+      "Locations": "S: SnakeManV2 (LV1~S), SnakeManV3 (LV5~7);*: Trader only",
+      "Traders": "ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 25,
+      "Damage": "30",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Main attack and snakes!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 234,
+      "Name": "SnakeMnV2",
+      "ChipType": 2,
+      "Elements": [ 4 ],
+      "Codes": "S, *",
+      "Locations": "S: SnakeManV3 (LV7~10)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 50,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Main attack and snakes!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 235,
+      "Name": "SnakeMnV3",
+      "ChipType": 2,
+      "Elements": [ 4 ],
+      "Codes": "S, *",
+      "Locations": "S: SnakeManV3 (LV9~S)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 75,
+      "Damage": "50",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Main attack and snakes!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 236,
+      "Name": "GateMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "G, *",
+      "Locations": "G: GateManV2 (LV1~S), GateManV3 (LV5~7);*: Trader only",
+      "Traders": "Netopia Town, ACDC Metro Station",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "3 soldiers charge forward!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 237,
+      "Name": "GateManV2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "G, *",
+      "Locations": "G: GateManV3 (LV7~10)",
+      "Traders": "Netopia Town (No *), ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 40,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "4 soldiers charge forward!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 238,
+      "Name": "GateManV3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "G, *",
+      "Locations": "G: GateManV3 (LV9~S)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 56,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "5 soldiers charge forward!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 239,
+      "Name": "PharoMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "P, *",
+      "Locations": "P: PharoManV2 (LV1~S), PharoManV3 (LV5~7)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "240",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Laser-shooting coffin etc.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 240,
+      "Name": "PharoMnV2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "P, *",
+      "Locations": "P: PharoManV3 (LV7~10)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "270",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Laser-shooting coffin etc.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 241,
+      "Name": "PharoMnV3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "P, *",
+      "Locations": "P: PharoManV3 (LV9~S)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "300",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Laser-shooting coffin etc.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 242,
+      "Name": "NapalmMn",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "N, *",
+      "Locations": "N: NapalmMnV2 (LV1~S), NapalmMnV3 (LV5~7)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "220",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Bombs that even break panels!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 243,
+      "Name": "NaplmMnV2",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "N, *",
+      "Locations": "N: NapalmMnV3 (LV7~10)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "240",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Bombs that even break panels!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 244,
+      "Name": "NaplmMnV3",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "N, *",
+      "Locations": "N: NapalmMnV3 (LV9~S)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 80,
+      "Damage": "260",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Bombs that even break panels!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 245,
+      "Name": "PlanetMn",
+      "ChipType": 2,
+      "Elements": [ 4 ],
+      "Codes": "P, *",
+      "Locations": "P: PlanetMnV2 (LV1~S), PlanetMnV3 (LV5~7)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "70",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Planet smashes 1 enemy!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 246,
+      "Name": "PlnetMnV2",
+      "ChipType": 2,
+      "Elements": [ 4 ],
+      "Codes": "P, *",
+      "Locations": "P: PlanetMnV3 (LV7~10)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 80,
+      "Damage": "80",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Planet smashes 1 enemy!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 247,
+      "Name": "PlnetMnV3",
+      "ChipType": 2,
+      "Elements": [ 4 ],
+      "Codes": "P, *",
+      "Locations": "P: PlanetMnV3 (LV9~S)",
+      "Traders": "ACDC Metro Station (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 96,
+      "Damage": "90",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Planet smashes 1 enemy!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 248,
+      "Name": "Bass",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "F, *",
+      "Locations": "F: BassDelux (LV5~7), RealBass (Fixed data after battle)",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 96,
+      "Damage": "50",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Air-burst attack on all lines!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 249,
+      "Name": "BassV2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "F, *",
+      "Locations": "F: BassDelux (LV7~10)",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 96,
+      "Damage": "60",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Air-burst attack on all lines!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 250,
+      "Name": "BassV3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "X, *",
+      "Locations": "X: BassDelux (LV9~S)",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 96,
+      "Damage": "70",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Air-burst attack on all lines!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 251,
+      "Name": "BgRedWav",
+      "ChipType": 1025,
+      "Elements": [ 1 ],
+      "Codes": "F, H, P, R, S, *",
+      "Locations": "F: Network Duel;H: Network Duel;P: Network Duel;R: Network Duel;S: Network Duel;*: (Virtual Console only)",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "220",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Heat chip Creates a lava wave!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 252,
+      "Name": "FreezBom",
+      "ChipType": 1025,
+      "Elements": [ 2 ],
+      "Codes": "A, I, J, Q, U, *",
+      "Locations": "A: Network Duel;I: Network Duel;J: Network Duel;Q: Network Duel;U: Network Duel;*: (Virtual Console only)",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 56,
+      "Damage": "180",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Aqua chip Tosses ice bomb!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 253,
+      "Name": "Sparker",
+      "ChipType": 1025,
+      "Elements": [ 8 ],
+      "Codes": "C, E, G, K, V, *",
+      "Locations": "C: Network Duel;E: Network Duel;G: Network Duel;K: Network Duel;V: Network Duel;*: (Virtual Console only)",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Elec chip A Button to spark!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 254,
+      "Name": "GaiaSwrd",
+      "ChipType": 1025,
+      "Elements": [ 4 ],
+      "Codes": "D, L, N, W, Y, *",
+      "Locations": "D: Network Duel;L: Network Duel;N: Network Duel;W: Network Duel;Y: Network Duel;*: (Virtual Console only)",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 72,
+      "Damage": "200",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Wood chip Steals atk from chip!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 255,
+      "Name": "BlkBomb",
+      "ChipType": 1025,
+      "Elements": [ 1 ],
+      "Codes": "B, F, G, P, R, *",
+      "Locations": "B: Network Duel;F: Network Duel;G: Network Duel;P: Network Duel;R: Network Duel;*: (Virtual Console only)",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "200",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Exploding firebomb attack!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 256,
+      "Name": "FtrSword",
+      "ChipType": 1025,
+      "Elements": [ 0 ],
+      "Codes": "A, I, L, S, Y, *",
+      "Locations": "A: Network Duel;I: Network Duel;L: Network Duel;S: Network Duel;Y: Network Duel;*: Network Duel",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 50,
+      "Damage": "100",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Normal sword. 3 spaces fwd",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 257,
+      "Name": "KngtSwrd",
+      "ChipType": 1025,
+      "Elements": [ 0 ],
+      "Codes": "F, J, K, M, Q, *",
+      "Locations": "F: Network Duel;J: Network Duel;K: Network Duel;M: Network Duel;Q: Network Duel;*: (Virtual Console only)",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "150",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Normal sword. 3 spaces fwd",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 258,
+      "Name": "HeroSwrd",
+      "ChipType": 1025,
+      "Elements": [ 0 ],
+      "Codes": "E, N, O, T, Z, *",
+      "Locations": "E: Network Duel;N: Network Duel;O: Network Duel;T: Network Duel;Z: Unobtainable;*: (Virtual Console only)",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 90,
+      "Damage": "200",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Normal sword. 3 spaces fwd",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 259,
+      "Name": "Meteors",
+      "ChipType": 1025,
+      "Elements": [ 1 ],
+      "Codes": "B, H, O, R, V, *",
+      "Locations": "B: Network Duel;H: Network Duel;O: Network Duel;R: Network Duel;V: Network Duel;*: (Virtual Console only)",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 68,
+      "Damage": "40",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Shooting stars shot at enemy!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 260,
+      "Name": "Poltrgst",
+      "ChipType": 1025,
+      "Elements": [ 0 ],
+      "Codes": "E, P, R, U, W, *",
+      "Locations": "E: (GBA) Unobtainable, (BNLC) Network Duel;P: Network Duel;R: Network Duel;U: Network Duel;W: Network Duel;*: (Virtual Console only)",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 50,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Items are thrown at the enemy!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 261,
+      "Name": "GateSP",
+      "ChipType": 1026,
+      "Elements": [ 0 ],
+      "Codes": "G, *",
+      "Locations": "G: Event distribution, (BNLC) Download Chip",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 50,
+      "Damage": "300",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Cannon of another dimension!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 262,
+      "Name": "FireGspl",
+      "ChipType": 1026,
+      "Elements": [ 1 ],
+      "Codes": "X, *",
+      "Locations": "X: Event distribution, (BNLC) Download Chip",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 96,
+      "Damage": "600",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Gospel's breath of fire!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 263,
+      "Name": "AquaGspl",
+      "ChipType": 1026,
+      "Elements": [ 2 ],
+      "Codes": "X, *",
+      "Locations": "X: Event distribution, (BNLC) Download Chip",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 96,
+      "Damage": "600",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Gospel's breath of water!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 264,
+      "Name": "ElecGspl",
+      "ChipType": 1026,
+      "Elements": [ 8 ],
+      "Codes": "X, *",
+      "Locations": "X: Event distribution, (BNLC) Download Chip",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 96,
+      "Damage": "600",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Gospel's electric breath!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 265,
+      "Name": "WoodGspl",
+      "ChipType": 1026,
+      "Elements": [ 4 ],
+      "Codes": "X, *",
+      "Locations": "X: Event distribution, (BNLC) Download Chip",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 96,
+      "Damage": "600",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Breath of wood that slices!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 266,
+      "Name": "Snctuary",
+      "ChipType": 1025,
+      "Elements": [ 0 ],
+      "Codes": "A, C, E, L, S, *",
+      "Locations": "A: Appears in normal Continue's Pack after clearing Hard Mode once;C: Appears in normal Continue's Pack after clearing Hard Mode once;E: Appears in normal Continue's Pack after clearing Hard Mode once;L: Appears in normal Continue's Pack after clearing Hard Mode once;S: Appears in normal Continue's Pack after clearing Hard Mode once",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 99,
+      "Damage": "-",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Turns your panels holy!",
+      "Notes": "",
+      "Image": ""
+    }
+  ]
+}

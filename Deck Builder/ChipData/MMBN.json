@@ -1,0 +1,4240 @@
+{
+  "Name": "Mega Man Battle Network",
+  "Rules": {
+    "MaxFolderSize": 30,
+    "MaxMegaChips": 5,
+    "MaxGigaChips": 0,
+    "MaxDarkChips": 0,
+    "MaxSameStandardChip": 10,
+    "MaxSameMegaChip": 5,
+    "MaxSameGigaChip": 0,
+    "MaxSameDarkChip": 0,
+    "MaxCustomChips": 10
+  },
+  "Battlechips": [
+    {
+      "Number": 1,
+      "Name": "Cannon",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,B,C,D,E",
+      "Locations": "A: Starting Folder, Canodumb (LV5~7);B: Starting Folder, Canodumb (LV7~10);C: Internet 1 Net Merchant (3000ƶ), School Comp 5 FMD (Ch.2 - missable), Internet 2 RMD, Chip Exchanger;D: Canodumb (LV9~S);E: Higsby's (1000ƶ), Undernet 5 RMD, Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A nice, big cannon!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 2,
+      "Name": "HiCannon",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "F,G,H,I,J",
+      "Locations": "F: Canodumb2 (LV5~7);G: Canodumb2 (LV7~10);H: Canodumb2 (LV9~S);I: School Comp 2 FMD, Undernet 2 RMD, Chip Exchanger;J: Large Monitor Comp FMD, Undernet 5 RMD, Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A nice, big cannon!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 3,
+      "Name": "M-Cannon",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "K,L,M,N,O",
+      "Locations": "K: Canodumb3 (LV5~7);L: Internet 3 Net Merchant (10000ƶ), Undernet 6 Net Merchant (10000ƶ), Waterworks Comp 4 FMD, Undernet 8 RMD, Chip Exchanger;M: Canodumb3 (LV9~S);N: Undernet 6 RMD, Undernet 10 RMD, Chip Exchanger;O: Canodumb3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A nice, big cannon!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 4,
+      "Name": "Shotgun",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "K,M,N,Q,R",
+      "Locations": "K: Chip Trading (Infirmary), Doghouse Comp FMD, Internet 1 RMD, Chip Exchanger;M: Chip Exchanger;N: Starting Folder;Q: Oven Comp 1 FMD (Ch.1 - missable), Over Comp 2 FMD (Ch.1 - missable), Chip Exchanger;R: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hits enemy and keeps going 1pnl",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 5,
+      "Name": "CrossGun",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,E,F,J,K",
+      "Locations": "C: E-Mail from Dad (Ch. 1), Chip Exchanger;E: Chip Exchanger;F: Undernet 6 RMD, Chip Exchanger;J: Starting Folder;K: New Game Machine FMD, Internet 2 RMD, Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "4-panel diagonal blast",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 6,
+      "Name": "Spreader",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H,I,J,K,L",
+      "Locations": "H: School Comp 3 FMD, Internet 3 RMD, Chip Exchanger;I: Given by Glide (Ch. 1), Internet 1 Net Merchant (1000ƶ), Undernet 2 RMD, Chip Exchanger;J: Examine Class 5-B bookshelf, Waterworks Vending Machine Comp FMD, Internet 3 RMD, Chip Exchanger;K: Higsby's (1000ƶ), Undernet 3 RMD, Chip Exchanger;L: Undernet 5 RMD, Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Gun with a 1-panel blast",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 7,
+      "Name": "Bubbler",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A,K,L,P,S",
+      "Locations": "A: Puffy (LV7~10);K: Traffic Light Comp 1 FMD, Chip Exchanger;L: Chip Exchanger;P: Puffy (LV5~7);S: Puffy (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bubbles w/ a 1-panel blast",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 8,
+      "Name": "Heater",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "C,F,G,K,O",
+      "Locations": "C: Chip Exchanger;F: Buffy (LV5~7);G: Buffy (LV7~10);K: Buffy (LV9~S);O: Traffic Light Comp 3 FMD, Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fire with a 1-panel blast",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 9,
+      "Name": "MiniBomb",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,E,J,L,P",
+      "Locations": "C: Starting Folder;E: Chip Exchanger;J: Chip Exchanger;L: Starting Folder;P: Internet 2 RMD",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throw a bomb! Depth=3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 10,
+      "Name": "LilBomb",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,D,G,O,T",
+      "Locations": "B: Beetank (LV7~10), Chip Exchanger;D: Beetank (LV9~S);G: Internet 4 RMD;O: Beetank (LV5~7);T: Oven Comp 2 FMD (Ch.1 - missable), Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throw a bomb! Depth=3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 11,
+      "Name": "CrosBomb",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,D,H,J,L",
+      "Locations": "B: Beetank2 (LV9~S), Chip Exchanger;D: Beetank2 (LV7~10);H: Beetank2 (LV5~7);J: Chip Exchanger;L: Undernet 8 RMD",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cross bomb Depth=3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 12,
+      "Name": "BigBomb",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,G,O,S,T",
+      "Locations": "B: Beetank3 (LV9~S);G: Super Exchanger only;O: Beetank3 (LV7~10);S: Super Exchanger only;T: Beetank3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bomb with a big boom Depth=3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 13,
+      "Name": "Sword",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,K,L,P,S",
+      "Locations": "B: Oven Comp 1 FMD (Ch.1 - missable), Undernet 9 RMD;K: Swordy2 (LV5~7), Undernet 9 RMD;L: Swordy3 (LV5~7), Undernet 9 RMD;P: Swordy3 (LV7~10);S: Starting Folder, Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cut down enemies Range=1",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 14,
+      "Name": "WideSwrd",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,K,M,N,S",
+      "Locations": "C: Waterworks Comp 3 FMD, Chip Exchanger;K: Internet 1 Net Merchant (1000ƶ), Chip Exchanger;M: Chip Exchanger;N: Chip Exchanger;S: Starting Folder, Swordy (LV9~S), Internet 3 Net Merchant (3000ƶ), Undernet 6 FMD, Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cut down column! Range=1",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 15,
+      "Name": "LongSwrd",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D,E,N,O,S",
+      "Locations": "D: Swordy (LV5~7);E: Undernet 6 Net Merchant (5000ƶ), Chip Exchanger;N: Chip Exchanger;O: Internet 4 RMD;S: Swordy (LV7~10), Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cut down enemies! Range=2",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 16,
+      "Name": "FtrSwrd",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,K,L,P,S",
+      "Locations": "B: Internet 3 FMD;K: Chip Exchanger;L: Undernet 9 RMD, Chip Exchanger;P: WWW Comp 2 FMD, Chip Exchanger;S: Higsby's (12000ƶ), Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Warrior's sword Range=3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 17,
+      "Name": "KngtSwrd",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,C,E,G,H",
+      "Locations": "B: Undernet 8 FMD;C: Undernet 12 RMD;E: Super Exchanger only;G: Chip Trading (Behind Yai's house);H: Super Exchanger only",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Knight's sword Range=3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 18,
+      "Name": "HeroSwrd",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,D,F,I,J",
+      "Locations": "B: Chip Trading (Filter Room);D: Super Exchanger only;F: Super Exchanger only;I: Undernet 12 FMD;J: Super Exchanger only",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Legendary sword Range=3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 19,
+      "Name": "FireSwrd",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "B,F,G,N,P",
+      "Locations": "B: Swordy2 (LV7~10);F: Chip Exchanger;G: Chip Exchanger;N: Swordy2 (LV9~S);P: WWW Comp 1 FMD, Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts down column Range=1",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 20,
+      "Name": "AquaSwrd",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A,M,N,O,P",
+      "Locations": "A: Internet 4 FMD, Chip Exchanger;M: Chip Exchanger;N: Swordy3 (LV9~S);O: Chip Exchanger;P: Swordy3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts down column Range=1",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 21,
+      "Name": "ElecSwrd",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "E,G,L,O,S",
+      "Locations": "E: Higsby's (5000ƶ), Chip Exchanger;G: Chip Exchanger;L: Chip Exchanger;O: Chip Exchanger;S: Undernet 6 RMD",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts down column Range=1",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 22,
+      "Name": "Muramasa",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,E,G,J,K",
+      "Locations": "C: Super Exchanger only;E: Super Exchanger only;G: Super Exchanger only;J: Super Exchanger only;K: ShadowManSP (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Do damage = to your HP loss",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 23,
+      "Name": "ShokWave",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,K,L,N,P",
+      "Locations": "C: Mettool (LV9~S), Chip Exchanger;K: Mettool (LV7~10);L: School Comp 1 FMD, Chip Exchanger;N: Chip Exchanger;P: Internet 3 RMD",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Piercing ground wave",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 24,
+      "Name": "SoniWave",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,D,J,M,S",
+      "Locations": "C: Mettool2 (LV9~S), Chip Exchanger;D: Mettool2 (LV7~10);J: Waterworks Comp 1 FMD, Chip Exchanger;M: Mettool2 (LV5~7);S: Undernet 2 RMD",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Piercing ground wave",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 25,
+      "Name": "DynaWave",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,E,M,R,S",
+      "Locations": "C: Mettool3 (LV9~S), Chip Exchanger;E: Chip Exchanger;M: Mettool3 (LV5~7);R: Chip Trading (Behind Mayl's house), Chip Exchanger;S: Mettool3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Piercing ground wave",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 26,
+      "Name": "FireTowr",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "E,F,L,M,T",
+      "Locations": "E: VolGear (LV9~S);F: VolGear (LV7~10);L: Chip Exchanger;M: VolGear (LV9~S);T: Traffic Light Comp 3 FMD, Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fire that can move up & down",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 27,
+      "Name": "AquaTowr",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A,C,G,H,R",
+      "Locations": "A: Chip Exchanger;C: Traffic Light Comp 5 FMD, Chip Exchanger;G: VolGear2 (LV9~S);H: VolGear2 (LV7~10);R: VolGear2 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Water that can move up & down",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 28,
+      "Name": "WoodTowr",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "B,C,H,K,N",
+      "Locations": "B: Popper (LV9~S);C: Popper (LV7~10);H: Chip Exchanger;K: Popper (LV5~7);N: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Log that can move up & down",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 29,
+      "Name": "Quake1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,E,H,K,Q",
+      "Locations": "A: Flappy (LV7~10), School Comp 4 FMD, Chip Exchanger;E: Internet 4 RMD;H: Flappy (LV5~7);K: Flappy (LV9~S);Q: Flappy (LV9~S), Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cracks a panel Depth=3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 30,
+      "Name": "Quake2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,C,I,K,Q",
+      "Locations": "B: Flappy2 (LV9~S);C: Flappy2 (LV7~10);I: Chip Exchanger;K: Chip Exchanger;Q: Flappy2 (LV5~7), Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cracks a panel Depth=3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 31,
+      "Name": "Quake3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,D,H,M,Q",
+      "Locations": "C: Big Vase Comp FMD, Undernet 12 RMD, Chip Exchanger;D: Flappy3 (LV9~S);H: Chip Exchanger;M: Flappy3 (LV7~10);Q: Flappy3 (LV5~7), Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cracks a panel Depth=3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 32,
+      "Name": "GutsPnch",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,H,M,N,T",
+      "Locations": "B: GutsManV3 (LV5~7), Chip Exchanger;H: Chip Exchanger;M: GutsManV3 (LV4~5);N: Chip Exchanger;T: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Knocks stuff over Range=1",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 33,
+      "Name": "IcePunch",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "B,H,M,N,T",
+      "Locations": "B: Waterworks Comp 3 FMD, Undernet 1 RMD, Chip Exchanger;H: Chip Exchanger;M: Undernet 8 Net Merchant (5000ƶ), Internet 4 RMD, Undernet 1 RMD;N: Chip Exchanger;T: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Knocks stuff over Range=1",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 34,
+      "Name": "Dash",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,D,G,L,O",
+      "Locations": "B: Fishy (LV7~10), Chip Exchanger;D: Fishy (LV5~7);G: Fishy (LV9~S), Undernet 11 Net Merchant (3000ƶ), Chip Exchanger;L: Chip Exchanger;O: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Knock over all in your path!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 35,
+      "Name": "Howitzer",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,C,G,H,O",
+      "Locations": "A: Super Exchanger only[1];C: Super Exchanger only;G: Super Exchanger only;H: HardHead (LV9~S);O: Super Exchanger only",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Breaks panels Depth=3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 36,
+      "Name": "TriArrow",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,B,C,D,E",
+      "Locations": "A: Piranha (LV9~S), Waterworks Comp 3 FMD, Undernet 1 RMD, Chip Exchanger;B: Piranha (LV9~S);C: Piranha (LV7~10);D: Piranha (LV7~10);E: Piranha (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fires a 3-arrow burst",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 37,
+      "Name": "TriSpear",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "F,G,H,I,J",
+      "Locations": "F: Piranha2 (LV5~7);G: Piranha2 (LV7~10);H: Piranha2 (LV9~S);I: Piranha2 (LV9~S);J: Piranha2 (LV7~10), Undernet 1 Net Merchant (10000ƶ), Fish Stand Comp FMD (respawn), Undernet 3 RMD, Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fires a 3-spear burst",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 38,
+      "Name": "TriLance",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "K,L,M,N,O",
+      "Locations": "K: Piranha3 (LV5~7);L: Piranha3 (LV7~10);M: Internet 1 FMD, Undernet 10 RMD;N: Piranha3 (LV9~S);O: Piranha3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fires a 3-lance burst",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 39,
+      "Name": "Ratton1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,B,C,D,E",
+      "Locations": "A: Ratty (LV5~7);B: Ratty (LV7~10);C: Ratty (LV7~10);D: Ratty (LV9~S), Power Plant Comp 1 FMD, Undernet 4 RMD, Chip Exchanger;E: Quiz Kid (Summer School), Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Missile that can turn once",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 40,
+      "Name": "Ratton2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "F,G,H,I,J",
+      "Locations": "F: Ratty2 (LV5~7);G: Ratty2 (LV7~10), Undernet 1 Net Merchant (10000ƶ), Undernet 6 RMD, Chip Exchanger;H: Ratty2 (LV7~10);I: Ratty2 (LV9~S);J: Undernet 11 RMD, Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Missile that can turn once",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 41,
+      "Name": "Ratton3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "K,L,M,N,O",
+      "Locations": "K: Undernet 12 RMD, Chip Exchanger;L: Ratty3 (LV5~7);M: Quiz Master (Front of Power Plant Control room), Chip Exchanger;N: Ratty3 (LV7~10);O: Ratty3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Missile that can turn once",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 42,
+      "Name": "Wave",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A,D,I,L,M",
+      "Locations": "A: Jelly (LV9~S), Undernet 11 Net Merchant (10000ƶ);D: Chip Exchanger;I: Jelly (LV9~S);L: Chip Exchanger;M: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3-row wave! [Aqua]",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 43,
+      "Name": "RedWave",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "B,E,J,N,P",
+      "Locations": "B: Chip Exchanger;E: Chip Exchanger;J: Undernet 11 FMD, Chip Exchanger;N: HeatJelly (LV9~S);P: HeatJelly (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3-row lava wave! [Fire]",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 44,
+      "Name": "BigWave",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "C,H,K,L,Q",
+      "Locations": "C: Super Exchanger only;H: BigJelly (LV9~S);K: WWW Comp 5 FMD;L: Super Exchanger only;Q: BigJelly (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3-row giant wave! [Aqua]",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 45,
+      "Name": "Gaia1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,D,L,O,T",
+      "Locations": "C: Gaia (LV9~S);D: Gaia (LV7~10);L: Super Exchanger only;O: Chip Exchanger;T: Gaia (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Rolling 3-column explosion!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 46,
+      "Name": "Gaia2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,F,K,P,S",
+      "Locations": "C: Gaia2 (LV9~S);F: Super Exchanger only;K: Gaia2 (LV7~10);P: Super Exchanger only;S: Gaia2 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Rolling 3-column explosion!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 47,
+      "Name": "Gaia3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,G,M,N,T",
+      "Locations": "C: Gaia3 (LV9~S);G: Super Exchanger only;M: Gaia3 (LV7~10);R: Super Exchanger only;T: Super Exchanger only",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Rolling 3-column explosion!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 48,
+      "Name": "Thunder1",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "A,E,G,H,S",
+      "Locations": "A: Billy (LV7~10);E: Chip Exchanger;G: Billy (LV9~S);H: Undernet 1 FMD, Chip Exchanger;S: Billy (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A rolling lightning attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 49,
+      "Name": "Thunder2",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "B,C,F,I,L",
+      "Locations": "B: Chip Exchanger;C: Undernet 7 RMD, Chip Exchanger;F: Silly (LV7~10);I: Silly (LV5~7);L: Silly (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A rolling lightning attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 50,
+      "Name": "Thunder3",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "D,F,G,K,N",
+      "Locations": "D: Killy (LV9~S);F: Killy (LV5~7);G: Chip Exchanger;K: Chip Exchanger;N: Killy (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A rolling lightning attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 51,
+      "Name": "RingZap1",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "G,H,M,N,P",
+      "Locations": "G: Prog Mk1 (LV9~S);H: Undernet 5 FMD, Chip Exchanger;M: Chip Exchanger;N: Prog Mk1 (LV7~10);P: Prog Mk1 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Lightning circles you once",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 52,
+      "Name": "RingZap2",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "C,E,G,J,L",
+      "Locations": "C: Prog Mk2 (LV9~S);E: Chip Exchanger;G: Chip Exchanger;J: Prog Mk2 (LV9~S);L: Prog Mk2 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Lightning circles you twice",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 53,
+      "Name": "RingZap3",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "A,B,O,R,T",
+      "Locations": "A: Prog Mk3 (LV9~S);B: Prog Mk3 (LV7~10);O: Chip Exchanger;R: Chip Exchanger;T: Prog Mk3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Lightning circles you thrice",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 54,
+      "Name": "Typhoon",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,B,D,E,G",
+      "Locations": "A: Fan (LV9~S);B: Fan (LV7~10);D: Power Plant Comp 4 FMD, Chip Exchanger;E: Undernet 4 RMD, Chip Exchanger;G: Fan (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Creates a twister w/ 3 hits",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 55,
+      "Name": "Huricane",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "G,I,J,K,L",
+      "Locations": "G: Fan2 (LV5~7);I: Fan2 (LV7~10);J: Fan2 (LV9~S);K: Chip Exchanger;L: WWW Comp 2 FMD, Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Creates a twister w/ 5 hits",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 56,
+      "Name": "Cyclone",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E,F,G,H,I",
+      "Locations": "E: Chip Exchanger;F: Fan3 (LV7~10);G: Fan3 (LV5~7);H: Fan3 (LV9~S);I: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Creates a twister w/ 8 hits",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 57,
+      "Name": "Snakegg1",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "B,E,G,M,N",
+      "Locations": "B: Anaconda (LV7~10);E: Anaconda (LV5~7);G: Chip Exchanger;M: Anaconda (LV9~S);N: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Squirming snake attack!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 58,
+      "Name": "Snakegg2",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "C,E,H,N,P",
+      "Locations": "C: Anaconda2 (LV9~S);E: Anaconda2 (LV9~S);H: Chip Exchanger;N: Chip Exchanger;P: Anaconda2 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Shocking snake attack!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 59,
+      "Name": "Snakegg3",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "A,C,F,L,S",
+      "Locations": "A: Anaconda3 (LV9~S);C: Anaconda3 (LV7~10);F: Chip Exchanger;L: Chip Exchanger;S: Anaconda3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Scorching snake attack!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 60,
+      "Name": "Drain1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,B,D,K,O",
+      "Locations": "A: Drain (LV9~S);B: Chip Exchanger;D: Chip Exchanger;K: Drain (LV7~10);O: Drain (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Charge to drain HP from enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 61,
+      "Name": "Drain2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,C,H,N,T",
+      "Locations": "A: Drain2 (LV9~S);C: Chip Exchanger;H: Chip Exchanger;N: Drain2 (LV7~10);T: Drain2 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Charge to drain HP from enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 62,
+      "Name": "Drain3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,E,F,L,Q",
+      "Locations": "A: Drain3 (LV9~S);E: Chip Exchanger;F: Drain3 (LV7~10);L: Chip Exchanger;Q: Drain3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Charge to drain HP from enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 63,
+      "Name": "BodyBurn",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "E,F,K,M,N",
+      "Locations": "E: Fishy2 (LV9~S);F: Fishy2 (LV7~10);K: Fishy2 (LV9~S);M: Super Exchanger only;N: Super Exchanger only",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Engulf all around you in flames!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 64,
+      "Name": "X-Panel1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,D,G,L,S",
+      "Locations": "B: Examine desks in school 2F Hallway, Chip Exchanger;D: Chip Exchanger;G: Undernet 8 RMD;L: Starting Folder;S: Undernet 1 Net Merchant (1000ƶ), Internet 1 RMD",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Erase 1 panel Range=1",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 65,
+      "Name": "X-Panel3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,D,G,L,S",
+      "Locations": "B: Dex's PC Comp (respawn);D: Chip Exchanger;G: Internet 3 Net Merchant (3000ƶ), Power Plant Comp 1 FMD;L: Higsby's (3000ƶ), Chip Exchanger;S: Chip Trading (ACDC Metroline)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Erase column Range=1",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 66,
+      "Name": "Hammer",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,F,I,M,Q",
+      "Locations": "A: Chip Exchanger;F: Undernet 4 RMD;I: Internet 3 Net Merchant (2000ƶ), Chip Exchanger;M: Chip Trading (Govt Complex Hall), Undernet 10 RMD;Q: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Breaks cubes Range=1",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 67,
+      "Name": "MetGuard",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,C,E,G,L",
+      "Locations": "A: Mettool (LV5~7), Internet 1 RMD;C: Chip Exchanger;E: Chip Exchanger;G: Mettool (LV4~5), Mettool2 (LV5~7), Chip Exchanger;L: Mettool3 (LV4~5)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hold A Btn for 3 sec defense!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 68,
+      "Name": "IronShld",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,B,O,R,T",
+      "Locations": "A: Froshell (LV9~S), Chip Exchanger;B: Froshell (LV7~10), Chip Exchanger;O: Froshell (LV5~7), Chip Exchanger;R: Froshell (LV4~5), Chip Exchanger;T: Froshell (LV1~4), Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hold btn. to create shield!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 69,
+      "Name": "Recov10",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "A,C,E,G,L",
+      "Locations": "A: Starting Folder, Examine Lan's House dinner table (Ch.1 - missable);C: Spooky3 (LV1~4);E: Super Exchanger only;G: Spooky (LV4~5), Internet 1 RMD;L: Spooky3 (LV1~4)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "10",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recover 10HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 70,
+      "Name": "Recov30",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "A,C,E,G,L",
+      "Locations": "A: Super Exchanger only;C: Spooky3 (LV4~5);E: Chip Exchanger;G: Internet 2 RMD;L: Yai's Portrait Comp FMD (respawn), Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recover 30HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 71,
+      "Name": "Recov50",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "A,C,E,G,L",
+      "Locations": "A: Spooky2 (LV7~10);C: Chip Exchanger;E: Spooky3 (LV4~5);G: Examine medicine cabinet in Infirmary;L: Mayl's Piano Comp FMD (respawn), Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recover 50HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 72,
+      "Name": "Recov80",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "A,C,E,G,L",
+      "Locations": "A: Spooky2 (LV9~S);C: Waterworks Comp 2 FMD, Internet 3 RMD;E: Higsby's (3000ƶ), Chip Exchanger;G: NPC Quest (by ACDC metro), Traffic Light Comp 5 FMD, Chip Exchanger;L: Spooky3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recover 80HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 73,
+      "Name": "Recov120",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "A,C,E,G,L",
+      "Locations": "A: Lunch Stand Comp FMD (respawn), Undernet 3 RMD;C: Power Plant Comp 1 FMD, Undernet 4 RMD, Undernet 11 RMD;E: Chip Exchanger;G: Chip Exchanger;L: Spooky3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recover 120HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 74,
+      "Name": "Recov150",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "A,C,E,G,L",
+      "Locations": "A: Undernet 9 FMD, Chip Exchanger;C: Undernet 10 RMD, Undernet 1 Net Merchant (10000ƶ);E: Undernet 5 RMD;G: Spooky3 (LV7~10);L: Higsby's (10000ƶ), Undernet 11 RMD",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recover 150HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 75,
+      "Name": "Recov200",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "A,C,E,G,L",
+      "Locations": "A: Spooky3 (LV9~S);C: WWW Comp 1 FMD, Undernet 12 RMD;E: Chip Exchanger;G: Undernet 8 RMD;L: Control Comp (Waterworks) FMD",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recover 200HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 76,
+      "Name": "Recov300",
+      "ChipType": 1,
+      "Elements": [ 64 ],
+      "Codes": "A,C,E,G,L",
+      "Locations": "A: Super Exchanger only;C: Chip Trading (Den Block 3);E: Super Exchanger only;G: Super Exchanger only;L: WWW Comp 3 FMD",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "300",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recover 300HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 77,
+      "Name": "Steal",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,E,L,P,S",
+      "Locations": "A: Oven Comp 1 FMD (Ch.1 - missable), Undernet 6 Net Merchant (10000ƶ), Chip Exchanger;E: Chip Exchanger;L: Higsby's (5000ƶ), Chip Exchanger;P: Chip Exchanger;S: Starting Folder",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "10",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Steal left column of enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 78,
+      "Name": "Geddon1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "F,H,J,L,N",
+      "Locations": "F: Chip Exchanger;H: Higsby's (3000ƶ), Chip Exchanger;J: Chip Exchanger;L: Undernet 8 Net Merchant (5000ƶ), Chip Exchanger;N: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "All panels become cracked!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 79,
+      "Name": "Geddon2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,B,E,I,K",
+      "Locations": "A: Undernet 8 Net Merchant (8000ƶ);B: Super Exchanger only;E: Super Exchanger only;I: Super Exchanger only;K: Higsby's (8000ƶ)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Erases all empty panels",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 80,
+      "Name": "Escape",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "F,H,J,L,N",
+      "Locations": "F: Starting Folder, Chip Exchanger;H: Examine bookshelf in school Library, Chip Exchanger;J: Telephone Comp FMD, Chip Exchanger;L: TV Comp FMD, Chip Exchanger;N: Traffic Light Comp 2 FMD, Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Escape from most enemies",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 81,
+      "Name": "Interupt",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "F,H,J,L,N",
+      "Locations": "F: Chip Exchanger;H: Chip Exchanger;J: Chip Exchanger;L: Higsby's (8000ƶ), Chip Exchanger;N: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Destroy enemy chip data",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 82,
+      "Name": "Repair",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,G,H,K,S",
+      "Locations": "A: Examine teacher's desk in AV Room, Chip Exchanger;G: NPC Quest (by Vending Machine at Waterworks), Undernet 11 Net Merchant (3000ƶ), Undernet 7 RMD;H: Chip Trading (Class 1-B), Chip Exchanger;K: Chip Exchanger;S: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Repair panels in your area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 83,
+      "Name": "TimeBom1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E,G,J,L,Q",
+      "Locations": "E: Chip Exchanger;G: Chip Exchanger;J: Handy (LV7~10);L: Handy (LV9~S);Q: Undernet 7 RMD, Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sets time bomb in enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 84,
+      "Name": "TimeBom2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,F,J,L,S",
+      "Locations": "C: Handy2 (LV9~S);F: Chip Exchanger;J: Handy2 (LV7~10);L: Chip Exchanger;S: Undernet 1 Net Merchant (8000ƶ), Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sets time bomb in enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 85,
+      "Name": "TimeBom3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,B,G,O,P",
+      "Locations": "A: Super Exchanger only;B: Handy3 (LV9~S);G: Handy3 (LV7~10);O: Handy3 (LV5~7);P: WWW Comp 4 FMD",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sets time bomb in enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 86,
+      "Name": "Cloud",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "B,G,H,O,R",
+      "Locations": "B: Cloudy (LV9~S);G: Chip Exchanger;H: Undernet 3 RMD;O: Cloudy (LV7~10);R: Cloudy (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Rains up & down on 1 column",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 87,
+      "Name": "Cloudier",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A,D,I,M,P",
+      "Locations": "A: Internet 4 Net Merchant (5000ƶ), Chip Exchanger;D: Chip Exchanger;I: Cloudy2 (LV5~7);M: Cloudy2 (LV7~10);P: Cloudy2 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Rains up & down on 1 column",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 88,
+      "Name": "Cloudest",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "C,F,J,K,O",
+      "Locations": "C: Cloudy3 (LV9~S);F: Chip Exchanger;J: Chip Exchanger;K: Cloudy3 (LV7~10);O: Cloudy3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Rains up & down on 1 column",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 89,
+      "Name": "Mine1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "G,H,M,N,P",
+      "Locations": "G: Miney (LV7~10);H: Miney (LV9~S);M: Miney (LV9~S);N: Chip Exchanger;P: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hides a mine in enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 90,
+      "Name": "Mine2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,E,G,J,L",
+      "Locations": "C: Miney2 (LV5~7);E: Chip Exchanger;G: Chip Exchanger;J: Miney2 (LV7~10);L: Miney2 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "180",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hides a mine in enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 91,
+      "Name": "Mine3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,B,O,R,T",
+      "Locations": "A: Miney3 (LV7~10);B: Miney3 (LV9~S);O: Super Exchanger only;R: Super Exchanger only;T: Miney3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hides a mine in enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 92,
+      "Name": "Dynamyt1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,G,O,Q,S",
+      "Locations": "B: Poitton (LV9~S);G: Chip Exchanger;O: Poitton (LV7~10);Q: Poitton (LV5~7);S: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Looks right for enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 93,
+      "Name": "Dynamyt2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,C,K,M,N",
+      "Locations": "A: Poitton2 (LV9~S);C: Poitton2 (LV7~10);K: Poitton2 (LV5~7);M: Chip Exchanger;N: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Looks diagonally for enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 94,
+      "Name": "Dynamyt3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "G,K,M,O,P",
+      "Locations": "G: Poitton3 (LV5~7);K: Poitton3 (LV7~10);M: Poitton3 (LV9~S);O: Chip Exchanger;P: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Looks up & down for enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 95,
+      "Name": "Remobit1",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "A,C,F,N,O",
+      "Locations": "A: Twisty (LV7~10);C: Twisty (LV9~S);F: Chip Exchanger;N: Undernet 3 FMD, Chip Exchanger;O: Twisty (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Remote control smasher!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 96,
+      "Name": "Remobit2",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "B,D,E,H,I",
+      "Locations": "B: Chip Exchanger;D: Twisty2 (LV9~S);E: Twisty2 (LV5~7);H: Chip Exchanger;I: Twisty2 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Remote control smasher!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 97,
+      "Name": "Remobit3",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "G,J,K,P,Q",
+      "Locations": "G: Twisty3 (LV5~7);J: Chip Exchanger;K: Chip Exchanger;P: Twisty3 (LV7~10);Q: Twisty3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Remote control smasher!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 98,
+      "Name": "Lockon1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,D,H,I,L",
+      "Locations": "C: Chip Exchanger;D: Satella (LV9~S);H: Satella (LV7~10);I: Satella (LV5~7);L: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "10",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Creates a lock on satellite!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 99,
+      "Name": "Lockon2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,E,G,H,M",
+      "Locations": "B: Chip Exchanger;E: Satella2 (LV9~S);G: Satella2 (LV7~10);H: Satella2 (LV5~7);M: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "15",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Creates a lock on satellite!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 100,
+      "Name": "Lockon3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,D,K,N,O",
+      "Locations": "A: Chip Exchanger;D: Satella3 (LV9~S);K: Satella3 (LV7~10);N: Satella3 (LV5~7);O: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "20",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Creates a lock on satellite!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 101,
+      "Name": "Candle1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,F,I,P,S",
+      "Locations": "C: CanDevil (LV9~S);F: Chip Exchanger;I: Chip Exchanger;P: CanDevil (LV7~10);S: CanDevil (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Set candle & recover some HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 102,
+      "Name": "Candle2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,E,G,J,L",
+      "Locations": "B: CanDevil2 (LV7~10);E: CanDevil2 (LV7~10);G: CanDevil2 (LV9~S);J: Chip Exchanger;L: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Set candle & recover some HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 103,
+      "Name": "Candle3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,D,H,K,M",
+      "Locations": "A: CanDevil3 (LV9~S);D: Super Exchanger only;H: CanDevil3 (LV7~10);K: Super Exchanger only;M: CanDevil3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Set candle & recover some HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 104,
+      "Name": "Anubis",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,L,N,Q,T",
+      "Locations": "C: Super Exchanger only;L: PharaohManSP (LV9~S);N: Super Exchanger only;Q: Super Exchanger only;T: Super Exchanger only",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Set Anubis statue to reduce HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 105,
+      "Name": "IceCube",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A,C,I,L,M",
+      "Locations": "A: ColdBear (LV5~7);C: ColdBear (LV7~10);I: Internet 4 Net Merchant (3000ƶ), Chip Exchanger;L: ColdBear (LV9~S);M: ColdBear (LV7~10), Undernet 1 RMD",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Creates an ice cube Range=1",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 106,
+      "Name": "RockCube",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,E,G,M,O",
+      "Locations": "B: Super Exchanger only;E: Chip Exchanger;G: Chip Exchanger;M: Undernet 2 RMD;O: Internet 3 FMD",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Creates 3 rock cubes randomly",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 107,
+      "Name": "BstrGard",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,G,K,N,R",
+      "Locations": "A: Chip Trading (AV Room), Chip Exchanger;G: Chip Exchanger;K: Chip Exchanger;N: Chip Exchanger;R: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "1-turn of MetGuard w/ B Btn.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 108,
+      "Name": "BstrBomb",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D,H,J,O,T",
+      "Locations": "D: Chip Trading (Storage room);H: Super Exchanger only;J: Super Exchanger only;O: Super Exchanger only;T: Super Exchanger only",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "1-turn of MiniBomb w/ B Btn.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 109,
+      "Name": "BstrSwrd",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,E,L,P,S",
+      "Locations": "B: Super Exchanger only;E: Super Exchanger only;L: Super Exchanger only;P: Super Exchanger only;S: Higsby's (20000ƶ)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "1-turn use of Sword with B Btn",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 110,
+      "Name": "BstrPnch",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,F,I,M,Q",
+      "Locations": "C: Chip Trading (Waterworks Office);F: Super Exchanger only;I: Super Exchanger only;M: Super Exchanger only;Q: Super Exchanger only",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "1-turn of GutsPnch with B Btn",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 111,
+      "Name": "SloGauge",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H,K,N,O,Q",
+      "Locations": "H: Chip Exchanger;K: Chip Exchanger;N: Chip Exchanger;O: Chip Exchanger;Q: Higsby's (5000ƶ), Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slows down custom gauge",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 112,
+      "Name": "FstGauge",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,C,E,L,N",
+      "Locations": "A: Higsby's (3000ƶ), Chip Exchanger;C: Chip Exchanger;E: Chip Exchanger;L: Chip Exchanger;N: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Speeds up custom gauge",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 113,
+      "Name": "Invis1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "I,J,L,O,Q",
+      "Locations": "I: Spooky (LV5~7);J: Spooky (LV9~S);L: Spooky (LV7~10), Undernet 7 RMD;O: Chip Exchanger;Q: Undernet 1 Net Merchant (5000ƶ), Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Temporary immunity",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 114,
+      "Name": "Invis2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,C,F,J,M",
+      "Locations": "A: Spooky2 (LV7~10), Chip Exchanger;C: Spooky2 (LV5~7);F: Chip Exchanger;J: Spooky2 (LV9~S);M: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Temporary immunity",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 115,
+      "Name": "Invis3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,D,H,K,N",
+      "Locations": "B: Super Exchanger only;D: Super Exchanger only;H: Super Exchanger only;K: Super Exchanger only;N: Spooky3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Temporary immunity",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 116,
+      "Name": "Dropdown",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,B,O,R,T",
+      "Locations": "A: Super Exchanger only;B: Popper3 (LV9~S);O: Super Exchanger only;R: Super Exchanger only;T: Super Exchanger only",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Invisible until you attack!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 117,
+      "Name": "Popup",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,D,H,K,N",
+      "Locations": "C: Mole (LV5~7, 9~S);D: Mole (LV4~5, 9~S);H: Mole (LV4~5, 7~10);K: Mole (LV1~4, 7~10);N: Mole (LV1~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Invisible when not attacking!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 118,
+      "Name": "IronBody",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,D,L,Q,R",
+      "Locations": "C: Gaia3 (LV5~7, 9~S);D: Chip Exchanger;L: Chip Exchanger;Q: Gaia2 (LV5~7);R: Gaia (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "30 seconds stoneshape Defense UP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 119,
+      "Name": "Barrier",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D,F,M,R,S",
+      "Locations": "D: Chip Exchanger;F: Higsby's (3000ƶ), Chip Exchanger;M: Chip Exchanger;R: Examine the lockers in Summer School (Den Block 4), Chip Exchanger;S: Antique Comp FMD (respawn), Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Nullify 1 enemy attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 120,
+      "Name": "BblWrap1",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "C,E,G,I,M",
+      "Locations": "C: Chip Exchanger;E: Ammonicule (LV7~10);G: Ammonicule (LV9~S);I: Ammonicule (LV9~S);M: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Aqua wall Comes back if damaged",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 121,
+      "Name": "BblWrap2",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "D,F,H,K,N",
+      "Locations": "D: Ammonicule2 (LV7~10);F: Ammonicule2 (LV7~10);H: Ammonicule2 (LV9~S);K: Chip Exchanger;N: Ammonicule2 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Aqua wall Comes back if damaged",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 122,
+      "Name": "BblWrap3",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A,B,L,Q,R",
+      "Locations": "A: Chip Exchanger;B: Ammonicule3 (LV9~S);L: Ammonicule3 (LV7~10);Q: Ammonicule3 (LV7~10);R: Ammonicule3 (LV9~S), Undernet 11 Net Merchant (10000ƶ)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Aqua wall Comes back if damaged",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 123,
+      "Name": "LeafShld",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "C,D,F,K,Q",
+      "Locations": "C: Popper2 (LV9~S);D: Chip Exchanger;F: Chip Exchanger;K: Chip Exchanger;Q: Popper2 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Turns dmg from 1 hit into HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 124,
+      "Name": "AquaAura",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "D,E,L,R,S",
+      "Locations": "D: Chip Exchanger;E: Chip Exchanger;L: Megalian (LV7~10);R: Megalian (LV9~S);S: Megalian (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Null<10dmg Weak vs. [Elec]",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 125,
+      "Name": "FireAura",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "B,G,I,N,T",
+      "Locations": "B: Megalian2 (LV9~S);G: Chip Exchanger;I: Megalian2 (LV9~S);N: Chip Exchanger;T: Chip Exchanger",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Null<40dmg Weak vs. [Aqua]",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 126,
+      "Name": "WoodAura",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "C,F,J,O,Q",
+      "Locations": "C: Chip Trading (Restaurant);F: Megalian3 (LV9~S);J: Super Exchanger only;O: Super Exchanger only;Q: Super Exchanger only",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Null<80dmg Weak vs. [Fire]",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 127,
+      "Name": "LifeAura",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,H,K,M,P",
+      "Locations": "A: Super Exchanger only;H: Bass (LV4~5);K: Bass (LV5~7);M: Bass (LV7~10);P: Bass (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Negate all attacks w/ damage<100",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 128,
+      "Name": "Roll",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "R",
+      "Locations": "R: Get from Mayl (Ch. 2)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit enemy and heal some HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 129,
+      "Name": "Roll2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "R",
+      "Locations": "R: Get from Mayl (Ch. 5)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit enemy and heal some HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 130,
+      "Name": "Roll3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "R",
+      "Locations": "R: Get from Yai (Ch. 8, only if you have zero Roll3 R chips in your inventory)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit enemy and heal some HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 131,
+      "Name": "GutsMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "G",
+      "Locations": "G: GutsManV3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Shock foe and crack enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 132,
+      "Name": "GutsMan2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "G",
+      "Locations": "G: GutsManV3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Shock foe and crack enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 133,
+      "Name": "GutsMan3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "G",
+      "Locations": "G: GutsManV3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Shock foe and crack enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 134,
+      "Name": "ProtoMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "B",
+      "Locations": "B: ProtoManV2 (LV1~S), ProtoManV3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit column w/ nearest enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 135,
+      "Name": "ProtoMn2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "B",
+      "Locations": "B: ProtoManV3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit column w/ nearest enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 136,
+      "Name": "ProtoMn3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "B",
+      "Locations": "B: ProtoManV3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "180",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit column w/ nearest enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 137,
+      "Name": "FireMan",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "F",
+      "Locations": "F: FireManV2 (LV1~S), FireManV3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "1 row fire arm",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 138,
+      "Name": "FireMan2",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "F",
+      "Locations": "F: FireManV3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "1 row fire arm",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 139,
+      "Name": "FireMan3",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "F",
+      "Locations": "F: FireManV3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "1 row fire arm",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 140,
+      "Name": "NumbrMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "N",
+      "Locations": "N: NumberManV2 (LV1~S), NumberManV3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "DieRollx10 damage to enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 141,
+      "Name": "NumbrMn2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "N",
+      "Locations": "N: NumberManV3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "DieRollx20 damage to enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 142,
+      "Name": "NumbrMn3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "N",
+      "Locations": "N: NumberManV3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "DieRollx30 damage to enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 143,
+      "Name": "StoneMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "S",
+      "Locations": "S: StoneManV2 (LV1~S), StoneManV3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Drops 3x3 stones on enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 144,
+      "Name": "StoneMn2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "S",
+      "Locations": "S: StoneManV3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Drops 4x3 stones on enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 145,
+      "Name": "StoneMn3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "S",
+      "Locations": "S: StoneManV3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Drops 5x3 stones on enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 146,
+      "Name": "IceMan",
+      "ChipType": 2,
+      "Elements": [ 2 ],
+      "Codes": "I",
+      "Locations": "I: IceManV2 (LV1~S), IceManV3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Blizzard attack on enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 147,
+      "Name": "IceMan2",
+      "ChipType": 2,
+      "Elements": [ 2 ],
+      "Codes": "I",
+      "Locations": "I: IceManV3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Blizzard attack on enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 148,
+      "Name": "IceMan3",
+      "ChipType": 2,
+      "Elements": [ 2 ],
+      "Codes": "I",
+      "Locations": "I: IceManV3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Blizzard attack on enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 149,
+      "Name": "ColorMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "C",
+      "Locations": "C: ColorManV2 (LV1~S), ColorManV3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Towers of [Aqua] & [Fire]!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 150,
+      "Name": "ColorMn2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "C",
+      "Locations": "C: ColorManV3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "110",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Towers of [Aqua] & [Fire]!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 151,
+      "Name": "ColorMn3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "C",
+      "Locations": "C: ColorManV3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Towers of [Aqua] & [Fire]!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 152,
+      "Name": "ElecMan",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "E",
+      "Locations": "E: ElecManV2 (LV1~S), ElecManV3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Lightning hits enemy panel!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 153,
+      "Name": "ElecMan2",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "E",
+      "Locations": "E: ElecManV3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Lightning hits enemy panel!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 154,
+      "Name": "ElecMan3",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "E",
+      "Locations": "E: ElecManV3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Lightning hits enemy panel!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 155,
+      "Name": "BombMan",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "B",
+      "Locations": "B: BombManV2 (LV1~S), BombManV3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Enemy area CrossBomb Depth=3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 156,
+      "Name": "BombMan2",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "B",
+      "Locations": "B: BombManV3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Enemy area CrossBomb Depth=3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 157,
+      "Name": "BombMan3",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "B",
+      "Locations": "B: BombManV3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Enemy area CrossBomb Depth=3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 158,
+      "Name": "MagicMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "M",
+      "Locations": "M: MagicManV2 (LV1~S), MagicManV3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Magic fire = instant delete!? (MagicMan has a 25% chance to delete any virus. This does not work on Net Navis or the Life Virus.)",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 159,
+      "Name": "MagicMn2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "M",
+      "Locations": "M: MagicManV3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Magic fire = instant delete!? (MagicMan has a 25% chance to delete any virus. This does not work on Net Navis or the Life Virus.)",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 160,
+      "Name": "MagicMn3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "M",
+      "Locations": "M: MagicManV3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Magic fire = instant delete!? (MagicMan has a 25% chance to delete any virus. This does not work on Net Navis or the Life Virus.)",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 161,
+      "Name": "WoodMan",
+      "ChipType": 2,
+      "Elements": [ 4 ],
+      "Codes": "W",
+      "Locations": "W: WoodManV2 (LV1~S), WoodManV3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Skewer entire enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 162,
+      "Name": "WoodMan2",
+      "ChipType": 2,
+      "Elements": [ 4 ],
+      "Codes": "W",
+      "Locations": "W: WoodManV3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Skewer entire enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 163,
+      "Name": "WoodMan3",
+      "ChipType": 2,
+      "Elements": [ 4 ],
+      "Codes": "W",
+      "Locations": "W: WoodManV3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Skewer entire enemy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 164,
+      "Name": "SkullMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "S",
+      "Locations": "S: SkullManV2 (LV1~S), SkullManV3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Big skull attack on one enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 165,
+      "Name": "SkullMn2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "S",
+      "Locations": "S: SkullManV3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "180",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Big skull attack on one enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 166,
+      "Name": "SkullMn3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "S",
+      "Locations": "S: SkullManV3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "210",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Big skull attack on one enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 167,
+      "Name": "SharkMan",
+      "ChipType": 2,
+      "Elements": [ 2 ],
+      "Codes": "S",
+      "Locations": "S: SharkManV2 (LV1~S), SharkManV3 (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3-row shark fin attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 168,
+      "Name": "SharkMn2",
+      "ChipType": 2,
+      "Elements": [ 2 ],
+      "Codes": "S",
+      "Locations": "S: SharkManV3 (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "110",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3-row shark fin attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 169,
+      "Name": "SharkMn3",
+      "ChipType": 2,
+      "Elements": [ 2 ],
+      "Codes": "S",
+      "Locations": "S: SharkManV3 (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3-row shark fin attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 170,
+      "Name": "PharoMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "P",
+      "Locations": "P: PharaohMan (LV1~S), PharaohManV2 (LV1~S), PharaohManSP (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3-row coffin laser!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 171,
+      "Name": "PharoMn2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "P",
+      "Locations": "P: PharaohManSP (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3-row coffin laser!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 172,
+      "Name": "PharoMn3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "P",
+      "Locations": "P: PharaohManSP (LV9~S)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3-row coffin laser!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 173,
+      "Name": "ShadoMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "S",
+      "Locations": "S: ShadowMan (LV1~S), ShadowManV2 (LV1~S), ShadowManSP (LV5~7)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Split into 3 for star attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 174,
+      "Name": "ShadoMn2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "S",
+      "Locations": "S: ShadowManSP (LV7~10)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Split into 3 for star attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 175,
+      "Name": "ShadoMn3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "S",
+      "Locations": "S: ShadowManSP (LV9~S);",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Split into 3 for star attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 176,
+      "Name": "Bass",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "F",
+      "Locations": "F: Event distribution, (BNLC) Download Chip",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Explodes on entire area!",
+      "Notes": "",
+      "Image": ""
+    }
+  ]
+}
