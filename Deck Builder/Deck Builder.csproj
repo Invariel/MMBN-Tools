@@ -30,6 +30,15 @@
 	  <None Update="ChipData\MMBN2.json">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>
+	  <None Update="ChipData\MMBN3_Blue.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="ChipData\MMBN3_White.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="ChipData\MMBN4_BlueMoon.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
 	  <None Update="ChipData\MMBN5_TeamColonel.json">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>

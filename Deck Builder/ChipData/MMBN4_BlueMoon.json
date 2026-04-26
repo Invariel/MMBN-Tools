@@ -1,5 +1,5 @@
 {
-  "Name": "Mega Man Battle Network 4 - Red Sun",
+  "Name": "Mega Man Battle Network 4 - Blue Moon",
   "Rules": {
     "MaxFolderSize": 30,
     "MaxMegaChips": 5,
@@ -4366,311 +4366,11 @@
     },
     {
       "Number": 19,
-      "Name": "Roll",
+      "Name": "ProtoMan",
       "ChipType": 2,
-      "Elements": [ 64 ],
-      "Codes": "R",
-      "Locations": "R: Rollα (LV1~S), Rollβ (LV1~S), RollΩ (LV1~10), Chip Order",
-      "Traders": "None",
-      "MegaManLocation": {
-        "X": 0,
-        "Y": 1
-      },
-      "Targets": [
-        {
-          "X": 0,
-          "Y": 1
-        }
-      ],
-      "Damage": "20",
-      "Hits": "3",
-      "ProgramAdvances": [],
-      "Description": "Attcks an enmy, then heals you",
-      "Notes": "",
-      "Image": ""
-    },
-    {
-      "Number": 20,
-      "Name": "RollSP",
-      "ChipType": 2,
-      "Elements": [ 64 ],
-      "Codes": "R",
-      "Locations": "R: RollΩ (LV9~S), Chip Order",
-      "Traders": "None",
-      "MegaManLocation": {
-        "X": 0,
-        "Y": 1
-      },
-      "Targets": [
-        {
-          "X": 0,
-          "Y": 1
-        }
-      ],
-      "Damage": "???(30-80)",
-      "Hits": "3",
-      "ProgramAdvances": [],
-      "Description": "Attcks an enmy, then heals you",
-      "Notes": "",
-      "Image": ""
-    },
-    {
-      "Number": 21,
-      "Name": "RollDS",
-      "ChipType": 2,
-      "Elements": [ 64 ],
-      "Codes": "R",
-      "Locations": "R: RollΩ (LV1~S - Evil Emotion), (RS) RollDS (LV1~S), Chip Order",
-      "Traders": "None",
-      "MegaManLocation": {
-        "X": 0,
-        "Y": 1
-      },
-      "Targets": [
-        {
-          "X": 0,
-          "Y": 1
-        }
-      ],
-      "Damage": "???",
-      "Hits": "3",
-      "ProgramAdvances": [],
-      "Description": "Attcks an enmy, then heals you",
-      "Notes": "",
-      "Image": ""
-    },
-    {
-      "Number": 22,
-      "Name": "GutsMan",
-      "ChipType": 2,
-      "Elements": [ 32 ],
-      "Codes": "G",
-      "Locations": "G: GutsMα (LV1~S), GutsMβ (LV1~S), GutsMΩ (LV1~10), Chip Order",
-      "Traders": "None",
-      "MegaManLocation": {
-        "X": 0,
-        "Y": 1
-      },
-      "Targets": [
-        {
-          "X": 0,
-          "Y": 1
-        }
-      ],
-      "Damage": "80",
-      "Hits": "1",
-      "ProgramAdvances": [],
-      "Description": "GutsHammr destroys enmy area",
-      "Notes": "",
-      "Image": ""
-    },
-    {
-      "Number": 23,
-      "Name": "GutsMnSP",
-      "ChipType": 2,
-      "Elements": [ 32 ],
-      "Codes": "G",
-      "Locations": "G: GutsMΩ (LV9~S), Chip Order",
-      "Traders": "None",
-      "MegaManLocation": {
-        "X": 0,
-        "Y": 1
-      },
-      "Targets": [
-        {
-          "X": 0,
-          "Y": 1
-        }
-      ],
-      "Damage": "???(100-200)",
-      "Hits": "1",
-      "ProgramAdvances": [],
-      "Description": "GutsHammr destroys enmy area",
-      "Notes": "",
-      "Image": ""
-    },
-    {
-      "Number": 24,
-      "Name": "GutsMnDS",
-      "ChipType": 2,
-      "Elements": [ 32 ],
-      "Codes": "G",
-      "Locations": "G: GutsMΩ (LV1~S - Evil Emotion), (RS) GtsMDS (LV1~S), Chip Order",
-      "Traders": "None",
-      "MegaManLocation": {
-        "X": 0,
-        "Y": 1
-      },
-      "Targets": [
-        {
-          "X": 0,
-          "Y": 1
-        }
-      ],
-      "Damage": "???",
-      "Hits": "1",
-      "ProgramAdvances": [],
-      "Description": "GutsHammr destroys enmy area",
-      "Notes": "",
-      "Image": ""
-    },
-    {
-      "Number": 25,
-      "Name": "WindMan",
-      "ChipType": 2,
-      "Elements": [ 16 ],
-      "Codes": "W",
-      "Locations": "W: WindMα (LV1~S), WindMβ (LV1~S), WindMΩ (LV1~10), Chip Order",
-      "Traders": "None",
-      "MegaManLocation": {
-        "X": 0,
-        "Y": 1
-      },
-      "Targets": [
-        {
-          "X": 0,
-          "Y": 1
-        }
-      ],
-      "Damage": "40",
-      "Hits": "",
-      "ProgramAdvances": [],
-      "Description": "Whirlwind that spin acrss 3sq",
-      "Notes": "",
-      "Image": ""
-    },
-    {
-      "Number": 26,
-      "Name": "WindMnSP",
-      "ChipType": 2,
-      "Elements": [ 16 ],
-      "Codes": "W",
-      "Locations": "W: WindMΩ (LV9~S), Chip Order",
-      "Traders": "None",
-      "MegaManLocation": {
-        "X": 0,
-        "Y": 1
-      },
-      "Targets": [
-        {
-          "X": 0,
-          "Y": 1
-        }
-      ],
-      "Damage": "???(50-100)",
-      "Hits": "",
-      "ProgramAdvances": [],
-      "Description": "Whirlwind that spin acrss 3sq",
-      "Notes": "",
-      "Image": ""
-    },
-    {
-      "Number": 27,
-      "Name": "WindMnDS",
-      "ChipType": 2,
-      "Elements": [ 16 ],
-      "Codes": "W",
-      "Locations": "W: WindMΩ (LV1~S - Evil Emotion), (RS) WndMDS (LV1~S), Chip Order",
-      "Traders": "None",
-      "MegaManLocation": {
-        "X": 0,
-        "Y": 1
-      },
-      "Targets": [
-        {
-          "X": 0,
-          "Y": 1
-        }
-      ],
-      "Damage": "???",
-      "Hits": "",
-      "ProgramAdvances": [],
-      "Description": "Whirlwind that spin acrss 3sq",
-      "Notes": "",
-      "Image": ""
-    },
-    {
-      "Number": 28,
-      "Name": "SerchMan",
-      "ChipType": 2,
-      "Elements": [ 128 ],
-      "Codes": "S",
-      "Locations": "S: SrchMα (LV1~S), SrchMβ (LV1~S), SrchMΩ (LV1~10), Chip Order",
-      "Traders": "None",
-      "MegaManLocation": {
-        "X": 0,
-        "Y": 1
-      },
-      "Targets": [
-        {
-          "X": 0,
-          "Y": 1
-        }
-      ],
-      "Damage": "20",
-      "Hits": "5",
-      "ProgramAdvances": [],
-      "Description": "Stop site and fire 5 shots",
-      "Notes": "",
-      "Image": ""
-    },
-    {
-      "Number": 29,
-      "Name": "SrchMnSP",
-      "ChipType": 2,
-      "Elements": [ 128 ],
-      "Codes": "S",
-      "Locations": "S: SrchMΩ (LV9~S), Chip Order",
-      "Traders": "None",
-      "MegaManLocation": {
-        "X": 0,
-        "Y": 1
-      },
-      "Targets": [
-        {
-          "X": 0,
-          "Y": 1
-        }
-      ],
-      "Damage": "???(25-75)",
-      "Hits": "5",
-      "ProgramAdvances": [],
-      "Description": "Stop site and fire 5 shots",
-      "Notes": "",
-      "Image": ""
-    },
-    {
-      "Number": 30,
-      "Name": "SrchMnDS",
-      "ChipType": 2,
-      "Elements": [ 128 ],
-      "Codes": "S",
-      "Locations": "S: SrchMΩ (LV1~S - Evil Emotion), (RS) SrcMDS (LV1~S), Chip Order",
-      "Traders": "None",
-      "MegaManLocation": {
-        "X": 0,
-        "Y": 1
-      },
-      "Targets": [
-        {
-          "X": 0,
-          "Y": 1
-        }
-      ],
-      "Damage": "???",
-      "Hits": "5",
-      "ProgramAdvances": [],
-      "Description": "Stop site and fire 5 shots",
-      "Notes": "",
-      "Image": ""
-    },
-    {
-      "Number": 31,
-      "Name": "FireMan",
-      "ChipType": 2,
-      "Elements": [ 1 ],
-      "Codes": "F",
-      "Locations": "F: FireMα (LV1~S), FireMβ (LV1~S), FireMΩ (LV1~10), Chip Order",
+      "Elements": [ 1024 ],
+      "Codes": "B",
+      "Locations": "B: ProtMα (LV1~S), ProtMβ (LV1~S), ProtMΩ (LV1~10), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -4683,19 +4383,319 @@
         }
       ],
       "Damage": "100",
+      "Hits": "3",
+      "ProgramAdvances": [],
+      "Description": "Rush up to enemy and slice",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 20,
+      "Name": "ProtoMSP",
+      "ChipType": 2,
+      "Elements": [ 1024 ],
+      "Codes": "B",
+      "Locations": "B: ProtMΩ (LV9~S), Chip Order",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "(140-240)",
+      "Hits": "3",
+      "ProgramAdvances": [],
+      "Description": "Rush up to enemy and slice",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 21,
+      "Name": "ProtoMDS",
+      "ChipType": 2,
+      "Elements": [ 1024 ],
+      "Codes": "B",
+      "Locations": "B: ProtMΩ (LV1~S - Evil Emotion), (BM) PrtMDS (LV1~S), Chip Order",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "???",
+      "Hits": "3",
+      "ProgramAdvances": [],
+      "Description": "Rush up to enemy and slice",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 22,
+      "Name": "NumbrMan",
+      "ChipType": 2,
+      "Elements": [ 256 ],
+      "Codes": "N",
+      "Locations": "N: NmbrMα (LV1~S), NmbrMβ (LV1~S), NmbrMΩ (LV1~10), Chip Order",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "30",
       "Hits": "1",
       "ProgramAdvances": [],
-      "Description": "Fire burn to front side",
+      "Description": "Bomb 3 ahead! Hits 9sq",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 23,
+      "Name": "NumbMnSP",
+      "ChipType": 2,
+      "Elements": [ 256 ],
+      "Codes": "N",
+      "Locations": "N: NmbrMΩ (LV9~S), Chip Order",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "(40-90)",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Bomb 3 ahead! Hits 9sq",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 24,
+      "Name": "NumbMnDS",
+      "ChipType": 2,
+      "Elements": [ 256 ],
+      "Codes": "N",
+      "Locations": "N: NmbrMΩ (LV1~S - Evil Emotion), (BM) NumMDS (LV1~S), Chip Order",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "???",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Bomb 3 ahead! Hits 9sq",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 25,
+      "Name": "MetalMan",
+      "ChipType": 2,
+      "Elements": [ 512 ],
+      "Codes": "M",
+      "Locations": "M: MetlMα (LV1~S), MetlMβ (LV1~S), MetlMΩ (LV1~10), Chip Order",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Iron fist crushes 1sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 26,
+      "Name": "MetlMnSP",
+      "ChipType": 2,
+      "Elements": [ 512 ],
+      "Codes": "M",
+      "Locations": "M: MetlMΩ (LV9~S), Chip Order",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "(200-300)",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Iron fist crushes 1sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 27,
+      "Name": "MetlMnDS",
+      "ChipType": 2,
+      "Elements": [ 512 ],
+      "Codes": "M",
+      "Locations": "M: MetlMΩ (LV1~S - Evil Emotion), (BM) MtlMDS (LV1~S), Chip Order",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Iron fist crushes 1sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 28,
+      "Name": "JunkMan",
+      "ChipType": 2,
+      "Elements": [ 2048 ],
+      "Codes": "J",
+      "Locations": "J: JunkMα (LV1~S), JunkMβ (LV1~S), JunkMΩ (LV1~10), Chip Order",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "100",
+      "Hits": "5",
+      "ProgramAdvances": [],
+      "Description": "Throw any objects on field",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 29,
+      "Name": "JunkMnSP",
+      "ChipType": 2,
+      "Elements": [ 2048 ],
+      "Codes": "J",
+      "Locations": "J: JunkMΩ (LV9~S), Chip Order",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "(100-200)",
+      "Hits": "5",
+      "ProgramAdvances": [],
+      "Description": "Throw any objects on field",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 30,
+      "Name": "JunkMnDS",
+      "ChipType": 2,
+      "Elements": [ 2048 ],
+      "Codes": "J",
+      "Locations": "J: JunkMΩ (LV1~S - Evil Emotion), (BM) JnkMDS (LV1~S), Chip Order",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "???",
+      "Hits": "5",
+      "ProgramAdvances": [],
+      "Description": "Throw any objects on field",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 31,
+      "Name": "AquaMan",
+      "ChipType": 2,
+      "Elements": [ 2 ],
+      "Codes": "A",
+      "Locations": "A: AquaMα (LV1~S), AquaMβ (LV1~S), AquaMΩ (LV1~10), Chip Order",
+      "Traders": "None",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Damage": "70",
+      "Hits": "1",
+      "ProgramAdvances": [],
+      "Description": "Water Gun sprays 2sq ahead",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 32,
-      "Name": "FireMnSP",
+      "Name": "AquaMnSP",
       "ChipType": 2,
-      "Elements": [ 1 ],
-      "Codes": "F",
-      "Locations": "F: FireMΩ (LV9~S), Chip Order",
+      "Elements": [ 2 ],
+      "Codes": "A",
+      "Locations": "A: AquaMΩ (LV9~S), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -4707,20 +4707,20 @@
           "Y": 1
         }
       ],
-      "Damage": "???(150-250)",
+      "Damage": "(80-180)",
       "Hits": "1",
       "ProgramAdvances": [],
-      "Description": "Fire burn to front side",
+      "Description": "Water Gun sprays 2sq ahead",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 33,
-      "Name": "FireMnDS",
+      "Name": "AquaMnDS",
       "ChipType": 2,
-      "Elements": [ 1 ],
-      "Codes": "F",
-      "Locations": "F: FireMΩ (LV1~S - Evil Emotion), (RS) FirMDS (LV1~S), Chip Order",
+      "Elements": [ 2 ],
+      "Codes": "A",
+      "Locations": "A: AquaMΩ (LV1~S - Evil Emotion), (BM) AquMDS (LV1~S), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -4735,17 +4735,17 @@
       "Damage": "???",
       "Hits": "1",
       "ProgramAdvances": [],
-      "Description": "Fire burn to front side",
+      "Description": "Water Gun sprays 2sq ahead",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 34,
-      "Name": "ThunMan",
+      "Name": "WoodMan",
       "ChipType": 2,
-      "Elements": [ 8 ],
-      "Codes": "T",
-      "Locations": "T: ThunMα (LV1~S), ThunMβ (LV1~S), ThunMΩ (LV1~10), Chip Order",
+      "Elements": [ 4 ],
+      "Codes": "W",
+      "Locations": "W: WoodMα (LV1~S), WoodMβ (LV1~S), WoodMΩ (LV1~10), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -4757,20 +4757,20 @@
           "Y": 1
         }
       ],
-      "Damage": "90",
+      "Damage": "130",
       "Hits": "1",
       "ProgramAdvances": [],
-      "Description": "Lightning strikes 3sq ahead",
+      "Description": "WoodTowr pierce to enmy area",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 35,
-      "Name": "ThunMnSP",
+      "Name": "WoodMnSP",
       "ChipType": 2,
-      "Elements": [ 8 ],
-      "Codes": "T",
-      "Locations": "T: ThunMΩ (LV9~S), Chip Order",
+      "Elements": [ 4 ],
+      "Codes": "W",
+      "Locations": "W: WoodMΩ (LV9~S), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -4782,20 +4782,20 @@
           "Y": 1
         }
       ],
-      "Damage": "???(120-220)",
+      "Damage": "(150-250)",
       "Hits": "1",
       "ProgramAdvances": [],
-      "Description": "Lightning strikes 3sq ahead",
+      "Description": "WoodTowr pierce to enmy area",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 36,
-      "Name": "ThunMnDS",
+      "Name": "WoodMnDS",
       "ChipType": 2,
-      "Elements": [ 8 ],
-      "Codes": "T",
-      "Locations": "T: ThunMΩ (LV1~S - Evil Emotion), (RS) ThnMDS (LV1~S), Chip Order",
+      "Elements": [ 4 ],
+      "Codes": "W",
+      "Locations": "W: WoodMΩ (LV1~S - Evil Emotion), (BM) WoodMDS (LV1~S), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -4810,7 +4810,7 @@
       "Damage": "???",
       "Hits": "1",
       "ProgramAdvances": [],
-      "Description": "Lightning strikes 3sq ahead",
+      "Description": "WoodTowr pierce to enmy area",
       "Notes": "",
       "Image": ""
     },
@@ -5418,11 +5418,11 @@
 
     {
       "Number": 1,
-      "Name": "RedSun",
+      "Name": "BlueMoon",
       "ChipType": 4,
       "Elements": [ 0 ],
-      "Codes": "R",
-      "Locations": "R: Receive from Dad (after final tournament, only once)",
+      "Codes": "B",
+      "Locations": "B: Receive from Dad (after final tournament, only once)",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -5434,21 +5434,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
-      "Damage": "???(100-500)",
+      "Damage": "(200-600)",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "A RedSun bombards 3 ahead",
+      "Description": "Blue moon drains 3 ahead",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 2,
-      "Name": "HolyDrem",
+      "Name": "SignlRed",
       "ChipType": 4,
-      "Elements": [ 0 ],
-      "Codes": "H",
-      "Locations": "H: Undernet 4 BugFrag Trader (100BF)",
+      "Elements": [ 2048 ],
+      "Codes": "S",
+      "Locations": "S: Undernet 4 BugFrag Trader (100BF)",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -5460,17 +5459,16 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
-      "Damage": "50",
+      "Damage": "-",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Holy shot sucks in HolyPanl!",
+      "Description": "Enmy chip is no use while red",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 3,
-      "Name": "Bass",
+      "Name": "BassAnly",
       "ChipType": 4,
       "Elements": [ 0 ],
       "Codes": "X",
@@ -5486,17 +5484,16 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
-      "Damage": "60",
+      "Damage": "160",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Buster rake half enmy area",
+      "Description": "A ring that hits 4 times",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 4,
-      "Name": "BugCharg",
+      "Name": "BugCurse",
       "ChipType": 4,
       "Elements": [ 0 ],
       "Codes": "C",
@@ -5512,21 +5509,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
-      "Damage": "80",
+      "Damage": "-",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "EvilChip! Gets powr with turn",
+      "Description": "EvilChip! Make enmy buggy!",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 5,
-      "Name": "BlakBarr",
+      "Name": "DeltaRay",
       "ChipType": 4,
-      "Elements": [ 0 ],
-      "Codes": "A",
-      "Locations": "A: BassΩ (LV7~S), BassXX (LV7~S)",
+      "Elements": [ 1024 ],
+      "Codes": "Z",
+      "Locations": "Z: BassΩ (LV7~S), BassXX (LV7~S);",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -5538,11 +5534,10 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
-      "Damage": "-",
+      "Damage": "260",
       "Hits": "0",
       "ProgramAdvances": [],
-      "Description": "A dark barrier regenerate",
+      "Description": "A Button power up by 3 swrd",
       "Notes": "",
       "Image": ""
     },
@@ -5566,7 +5561,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "50",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5592,7 +5586,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "70",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5618,7 +5611,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "90",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5644,7 +5636,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "100",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5670,7 +5661,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "140",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5696,7 +5686,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "180",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5722,7 +5711,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "120",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5748,7 +5736,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "160",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5774,7 +5761,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "200",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5800,7 +5786,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "80",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5826,7 +5811,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "110",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5852,7 +5836,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "140",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5878,7 +5861,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "50",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5904,7 +5886,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "60",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5930,7 +5911,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "70",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5956,7 +5936,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "100",
       "Hits": "",
       "ProgramAdvances": [],
@@ -5982,7 +5961,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "130",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6008,7 +5986,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "160",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6034,7 +6011,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "80",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6060,7 +6036,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "90",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6086,7 +6061,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "100",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6112,7 +6086,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6138,7 +6111,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6164,7 +6136,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6190,7 +6161,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "100",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6216,7 +6186,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "130",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6242,7 +6211,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "160",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6268,7 +6236,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "100",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6294,7 +6261,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "60",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6320,7 +6286,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "80",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6346,7 +6311,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "110",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6372,7 +6336,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "140",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6398,7 +6361,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "170",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6424,7 +6386,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "120",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6450,7 +6411,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "140",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6476,7 +6436,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "160",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6502,7 +6461,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "-",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6528,7 +6486,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "100",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6541,7 +6498,7 @@
     {
       "Number": 1,
       "Name": "PrixPowr",
-      "ChipType": 5122,
+      "ChipType": 1026,
       "Elements": [ 0 ],
       "Codes": "G",
       "Locations": "G: Event distribution, “Prix Power” e-Reader Rare Chip Distribution, (BNLC) Download Chip",
@@ -6556,7 +6513,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "200",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6567,7 +6523,7 @@
     {
       "Number": 2,
       "Name": "Duo",
-      "ChipType": 5124,
+      "ChipType": 1028,
       "Elements": [ 0 ],
       "Codes": "D",
       "Locations": "D: Event distribution, “Duo” e-Reader Rare Chip Distribution, (BNLC) Download Chip;",
@@ -6582,7 +6538,6 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "200",
       "Hits": "",
       "ProgramAdvances": [],
@@ -6593,11 +6548,11 @@
 
     {
       "Number": 39,
-      "Name": "ProtoMan",
+      "Name": "Roll",
       "ChipType": 1026,
-      "Elements": [ 1024 ],
-      "Codes": "B",
-      "Locations": "B: ProtMα (LV1~S), ProtMβ (LV1~S), ProtMΩ (LV1~10), Chip Order",
+      "Elements": [ 64 ],
+      "Codes": "R",
+      "Locations": "R: Rollα (LV1~S), Rollβ (LV1~S), RollΩ (LV1~10), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6609,21 +6564,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
-      "Damage": "100",
+      "Damage": "20",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Rush up to enemy and slice",
+      "Description": "Attcks an enmy, then heals you",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 40,
-      "Name": "ProtoMSP",
+      "Name": "RollSP",
       "ChipType": 1026,
-      "Elements": [ 1024 ],
-      "Codes": "B",
-      "Locations": "B: ProtMΩ (LV9~S), Chip Order",
+      "Elements": [ 64 ],
+      "Codes": "R",
+      "Locations": "R: RollΩ (LV9~S), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6635,21 +6589,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
-      "Damage": "(140-240)",
+      "Damage": "???(30-80)",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Rush up to enemy and slice",
+      "Description": "Attcks an enmy, then heals you",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 41,
-      "Name": "ProtoMDS",
+      "Name": "RollDS",
       "ChipType": 1026,
-      "Elements": [ 1024 ],
-      "Codes": "B",
-      "Locations": "B: ProtMΩ (LV1~S - Evil Emotion), (BM) PrtMDS (LV1~S), Chip Order",
+      "Elements": [ 64 ],
+      "Codes": "R",
+      "Locations": "R: RollΩ (LV1~S - Evil Emotion), (RS) RollDS (LV1~S), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6661,21 +6614,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Rush up to enemy and slice",
+      "Description": "Attcks an enmy, then heals you",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 42,
-      "Name": "NumbrMan",
+      "Name": "GutsMan",
       "ChipType": 1026,
-      "Elements": [ 256 ],
-      "Codes": "N",
-      "Locations": "N: NmbrMα (LV1~S), NmbrMβ (LV1~S), NmbrMΩ (LV1~10), Chip Order",
+      "Elements": [ 32 ],
+      "Codes": "G",
+      "Locations": "G: GutsMα (LV1~S), GutsMβ (LV1~S), GutsMΩ (LV1~10), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6687,21 +6639,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
-      "Damage": "30",
+      "Damage": "80",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Bomb 3 ahead! Hits 9sq",
+      "Description": "GutsHammr destroys enmy area",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 43,
-      "Name": "NumbMnSP",
+      "Name": "GutsMnSP",
       "ChipType": 1026,
-      "Elements": [ 256 ],
-      "Codes": "N",
-      "Locations": "N: NmbrMΩ (LV9~S), Chip Order",
+      "Elements": [ 32 ],
+      "Codes": "G",
+      "Locations": "G: GutsMΩ (LV9~S), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6713,21 +6664,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
-      "Damage": "(40-90)",
+      "Damage": "???(100-200)",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Bomb 3 ahead! Hits 9sq",
+      "Description": "GutsHammr destroys enmy area",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 44,
-      "Name": "NumbMnDS",
+      "Name": "GutsMnDS",
       "ChipType": 1026,
-      "Elements": [ 256 ],
-      "Codes": "N",
-      "Locations": "N: NmbrMΩ (LV1~S - Evil Emotion), (BM) NumMDS (LV1~S), Chip Order",
+      "Elements": [ 32 ],
+      "Codes": "G",
+      "Locations": "G: GutsMΩ (LV1~S - Evil Emotion), (RS) GtsMDS (LV1~S), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6739,21 +6689,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Bomb 3 ahead! Hits 9sq",
+      "Description": "GutsHammr destroys enmy area",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 45,
-      "Name": "MetalMan",
+      "Name": "WindMan",
       "ChipType": 1026,
-      "Elements": [ 512 ],
-      "Codes": "M",
-      "Locations": "M: MetlMα (LV1~S), MetlMβ (LV1~S), MetlMΩ (LV1~10), Chip Order",
+      "Elements": [ 16 ],
+      "Codes": "W",
+      "Locations": "W: WindMα (LV1~S), WindMβ (LV1~S), WindMΩ (LV1~10), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6765,21 +6714,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
-      "Damage": "160",
+      "Damage": "40",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Iron fist crushes 1sq ahead",
+      "Description": "Whirlwind that spin acrss 3sq",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 46,
-      "Name": "MetlMnSP",
+      "Name": "WindMnSP",
       "ChipType": 1026,
-      "Elements": [ 512 ],
-      "Codes": "M",
-      "Locations": "M: MetlMΩ (LV9~S), Chip Order",
+      "Elements": [ 16 ],
+      "Codes": "W",
+      "Locations": "W: WindMΩ (LV9~S), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6791,21 +6739,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
-      "Damage": "(200-300)",
+      "Damage": "???(50-100)",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Iron fist crushes 1sq ahead",
+      "Description": "Whirlwind that spin acrss 3sq",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 47,
-      "Name": "MetlMnDS",
+      "Name": "WindMnDS",
       "ChipType": 1026,
-      "Elements": [ 512 ],
-      "Codes": "M",
-      "Locations": "M: MetlMΩ (LV1~S - Evil Emotion), (BM) MtlMDS (LV1~S), Chip Order",
+      "Elements": [ 16 ],
+      "Codes": "W",
+      "Locations": "W: WindMΩ (LV1~S - Evil Emotion), (RS) WndMDS (LV1~S), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6817,21 +6764,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Iron fist crushes 1sq ahead",
+      "Description": "Whirlwind that spin acrss 3sq",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 48,
-      "Name": "JunkMan",
+      "Name": "SerchMan",
       "ChipType": 1026,
-      "Elements": [ 2048 ],
-      "Codes": "J",
-      "Locations": "J: JunkMα (LV1~S), JunkMβ (LV1~S), JunkMΩ (LV1~10), Chip Order",
+      "Elements": [ 128 ],
+      "Codes": "S",
+      "Locations": "S: SrchMα (LV1~S), SrchMβ (LV1~S), SrchMΩ (LV1~10), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6843,21 +6789,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
-      "Damage": "100",
+      "Damage": "20",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Throw any objects on field",
+      "Description": "Stop site and fire 5 shots",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 49,
-      "Name": "JunkMnSP",
+      "Name": "SrchMnSP",
       "ChipType": 1026,
-      "Elements": [ 2048 ],
-      "Codes": "J",
-      "Locations": "J: JunkMΩ (LV9~S), Chip Order",
+      "Elements": [ 128 ],
+      "Codes": "S",
+      "Locations": "S: SrchMΩ (LV9~S), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6869,21 +6814,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
-      "Damage": "(100-200)",
+      "Damage": "???(25-75)",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Throw any objects on field",
+      "Description": "Stop site and fire 5 shots",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 50,
-      "Name": "JunkMnDS",
+      "Name": "SrchMnDS",
       "ChipType": 1026,
-      "Elements": [ 2048 ],
-      "Codes": "J",
-      "Locations": "J: JunkMΩ (LV1~S - Evil Emotion), (BM) JnkMDS (LV1~S), Chip Order",
+      "Elements": [ 128 ],
+      "Codes": "S",
+      "Locations": "S: SrchMΩ (LV1~S - Evil Emotion), (RS) SrcMDS (LV1~S), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6895,21 +6839,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Throw any objects on field",
+      "Description": "Stop site and fire 5 shots",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 51,
-      "Name": "AquaMan",
+      "Name": "FireMan",
       "ChipType": 1026,
-      "Elements": [ 2 ],
-      "Codes": "A",
-      "Locations": "A: AquaMα (LV1~S), AquaMβ (LV1~S), AquaMΩ (LV1~10), Chip Order",
+      "Elements": [ 1 ],
+      "Codes": "F",
+      "Locations": "F: FireMα (LV1~S), FireMβ (LV1~S), FireMΩ (LV1~10), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6921,21 +6864,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
-      "Damage": "70",
+      "Damage": "100",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Water Gun sprays 2sq ahead",
+      "Description": "Fire burn to front side",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 52,
-      "Name": "AquaMnSP",
+      "Name": "FireMnSP",
       "ChipType": 1026,
-      "Elements": [ 2 ],
-      "Codes": "A",
-      "Locations": "A: AquaMΩ (LV9~S), Chip Order",
+      "Elements": [ 1 ],
+      "Codes": "F",
+      "Locations": "F: FireMΩ (LV9~S), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6947,21 +6889,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
-      "Damage": "(80-180)",
+      "Damage": "???(150-250)",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Water Gun sprays 2sq ahead",
+      "Description": "Fire burn to front side",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 53,
-      "Name": "AquaMnDS",
+      "Name": "FireMnDS",
       "ChipType": 1026,
-      "Elements": [ 2 ],
-      "Codes": "A",
-      "Locations": "A: AquaMΩ (LV1~S - Evil Emotion), (BM) AquMDS (LV1~S), Chip Order",
+      "Elements": [ 1 ],
+      "Codes": "F",
+      "Locations": "F: FireMΩ (LV1~S - Evil Emotion), (RS) FirMDS (LV1~S), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6973,21 +6914,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "Water Gun sprays 2sq ahead",
+      "Description": "Fire burn to front side",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 54,
-      "Name": "WoodMan",
+      "Name": "ThunMan",
       "ChipType": 1026,
-      "Elements": [ 4 ],
-      "Codes": "W",
-      "Locations": "W: WoodMα (LV1~S), WoodMβ (LV1~S), WoodMΩ (LV1~10), Chip Order",
+      "Elements": [ 8 ],
+      "Codes": "T",
+      "Locations": "T: ThunMα (LV1~S), ThunMβ (LV1~S), ThunMΩ (LV1~10), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -6999,21 +6939,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
-      "Damage": "130",
+      "Damage": "90",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "WoodTowr pierce to enmy area",
+      "Description": "Lightning strikes 3sq ahead",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 55,
-      "Name": "WoodMnSP",
+      "Name": "ThunMnSP",
       "ChipType": 1026,
-      "Elements": [ 4 ],
-      "Codes": "W",
-      "Locations": "W: WoodMΩ (LV9~S), Chip Order",
+      "Elements": [ 8 ],
+      "Codes": "T",
+      "Locations": "T: ThunMΩ (LV9~S), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -7025,21 +6964,20 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
-      "Damage": "(150-250)",
+      "Damage": "???(120-220)",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "WoodTowr pierce to enmy area",
+      "Description": "Lightning strikes 3sq ahead",
       "Notes": "",
       "Image": ""
     },
     {
       "Number": 56,
-      "Name": "WoodMnDS",
+      "Name": "ThunMnDS",
       "ChipType": 1026,
-      "Elements": [ 4 ],
-      "Codes": "W",
-      "Locations": "W: WoodMΩ (LV1~S - Evil Emotion), (BM) WoodMDS (LV1~S), Chip Order",
+      "Elements": [ 8 ],
+      "Codes": "T",
+      "Locations": "T: ThunMΩ (LV1~S - Evil Emotion), (RS) ThnMDS (LV1~S), Chip Order",
       "Traders": "None",
       "MegaManLocation": {
         "X": 0,
@@ -7051,11 +6989,10 @@
           "Y": 1
         }
       ],
-      "Capacity": 0,
       "Damage": "???",
       "Hits": "",
       "ProgramAdvances": [],
-      "Description": "WoodTowr pierce to enmy area",
+      "Description": "Lightning strikes 3sq ahead",
       "Notes": "",
       "Image": ""
     }
