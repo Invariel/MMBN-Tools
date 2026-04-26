@@ -28,7 +28,7 @@ namespace Deck_Builder.Classes
         /// The list of coordinates that the chip targets, with Mega Man at (1, 1).  WideSword would be (2, 0), (2, 1), (2, 2).
         /// </summary>
         public List<Point> Targets { get; set; } = new();
-        public int Capacity { get; set; }
+        public int? Capacity { get; set; }
         /// <summary>
         /// Not strictly damage; healing for recovery chips, + dmg for variable chips, empty for obstacles, etc.
         /// </summary>

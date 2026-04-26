@@ -1,6 +1,7 @@
 ﻿using Deck_Builder.Classes;
 using System.Text;
 using Deck_Builder.Extensions;
+using System.Runtime.InteropServices;
 
 namespace Deck_Builder
 {
@@ -9,6 +10,7 @@ namespace Deck_Builder
         const int COLUMN_CHIP_NUMBER = 0;
         const int COLUMN_CHIP_NAME = 1;
         const int COLUMN_CHIP_ELEMENT = 2;
+        const int COLUMN_CHIP_CAPACITY = 3;
 
 
         const int COLUMN_FOLDER_NAME = 0;
@@ -189,7 +191,7 @@ namespace Deck_Builder
                     codes.Add(string.Empty);
                 }
 
-                List<string> elements = new List<string> { chip.Number.ToString(), chip.Name, chip.Element.ToString() };
+                List<object> elements = new List<object> { chip.Number.ToString(), chip.Name, chip.Element.ToString(), chip.Capacity ?? 0 };
                 elements.AddRange(codes);
 
                 dgv_ChipList.Rows.Add(elements.ToArray());

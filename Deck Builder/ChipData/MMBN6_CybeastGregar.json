@@ -40,5 +40,7004 @@
     ]
   },
   "Battlechips": [
+    {
+      "Number": 1,
+      "Name": "Cannon",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,B,C,*",
+      "Locations": "A: LanFldr, ExpoFldr, GiftFldr, Chip Order;B: LanFldr, ExpoFldr, GiftFldr;C: ExpoFldr, Robot Control Comp 1 GMD;*: ExpoFldr, Robot Control Comp 2 GMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 6,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cannon attack to 1 enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 2,
+      "Name": "HiCannon",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "L,M,N,*",
+      "Locations": "L: ExpoFldr, Central Area 3 BMD, Aquarium Comp 1 GMD, Chip Order;M: Aquarium Comp 3 BMD, Green Area 1 GMD;N: Seaside Area 1 GMD;*: JudgeTree Comp 1 GMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cannon attack to 1 enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 3,
+      "Name": "M-Cannon",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "R,S,T,*",
+      "Locations": "R: SoulFldr, Mr. Weather Comp 3 GMD, Chip Order;S: SoulFldr, Sky Area 2 BMD;T: SoulFldr, Aquarium Comp 3 GMD;*: Mascot Comp BMD",
+      "Traders": "ACDC Town (JP: No *), Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 38,
+      "Damage": "180",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cannon attack to 1 enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 4,
+      "Name": "AirShot",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "*",
+      "Locations": "*: LanFldr, GiftFldr, Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 4,
+      "Damage": "20",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Knock enmy back 1 square",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 5,
+      "Name": "Vulcan1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,D,S,*",
+      "Locations": "B: Central Area 1 GMD;D: LanFldr, GiftFldr, Central Area 3 GMD, Chip Order;S: Trader only;*: Robot Control Comp 2 GMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 5,
+      "Damage": "10",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3-shot to pierce 1 panel!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 6,
+      "Name": "Vulcan2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "D,F,L",
+      "Locations": "D: ExpoFldr, JudgeTree Comp 1 GMD, Seaside Area 2 BMD;F: Aquarium Comp 2 GMD, Chip Order;L: Green Area 1 GMD",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 18,
+      "Damage": "15",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "4-shot to pierce 1 panel!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 7,
+      "Name": "Vulcan3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,G,R",
+      "Locations": "A: Pavilion Comp 4 GMD, Sky HP BMD, Chip Order;G: Sky Area 2 GMD;R: Mr. Weather Comp 1 GMD, Seaside Areas YMD",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "20",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "5-shot to pierce 1 panel!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 8,
+      "Name": "SuprVulc",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "V",
+      "Locations": "V: (EN) Virus Battle Machine V5, (JP)(BNLC) Underground 2 PMD, Green Areas YMD, 'Tab's Discounts' e-Reader Item Card, Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 75,
+      "Damage": "20",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "10-shot vulcan cannon!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 9,
+      "Name": "Spreadr1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "L,M,N,*",
+      "Locations": "L: Central Area 2 NetMerchant (600ƶ);M: Robot Control Comp 1 BMD, Chip Order;N: Central Area 3 GMD;*: Seaside Area 1 GMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 10,
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Spreads damg to adj panels",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 10,
+      "Name": "Spreadr2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,B,C,*",
+      "Locations": "A: Aquarium Comp 3 GMD;B: Green Area 2 GMD, Chip Order;C: Green Area 1 BMD;*: JudgeTree Comp 3 GMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 18,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Spreads damg to adj panels",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 11,
+      "Name": "Spreadr3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "Q,R,S,*",
+      "Locations": "Q: Mr. Weather Comp 2 GMD;R: Request BBS 'Want Meet Dghtr', Seaside Areas YMD, Chip Order;S: Mr. Weather Comp 1 BMD;*: Pavilion Comp 1 BMD",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 26,
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Spreads damg to adj panels",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 12,
+      "Name": "TankCan1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,G,R",
+      "Locations": "A: Catack (LV9~S), Chip Order;G: (CG) Catack (LV7~10);R: (CF) Catack (LV7~10), Central Area 2 NetMerchant (2400ƶ)",
+      "Traders": "AsterLand, ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 17,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3sqr blst if hits end row",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 13,
+      "Name": "TankCan2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "L,S,V",
+      "Locations": "L: Cateen (LV9~S), RarCatack (LV7~S), Chip Order;S: (CG) Cateen (LV7~10);V: (CF) Cateen (LV7~10)",
+      "Traders": "ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 28,
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3sqr blst if hits end row",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 14,
+      "Name": "TankCan3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,M,P",
+      "Locations": "B: Catpult (LV9~S), RarCatck2 (LV7~S), Chip Order;M: (CF) Catpult (LV7~10);P: (CG) Catpult (LV7~10)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 39,
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3sqr blst if hits end row",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 15,
+      "Name": "GunDelS1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,M,T,*",
+      "Locations": "C: AprtcFld, Asterland normal stock (1000ƶ);M: Undernet Zero GMD;T: Underground 1 GMD, Chip Order;*: Trader only",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town, Boktai Trader (10 pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 15,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hits row 2pnl ahd w/sunshne",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 16,
+      "Name": "GunDelS2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,E,R",
+      "Locations": "B: Trader only;E: Pavilion Comp 2 BMD;R: (GBA-EN) AprtcFld, (JP)(BNLC) Graveyard 2 / (GBA-EN) Graveyard GMD, Chip Order",
+      "Traders": "ACDC Town, Sky Town, Green Town, Boktai Trader (10pt, 20pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hits row 2pnl ahd w/sunshne",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 17,
+      "Name": "GunDelS3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "N,Q,W",
+      "Locations": "N: (GBA-EN) Undernet Zero NetMerchant (12000), (JP)(BNLC) Immortal Area BGMD, Chip Order;Q: Green Areas YMD;W: Lotto Number (14212857)",
+      "Traders": "BugFrag Trader, Boktai Trader (20pt, 30pt, 50pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 38,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hits row 2pnl ahd w/sunshne",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 18,
+      "Name": "YoYo",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "L,M,N,*",
+      "Locations": "L: Central Area 2 NetMerchant (4600ƶ);M: Aquarium Comp 1 GMD, Chip Order;N: JudgeTree Comp 2 BMD;*: Book Comp BMD",
+      "Traders": "AsterLand (JP: No *), Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "YoYo atk reaches 3sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 19,
+      "Name": "FireBrn1",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "F,G,H,*",
+      "Locations": "F: OldStov (LV7~10);G: OldStov (LV9~S);H: OldStov (LV5~7), Seaside Area 3 GMD, Chip Order;*: RarOldSt (LV7~10)",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 8,
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Crcks 3 sqrs ahd with fire",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 20,
+      "Name": "FireBrn2",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "S,T,U",
+      "Locations": "S: SoulFldr, OldHeatr (LV7~10), (CF) RarOldSt (LV9~S);T: SoulFldr, OldHeatr (LV9~S), (CG) RarOldSt (LV9~S), RarOldS2 (LV7~10);U: SoulFldr, OldHeatr (LV5~7), Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 21,
+      "Damage": "110",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Crcks 3 sqrs ahd with fire",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 21,
+      "Name": "FireBrn3",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "C,D,E",
+      "Locations": "C: OldBurnr (LV9~S), RarOldS2 (LV9~S);D: OldBurnr (LV7~10);E: OldBurnr (LV5~7), Chip Order",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 34,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Crcks 3 sqrs ahd with fire",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 22,
+      "Name": "WideSht",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "P,Q,R",
+      "Locations": "P: ExptFldr, Asterland normal stock (7000ƶ);Q: Underground 1 GMD, Chip Order;R: Underground 2 GMD",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 34,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fires 3sq shotgun blast!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 23,
+      "Name": "TrnArrw1",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A,F,K",
+      "Locations": "A: Piranha (LV9~S), RarePira (LV5~10), Sky Area 1 GMD, Chip Order;F: (CF) Piranha (LV5~10);K: (CG) Piranha (LV5~10)",
+      "Traders": "AsterLand, ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hits enmy w/arrow. Use dstnc",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 24,
+      "Name": "TrnArrw2",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "G,M,Z",
+      "Locations": "G: Piranha2 (LV9~S), RarePira (LV9~S), RarePira2 (LV5~10), Chip Order;M: (CG) Piranha2 (LV5~10);Z: (CF) Piranha2 (LV5~10)",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 36,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hits enmy w/arrow. Use dstnc",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 25,
+      "Name": "TrnArrw3",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "M,S,Y",
+      "Locations": "M: (CG) Piranha3 (LV9~S), (CG) RarePira2 (LV9~S), Chip Order;S: (CF) Piranha3 (LV9~S), (CF) RarePira2 (LV9~S);Y: Piranha3 (LV5~10)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 42,
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hits enmy w/arrow. Use dstnc",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 26,
+      "Name": "BblStar1",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "B,E,T",
+      "Locations": "B: (CF) StarFish (LV9~S), (CF) RarStrFs (LV7~10);E: (CG) StarFish (LV9~S), (CG) RarStrFs (LV7~10), Underground 1 GMD;T: StarFish (LV5~10), Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Seals an enemy in a bubble.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 27,
+      "Name": "BblStar2",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "C,L,V",
+      "Locations": "C: ExptFldr, (CG) StarFsh2 (LV9~S), RarStrFs (LV9~S), (JP)(BNLC) RarStrF2 (LV7~S) [1][2], (GBA-EN) RarStrF2 (LV7~10);L: (CF) StarFsh2 (LV9~S);V: StarFsh2 (LV7~10), Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 38,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Seals an enemy in a bubble.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 28,
+      "Name": "BblStar3",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "G,R,S",
+      "Locations": "G: (CG) StarFsh3 (LV9~S), (CG)(GBA-EN) RarStrF2 (LV9~S);R: (CF) StarFsh3 (LV9~S), (CF)(GBA-EN) RarStrF2 (LV9~S);S: StarFsh3 (LV7~10), Chip Order",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 46,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Seals an enemy in a bubble.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 29,
+      "Name": "Thunder",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "B,R,S,*",
+      "Locations": "B: Central Area 2 GMD;R: Chip Order;S: Aquarium Comp 1 GMD;*: Class 6-1 Comp BMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 7,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Pralyzing electric attack!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 30,
+      "Name": "DolThdr1",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "A,E,Q",
+      "Locations": "A: ScarCrow (LV9~S), (CG) RarScrCr (LV5~7);E: ScarCrow (LV7~10), (CF) RarScrCr (LV5~7), Sky Area 2 GMD, Chip Order;Q: ScarCrow (LV5~7)",
+      "Traders": "ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A piercng thunder attack!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 31,
+      "Name": "DolThdr2",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "C,L,P",
+      "Locations": "C: ExptFldr, (CG) ScrCrow2 (LV9~S), (CG) RarScrCr (LV7~S), (CG) RarScrC2 (LV5~7);L: (CF) ScrCrow2 (LV9~S), (CF) RarScrCr (LV7~S), (CF) RarScrC2 (LV5~7), Chip Order;P: ScrCrow2 (LV7~10)",
+      "Traders": "ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 31,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A piercng thunder attack!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 32,
+      "Name": "DolThdr3",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "B,R,V",
+      "Locations": "B: (CG) ScrCrow3 (LV9~S), (CG) RarScrC2 (LV7~S);R: (CF) ScrCrow3 (LV9~S), (CF) RarScrC2 (LV7~S), Chip Order;V: ScrCrow3 (LV7~10)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 38,
+      "Damage": "180",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A piercng thunder attack!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 33,
+      "Name": "ElcPuls1",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "J,L,S",
+      "Locations": "J: PulsBulb (LV5~10), (CG) RarPsBlb (LV7~10), Chip Order;L: (CG) PulsBulb (LV9~S);S: (CF) PulsBulb (LV9~S), (CF) RarPsBlb (LV7~10)",
+      "Traders": "ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sprd elec puls that paralyzes",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 34,
+      "Name": "ElcPuls2",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "A,E,J",
+      "Locations": "A: (CF) PlsBulb2 (LV9~S), (CF) RarPsBlb (LV9~S), (CF) RarPsBl2 (LV7~10);E: (CG) PlsBulb2 (LV9~S), (CG) RarPsBlb (LV9~S), (CG) RarPsBl2 (LV7~10), Chip Order;J: PlsBulb2 (LV7~10)",
+      "Traders": "ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 36,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sprd elec pulse. Pul enemy in.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 35,
+      "Name": "ElcPuls3",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "A,J,S",
+      "Locations": "A: PlsBulb3 (LV9~S), (CF) RarPsBl2 (LV9~S), Chip Order;J: PlsBulb3 (LV5~7);S: PlsBulb3 (LV7~10), (CG) RarPsBl2 (LV9~S)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 40,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sprd elec puls. Hit w/HP bug.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 36,
+      "Name": "CornSht1",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "J,K,L",
+      "Locations": "J: BombCorn (LV7~10), (CF) RareCorn (LV5~10), Chip Order;K: BombCorn (LV5~7);L: BombCorn (LV9~S), (CG) RareCorn (LV5~10), Underground 2 GMD",
+      "Traders": "AsterLand, ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 14,
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Damages enemies w/corn",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 37,
+      "Name": "CornSht2",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "C,D,E",
+      "Locations": "C: MegaCorn (LV9~S), (CF) RareCorn (LV9~S), (CF) RarCorn2 (LV5~10), Chip Order;D: MegaCorn (LV7~10), (CG) RareCorn (LV9~S), (CG) RarCorn2 (LV5~10);E: MegaCorn (LV5~7)",
+      "Traders": "ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 26,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Damages enemies w/corn",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 38,
+      "Name": "CornSht3",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "P,Q,R",
+      "Locations": "P: GigaCorn (LV7~10), (CF) RarCorn2 (LV9~S), Chip Order;Q: GigaCorn (LV5~7);R: GigaCorn (LV9~S), (CG) RarCorn2 (LV9~S)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 38,
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Damages enemies w/corn",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 39,
+      "Name": "RskyHny1",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "B,G,S",
+      "Locations": "B: (CF) HonyBmbr (LV9~S), (CF) RarHnyBm (LV5~7);G: (CG) HonyBmbr (LV9~S), (CG) RarHnyBm (LV5~7);S: HonyBmbr (LV5~10), Mr. Weather Comp 3 GMD, Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 21,
+      "Damage": "10",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bees attk whle hive defending",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 40,
+      "Name": "RskyHny2",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "C,R,V",
+      "Locations": "C: (CG) HnyBmbr2 (LV9~S), (CG) RarHnyBm (LV7~S), (CG) RarHyBm2 (LV5~7);R: (CF) HnyBmbr2 (LV9~S), (CF) RarHnyBm (LV7~S), (CF) RarHyBm2 (LV5~7), Chip Order;V: HnyBmbr2 (LV5~10)",
+      "Traders": "ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 28,
+      "Damage": "15",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bees attk whle hive defending",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 41,
+      "Name": "RskyHny3",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "A,D,M",
+      "Locations": "A: HnyBmbr3 (LV9~S), (CF) RarHyBm2 (LV7~S), Chip Order;D: HnyBmbr3 (LV7~10), (CG) RarHyBm2 (LV7~S);M: HnyBmbr3 (LV5~7)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 35,
+      "Damage": "20",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bees attk whle hive defending",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 42,
+      "Name": "RlngLog1",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "I,K,P",
+      "Locations": "I: (CF) Shrubby (LV9~S), (CF) RarShrby (LV5~10), Chip Order;K: (CG) Shrubby (LV9~S), (CG) RarShrby (LV5~10), Mr. Weather Comp 2 GMD;P: Shrubby (LV5~10)",
+      "Traders": "AsterLand, ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 14,
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Send out 2 logs 2pnl fwd",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 43,
+      "Name": "RlngLog2",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "E,Q,Z",
+      "Locations": "E: (CF) Shrubby2 (LV9~S), (CF) RarShrby (LV9~S), (CF) RarShrb2 (LV5~10), Chip Order;Q: (CG) Shrubby2 (LV9~S), (CG) RarShrby (LV9~S), (CG) RarShrb2 (LV5~10);Z: Shrubby2 (LV7~10)",
+      "Traders": "ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 26,
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Send out 2 logs 2pnl fwd",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 44,
+      "Name": "RlngLog3",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "F,N,W",
+      "Locations": "F: (CF) Shrubby3 (LV9~S), (CF) RarShrb2 (LV9~S), Chip Order;N: (CG) Shrubby3 (LV9~S), (CG) RarShrb2 (LV9~S);W: Shrubby3 (LV7~10)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 38,
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Send out 2 logs 2pnl fwd",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 45,
+      "Name": "IronShl1",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "J,K,L",
+      "Locations": "J: Armadill (LV7~10), RarArmdl (LV5~10), Chip Order;K: Armadill (LV5~7), ACDC Area GMD;L: Armadill (LV9~S)",
+      "Traders": "AsterLand, ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 13,
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fire off piercing shell.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 46,
+      "Name": "IronShl2",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "C,D,E",
+      "Locations": "C: Armadil2 (LV9~S), RarArmdl (LV9~S), RarArmd2 (LV5~10), Chip Order;D: Armadil2 (LV7~10);E: Armadil2 (LV5~7), (JP)(BNLC) Immortal Area GMD",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fire off piercing shell.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 47,
+      "Name": "IronShl3",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "L,M,N,*",
+      "Locations": "L: Armadil3 (LV9~S), RarArmd2 (LV9~S), Chip Order;M: Armadil3 (LV7~10);N: Armadil3 (LV5~7)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 27,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fire off piercing shell.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 48,
+      "Name": "AuraHed1",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "B,C,D",
+      "Locations": "B: HeadyA (LV9~S), (CG)(JP)(BNLC) RarHeady (LV5~7), (CF)(JP)(BNLC) RarHeady (LV5~10), (GBA-EN) RarHeady (LV5~7), Pavilion Comp 3 GMD;C: HeadyA (LV7~10), Chip Order;D: HeadyA (LV5~7)",
+      "Traders": "ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 25,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A flying head with 2spc tail",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 49,
+      "Name": "AuraHed2",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "D,E,F",
+      "Locations": "D: HeadyH (LV9~S), (CG)(JP)(BNLC) RarHeady (LV7~S) [3], (CF)(JP)(BNLC) RarHeady (LV9~S) [3], (GBA-EN) RarHeady (LV7~S), (JP)(BNLC) RarHedy2 (LV5~10) [3], (GBA-EN) RarHedy2 (LV5~7), (JP)(BNLC) Immortal Area GMD;E: HeadyH (LV7~10), Chip Order;F: HeadyH (LV5~7)",
+      "Traders": "ACDC Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 33,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A flying head with 2spc tail",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 50,
+      "Name": "AuraHed3",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "F,G,H",
+      "Locations": "F: HeadyW (LV7~10);G: HeadyW (LV9~S), (JP)(BNLC) RarHedy2 (LV9~S), (GBA-EN) RarHedy2 (LV7~S), Chip Order;H: HeadyW (LV5~7)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 39,
+      "Damage": "170",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A flying head with 2spc tail",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 51,
+      "Name": "AirHocky",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "L,M,N",
+      "Locations": "L: Sky Area 2 GMD, Chip Order;M: Chip Trading (Central Town), (BNLC) Compensation Battle Chip set Patch Card;N: Asterland normal stock (3800ƶ)",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 19,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bounce the puck off walls",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 52,
+      "Name": "DrilArm",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "G,M,W",
+      "Locations": "G: Asterland normal stock (5000ƶ), Chip Order;M: Lotto Number (60884138);W: Pavilion Comp 1 GMD",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Knocks enmy 2sq away",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 53,
+      "Name": "Tornado",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "L,R,T",
+      "Locations": "L: Aquarium HP PMD;R: Chip Order;T: Central Areas / Robot Control Comps BGMD",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 16,
+      "Damage": "20",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "8hit strm 2 squares ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 54,
+      "Name": "Static",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "G,S,V",
+      "Locations": "G: Trader only;S: Chip Order;V: (JP)(BNLC) Graveyard 1 NetMerchant (14600ƶ), (GBA-EN) Graveyard NetMerchant (14600ƶ)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "20",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A static blast 2sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 55,
+      "Name": "MachGun1",
+      "ChipType": 1,
+      "Elements": [ 4096 ],
+      "Codes": "A,R,T,*",
+      "Locations": "A: Gunner (LV9~S);R: (CF) Gunner (LV7~10);T: (CG) Gunner (LV7~10), Seaside Area 3 GMD, Chip Order;*: JudgeTree Comp 2 GMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fire 9sts at row w/clst enmy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 56,
+      "Name": "MachGun2",
+      "ChipType": 1,
+      "Elements": [ 4096 ],
+      "Codes": "E,G,S",
+      "Locations": "E: Shooter (LV7~10);G: (CF) Shooter (LV9~S), (CF) RareGnnr (LV5~S);S: (CG) Shooter (LV9~S), (CG) RareGnnr (LV5~S), Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fire 9sts at row w/clst enmy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 57,
+      "Name": "MachGun3",
+      "ChipType": 1,
+      "Elements": [ 4096 ],
+      "Codes": "B,F,M",
+      "Locations": "B: Sniper (LV9~S), RarGnnr2 (LV5~S);F: (CG) Sniper (LV7~10);M: (CF) Sniper (LV7~10), Chip Order",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 36,
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fire 9sts at row w/clst enmy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 58,
+      "Name": "MiniBomb",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,L,R,*",
+      "Locations": "B: LanFldr;L: LanFldr, GiftFldr;R: Central Area 2 GMD;*: Robot Control Comp 1 GMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 6,
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throws a MiniBomb 3sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 59,
+      "Name": "BigBomb",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "O,P,V",
+      "Locations": "O: Chip Trading (Sky Town Op Room), (BNLC) Compensation Battle Chip set Patch Card;P: Request BBS 'Stop Him!';V: (GBA-EN) Asterland normal stock (9000ƶ), Chip Order",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throws a 9 panl bomb 3panl fwd",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 60,
+      "Name": "EnergBom",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,K,V,*",
+      "Locations": "C: Robot Control Comp 2 GMD, Chip Order;K: ExpoFldr, Class 1-1 Comp BMD;V: Seaside Area 2 GMD;*: JudgeTree Comp 2 GMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 11,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throws a bomb 3sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 61,
+      "Name": "MegEnBom",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "G,M,O,*",
+      "Locations": "G: Sky Area 1 GMD, Chip Order;M: Seaside Areas / Aquarium Comps BGMD;O: Aquarium Comp 3 GMD, Green Area 2 GMD;*: Mr. Weather Comp 3 GMD",
+      "Traders": "ACDC Town (JP: No *), Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 27,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throws a bomb 3sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 62,
+      "Name": "FlshBom1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "J,L,Q,*",
+      "Locations": "J: (CF) BigHat (HP ≤ 37.5%: LV5~10);L: BigHat (LV9~S);Q: BigHat (LV5~10) (CG: Any HP, CF: HP > 37.5%), Chip Order;*: Trader only",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Thrw dlyd stun bomb 3sq fwd",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 63,
+      "Name": "FlshBom2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "G,K,R",
+      "Locations": "G: (CG) BigHat2 (LV9~S), (CG) RarBgHat (LV7~S);K: BigHat2 (LV7~10);R: (CF) BigHat2 (LV9~S), (CF) RarBgHat (LV7~S), Chip Order",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 34,
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Thrw dlyd stun bomb 3sq fwd",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 64,
+      "Name": "FlshBom3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H,P,S",
+      "Locations": "H: (CG) BigHat3 (LV7~10);P: (CF) BigHat3 (LV7~10);S: BigHat3 (LV9~S), RarBgHt2 (LV7~S), Chip Order",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 38,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Thrw dlyd stun bomb 3sq fwd",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 65,
+      "Name": "BlkBomb",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "B,F,O",
+      "Locations": "B: Pavilion Comp 1 GMD;F: Green HP PMD, Chip Order;O: Trader only",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "250",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Thrw shel 3sqr fwd. Fire attk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 66,
+      "Name": "BugBomb",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "G,S,V",
+      "Locations": "G: Asterland Mr. Famous (8000ƶ);S: Trader only;V: Chip Order",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throws a BugBomb 3sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 67,
+      "Name": "GrasSeed",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "A,F,S,*",
+      "Locations": "A: Trader only;F: Trader only;S: Green Area 1 GMD, Chip Order;*: SoulFldr, JudgeTree Comp 3 GMD, Undernet Zero GMD",
+      "Traders": "AsterLand (JP: No *), Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 19,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Makes 9sq meadow 3sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 68,
+      "Name": "IceSeed",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A,L,R,*",
+      "Locations": "A: Pipe Comp BMD;L: Trader only;R: Chip Order;*: ExptFldr, ACDC HP BMD",
+      "Traders": "AsterLand (JP: No *), Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 31,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Makes 9sq ice field 3sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 69,
+      "Name": "PoisSeed",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H,N,P,*",
+      "Locations": "H: Trader only;N: Trader only;P: Sky Area 1 BugFrag Trader (48BF), Chip Order;*: Trader only",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 37,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Makes 9sq poisn swp 3sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 70,
+      "Name": "Sword",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "H,L,S,*",
+      "Locations": "H: Trader only;L: Central Area 1 GMD;S: LanFldr, ExpoFldr, GiftFldr, SoulFldr, Chip Order;*: ExptFldr, Aquarium Comp 1 GMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 8,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts enmy in front! Range: 1",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 71,
+      "Name": "WideSwrd",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "H,L,S,*",
+      "Locations": "H: Trader only;L: Trader only;S: LanFldr, ExpoFldr, GiftFldr, SoulFldr, Central Area 2 GMD, Chip Order;*: Aquarium Comp 2 GMD, Green Area 2 GMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts enmy in front! Range: 3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 72,
+      "Name": "LongSwrd",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "H,L,S,*",
+      "Locations": "H: Swordy (LV5~7), Robot Control Comp 2 GMD, Central Area 3 GMD;L: Swordy (LV9~S);S: ExpoFldr, SoulFldr, Swordy (LV7~10), Chip Order;*: Underground 2 GMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 25,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts enmy in front! Range: 2",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 73,
+      "Name": "WideBlde",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "B,R,W",
+      "Locations": "B: ExptFldr, Seaside Area 3 PMD, Chip Order;R: Green Areas / Judge Tree / Pavilion 2 Comps BGMD;W: Undernet 2 GMD",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 38,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts enmy in front! Range: 3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 74,
+      "Name": "LongBlde",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "B,M,V",
+      "Locations": "B: ExptFldr, Pavilion Comp 4 BMD, Chip Order;M: Asterland normal stock (6200ƶ);V: (JP)(BNLC) Undernet 3 GMD",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 38,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts enmy in front! Range: 2",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 75,
+      "Name": "FireSwrd",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "F,O,Z",
+      "Locations": "F: Swordy2 (LV9~S), RarSwrdy (LV7~S);O: (CF) Swordy2 (LV7~10), JudgeTree Comp 3 GMD, Chip Order;Z: (CG) Swordy2 (LV7~10)",
+      "Traders": "ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cut enmy 3sq fwrd w/fire",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 76,
+      "Name": "AquaSwrd",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A,I,Y",
+      "Locations": "A: Swordy3 (LV9~S), RarSwrdy2 (LV7~S), Pavilion Comp 4 GMD;I: (CG) Swordy3 (LV7~10), Chip Order;Y: (CF) Swordy3 (LV7~10)",
+      "Traders": "ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cut enmy 3sq fwrd w/aqua",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 77,
+      "Name": "ElecSwrd",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "E,K,N",
+      "Locations": "E: Central Area 3 PMD, (JP)(BNLC) Undernet 3 GMD;K: Chip Order;N: Trader only",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 35,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cut enmy 3sq fwrd w/elec",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 78,
+      "Name": "BambSwrd",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "H,S,W",
+      "Locations": "H: Trader only;S: Chip Order;W: Seaside Area 3 NetMerchant (4200ƶ)",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 34,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cut enmy 3sq fwrd w/wood",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 79,
+      "Name": "WindRack",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "F,J,R,*",
+      "Locations": "F: ACDC Area NetMerchant (7200ƶ), Chip Order;J: Trader only;R: (JP)(BNLC) Graveyard 2 / (GBA-EN) Graveyard GMD;*: (JP) Virus Battle Machine V4, (BNLC)(EN) See Notes[4], (EN) Virus Battle Machine V1",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 19,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Blow enmy in front! Range: 3",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 80,
+      "Name": "StepSwrd",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "B,L,P",
+      "Locations": "B: Lab's Comp 2 PMD;L: JudgeTree Comp 1 BMD;P: Undernet 1 GMD, Chip Order",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 28,
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Use WideSwrd 2sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 81,
+      "Name": "VarSwrd",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "K,V,W",
+      "Locations": "K: Chip Order;V: ExptFldr, (JP)(BNLC) Immortal Area GMD (EN: Trader only otherwise);W: ACDC HP PMD",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 28,
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A magical shifting sword.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 82,
+      "Name": "NeoVari",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "N",
+      "Locations": "N: Sky Area 1 BugFrag Trader (80BF), Undernet 2 / Underground YMD, Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 52,
+      "Damage": "220",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A magical shifting sword.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 83,
+      "Name": "MoonBld",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "A,M,T",
+      "Locations": "A: (JP)(BNLC) Graveyard 2 / (GBA-EN) Graveyard GMD, Chip Order;M: Undernet / Pavilion Comps (except Pavilion 2) BGMD;T: Trader only",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 35,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slices enemies around",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 84,
+      "Name": "Muramasa",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "M",
+      "Locations": "M: Undernet 1 PMD, (JP)(BNLC) Undernet 3 / Immortal Area YMD, Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 77,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Atk power equals amt of lostHP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 85,
+      "Name": "MchnSwrd",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H,L,Q",
+      "Locations": "H: (CF) DarkMech (LV9~S);L: (CG) DarkMech (LV9~S), Chip Order;Q: DarkMech (LV7~10)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 37,
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Search and hit stund enemies.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 86,
+      "Name": "ElemSwrd",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "J,M,U",
+      "Locations": "J: (CG) ElecMech (LV9~S), (CG) RarDkMec (LV7~S);M: (CF) ElecMech (LV9~S), (CF) RarDkMec (LV7~S), Chip Order;U: ElecMech (LV7~10)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 43,
+      "Damage": "220",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cuts enmy on grass, ice, fire",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 87,
+      "Name": "AssnSwrd",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "N,R,Y",
+      "Locations": "N: (CF) DoomMech (LV9~S), (CF) RarDkMc2 (LV5~S);R: (CG) DoomMech (LV9~S), (CG) RarDkMc2 (LV5~S), Chip Order;Y: DoomMech (LV7~10)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 50,
+      "Damage": "240",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "When plyz cut enemy spec panl",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 88,
+      "Name": "CrakShot",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,G,T,*",
+      "Locations": "A: Chip Order;G: Trader only;T: Trader only;*: LanFldr, GiftFldr",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town (JP: No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 4,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Shoot a panel at an enemy!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 89,
+      "Name": "DublShot",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "C,R,U,*",
+      "Locations": "C: Chip Trading (Class 1-2), (BNLC) Compensation Battle Chip set Patch Card;R: Sky Area 1 GMD, Chip Order;U: Pavilion Comp 3 GMD;*: ExpoFldr, Stuffed Toy Shop Comp BMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 8,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Shoot 2 panels at an enemy!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 90,
+      "Name": "TrplShot",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "J,L,V,*",
+      "Locations": "J: Trader only;L: Seaside Area 3 GMD;V: Undernet 2 GMD, Chip Order;*: Guide Panel Comp BMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Shoot 3 panels at an enemy!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 91,
+      "Name": "Rflectr1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,C,P,*",
+      "Locations": "A: Mettaur (LV9~S), Seaside Area 1 GMD, Chip Order;C: (CG) Mettaur (LV7~10);P: (CF) Mettaur (LV7~10);*: RareMttar (CG: LV5~7, CF: LV5~10)",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 7,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bounce an attk back at them!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 92,
+      "Name": "Rflectr2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,G,Y,*",
+      "Locations": "B: (CG) Mettaur2 (LV9~S), Chip Order;G: (CF) Mettaur2 (LV9~S);Y: Mettaur2 (LV5~10);*: RareMttar (CG: LV7~S, CF: LV5~7), RareMttr2 (CG: LV9~S, CF: LV5~10)",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 16,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bounce an attk back at them!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 93,
+      "Name": "Rflectr3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E,F,O,*",
+      "Locations": "E: (CG) Mettaur3 (LV9~S), Chip Order;F: (CF) Mettaur3 (LV9~S);O: Mettaur3 (LV7~10);*: RareMttr2 (CG: LV7~S, CF: LV9~S)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 25,
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Bounce an attk back at them!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 94,
+      "Name": "WaveArm1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E,F,G",
+      "Locations": "E: Quaker (LV9~S);F: AprtcFld, Quaker (LV7~10), Underground 1 GMD;G: Quaker (LV9~S), (CG)(JP)(BNLC) RareQuakr (LV5~10), (CF)(JP)(BNLC) RareQuakr (LV5~7), (GBA-EN) RareQuakr (LV5~10), Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 15,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fllw enemy and fire trap wave",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 95,
+      "Name": "WaveArm2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "L,M,N",
+      "Locations": "L: Shaker (LV9~S), (CG)(JP)(BNLC) RareQuakr (LV9~S), (CF)(JP)(BNLC) RareQuakr (LV7~S) [5], (GBA-EN) RareQuakr (LV9~S), (CG)(JP)(BNLC) RarQuakr2 (LV5~10), (CF)(JP)(BNLC) RarQuakr2 (LV5~7), (GBA-EN) RarQuakr2 (LV5~10);M: Shaker (LV9~S);N: Shaker (LV7~10), Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 22,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fllw enemy and fire trap wave",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 96,
+      "Name": "WaveArm3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "R,S,T",
+      "Locations": "R: Breaker (LV9~S), (CG)(JP)(BNLC) RarQuakr2 (LV9~S), (CF)(JP)(BNLC) RarQuakr2 (LV7~10) [6], (GBA-EN) RarQuakr2 (LV9~S);S: Breaker (LV9~S), (CF)(JP)(BNLC) RarQuakr2 (LV9~S);T: Breaker (LV7~10), Chip Order",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 29,
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fllw enemy and fire trap wave",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 97,
+      "Name": "SandWrm1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,G,L",
+      "Locations": "A: (CG) SnakeArm (LV9~S), (CG) RarSnkAr (LV7~10);G: (CF) SnakeArm (LV9~S), (CF) RarSnkAr (LV7~10);L: SnakeArm (LV9~S), Chip Order",
+      "Traders": "ACDC Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attk enmy from rear w/snakarm",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 98,
+      "Name": "SandWrm2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,R,Y",
+      "Locations": "B: (CG) SnakeAr2 (LV9~S), (CG) RarSnkAr (LV9~S), (CG) RarSnkA2 (LV7~10), (CF)(JP)(BNLC) RarSnkA2 (LV9~S) [7];R: (CF) SnakeAr2 (LV9~S), (CF) RarSnkAr (LV9~S), (CF) RarSnkA2 (LV7~10);Y: SnakeAr2 (LV9~S), Chip Order",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 34,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attk enmy from rear w/snakarm",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 99,
+      "Name": "SandWrm3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H,J,S",
+      "Locations": "H: (CF) SnakeAr3 (LV9~S), (CF) RarSnkA2 (LV9~S);J: SnakeAr3 (LV9~S);S: (CG) SnakeAr3 (LV9~S), (CG) RarSnkA2 (LV9~S), Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 38,
+      "Damage": "170",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attk enmy from rear w/snakarm",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 100,
+      "Name": "SumnBlk1",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E,I,P",
+      "Locations": "E: (CF) Nghtmare (LV9~S), Pavilion Comp 2 GMD;I: (CG) Nghtmare (LV9~S), Chip Order;P: Nghtmare (LV7~10)",
+      "Traders": "ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Summon a Nghtmare attack!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 101,
+      "Name": "SumnBlk2",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H,O,V",
+      "Locations": "H: (CF) Blckmare (LV9~S), (CF) NghtRare (LV9~S);O: Blckmare (LV7~10), Chip Order;V: (CG) Blckmare (LV9~S), (CG) NghtRare (LV9~S)",
+      "Traders": "ACDC Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 40,
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Summon a Nghtmare attack!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 102,
+      "Name": "SumnBlk3",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "W,Y,Z",
+      "Locations": "W: (CF) Darkmare (LV9~S), (CF) NghtRar2 (LV9~S);Y: (CG) Darkmare (LV9~S), (CG) NghtRar2 (LV9~S), Chip Order;Z: Darkmare (LV7~10)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 46,
+      "Damage": "260",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Summon a Nghtmare attack!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 103,
+      "Name": "Snake",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H,L,M",
+      "Locations": "H: Class 6-2 Comp PMD, Chip Order;L: Sky Areas / Mr. Weather Comps / ACDC Areas BGMD;M: (JP)(BNLC) Graveyard 1 GMD",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 34,
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Call snke from hole in area.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 104,
+      "Name": "NumbrBl",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "N",
+      "Locations": "N: Asterland normal stock (12600ƶ), Sky Areas YMD, 'Tab's Discounts' e-Reader Item Card, Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 69,
+      "Damage": "???",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Last 2 HP digits = atk pwr",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 105,
+      "Name": "FireHit1",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "D,E,F",
+      "Locations": "D: Champy (LV9~S), RarChampy (LV5~10);E: Champy (LV5~7), Chip Order;F: Champy (LV7~10), Lab's Comp 1 BMD, Seaside Area 2 GMD",
+      "Traders": "AsterLand, ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slams closest enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 106,
+      "Name": "FireHit2",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "R,S,T",
+      "Locations": "R: SoulFldr, Chumpy (LV7~10), (CG) RarChampy (LV9~S), (CG) RarChmpy2 (LV5~10);S: SoulFldr, Chumpy (LV9~S), (CF) RarChampy (LV9~S), (CF) RarChmpy2 (LV5~10), Chip Order;T: SoulFldr, Chumpy (LV5~7), Pavilion Comp 2 GMD",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 22,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slams closest enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 107,
+      "Name": "FireHit3",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "A,B,C",
+      "Locations": "A: Chimpy (LV9~S), RarChmpy2 (LV9~S);B: Chimpy (LV7~10), Chip Order;C: Chimpy (LV5~7)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "180",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slams closest enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 108,
+      "Name": "BurnSqr1",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "H,P,V",
+      "Locations": "H: (CG) HntdCndl (LV9~S), (CG) RarHntCd (LV5~7), Undernet 2 GMD, Chip Order;P: HntdCndl (LV5~10);V: (CF) HntdCndl (LV9~S), (CF) RarHntCd (LV5~7)",
+      "Traders": "ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Press A to burn a 4pnl sqr",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 109,
+      "Name": "BurnSqr2",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "D,M,T",
+      "Locations": "D: HntdCdl2 (LV9~S), RarHntCd (LV7~S), RarHntC2 (LV5~7), Chip Order;M: (CF) HntdCdl2 (LV5~10);T: (CG) HntdCdl2 (LV5~10)",
+      "Traders": "ACDC Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Press A to burn a 4pnl sqr",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 110,
+      "Name": "BurnSqr3",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "E,O,Z",
+      "Locations": "E: (CF) HntdCdl3 (LV9~S), (CF) RarHntC2 (LV7~S), Chip Order;O: (CG) HntdCdl3 (LV9~S), (CG) RarHntC2 (LV7~S);Z: HntdCdl3 (LV7~10)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 36,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Press A to burn a 4pnl sqr",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 111,
+      "Name": "Meteors",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "R",
+      "Locations": "R: Graveyard BGMD, ACDC Area / Undernet Zero YMD, 'Yai's Pride' e-Reader Item Card, Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 73,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Drop many meteor on enmy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 112,
+      "Name": "AquaNdl1",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "C,J,P",
+      "Locations": "C: Puffy/Diodon (LV9~S), RarePufy/RarDiodn (LV5~7), Mr. Weather Comp 1 GMD;J: (CF) Puffy/Diodon (LV7~10);P: (CG) Puffy/Diodon (LV7~10), Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 31,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Target 3 needles at enemy!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 113,
+      "Name": "AquaNdl2",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "F,K,T",
+      "Locations": "F: (CG) Puffy2/Diodon2 (LV9~S), (CG) RarePufy/RarDiodn (LV7~S) [8], (CG) RarPufy2/RarDiod2 (LV5~7) [8];K: Puffy2/Diodon2 (LV7~10), Pavilion Comp 4 GMD, Chip Order;T: (CF) Puffy2/Diodon2 (LV9~S), (CF) RarePufy/RarDiodn (LV7~S), (CF) RarPufy2/RarDiod2 (LV5~7)",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 35,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Target 3 needles at enemy!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 114,
+      "Name": "AquaNdl3",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "A,L,U",
+      "Locations": "A: Puffy3/Diodon3 (LV9~S), RarPufy2/RarDiod2 (LV7~S), Chip Order;L: (CF) Puffy3/Diodon3 (LV7~10);U: (CG) Puffy3/Diodon3 (LV7~10)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 39,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Target 3 needles at enemy!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 115,
+      "Name": "BlzrdBal",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "H,N,T",
+      "Locations": "H: Lotto Number (97049899);N: (JP)(BNLC) Undernet 3 / Immortal Area YMD;T: (JP)(BNLC) Graveyard 1 NetMerchant (18400ƶ), (GBA-EN) Graveyard NetMerchant (18400ƶ), Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 39,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Launch a giant snowball",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 116,
+      "Name": "Sensor1",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "J,O,W",
+      "Locations": "J: (CG) KillrEye (LV9~S), (CG) RarKllrEy (LV5~10);O: (CF) KillrEye (LV9~S), (CF) RarKllrEy (LV5~10);W: KillrEye (LV7~10), Chip Order",
+      "Traders": "ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit enmy with beam from snsr",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 117,
+      "Name": "Sensor2",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "N,U,Y",
+      "Locations": "N: (CF) DemonEye (LV9~S), (CF) RarKllrEy (LV9~S), (CF) RarKlrEy2 (LV5~10);U: (CG) DemonEye (LV9~S), (CG) RarKllrEy (LV9~S), (CG) RarKlrEy2 (LV5~10);Y: DemonEye (LV7~10), Chip Order",
+      "Traders": "ACDC Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 35,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit enmy with beam from snsr",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 118,
+      "Name": "Sensor3",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "I,K,Q",
+      "Locations": "I: JokersEye (LV9~S), RarKlrEy2 (LV9~S);K: (CG) JokersEye (LV7~10);Q: (CF) JokersEye (LV7~10), Chip Order",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 38,
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit enmy with beam from snsr",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 119,
+      "Name": "Boomer",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "J,K,T",
+      "Locations": "J: AprtcFld, Central Areas / Robot Control Comps BGMD, Underground 2 GMD;K: Chip Order;T: JudgeTree Comp 2 GMD",
+      "Traders": "AsterLand, ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 16,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Boomerang that circ btl field",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 120,
+      "Name": "HiBoomer",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "B,L,V",
+      "Locations": "B: ACDC Area NetMerchant (5000ƶ);L: (JP)(BNLC) Immortal Area GMD, Chip Order;V: Chip Trading (Aquarium bottom floor), (BNLC) Compensation Battle Chip set Patch Card",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 26,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Boomerang that circ btl field",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 121,
+      "Name": "M-Boomer",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "I,M,W",
+      "Locations": "I: Trader only;M: Lotto Number (88674125);W: (JP)(BNLC) Graveyard 1 NetMerchant (10000ƶ), (GBA-EN) Graveyard NetMerchant (10000ƶ), Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 36,
+      "Damage": "170",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Boomerang that circ btl field",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 122,
+      "Name": "Lance",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "A,R,W,*",
+      "Locations": "A: Chip Order;R: Trader only;W: Green Area 1 PMD;*: Lotto Number (69544569)",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 42,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Lance through back line",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 123,
+      "Name": "HeatDrgn",
+      "ChipType": 1,
+      "Elements": [ 1 ],
+      "Codes": "G,R,T",
+      "Locations": "G: (CG) ErthDrgn (LV9~S), (CG) WhteDrgn (LV9~S);R: (CF) ErthDrgn (LV9~S), (CF) WhteDrgn (LV9~S), Chip Order;T: ErthDrgn (LV9~S)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 40,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Drgn near clst enmy Hit 2 rows",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 124,
+      "Name": "ElecDrgn",
+      "ChipType": 1,
+      "Elements": [ 8 ],
+      "Codes": "A,L,V",
+      "Locations": "A: (CF) ThdrDrgn (LV9~S), (CF) BlckDrgn (LV9~S);L: (CG) ThdrDrgn (LV9~S), (CG) BlckDrgn (LV9~S), Chip Order;V: ThdrDrgn (LV9~S)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 40,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Drgn near clst enmy Hit 2 rows",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 125,
+      "Name": "AquaDrgn",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "H,P,S",
+      "Locations": "H: (CF) WatrDrgn (LV9~S), (CF) WhteDrgn (LV9~S);P: WatrDrgn (LV9~S), Chip Order;S: (CG) WatrDrgn (LV9~S), (CG) WhteDrgn (LV9~S)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 44,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Drgn near clst enmy Hit 2 rows",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 126,
+      "Name": "WoodDrgn",
+      "ChipType": 1,
+      "Elements": [ 4 ],
+      "Codes": "G,T,V",
+      "Locations": "G: (CG) WoodDrgn (LV9~S), (CG) BlckDrgn (LV9~S);T: (CF) WoodDrgn (LV9~S), (CF) BlckDrgn (LV9~S), Chip Order;V: WoodDrgn (LV9~S)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Drgn near clst enmy Hit 2 rows",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 127,
+      "Name": "GolmHit1",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "I,K,Y",
+      "Locations": "I: (CF) Cragger (LV9~S);K: (CG) Cragger (LV9~S), ACDC Area GMD, Chip Order;Y: Cragger (LV9~S)",
+      "Traders": "AsterLand, ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 17,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit 3pnl area arnd clst enmy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 128,
+      "Name": "GolmHit2",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "D,P,U",
+      "Locations": "D: (CF) MetlCrgr (LV9~S), (CF) RarCrggr (LV9~S);P: ExptFldr, (CG) MetlCrgr (LV9~S), (CG) RarCrggr (LV7~S), (JP)(BNLC) Graveyard 2 / (GBA-EN) Graveyard GMD, Chip Order;U: MetlCrgr (LV9~S)",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 27,
+      "Damage": "190",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit 3pnl area arnd clst enmy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 129,
+      "Name": "GolmHit3",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "H,M,V",
+      "Locations": "H: BigCrggr (LV9~S);M: (CG) BigCrggr (LV9~S), (CG) RarCrgr2 (LV7~S), Chip Order;V: (CF) BigCrggr (LV9~S), (CF) RarCrgr2 (LV9~S)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 37,
+      "Damage": "250",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit 3pnl area arnd clst enmy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 130,
+      "Name": "JustcOne",
+      "ChipType": 1,
+      "Elements": [ 512 ],
+      "Codes": "J",
+      "Locations": "J: Chip Trading (ACDC HP), Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 90,
+      "Damage": "220",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fist Atk on center panel",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 131,
+      "Name": "AirSpin1",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "F,G,R",
+      "Locations": "F: (JP) Virus Battle Machine V1, (BNLC)(EN) See Notes[4];G: Undernet Zero GMD;R: Seaside Areas / Aquarium Comps BGMD, Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 22,
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Spits out hurricane attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 132,
+      "Name": "AirSpin2",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "A,L,T",
+      "Locations": "A: Undernet 2 GMD;L: Chip Trading (Air Conditioner Comp);T: Chip Order",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 29,
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Spits out hurricane attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 133,
+      "Name": "AirSpin3",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "N,O,T",
+      "Locations": "N: Trader only;O: Lotto Number (71757977);T: (GBA-EN) Undernet Zero NetMerchant (12900ƶ), (JP)(BNLC) Immortal Area BMD, Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 36,
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Spits out hurricane attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 134,
+      "Name": "Wind",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "*",
+      "Locations": "*: WindBox (LV5~S), WindBox2 (LV5~S), RareBox (LV5~S), Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 10,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Windbox blows at enmy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 135,
+      "Name": "Fan",
+      "ChipType": 1,
+      "Elements": [ 16 ],
+      "Codes": "*",
+      "Locations": "*: VacuumFn (LV5~S), VacuFan2 (LV5~S), Lab's Comp 1 BMD, Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 10,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "VacuumFn pulls enemy in",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 136,
+      "Name": "Magnum",
+      "ChipType": 1,
+      "Elements": [ 4096 ],
+      "Codes": "F,L,W",
+      "Locations": "F: ACDC Area NetMerchant (8800ƶ);L: Pavilion Comp 3 GMD, Chip Order;W: Trader only",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 31,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cursor destroys panels!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 137,
+      "Name": "CircGun",
+      "ChipType": 1,
+      "Elements": [ 4096 ],
+      "Codes": "P,T,V",
+      "Locations": "P: Underground 1 PMD;T: (JP)(BNLC) Graveyard 1 GMD, Chip Order;V: Lotto Number (51378085)",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 35,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Stop sght w/Button and attck",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 138,
+      "Name": "RockCube",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "*",
+      "Locations": "*: Green Area 2 GMD, Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 6,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Place a RockCube in front",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 139,
+      "Name": "LilBolr1",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "F,K,L",
+      "Locations": "F: (CF) Kettle (LV7~10), Chip Order;K: (CG) Kettle (LV7~10);L: Kettle (LV9~S)",
+      "Traders": "AsterLand, ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 18,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3pnl fwd Kttl attk Attack+",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 140,
+      "Name": "LilBolr2",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "E,M,V",
+      "Locations": "E: (CG) SuprKetl (LV9~S), Chip Order;M: (CF) SuprKetl (LV9~S);V: SuprKetl (LV7~10)",
+      "Traders": "ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 23,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3pnl fwd Kttl attk Attack+",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 141,
+      "Name": "LilBolr3",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "G,S,Z",
+      "Locations": "G: (CG) KettleDX (LV9~S), Chip Order;S: (CF) KettleDX (LV9~S);Z: KettleDX (LV7~10)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 28,
+      "Damage": "180",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "3pnl fwd Kttl attk Attack+",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 142,
+      "Name": "AirRaid1",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "G,K,R",
+      "Locations": "G: (CG) FgtrPlne (LV9~S), (CG) RarFtrPl (LV5~7), Pavilion Comp 3 GMD;K: FgtrPlne (LV9~S), Chip Order;R: AprtcFld, (CF) FgtrPlne (LV9~S), (CF) RarFtrPl (LV5~7)",
+      "Traders": "ACDC Town, Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 26,
+      "Damage": "10",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attk enmy w/flying FgtrPlne.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 143,
+      "Name": "AirRaid2",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "O,T,Y",
+      "Locations": "O: (CG) FgtrPln2 (LV9~S), (CG) RarFtrPl (LV7~S), (CG) RarFtPl2 (LV5~7);T: (CF) FgtrPln2 (LV9~S), (CF) RarFtrPl (LV7~S), (CF) RarFtPl2 (LV5~7), Chip Order;Y: FgtrPln2 (LV9~S)",
+      "Traders": "ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "10",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attk enmy w/flying FgtrPlne.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 144,
+      "Name": "AirRaid3",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "N,U,Z",
+      "Locations": "N: (CG) FgtrPln3 (LV9~S), (CG) RarFtPl2 (LV7~S);U: (CF) FgtrPln3 (LV9~S), (CF) RarFtPl2 (LV7~S), Chip Order;Z: FgtrPln3 (LV9~S)",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 39,
+      "Damage": "10",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attk enmy w/flying FgtrPlne.",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 145,
+      "Name": "TimeBom1",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "F,G,H",
+      "Locations": "F: AprtcFld, ACDC Area GMD;G: Mr. Weather Comp 2 GMD, Chip Order;H: Seaside Area 3 NetMerchant (8800ƶ)",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Explodes 3 seconds later",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 146,
+      "Name": "TimeBom2",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "C,D,E",
+      "Locations": "C: (JP)(BNLC) Graveyard 1 GMD;D: Pavilion Comp 2 GMD, Chip Order;E: Sky Areas / Mr. Weather Comps / ACDC Areas BGMD",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "190",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Explodes 3 seconds later",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 147,
+      "Name": "TimeBom3",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "L,M,N",
+      "Locations": "L: (GBA-EN) Undernet Zero NetMerchant (15200ƶ), (JP)(BNLC) Graveyard 1 BMD, Chip Order;M: Lotto Number (23722234), ACDC Area / Undernet Zero YMD;N: Chip Trading (Green Town Court Foyer)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 37,
+      "Damage": "230",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Explodes 3 seconds later",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 148,
+      "Name": "Mine",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "A,S,T",
+      "Locations": "A: Trader only;S: Sky Area 1 BugFrag Trader (36BF), Chip Order;T: (JP)(BNLC) Undernet 3 GMD",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 28,
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Place a mine in enmy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 149,
+      "Name": "Fanfare",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "P,S,Z,*",
+      "Locations": "P: (CG) Trumpy (LV5~7), JudgeTree Comp 1 GMD;S: (CF) Trumpy (LV5~7);Z: Trumpy (LV7~S), Chip Order;*: AprtcFld (Trader only otherwise)",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Take no dmage for a while",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 150,
+      "Name": "Discord",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "A,G,S,*",
+      "Locations": "A: (CF) Tuby (LV5~7);G: (CG) Tuby (LV5~7);S: Tuby (LV7~S), Chip Order;*: Trader only",
+      "Traders": "ACDC Town (JP: No *), Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Confuses enemies w/music",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 151,
+      "Name": "Timpani",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "I,O,T,*",
+      "Locations": "I: (CG) Tromby (LV5~7);O: (CF) Tromby (LV5~7);T: Tromby (LV7~S), Chip Order;*: Trader only",
+      "Traders": "ACDC Town (JP: No *), Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Stop enmy feet with music",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 152,
+      "Name": "Silence",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "B,R,W,*",
+      "Locations": "B: (CF) MuteAnt (LV7~S);R: (CG) MuteAnt (LV7~S);W: MuteAnt (LV5~7), Chip Order;*: Trader only",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Blinds enemies w/music",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 153,
+      "Name": "VDoll",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "F,N,S,*",
+      "Locations": "F: Undernet Zero BMD;N: Trader only;S: Underground BGMD;*: Chip Order",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 39,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Throws VDoll 3sq ahead",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 154,
+      "Name": "Guardian",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "O",
+      "Locations": "O: Punish Chair Comp PMD, Sky Areas YMD, 'Yai's Pride' e-Reader Item Card, Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Statue punishes when hit",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 155,
+      "Name": "Anubis",
+      "ChipType": 1,
+      "Elements": [ 2048 ],
+      "Codes": "P",
+      "Locations": "P: (JP)(BNLC) Graveyard 2 / (GBA-EN) Graveyard PMD, Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 86,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Anubis poisons enemies",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 156,
+      "Name": "Recov10",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,D,L,*",
+      "Locations": "A: LanFldr, GiftFldr, Chip Order;D: Trader only;L: LanFldr;*: Central Area 1 GMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 4,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recovers 10HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 157,
+      "Name": "Recov30",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E,L,Q",
+      "Locations": "E: Chip Order;L: Trader only;Q: Central Area 3 GMD;*: Central Area 2 NetMerchant (1000ƶ), Robot Control Comp 2 BMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recovers 30HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 158,
+      "Name": "Recov50",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "C: ExpoFldr, Seaside Area 1 GMD, Chip Order;M: Trader only;P: Trader only;*: Aquarium Comp 2 GMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 18,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recovers 50HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 159,
+      "Name": "Recov80",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H,K,V,*",
+      "Locations": "H: Aquarium Comp 3 GMD, Chip Order;K: Seaside Area 3 NetMerchant (3000ƶ);V: Green Area 1 GMD;*: AprtcFld, JudgeTree Comp 2 GMD, Sky Area 2 GMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recovers 80HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 160,
+      "Name": "Recov120",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "F,P,S",
+      "Locations": "F: Mr. Weather Comp 3 BMD;P: Pavilion Comp 1 GMD, Chip Order;S: Undernet 1 GMD",
+      "Traders": "ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recovers 120HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 161,
+      "Name": "Recov150",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "J,M,T",
+      "Locations": "J: Trader only;M: (JP)(BNLC) Undernet 2 BMD / (GBA-EN) Undernet Zero BMD, Chip Order;T: (JP)(BNLC) Undernet 3 GMD",
+      "Traders": "ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 38,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recovers 150HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 162,
+      "Name": "Recov200",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "I,Q,Z",
+      "Locations": "I: Trader only;Q: (JP)(BNLC) Graveyard 1 GMD;Z: Pavilion Comp 1 BMD, Chip Order",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recovers 200HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 163,
+      "Name": "Recov300",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "J,O,Y",
+      "Locations": "J: Graveyard BGMD, Chip Order;O: Trader only;Y: Lotto Number (75641392)",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Recovers 300HP",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 164,
+      "Name": "PanlGrab",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: Seaside Area 3 GMD, Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 6,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Steals 1 enemy square!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 165,
+      "Name": "AreaGrab",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,F,S,*",
+      "Locations": "B: Robot Control Comp 1 GMD;F: Sky Area 1 GMD;S: LanFldr, ExpoFldr, Chip Order;*: ExptFldr, SoulFldr, Request BBS 'OfficialRequest'",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 8,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Steals left edge from enmy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 166,
+      "Name": "GrabBnsh",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,M,S",
+      "Locations": "B: Trader only;M: Mr. Weather Comp 2 GMD;S: Chip Order",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "20 damage for every stolen sq",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 167,
+      "Name": "GrabRvng",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "I,Q,Z",
+      "Locations": "I: Chip Trading (Water Machine Comp);Q: Sky Area 1 BugFrag Trader (65BF);Z: Chip Order",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 50,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "40 damage for every stolen sq",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 168,
+      "Name": "PnlRetrn",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: JudgeTree Comp 1 GMD, Seaside Area 2 BMD, Undernet 1 GMD, Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 14,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fix your area's panels",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 169,
+      "Name": "Geddon",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,L,R,*",
+      "Locations": "A: Chip Trading (Aquarium HP), Chip Order;L: (JP) Virus Battle Machine V3, (BNLC)(EN) See Notes[4];R: Trader only;*: Lotto Number (38116449)",
+      "Traders": "Green Town (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 47,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Breaks all empty panels",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 170,
+      "Name": "HolyPanl",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,B,S,*",
+      "Locations": "A: Green Area 2 BMD, Chip Order;B: Trader only;S: Pavilion Comp 2 GMD;*: Trader only",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 24,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Creates a HolyPanl in front",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 171,
+      "Name": "Snctuary",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "Z",
+      "Locations": "Z: (GBA-EN) Undernet Zero NetMerchant (15200ƶ), (JP)(BNLC) Immortal Area BMD, Undernet 2 / Underground YMD, Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 62,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Chng all own panel to holy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 172,
+      "Name": "ComingRd",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: ExptFldr, JudgeTree Comp 1 BMD, Undernet Zero GMD, Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 21,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Pull an enemy to the front",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 173,
+      "Name": "GoingRd",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: Dog House Comp BMD, Undernet 1 GMD, Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 21,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Push an enemy to the back",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 174,
+      "Name": "SloGauge",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,B,G,*",
+      "Locations": "A: Trader only;B: Chip Order;G: Trader only;*: Asterland Mr. Famous (5800ƶ)",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 42,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "CustGauge slow-down",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 175,
+      "Name": "FstGauge",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "E,M,R,*",
+      "Locations": "E: Trader only;M: ACDC Area NetMerchant (12000ƶ), Chip Order;R: Trader only;*: Request BBS 'Find The Virus!'",
+      "Traders": "Sky Town (No *), Green Town (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 48,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "CustGauge speed-up",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 176,
+      "Name": "FullCust",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: Asterland normal stock (7800ƶ), 'Yai's Pride' e-Reader Item Card, Chip Order",
+      "Traders": "Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 50,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "CustGauge instantly refills",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 177,
+      "Name": "BusterUp",
+      "ChipType": 1,
+      "Elements": [ 256 ],
+      "Codes": "*",
+      "Locations": "*: LanFldr, ExpoFldr, SoulFldr, Seaside Area 2 GMD, Chip Order",
+      "Traders": "ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 11,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Power goes up by 1",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 178,
+      "Name": "BugFix",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "K,P,Z,*",
+      "Locations": "K: Chip Order;P: Oxygen Tank Comp PMD;Z: Trader only;*: (EN) Virus Battle Machine V3, (JP)(BNLC) 'Dad's Debug Techniques' e-Reader Item Card",
+      "Traders": "Green Town (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Repairs & removes bugs",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 179,
+      "Name": "Invisibl",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: AprtcFld, Aquarium Comp 2 GMD, Mr. Weather Comp 1 GMD, Seaside Area 2 GMD, Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Invisible for a while",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 180,
+      "Name": "Barrier",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,F,R,*",
+      "Locations": "A: Central Area 1 GMD;F: Trader only;R: Chip Order;*: Robot Control Comp 1 GMD",
+      "Traders": "AsterLand (JP: No *), ACDC Town (JP: No *), Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 7,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Nullifies 10 HP of damage",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 181,
+      "Name": "Barr100",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "H,O,Y",
+      "Locations": "H: Seaside Area 3 NetMerchant (3800ƶ), JudgeTree Comp 3 GMD, Water Machine Comp BMD;O: AprtcFld, Mr. Weather Comp 3 GMD;Y: Pavilion Comp 1 GMD, Chip Order",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Nullifies 100 HP of damage",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 182,
+      "Name": "Barr200",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "K,U,W",
+      "Locations": "K: (GBA-EN) Undernet Zero NetMerchant (11200ƶ), (JP)(BNLC) Undernet 3 BMD;U: Trader only;W: Chip Order",
+      "Traders": "Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 52,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Nullifies 200 HP of damage",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 183,
+      "Name": "BblWrap",
+      "ChipType": 1,
+      "Elements": [ 2 ],
+      "Codes": "I,Q,Z",
+      "Locations": "I: Trader only;Q: Sky Area 1 BugFrag Trader (24BF), Chip Order;Z: Pavilion Comp 4 GMD",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 58,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Weak against elec atk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 184,
+      "Name": "LifeAur",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "U",
+      "Locations": "U: (GBA-EN) Undernet Zero NetMerchant (22400ƶ), (JP)(BNLC) Undernet 3 PMD, Graveyard YMD, Chip Order, 'Wily's Ambition' e-Reader Item Card",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 70,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Repel all attacks under200",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 185,
+      "Name": "MagCoil",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: ACDC Area GMD",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town, Chip Order",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 14,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Draw in enmy with mag force",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 186,
+      "Name": "ColArmy",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "B,G,R,*",
+      "Locations": "B: Sky Area 1 BMD;G: Trader only;R: Chip Order;*: Lotto Number (44892547)",
+      "Traders": "Sky Town (No *), Green Town (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 25,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Launch an attk with Col. army",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 187,
+      "Name": "ElemTrap",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "G,S,U,*",
+      "Locations": "G: Trader only;S: Asterland Mr. Famous (10600ƶ);U: Chip Order;*: Lotto Number (08789369)",
+      "Traders": "Sky Town (No *), Green Town (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 42,
+      "Damage": "240",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Trap enmy and attk with elem",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 188,
+      "Name": "AntiNavi",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "F,L,T,*",
+      "Locations": "F: Trader only;L: Asterland Mr. Famous (9200ƶ);T: Trader only;*: Request BBS 'OfficialRequest', Chip Order",
+      "Traders": "Sky Town (No *), Green Town (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 50,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Takes the enemy's Navi away",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 189,
+      "Name": "AntiDmg",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "G,R,V,*",
+      "Locations": "G: Trader only;R: (JP) Virus Battle Machine V2, (BNLC)(EN) See Notes[4];V: Chip Order;*: Underground BGMD",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Sets trap and throw stars",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 190,
+      "Name": "AntiSwrd",
+      "ChipType": 1,
+      "Elements": [ 1024 ],
+      "Codes": "A,R,Z,*",
+      "Locations": "A: Green Areas / Judge Tree / Pavilion 2 Comps BGMD;R: Chip Order;Z: Trader only;*: Green Area 2 NetCafe (Ch. 7)",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 33,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Retaliate for sword damage",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 191,
+      "Name": "AntiRecv",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "A,F,V,*",
+      "Locations": "A: Asterland Mr. Famous (6900ƶ);F: Chip Order;V: Trader only;*: Request BBS 'OfficialRequest'",
+      "Traders": "Sky Town (No *), Green Town (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 37,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Damages enemy in recovery",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 192,
+      "Name": "WhiCapsl",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "*",
+      "Locations": "*: LanFldr,ExptFldr, Fish Stick Shop Comp BMD, (JP)(BNLC) Class 1-2 Comp BMD / (GBA-EN) Stuffed Toy Shop Comp BMD, Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Add an effect: Paralyze",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 193,
+      "Name": "Uninstll",
+      "ChipType": 1,
+      "Elements": [ 0 ],
+      "Codes": "G,L,R",
+      "Locations": "G: Lotto Number (97403000);L: Asterland Mr. Famous (12000ƶ);R: Chip Order",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 60,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attach to NoDim chp NavCusOff",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 194,
+      "Name": "CopyDmg",
+      "ChipType": 1,
+      "Elements": [ 4096 ],
+      "Codes": "*",
+      "Locations": "*: Central Area 2 BMD, Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Duplicate damage to 2nd enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 195,
+      "Name": "LifeSync",
+      "ChipType": 1,
+      "Elements": [ 4096 ],
+      "Codes": "*",
+      "Locations": "*: Aquarium Comp 1 BMD, Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 12,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Makes HP same as enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 196,
+      "Name": "Atk+10",
+      "ChipType": 1,
+      "Elements": [ 256 ],
+      "Codes": "*",
+      "Locations": "*: LanFldr, ExpoFldr, GiftFldr, Central Area 2 GMD, Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 4,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "+10 for selected atk chip",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 197,
+      "Name": "Atk+30",
+      "ChipType": 1,
+      "Elements": [ 256 ],
+      "Codes": "*",
+      "Locations": "*: ACDC Area PMD, Chip Order",
+      "Traders": "Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 66,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "+30 for selected atk chip",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 198,
+      "Name": "Navi+20",
+      "ChipType": 1,
+      "Elements": [ 256 ],
+      "Codes": "*",
+      "Locations": "*: Undernet / Pavilion Comps (except Pavilion 2) BGMD, Chip Order",
+      "Traders": "Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 36,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "+20 for selected Navi chip",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 199,
+      "Name": "ColorPt",
+      "ChipType": 1,
+      "Elements": [ 256 ],
+      "Codes": "*",
+      "Locations": "*: Mr. Weather Comp 1 GMD, Air Conditioner Comp BMD, Chip Order",
+      "Traders": "AsterLand, ACDC Town, Sky Town, Green Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 31,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "+10 for next chip attack",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 200,
+      "Name": "DblPoint",
+      "ChipType": 1,
+      "Elements": [ 256 ],
+      "Codes": "*",
+      "Locations": "*: (JP)(BNLC) Immortal Area BGMD, (GBA-EN) Sky Area 2 BMD, 'Tab's Discounts' e-Reader Item Card, Chip Order",
+      "Traders": "Sky Town",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 50,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "+20 for next chip attack",
+      "Notes": "",
+      "Image": ""
+    },
+
+    {
+      "Number": 1,
+      "Name": "Roll",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "R,*",
+      "Locations": "R: SoulFldr, Mailbox from Mayl (Ch. 1), 'Mayl's Treasure' e-Reader Item Card, Chip Order;*: Request BBS 'Track The Crmnl'",
+      "Traders": "ACDC Town (No *), Green Town (No *), BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 20,
+      "Damage": "20",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attacks enmy, then heals you",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 2,
+      "Name": "Roll2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "R",
+      "Locations": "R: SoulFldr, Mailbox from Mayl (Ch. 5), 'Mayl's Treasure' e-Reader Item Card, Chip Order",
+      "Traders": "Green Town, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 40,
+      "Damage": "40",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attacks enmy, then heals you",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 3,
+      "Name": "Roll3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "R",
+      "Locations": "R: SoulFldr, Talk to Mayl in Lan's house (Ch. 7), 'Mayl's Treasure' e-Reader Item Card, Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 60,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attacks enmy, then heals you",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 4,
+      "Name": "ProtoMan",
+      "ChipType": 2,
+      "Elements": [ 1024 ],
+      "Codes": "B,*",
+      "Locations": "B: ProtoMan (LV1~S), ProtoManSP (LV1~7), 'Chaud's Mission' e-Reader Item Card, Chip Order;*: Request BBS 'Track The Crmnl'",
+      "Traders": "Green Town (No *), BugFrag Trader (No *), Boktai Trader (10pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 41,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Move in and slice the enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 5,
+      "Name": "ProtoMnEX",
+      "ChipType": 2,
+      "Elements": [ 1024 ],
+      "Codes": "B",
+      "Locations": "B: ProtoManSP (LV5~10), 'Chaud's Mission' e-Reader Item Card, Chip Order",
+      "Traders": "Green Town, BugFrag Trader, Boktai Trader (20pt, 30pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 53,
+      "Damage": "170",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Move in and slice the enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 6,
+      "Name": "ProtoMnSP",
+      "ChipType": 2,
+      "Elements": [ 1024 ],
+      "Codes": "B",
+      "Locations": "B: ProtoManSP (LV9~S), Graveyard YMD, 'Chaud's Mission' e-Reader Item Card, Chip Order",
+      "Traders": "BugFrag Trader, Boktai Trader (50pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 68,
+      "Damage": "190-290",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Move in and slice the enemy",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 7,
+      "Name": "HeatMan",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "H,*",
+      "Locations": "H: (CG) HeatMan (LV1~S), (CG) HeatManSP (LV1~7), 'Mr. Match's Lesson Plans' e-Reader Item Card, Chip Order;*: Lotto Number (12404002)",
+      "Traders": "(CG): ACDC Town (No *), Green Town (No *), BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 32,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Burn with a radial fire attk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 8,
+      "Name": "HeatManEX",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "H",
+      "Locations": "H: (CG) HeatManEX (LV1~S), (CG) HeatManSP (LV5~10), 'Mr. Match's Lesson Plans' e-Reader Item Card, Chip Order",
+      "Traders": "(CG): Green Town, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 55,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Burn with a radial fire attk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 9,
+      "Name": "HeatManSP",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "H",
+      "Locations": "H: (CG) HeatManSP (LV9~S), 'Mr. Match's Lesson Plans' e-Reader Item Card, Chip Order",
+      "Traders": "(CG): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 70,
+      "Damage": "160-260",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Burn with a radial fire attk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 10,
+      "Name": "ElecMan",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "E,*",
+      "Locations": "E: (CG) ElecMan (LV1~S), (CG) ElecManSP (LV1~7), 'Ms. Zap's Bodyguard' e-Reader Item Card, Chip Order;*: Lotto Number (30424514)",
+      "Traders": "(CG): ACDC Town (No *), Green Town (No *), BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 38,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attk your surrndns with thdr",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 11,
+      "Name": "ElecManEX",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "E",
+      "Locations": "E: (CG) ElecManEX (LV1~S), (CG) ElecManSP (LV5~10), 'Ms. Zap's Bodyguard' e-Reader Item Card, Chip Order",
+      "Traders": "(CG): Green Town, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 52,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attk your surrndns with thdr",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 12,
+      "Name": "ElecManSP",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "E",
+      "Locations": "E: (CG) ElecManSP (LV9~S), 'Ms. Zap's Bodyguard' e-Reader Item Card, Chip Order",
+      "Traders": "(CG): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 79,
+      "Damage": "160-210",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attk your surrndns with thdr",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 13,
+      "Name": "SlashMan",
+      "ChipType": 2,
+      "Elements": [ 1024 ],
+      "Codes": "S,*",
+      "Locations": "S: (CG) SlashMan (LV1~S), (CG) SlashMnSP (LV1~7), 'Ms. Fahran's Cutlery' e-Reader Item Card, Chip Order;*: Lotto Number (55910601)",
+      "Traders": "(CG): ACDC Town (No *), Green Town (No *), BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 42,
+      "Damage": "80",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slash an enmy w/ flyn knfe",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 14,
+      "Name": "SlashMnEX",
+      "ChipType": 2,
+      "Elements": [ 1024 ],
+      "Codes": "S",
+      "Locations": "S: (CG) SlashMnEX (LV1~S), (CG) SlashMnSP (LV5~10), 'Ms. Fahran's Cutlery' e-Reader Item Card, Chip Order",
+      "Traders": "(CG): Green Town, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 65,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slash an enmy w/ flyn knfe",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 15,
+      "Name": "SlashMnSP",
+      "ChipType": 2,
+      "Elements": [ 1024 ],
+      "Codes": "S",
+      "Locations": "S: (CG) SlashMnSP (LV9~S), 'Ms. Fahran's Cutlery' e-Reader Item Card, Chip Order",
+      "Traders": "(CG): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 79,
+      "Damage": "120-220",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slash an enmy w/ flyn knfe",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 16,
+      "Name": "EraseMan",
+      "ChipType": 2,
+      "Elements": [ 4096 ],
+      "Codes": "K,*",
+      "Locations": "K: (CG) EraseMan (LV1~S), (CG) EraseMnSP (LV1~7), 'Dark Scyth's Shady Business' e-Reader Item Card, Chip Order;*: Lotto Number (84387543)",
+      "Traders": "(CG): ACDC Town (No *), Green Town (No *), BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 51,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Press (A) for 3panl beam attk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 17,
+      "Name": "EraseMnEX",
+      "ChipType": 2,
+      "Elements": [ 4096 ],
+      "Codes": "K",
+      "Locations": "K: (CG) EraseMnEX (LV1~S), (CG) EraseMnSP (LV5~10), 'Dark Scyth's Shady Business' e-Reader Item Card, Chip Order",
+      "Traders": "(CG): Green Town, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 65,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Press (A) for 3panl beam attk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 18,
+      "Name": "EraseMnSP",
+      "ChipType": 2,
+      "Elements": [ 4096 ],
+      "Codes": "K",
+      "Locations": "K: (CG) EraseMnSP (LV9~S), 'Dark Scyth's Shady Business' e-Reader Item Card, Chip Order",
+      "Traders": "(CG): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 79,
+      "Damage": "160-210",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Press (A) for 3panl beam attk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 19,
+      "Name": "ChrgeMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "C,*",
+      "Locations": "C: (CG) ChrgeMan (LV1~S), (CG) ChrgeMnSP (LV1~7), 'Al's Boarding Ticket' e-Reader Item Card, Chip Order;*: Lotto Number (92070765)",
+      "Traders": "(CG): ACDC Town (No *), Green Town (No *), BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 42,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Rush fwd! Open panl hit TrCar",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 20,
+      "Name": "ChrgeMnEX",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "C",
+      "Locations": "C: (CG) ChrgeMnEX (LV1~S), (CG) ChrgeMnSP (LV5~10), 'Al's Boarding Ticket' e-Reader Item Card, Chip Order",
+      "Traders": "(CG): Green Town, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 63,
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Rush fwd! Open panl hit TrCar",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 21,
+      "Name": "ChrgeMnSP",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "C",
+      "Locations": "C: (CG) ChrgeMnSP (LV9~S), 'Al's Boarding Ticket' e-Reader Item Card, Chip Order",
+      "Traders": "(CG): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 81,
+      "Damage": "80-130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Rush fwd! Open panl hit TrCar",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 22,
+      "Name": "BlastMan",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "B,*",
+      "Locations": "B: BlastManEX (LV1~S), BlastManSP (LV1~7), Chip Order;*: Lotto Number (24616497)",
+      "Traders": "ACDC Town (No *), Green Town (No *), BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Head fwd & launch blst attk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 23,
+      "Name": "BlastMnEX",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "B",
+      "Locations": "B: ExptFldr, BlastMnSP (LV5~10), Chip Order",
+      "Traders": "Green Town, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 49,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Head fwd & launch blst attk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 24,
+      "Name": "BlastMnSP",
+      "ChipType": 2,
+      "Elements": [ 1 ],
+      "Codes": "B",
+      "Locations": "B: BlastMnSP (LV9~S), Seaside Area YMD, Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 68,
+      "Damage": "150-250",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Head fwd & launch blst attk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 25,
+      "Name": "DiveMan",
+      "ChipType": 2,
+      "Elements": [ 2 ],
+      "Codes": "D,*",
+      "Locations": "D: DiveManEX (LV1~S), DiveManSP (LV1~7), Chip Order;*: Lotto Number (32310827)",
+      "Traders": "ACDC Town (No *), Green Town (No *), BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 45,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Snd giant wave acrs area 2pnl",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 26,
+      "Name": "DiveManEX",
+      "ChipType": 2,
+      "Elements": [ 2 ],
+      "Codes": "D",
+      "Locations": "D: ExptFldr, DiveManSP (LV5~10), Chip Order",
+      "Traders": "Green Town, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 60,
+      "Damage": "150",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Snd giant wave acrs area 2pnl",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 27,
+      "Name": "DiveManSP",
+      "ChipType": 2,
+      "Elements": [ 2 ],
+      "Codes": "D",
+      "Locations": "D: DiveManSP (LV9~S), Green Areas YMD, Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 75,
+      "Damage": "170-270",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Snd giant wave acrs area 2pnl",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 28,
+      "Name": "CrcusMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "C,*",
+      "Locations": "C: CrcusManEX (LV1~S), CrcusMnSP (LV1~7), Chip Order;*: Request BBS 'An Experiment!'",
+      "Traders": "ACDC Town (No *), Green Town (No *), BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 42,
+      "Damage": "20",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Capture enmy in a ash attck",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 29,
+      "Name": "CrcusMnEX",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "C",
+      "Locations": "C: ExptFldr, CrcusMnSP (LV5~10), Chip Order",
+      "Traders": "Green Town, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 64,
+      "Damage": "25",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Capture enmy in a ash attck",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 30,
+      "Name": "CrcusMnSP",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "C",
+      "Locations": "C: CrcusMnSP (LV9~S), Sky Areas YMD, Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 86,
+      "Damage": "30-55",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Capture enmy in a ash attck",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 31,
+      "Name": "JudgeMan",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "J,*",
+      "Locations": "J: JudgeManEX (LV1~S), JudgeMnSP (LV1~7), Chip Order;*: Request BBS 'An Experiment!'",
+      "Traders": "ACDC Town (No *), Green Town (No *), BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 52,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Whip 3 panels forward",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 32,
+      "Name": "JudgeMnEX",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "J",
+      "Locations": "J: JudgeMnSP (LV5~10), Chip Order",
+      "Traders": "Green Town, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 62,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Whip 3 panels forward",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 33,
+      "Name": "JudgeMnSP",
+      "ChipType": 2,
+      "Elements": [ 8 ],
+      "Codes": "J",
+      "Locations": "J: JudgeMnSP (LV9~S), ACDC Area / Undernet 1 / Undernet 2 YMD",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 72,
+      "Damage": "140-190",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Whip 3 panels forward",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 34,
+      "Name": "ElmntMan",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "E,*",
+      "Locations": "E: ElmntManEX (LV1~S), ElmntMnSP (LV1~7), Chip Order;*: Request BBS 'An Experiment!'",
+      "Traders": "ACDC Town (No *), Green Town (No *), BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 50,
+      "Damage": "100",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit (A) whn col chges elem attk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 35,
+      "Name": "ElmntMnEX",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "E",
+      "Locations": "E: ElmntMnSP (LV5~10), Chip Order",
+      "Traders": "Green Town, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 53,
+      "Damage": "120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit (A) whn col chges elem attk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 36,
+      "Name": "ElmntMnSP",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "E",
+      "Locations": "E: ElmntMnSP (LV9~S), Undernet 2 / Underground YMD, Chip Order",
+      "Traders": "BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 66,
+      "Damage": "140-240",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit (A) whn col chges elem attk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 37,
+      "Name": "Colonel",
+      "ChipType": 2,
+      "Elements": [ 1024 ],
+      "Codes": "C,*",
+      "Locations": "C: ColonelEX (LV1~S), ColonelSP (LV1~7), 'Baryl's Faith' e-Reader Item Card, Chip Order;*: Request BBS 'Track The Crmnl'",
+      "Traders": "Green Town (No *), BugFrag Trader (No *), Boktai Trader (10pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 45,
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cut enmy lines in Z shape",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 38,
+      "Name": "ColonelEX",
+      "ChipType": 2,
+      "Elements": [ 1024 ],
+      "Codes": "C",
+      "Locations": "C: ColonelSP (LV5~10), 'Baryl's Faith' e-Reader Item Card, Chip Order",
+      "Traders": "Green Town, BugFrag Trader, Boktai Trader (20pt, 30pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 70,
+      "Damage": "180",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cut enmy lines in Z shape",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 39,
+      "Name": "ColonelSP",
+      "ChipType": 2,
+      "Elements": [ 1024 ],
+      "Codes": "C",
+      "Locations": "C: ColonelSP (LV9~S), (JP)(BNLC) Undernet 3 / Immortal Area YMD, 'Baryl's Faith' e-Reader Item Card, Chip Order",
+      "Traders": "BugFrag Trader, Boktai Trader (50pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 91,
+      "Damage": "200-300",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Cut enmy lines in Z shape",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 40,
+      "Name": "Count",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "H,*",
+      "Locations": "H: (JP)(BNLC) Complete Boktai Side Quest, (JP)(BNLC) CountSP (LV1~7), (JP)(BNLC) Chip Order;*: (JP)(BNLC) Lotto Number (12110031)",
+      "Traders": "Boktai Trader (20pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 60,
+      "Damage": "20",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Rain on enmy then lance atk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 41,
+      "Name": "CountEX",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "H",
+      "Locations": "H: (JP)(BNLC) CountEX (LV1~S), (JP)(BNLC) CountSP (LV5~10), (JP)(BNLC) Chip Order",
+      "Traders": "Boktai Trader (10pt, 20pt, 30pt, 50pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 75,
+      "Damage": "25",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Rain on enmy then lance atk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 42,
+      "Name": "CountSP",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "H",
+      "Locations": "H: (JP)(BNLC) CountSP (LV9~S), Graveyard YMD[9], (JP)(BNLC) Chip Order",
+      "Traders": "Boktai Trader (30pt, 50pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 89,
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Rain on enmy then lance atk",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 43,
+      "Name": "Django",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "D,*",
+      "Locations": "D: (JP)(BNLC) AprtcFld, (JP)(BNLC) Asterland normal stock (10000ƶ), (JP)(BNLC) Chip Order;*: Lotto Number (57656595)",
+      "Traders": "Boktai Trader (10pt, 20pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 30,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit enmy with bike rdng Djgo",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 44,
+      "Name": "Django2",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "D",
+      "Locations": "D: (JP)(BNLC) Sky Area BMD (behind fire), (JP)(BNLC) Chip Order",
+      "Traders": "Boktai Trader (20pt, 30pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 70,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit enmy with bike rdng Djgo",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 45,
+      "Name": "Django3",
+      "ChipType": 2,
+      "Elements": [ 0 ],
+      "Codes": "D",
+      "Locations": "D: (JP) Virus Battle Machine V5, (BNLC)(EN) See Notes[4], (JP)(BNLC) Chip Order",
+      "Traders": "Boktai Trader (30pt, 50pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 90,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hit enmy with bike rdng Djgo",
+      "Notes": "",
+      "Image": ""
+    },
+
+    {
+      "Number": 1,
+      "Name": "Bass",
+      "ChipType": 4,
+      "Elements": [ 0 ],
+      "Codes": "F",
+      "Locations": "F: Defeat Bass in (JP)(BNLC) Graveyard 2 / (GBA-EN) Graveyard",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 95,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Buster rake wide enmy area",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 2,
+      "Name": "BigHook",
+      "ChipType": 4,
+      "Elements": [ 512 ],
+      "Codes": "H",
+      "Locations": "H: E-Mail after arriving in (JP)(BNLC) Graveyard 1 / (GBA-EN) Graveyard",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 92,
+      "Damage": "240",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Hook atk 2 sq wide",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 3,
+      "Name": "DeltaRay",
+      "ChipType": 4,
+      "Elements": [ 1024 ],
+      "Codes": "Z",
+      "Locations": "Z: (JP)(BNLC) Graveyard 1 NetMerchant (30000ƶ), (GBA-EN) Graveyard NetMerchant (30000ƶ)",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 82,
+      "Damage": "260",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "A button power up by 3 swrd",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 4,
+      "Name": "ColForce",
+      "ChipType": 4,
+      "Elements": [ 0 ],
+      "Codes": "Q",
+      "Locations": "Q: Defeat BassBX in Underground 2",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 90,
+      "Damage": "30",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Smn Col. army in open pnls",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 5,
+      "Name": "BugRSwrd",
+      "ChipType": 4,
+      "Elements": [ 1024 ],
+      "Codes": "V",
+      "Locations": "V: Sky Area 1 BugFrag Trader (100BF)",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 80,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Use Bug Frag with DrkSword!",
+      "Notes": "",
+      "Image": ""
+    },
+
+    {
+      "Number": 1,
+      "Name": "GunDelEX",
+      "ChipType": 1025,
+      "Elements": [ 0 ],
+      "Codes": "G",
+      "Locations": "G: Chip Order",
+      "Traders": "Boktai Trader (30pt, 50pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 80,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Fires a spread sunbeam",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 2,
+      "Name": "Otenko",
+      "ChipType": 1025,
+      "Elements": [ 2048 ],
+      "Codes": "O",
+      "Locations": "O: Chip Order",
+      "Traders": "Boktai Trader (50pt)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 66,
+      "Damage": "-",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Put Otnko to raise atk pwr",
+      "Notes": "",
+      "Image": ""
+    },
+
+    {
+      "Number": 1,
+      "Name": "DblBeast",
+      "ChipType": 1026,
+      "Elements": [ 0 ],
+      "Codes": "W",
+      "Locations": "W: Event distribution, “DoubleBeast” e-Reader Rare Chip Distribution, (BNLC) Download Chip",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 99,
+      "Damage": "320",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Ferocious beast power!",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 3,
+      "Name": "AquaMan",
+      "ChipType": 1026,
+      "Elements": [ 2 ],
+      "Codes": "A,*",
+      "Locations": "A: (CF) AquaMan (LV1~S), (CF) AquaManSP (LV1~7), 'Shuko's Practicum' e-Reader Item Card, Chip Order;*: Lotto Number (51702791)",
+      "Traders": "(CF): ACDC Town (No *), Green Town (No *), BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 42,
+      "Damage": "50",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Watr atk! Bhnd 2row power-up",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 4,
+      "Name": "AquaManEX",
+      "ChipType": 1026,
+      "Elements": [ 2 ],
+      "Codes": "A,*",
+      "Locations": "A: (CF) AquaManEX (LV1~S), (CF) AquaManSP (LV5~10), 'Shuko's Practicum' e-Reader Item Card, Chip Order",
+      "Traders": "(CF): Green Town, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 56,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Watr atk! Bhnd 2row power-up",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 5,
+      "Name": "AquaManSP",
+      "ChipType": 1026,
+      "Elements": [ 2 ],
+      "Codes": "A,*",
+      "Locations": "A: (CF) AquaManSP (LV9~S), 'Shuko's Practicum' e-Reader Item Card, Chip Order",
+      "Traders": "(CF): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 78,
+      "Damage": "70-120",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Watr atk! Bhnd 2row power-up",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 6,
+      "Name": "TmhkMan",
+      "ChipType": 1026,
+      "Elements": [ 4 ],
+      "Codes": "T,*",
+      "Locations": "T: (CF) TmkhMan (LV1~S), (CF) TmkhManSP (LV1~7), 'Dingo's Battle Cry' e-Reader Item Card, Chip Order;*: Lotto Number (67520179)",
+      "Traders": "(CF): ACDC Town (No *), Green Town (No *), BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 40,
+      "Damage": "140",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slice 2sq side, 3sq vertical",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 7,
+      "Name": "TmhkManEX",
+      "ChipType": 1026,
+      "Elements": [ 4 ],
+      "Codes": "T",
+      "Locations": "T: (CF) TmkhManEX (LV1~S), (CF) TmkhManSP (LV5~10), 'Dingo's Battle Cry' e-Reader Item Card, Chip Order",
+      "Traders": "(CF): Green Town, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 60,
+      "Damage": "160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slice 2sq side, 3sq vertical",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 8,
+      "Name": "TmhkManSP",
+      "ChipType": 1026,
+      "Elements": [ 4 ],
+      "Codes": "T",
+      "Locations": "T: (CF) TmkhManSP (LV9~S), 'Dingo's Battle Cry' e-Reader Item Card, Chip Order",
+      "Traders": "(CF): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 80,
+      "Damage": "180-250",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Slice 2sq side, 3sq vertical",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 9,
+      "Name": "TenguMan",
+      "ChipType": 1026,
+      "Elements": [ 16 ],
+      "Codes": "T,*",
+      "Locations": "T: (CF) TenguMan (LV1~S), (CF) TenguMnSP (LV1~7), 'Master Feng-Tian's Instruction' e-Reader Item Card, Chip Order;*: Lotto Number (00297421)",
+      "Traders": "(CF): ACDC Town (No *), Green Town (No *), BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 43,
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attk 2row from air, then side",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 10,
+      "Name": "TenguMnEX",
+      "ChipType": 1026,
+      "Elements": [ 16 ],
+      "Codes": "T",
+      "Locations": "T: (CF) TenguMnEX (LV1~S), (CF) TenguMnSP (LV5~10), 'Master Feng-Tian's Instruction' e-Reader Item Card, Chip Order",
+      "Traders": "(CF): Green Town, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 61,
+      "Damage": "90",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attk 2row from air, then side",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 11,
+      "Name": "TenguMnSP",
+      "ChipType": 1026,
+      "Elements": [ 16 ],
+      "Codes": "T",
+      "Locations": "T: (CF) TenguMnSP (LV9~S), 'Master Feng-Tian's Instruction' e-Reader Item Card, Chip Order",
+      "Traders": "(CF): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 74,
+      "Damage": "110-160",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attk 2row from air, then side",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 12,
+      "Name": "GrndMan",
+      "ChipType": 1026,
+      "Elements": [ 512 ],
+      "Codes": "G,*",
+      "Locations": "G: (CF) GrndMan (LV1~S), (CF) GrndManSP (LV1~7), 'Moliarty's Drill Soul!' e-Reader Item Card, Chip Order;*: Lotto Number (10414878)",
+      "Traders": "(CF): ACDC Town (No *), Green Town (No *), BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 41,
+      "Damage": "60",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Move fwrd then attk w/ drill",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 13,
+      "Name": "GrndManEX",
+      "ChipType": 1026,
+      "Elements": [ 512 ],
+      "Codes": "G",
+      "Locations": "G: (CF) GrndManEX (LV1~S), (CF) GrndManSP (LV5~10), 'Moliarty's Drill Soul!' e-Reader Item Card, Chip Order",
+      "Traders": "(CF): Green Town, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 66,
+      "Damage": "70",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Move fwrd then attk w/ drill",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 14,
+      "Name": "GrndManSP",
+      "ChipType": 1026,
+      "Elements": [ 512 ],
+      "Codes": "G",
+      "Locations": "G: (CF) GrndManSP (LV9~S), 'Moliarty's Drill Soul!' e-Reader Item Card, Chip Order",
+      "Traders": "(CF): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 85,
+      "Damage": "80-130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Move fwrd then attk w/ drill",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 15,
+      "Name": "DustMan",
+      "ChipType": 1026,
+      "Elements": [ 0 ],
+      "Codes": "D,*",
+      "Locations": "D: (CF) DustMan (LV1~S), (CF) DustManSP (LV1~7), 'Mr. Press's Recycling' e-Reader Item Card, Chip Order;*: Lotto Number (79814666)",
+      "Traders": "(CF): ACDC Town (No *), Green Town (No *), BugFrag Trader (No *)",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 39,
+      "Damage": "110",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attk ahd. Suck in & shoot out",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 16,
+      "Name": "DustManEX",
+      "ChipType": 1026,
+      "Elements": [ 0 ],
+      "Codes": "D",
+      "Locations": "D: (CF) DustManEX (LV1~S), (CF) DustManSP (LV5~10), 'Mr. Press's Recycling' e-Reader Item Card, Chip Order",
+      "Traders": "(CF): Green Town, BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 56,
+      "Damage": "130",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attk ahd. Suck in & shoot out",
+      "Notes": "",
+      "Image": ""
+    },
+    {
+      "Number": 17,
+      "Name": "DustManSP",
+      "ChipType": 1026,
+      "Elements": [ 0 ],
+      "Codes": "D",
+      "Locations": "D: (CF) DustManSP (LV9~S), 'Mr. Press's Recycling' e-Reader Item Card, Chip Order",
+      "Traders": "(CF): BugFrag Trader",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 74,
+      "Damage": "150-200",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Attk ahd. Suck in & shoot out",
+      "Notes": "",
+      "Image": ""
+    },
+
+    {
+      "Number": 1,
+      "Name": "Gregar",
+      "ChipType": 1028,
+      "Elements": [ 0 ],
+      "Codes": "X",
+      "Locations": "X: (CG) only; Event distribution, “Gregar” e-Reader Rare Chip Distribution, (BNLC) Download Chip",
+      "Traders": "",
+      "MegaManLocation": {
+        "X": 0,
+        "Y": 1
+      },
+      "Targets": [
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ],
+      "Capacity": 99,
+      "Damage": "300",
+      "Hits": "",
+      "ProgramAdvances": [],
+      "Description": "Gregar's breath attack!",
+      "Notes": "",
+      "Image": ""
+    }
   ]
 }

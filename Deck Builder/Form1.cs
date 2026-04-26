@@ -349,15 +349,42 @@ public partial class frm_DeckBuilder : Form
     public string GenerateGameDetails ()
     {
         var game = GetCurrentGame();
-
+        string gameRules = string.Empty;
         bool hasDarkChips = game.Battlechips.Any(c => c.ChipType.IsChipType(ChipType.Dark)) && game.Rules.MaxDarkChips > 0;
 
-return
+        if (!game.Rules.UsesCapacityForQuantity)
+        {
+            gameRules =
 $"""
-Standard: {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Standard)), 3} | Max Same: {game.Rules.MaxSameStandardChip, 2} | Max in Folder: {game.Rules.MaxFolderSize, 3}{(hasDarkChips ? $" |{"",-10}Dark: {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Dark)), 3}" : ""), -1}
-Mega    : {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Mega)), 3} | Max Same: {game.Rules.MaxSameMegaChip, 2} | Max in Folder: {game.Rules.MaxMegaChips + (int)numud_CustMega.Value, 3}{(hasDarkChips ? $" |{"",-10} Max: {game.Rules.MaxDarkChips, 3}" : ""), -1}
-Giga    : {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Giga)), 3} | Max Same: {game.Rules.MaxSameGigaChip, 2} | Max in Folder: {game.Rules.MaxGigaChips + (int)numud_CustGiga.Value, 3}{(hasDarkChips ? $" |{"",-10}Same: {game.Rules.MaxSameDarkChip,3}" : ""), -1}
+                Standard |     Mega |     Giga {(hasDarkChips ? "|     Dark" : "")}
+Chip Count   :  {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Standard)),8} | {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Mega)),8} | {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Giga)),8}{(hasDarkChips ? $" | {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Dark)),8}" : "")}
+Max Same     :  {game.Rules.MaxSameStandardChip,8} | {game.Rules.MaxSameMegaChip,8} | {game.Rules.MaxSameGigaChip,8}{(hasDarkChips ? $" | {game.Rules.MaxSameDarkChip,8}" : "")}
+Max in Folder:  {game.Rules.MaxFolderSize,8} | {game.Rules.MaxMegaChips + (int)numud_CustMega.Value,8} | {game.Rules.MaxGigaChips + (int)numud_CustGiga.Value,8}{(hasDarkChips ? $" | {game.Rules.MaxDarkChips,8}" : "")}
 """;
+        }
+        else
+        {
+            gameRules =
+$"""
+                Standard |     Mega |     Giga {(hasDarkChips ? "|     Dark" : "")}
+Chip Count   :  {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Standard)),8} | {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Mega)),8} | {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Giga)),8}{(hasDarkChips ? $" | {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Dark)),8}" : "")}
+Max in Folder:  {game.Rules.MaxFolderSize,8} | {game.Rules.MaxMegaChips + (int)numud_CustMega.Value,8} | {game.Rules.MaxGigaChips + (int)numud_CustGiga.Value,8}{(hasDarkChips ? $" | {game.Rules.MaxDarkChips,8}" : "")}
+
+""";
+            int count = 0;
+            foreach (var rule in game.Rules.CapacityLimits)
+            {
+                gameRules += $"{rule.MinCapacity,2}-{rule.MaxCapacity,2} MB: {rule.Quantity,2}\t";
+                ++count;
+                if (count == 3)
+                {
+                    gameRules += System.Environment.NewLine;
+                    count = 0;
+                }
+            }
+        }
+
+        return gameRules;
     }
 
     public void Create_dgv_ChipList()
@@ -412,6 +439,18 @@ Giga    : {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Giga)), 3}
                 Font = CreateFont("BN6FontBold", 16)
             },
             SortMode = DataGridViewColumnSortMode.Programmatic
+        });
+
+        dgv_ChipList.Columns.Add(new DataGridViewTextBoxColumn()
+        {
+            AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells,
+            DataPropertyName = "Capacity",
+            Name = "Capacity",
+            DefaultCellStyle = new DataGridViewCellStyle()
+            {
+                Alignment = DataGridViewContentAlignment.MiddleCenter,
+                Font = CreateFont("BN6FontBold", 16)
+            }
         });
 
         for (int i = 0; i < maxCodes; ++i)
@@ -661,7 +700,7 @@ Giga    : {game.Battlechips.Count(c => c.ChipType.IsChipType(ChipType.Giga)), 3}
                     catch (Exception ex)
                     {
                         MessageBox.Show($"Could not load {gameFile}.", $"Error Loading {gameFile}");
-                        File.WriteAllText(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "MMBN Folder Creator", "error.txt"), ex.ToString());
+                        File.AppendAllText(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "MMBN Folder Creator", "error.txt"), $"[{DateTime.Now}] {ex}{System.Environment.NewLine}{System.Environment.NewLine}");
                     }
                 }
             }
