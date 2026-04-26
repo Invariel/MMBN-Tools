@@ -48,6 +48,12 @@
 	  <None Update="ChipData\MMBN4_RedSun.json">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>
+	  <None Update="ChipData\MMBN6_CybeastGregar.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="ChipData\MMBN6_CybeastFalzar.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
 	  <None Update="Images\Light_00.gif">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>

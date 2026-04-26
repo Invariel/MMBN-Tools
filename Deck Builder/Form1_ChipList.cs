@@ -349,6 +349,91 @@ $"""
 {(string.IsNullOrEmpty(chip.Traders) ? "" : $"Traders: {chip.Traders}")}
 """;
 
+        /// <summary>
+        /// Check the chip quantity by chip type (MMBN 1-6).
+        /// </summary>
+        /// <param name="game"></param>
+        /// <param name="chip"></param>
+        /// <param name="chipCode"></param>
+        /// <returns></returns>
+        public (bool success, string error) CheckChipQuantityByChipType(Game game, Battlechip chip, string chipCode)
+        {
+            int chipClassQuantity = _currentFolder.Chips.Sum(c => c.ChipType == chip.ChipType ? c.Quantity : 0);
+            string errorMessage =
+                chip.ChipType.IsChipType(ChipType.Standard) && chipClassQuantity >= game.Rules.MaxFolderSize ? $"Cannot have more than {game.Rules.MaxFolderSize} {GetDeckChipTypeFromEnum(chip.ChipType)} chip{(game.Rules.MaxFolderSize == 1 ? "" : "s")} in a folder." :
+                chip.ChipType.IsChipType(ChipType.Mega) && chipClassQuantity >= game.Rules.MaxMegaChips + (int)numud_CustMega.Value ? $"Cannot have more than {game.Rules.MaxMegaChips + (int)numud_CustMega.Value} {GetDeckChipTypeFromEnum(chip.ChipType)} chip{(game.Rules.MaxMegaChips + (int)numud_CustMega.Value == 1 ? "" : "s")} in a folder." :
+                chip.ChipType.IsChipType(ChipType.Giga) && chipClassQuantity >= game.Rules.MaxGigaChips + (int)numud_CustGiga.Value ? $"Cannot have more than {game.Rules.MaxGigaChips + (int)numud_CustGiga.Value} {GetDeckChipTypeFromEnum(chip.ChipType)} chip{(game.Rules.MaxGigaChips + (int)numud_CustGiga.Value == 1 ? "" : "s")} in a folder." :
+                chip.ChipType.IsChipType(ChipType.Dark) && chipClassQuantity >= game.Rules.MaxDarkChips ? $"Cannot have more than {game.Rules.MaxDarkChips} {GetDeckChipTypeFromEnum(chip.ChipType)} chip{(game.Rules.MaxDarkChips == 1 ? "" : "s")} in a folder." :
+                string.Empty;
+
+            if (string.IsNullOrEmpty(errorMessage))
+            {
+                if (!chip.ChipType.IsChipType(ChipType.Standard) &&
+                    !chip.ChipType.IsChipType(ChipType.Mega) &&
+                    !chip.ChipType.IsChipType(ChipType.Giga) &&
+                    !chip.ChipType.IsChipType(ChipType.Dark))
+                {
+                    errorMessage = $"Unrecognized chip type value {chip.ChipType}.  Rejecting chip add.";
+                }
+            }
+
+            return (string.IsNullOrEmpty(errorMessage), errorMessage);
+        }
+
+        /// <summary>
+        /// Check the same name chip quantity by chip type (MMBN 1-5).
+        /// </summary>
+        /// <param name="game"></param>
+        /// <param name="chip"></param>
+        /// <param name="chipCode"></param>
+        /// <returns></returns>
+        public (bool success, string error) CheckSameNameChipQuantityByChipType(Game game, Battlechip chip, string chipCode)
+        {
+            int chipQuantity = _currentFolder.Chips.Sum(c => (c.Number == chip.Number && c.Name == chip.Name && c.ChipType == chip.ChipType ? c.Quantity : 0));
+            string errorMessage = 
+                chip.ChipType.IsChipType(ChipType.Standard) && chipQuantity >= game.Rules.MaxSameStandardChip ? $"Cannot have more than {game.Rules.MaxSameStandardChip} of the same {GetDeckChipTypeFromEnum(chip.ChipType)} chip in a folder." :
+                chip.ChipType.IsChipType(ChipType.Mega) && chipQuantity >= game.Rules.MaxSameMegaChip ? $"Cannot have more than {game.Rules.MaxSameMegaChip} of the same {GetDeckChipTypeFromEnum(chip.ChipType)} chip in a folder." :
+                chip.ChipType.IsChipType(ChipType.Giga) && chipQuantity >= game.Rules.MaxSameGigaChip ? $"Cannot have more than {game.Rules.MaxSameGigaChip} of the same {GetDeckChipTypeFromEnum(chip.ChipType)} chip in a folder." :
+                chip.ChipType.IsChipType(ChipType.Dark) && chipQuantity >= game.Rules.MaxSameDarkChip ? $"Cannot have more than {game.Rules.MaxSameDarkChip} of the same {GetDeckChipTypeFromEnum(chip.ChipType)} chip in a folder." :
+                string.Empty;
+
+            if (string.IsNullOrEmpty(errorMessage))
+            {
+                if (!chip.ChipType.IsChipType(ChipType.Standard) &&
+                    !chip.ChipType.IsChipType(ChipType.Mega) &&
+                    !chip.ChipType.IsChipType(ChipType.Giga) &&
+                    !chip.ChipType.IsChipType(ChipType.Dark))
+                {
+                    errorMessage = $"Unrecognized chip type value {chip.ChipType}.  Rejecting chip add.";
+                }
+            }
+
+            return (string.IsNullOrEmpty(errorMessage), errorMessage);
+        }
+
+        /// <summary>
+        /// Check the same name chip quantity by capacity limit (MMBN 6).
+        /// </summary>
+        /// <param name="game"></param>
+        /// <param name="chip"></param>
+        /// <param name="chipCode"></param>
+        /// <returns></returns>
+        public (bool success, string error) CheckSameNameChipQuantityByCapacity(Game game, Battlechip chip, string chipCode)
+        {
+            int chipQuantity = _currentFolder.Chips.Sum(c => (c.Number == chip.Number && c.Name == chip.Name && c.ChipType == chip.ChipType ? c.Quantity : 0));
+            CapacityLimit? capacityLimit = game.Rules.CapacityLimits.FirstOrDefault(cl => cl.MinCapacity <= chip.Capacity && chip.Capacity <= cl.MaxCapacity);
+
+            if (capacityLimit is null)
+            {
+                return (false, $"No capacity limit found for chip with capacity {chip.Capacity}.");
+            }
+
+            string errorMessage = chipQuantity >= capacityLimit.Quantity ?
+                $"Cannot have more than {capacityLimit.Quantity} cop{(capacityLimit.Quantity == 1 ? "y" : "ies")} of {chip.Name} in a folder." :
+                string.Empty;
+
+            return (string.IsNullOrEmpty(errorMessage), errorMessage);
+        }
 
         public (bool success, string error) TryAddChipToFolder (Battlechip chip, string chipCode)
         {
@@ -361,61 +446,34 @@ $"""
 
             if (_currentFolder.Chips.Sum(c => c.Quantity) >= game.Rules.MaxFolderSize)
             {
-                return (false, "Cannot have more than 30 chips in a folder.");
+                return (false, $"Cannot have more than {game.Rules.MaxFolderSize} chips in a folder.");
             }
 
-            int chipQuantity = _currentFolder.Chips.Sum(c => (c.Number == chip.Number && c.ChipType == chip.ChipType ? c.Quantity : 0));
-            int chipClassQuantity = _currentFolder.Chips.Sum(c => c.ChipType == chip.ChipType ? c.Quantity : 0);
+            (bool success, string error) = CheckChipQuantityByChipType(game, chip, chipCode);
 
-            int maxSameChipQuantity = 0;
-            int maxSameChipClassQuantity = 0;
-
-            if (chip.ChipType.IsChipType(ChipType.Standard))
+            if (!success)
             {
-                maxSameChipQuantity = game.Rules.MaxSameStandardChip;
-                maxSameChipClassQuantity = game.Rules.MaxFolderSize;
-            }
-            else if (chip.ChipType.IsChipType(ChipType.Mega))
-            {
-                maxSameChipQuantity = game.Rules.MaxSameMegaChip;
-                maxSameChipClassQuantity = game.Rules.MaxMegaChips + (int)numud_CustMega.Value;
-            }
-            else if (chip.ChipType.IsChipType(ChipType.Giga))
-            {
-                maxSameChipQuantity = game.Rules.MaxSameGigaChip;
-                maxSameChipClassQuantity = game.Rules.MaxGigaChips + (int)numud_CustGiga.Value;
-            }
-            else if (chip.ChipType.IsChipType(ChipType.Dark))
-            {
-                maxSameChipQuantity = game.Rules.MaxSameDarkChip;
-                maxSameChipClassQuantity = game.Rules.MaxDarkChips;
-            }
-            else
-            {
-                throw new InvalidOperationException("Chip type is not recognized.");
+                return (false, error);
             }
 
-            if (chipQuantity >= maxSameChipQuantity)
+            (success, error) = game.Rules.UsesCapacityForQuantity ?
+                CheckSameNameChipQuantityByCapacity(game, chip, chipCode) :
+                CheckSameNameChipQuantityByChipType(game, chip, chipCode);
+
+            if (success)
             {
-                return (false, $"Cannot have more than {maxSameChipQuantity} of the same {GetDeckChipTypeFromEnum(chip.ChipType)} chip in a folder.");
+                var existingChip = _currentFolder.Chips.FirstOrDefault(c => c.Number == chip.Number && c.ChipType == chip.ChipType && c.Code == chipCode);
+                if (existingChip is not null)
+                {
+                    existingChip.Quantity++;
+                }
+                else
+                {
+                    _currentFolder.Chips.Add(new FolderChip { Number = chip.Number, Name = chip.Name, ChipType = chip.ChipType, Code = chipCode, Quantity = 1 });
+                }
             }
 
-            if (chipClassQuantity >= maxSameChipClassQuantity)
-            {
-                return (false, $"Cannot have more than {maxSameChipClassQuantity} {GetDeckChipTypeFromEnum(chip.ChipType)} chip{(maxSameChipClassQuantity == 1 ? "" : "s")} in a folder.");
-            }
-
-            var existingChip = _currentFolder.Chips.FirstOrDefault(c => c.Number == chip.Number && c.ChipType == chip.ChipType && c.Code == chipCode);
-            if (existingChip is not null)
-            {
-                existingChip.Quantity++;
-            }
-            else
-            {
-                _currentFolder.Chips.Add(new FolderChip { Number = chip.Number, Name = chip.Name, ChipType = chip.ChipType, Code = chipCode, Quantity = 1 });
-            }
-
-            return (true, string.Empty);
+            return (success, error);
         }
 
         public void RemoveChipFromFolder(object? sender, DataGridViewCellEventArgs e)

@@ -11,5 +11,7 @@
         public int MaxSameGigaChip { get; set; } = 1;
         public int MaxSameDarkChip { get; set; } = 1;
         public int MaxCustomChips { get; set; } = 8;
+        public bool UsesCapacityForQuantity { get; set; } = false;
+        public List<CapacityLimit> CapacityLimits { get; set; } = new List<CapacityLimit>();
     }
 }

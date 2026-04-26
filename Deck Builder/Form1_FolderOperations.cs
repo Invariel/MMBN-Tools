@@ -216,34 +216,57 @@ namespace Deck_Builder
 
             foreach (var chipByName in folder.Chips.Select(c => c.Name))
             {
+                var battlechip = game.Battlechips.FirstOrDefault(c => chipByName.Equals(c.Name));
                 allCodesChipQuantity = folder.Chips.Where(c => chipByName.Equals(c.Name)).Sum(c => c.Quantity);
 
-                switch (folder.Chips.First(c => c.Name.Equals(chipByName)).Game_ChipType)
+                if (battlechip is null)
                 {
-                    case ChipType.Standard:
-                        if (allCodesChipQuantity > gameRules.MaxSameStandardChip)
-                        {
-                            return (false, $"More than {gameRules.MaxSameStandardChip} cop{(gameRules.MaxSameStandardChip == 1 ? "y" : "ies")} of {chipByName}.");
-                        }
-                    break;
-                    case ChipType.Mega:
-                        if (allCodesChipQuantity > gameRules.MaxSameMegaChip + (int)numud_CustMega.Value)
-                        {
-                            return (false, $"More than {gameRules.MaxSameMegaChip + (int)numud_CustMega.Value} cop{(gameRules.MaxSameMegaChip + (int)numud_CustMega.Value == 1 ? "y" : "ies")} of {chipByName}.");
-                        }
-                    break;
-                    case ChipType.Giga:
-                        if (allCodesChipQuantity > gameRules.MaxSameGigaChip + (int)numud_CustGiga.Value)
-                        {
-                            return (false, $"More than {gameRules.MaxSameGigaChip + (int)numud_CustGiga.Value} cop{(gameRules.MaxSameGigaChip + (int)numud_CustGiga.Value == 1 ? "y" : "ies")} of {chipByName}.");
-                        }
-                    break;
-                    case ChipType.Dark:
-                        if (allCodesChipQuantity > gameRules.MaxSameDarkChip)
-                        {
-                            return (false, $"More than {gameRules.MaxSameDarkChip} cop{(gameRules.MaxSameDarkChip == 1 ? "y" : "ies")} of {chipByName}.");
-                        }
-                    break;
+                    return (false, $"Battlechip {chipByName} not found in game {folder.GameName}.");
+                }
+
+                if (game.Rules.UsesCapacityForQuantity)
+                {
+                    CapacityLimit? capacityLimit = game.Rules.CapacityLimits.FirstOrDefault(cl => cl.MinCapacity <= battlechip.Capacity && battlechip.Capacity <= cl.MaxCapacity);
+
+                    if (capacityLimit is null)
+                    {
+                        return (false, $"No capacity limit found for {chipByName} with capacity {battlechip.Capacity}.");
+                    }
+
+                    if (allCodesChipQuantity > capacityLimit.Quantity)
+                    {
+                        return (false, $"More than {capacityLimit.Quantity} cop{(capacityLimit.Quantity == 1 ? "y" : "ies")} of {chipByName}.");
+                    }
+                }
+                else
+                {
+                    switch (folder.Chips.First(c => c.Name.Equals(chipByName)).Game_ChipType)
+                    {
+                        case ChipType.Standard:
+                            if (allCodesChipQuantity > gameRules.MaxSameStandardChip)
+                            {
+                                return (false, $"More than {gameRules.MaxSameStandardChip} cop{(gameRules.MaxSameStandardChip == 1 ? "y" : "ies")} of {chipByName}.");
+                            }
+                            break;
+                        case ChipType.Mega:
+                            if (allCodesChipQuantity > gameRules.MaxSameMegaChip + (int)numud_CustMega.Value)
+                            {
+                                return (false, $"More than {gameRules.MaxSameMegaChip + (int)numud_CustMega.Value} cop{(gameRules.MaxSameMegaChip + (int)numud_CustMega.Value == 1 ? "y" : "ies")} of {chipByName}.");
+                            }
+                            break;
+                        case ChipType.Giga:
+                            if (allCodesChipQuantity > gameRules.MaxSameGigaChip + (int)numud_CustGiga.Value)
+                            {
+                                return (false, $"More than {gameRules.MaxSameGigaChip + (int)numud_CustGiga.Value} cop{(gameRules.MaxSameGigaChip + (int)numud_CustGiga.Value == 1 ? "y" : "ies")} of {chipByName}.");
+                            }
+                            break;
+                        case ChipType.Dark:
+                            if (allCodesChipQuantity > gameRules.MaxSameDarkChip)
+                            {
+                                return (false, $"More than {gameRules.MaxSameDarkChip} cop{(gameRules.MaxSameDarkChip == 1 ? "y" : "ies")} of {chipByName}.");
+                            }
+                            break;
+                    }
                 }
             }
 

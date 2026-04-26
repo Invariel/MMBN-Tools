@@ -1,0 +1,44 @@
+{
+  "Name": "Mega Man Battle Network 6 - Cybeast Falzar",
+  "Rules": {
+    "MaxFolderSize": 30,
+    "MaxMegaChips": 5,
+    "MaxGigaChips": 1,
+    "MaxDarkChips": 0,
+    "MaxSameStandardChip": 4,
+    "MaxSameMegaChip": 1,
+    "MaxSameGigaChip": 1,
+    "MaxSameDarkChip": 0,
+    "MaxCustomChips": 8,
+    "UsesCapacityForQuantity": true,
+    "CapacityLimits": [
+      {
+        "MinCapacity": 0,
+        "MaxCapacity": 19,
+        "Quantity": 5
+      },
+      {
+        "MinCapacity": 20,
+        "MaxCapacity": 29,
+        "Quantity": 4
+      },
+      {
+        "MinCapacity": 30,
+        "MaxCapacity": 39,
+        "Quantity": 3
+      },
+      {
+        "MinCapacity": 40,
+        "MaxCapacity": 49,
+        "Quantity": 2
+      },
+      {
+        "MinCapacity": 50,
+        "MaxCapacity": 99,
+        "Quantity": 1
+      }
+    ]
+  },
+  "Battlechips": [
+  ]
+}
