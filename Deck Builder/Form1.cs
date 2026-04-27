@@ -133,7 +133,7 @@ public partial class frm_DeckBuilder : Form
         {
             if (_aboutForm == null || _aboutForm.IsDisposed)
             {
-                _aboutForm = new frm_About(CreateFont("MMBN6Big", 16));
+                _aboutForm = new frm_About(CreateFont("BN6FontBig", 16));
             }
             _aboutForm.Show();
             _aboutForm.Focus();
